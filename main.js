@@ -33,9 +33,12 @@
   const sections = links.map((l) => $(l.getAttribute('href'))).filter(Boolean);
   let offsets = [];
   let docH = 1;
+  const bannerImg = $('#banner img');
+  let bannerBox = null;
   function measure() {
     offsets = sections.map((s) => ({ id: s.id, top: s.getBoundingClientRect().top + window.scrollY }));
     docH = Math.max(document.documentElement.scrollHeight - window.innerHeight, 1);
+    if (bannerImg) { const r = bannerImg.parentElement.getBoundingClientRect(); bannerBox = { top: r.top + window.scrollY, h: r.height }; }
   }
   let ticking = false, scrolled = false, activeId = null;
   function frame() {
@@ -44,6 +47,12 @@
     const s = y > 24;
     if (s !== scrolled) { scrolled = s; nav.classList.toggle('scrolled', s); }
     progress.style.transform = 'scaleX(' + Math.min(y / docH, 1).toFixed(4) + ')';
+    // slow drift on the campus photo while it is on screen
+    if (bannerBox && !reduced) {
+      const vh = window.innerHeight;
+      const t = (y + vh - bannerBox.top) / (vh + bannerBox.h);
+      if (t > -0.1 && t < 1.1) bannerImg.style.transform = 'translate3d(0,' + ((t - 0.5) * bannerBox.h * 0.2).toFixed(1) + 'px,0)';
+    }
     const probe = y + window.innerHeight * 0.35;
     let id = null;
     for (let i = 0; i < offsets.length; i++) if (offsets[i].top <= probe) id = offsets[i].id;

@@ -125,6 +125,18 @@
     </figure>
   </header>
 
+  <!-- ===== CAMPUS BANNER ===== -->
+  <figure class="banner" id="banner">
+    <img src="assets/img/campus/burton-tower.jpg" alt="Burton Memorial Tower on the University of Michigan campus in autumn" width="2000" height="752" />
+    <div class="banner-shade" aria-hidden="true"></div>
+    <figcaption class="wrap">
+      <span class="banner-kicker">Currently</span>
+      <span class="banner-title">University of Michigan</span>
+      <span class="banner-sub">School of Public Health &middot; Department of Biostatistics &middot; Ann Arbor</span>
+    </figcaption>
+    <a class="banner-credit" href="https://commons.wikimedia.org/wiki/File:Burton_Memorial_Tower_(2010).jpg" target="_blank" rel="noopener">Photo: Cbl62, CC BY 3.0</a>
+  </figure>
+
   <!-- ===== ABOUT ===== -->
   <section id="about" class="section">
     <div class="wrap">
@@ -401,12 +413,10 @@
       <div>
         <h2 class="reveal">Experience</h2>
         <ol class="timeline">
-          <li class="reveal"><time>Sep 2026 to present</time><b>Statistical Consulting Volunteer</b><span>STATCOM, University of Michigan &middot; Ann Arbor, MI</span></li>
-          <li class="reveal"><time>Aug 2025 to present</time><b>Undergraduate Research Assistant</b><span>ASU DESERT Aging Lab &middot; Tempe, AZ</span></li>
-          <li class="reveal"><time>Jun to Aug 2025</time><b>Undergraduate Research Assistant</b><span>University of Michigan Big Data Summer Institute &middot; Ann Arbor, MI</span></li>
-          <li class="reveal"><time>Sep 2024 to May 2025</time><b>Data Science Intern</b><span>ASU Swim and Dive &middot; Tempe, AZ</span></li>
+          <li class="reveal"><time>Aug 2025 to present</time><b>Undergraduate Research Assistant</b><span>ASU DESERT Aging Lab &middot; Tempe, AZ</span><em>Sequence analysis in R on daily activity patterns and sleep quality in older adults.</em></li>
+          <li class="reveal"><time>Jun to Aug 2025</time><b>Undergraduate Research Assistant</b><span>University of Michigan Big Data Summer Institute &middot; Ann Arbor, MI</span><em>XGBoost recurrence risk model and R Shiny app with the Cancer Data Science group.</em></li>
+          <li class="reveal"><time>Sep 2024 to May 2025</time><b>Data Science Intern</b><span>ASU Swim and Dive &middot; Tempe, AZ</span><em>Predictive models in R and Python on training load and recovery.</em></li>
           <li class="reveal"><time>May 2024 to May 2026</time><b>Operations Assistant</b><span>ASU Greek Leadership Community Center &middot; Tempe, AZ</span></li>
-          <li class="reveal"><time>Nov 2023 to Nov 2024</time><b>Vice President of Academics</b><span>Delta Zeta Sorority &middot; 330+ members, chapter GPA from 3.15 to 3.22</span></li>
           <li class="reveal"><time>Aug 2019 to May 2025</time><b>Director of Ecommerce</b><span>The Silver Wren &middot; Shopify, Etsy and Google Merchant Center, 30,000+ five-star reviews</span></li>
         </ol>
       </div>
@@ -418,22 +428,32 @@
           <span>University of Michigan School of Public Health</span>
           <p>Coursework: Linear Regression Theory, Probability and Inference, Epidemiology</p>
         </div>
-        <div class="edu reveal">
-          <time>May 2026</time>
-          <b>BS Data Science, BS Anthropology</b>
-          <span>Arizona State University &middot; Barrett, the Honors College</span>
-          <p>4.0 GPA, summa cum laude. Data Science on the Business Data Analytics track.</p>
+        <div class="edu edu-split reveal">
+          <div>
+            <time>May 2026</time>
+            <b>BS Data Science, BS Anthropology</b>
+            <span>Arizona State University &middot; Barrett, the Honors College</span>
+            <p>4.0 GPA, summa cum laude. Data Science on the Business Data Analytics track.</p>
+          </div>
           <figure class="edu-photo" data-photo><img loading="lazy" src="assets/img/linkedin/asu-graduation.jpg" alt="McKenzie at Arizona State University graduation" onerror="this.closest('[data-photo]').remove()" /></figure>
         </div>
 
-        <h2 class="reveal h2-gap">Awards</h2>
-        <ul class="awards">
-          <li class="reveal"><b>Moeur Award</b><span>Arizona State University, 2026. Awarded for graduating with a 4.0.</span></li>
-          <li class="reveal"><b>Grace Mason Lundy Award</b><span>Delta Zeta, regional and national recipient, 2026</span></li>
-          <li class="reveal"><b>Phoenix Panhellenic Alumnae Association Scholarship</b><span>Three-time recipient</span></li>
-          <li class="reveal"><b>Wexler Mathematical Sciences Senior Dinner</b><span>Selected senior, ASU School of Mathematical and Statistical Sciences, 2026</span></li>
-        </ul>
+        <h4 class="reveal sub-head">Leadership and service</h4>
+        <ol class="timeline">
+          <li class="reveal"><time>Sep 2026 to present</time><b>Statistical Consulting Volunteer</b><span>Statistics in the Community (STATCOM), University of Michigan</span></li>
+          <li class="reveal"><time>Nov 2023 to Nov 2024</time><b>Vice President of Academics</b><span>Delta Zeta Sorority &middot; 330+ members, chapter GPA from 3.15 to 3.22</span></li>
+        </ol>
+
       </div>
+    </div>
+    <div class="wrap awards-row">
+      <h2 class="reveal">Awards</h2>
+      <ul class="awards">
+        <li class="reveal"><b>Moeur Award</b><span>Arizona State University, 2026. Awarded for graduating with a 4.0.</span></li>
+        <li class="reveal"><b>Grace Mason Lundy Award</b><span>Delta Zeta, regional and national recipient, 2026</span></li>
+        <li class="reveal"><b>Phoenix Panhellenic Alumnae Association Scholarship</b><span>Three-time recipient</span></li>
+        <li class="reveal"><b>Wexler Mathematical Sciences Senior Dinner</b><span>Selected senior, ASU School of Mathematical and Statistical Sciences, 2026</span></li>
+      </ul>
     </div>
   </section>
 
@@ -458,7 +478,7 @@
         <div class="reveal">
           <h4>Packages and tools</h4>
           <ul class="chips">
-            <li>R Shiny</li><li>ggplot2</li><li>scikit-learn</li><li>XGBoost</li><li>Tableau</li><li>Excel</li><li>Figma</li>
+            <li>R Shiny</li><li>ggplot2</li><li>scikit-learn</li><li>XGBoost</li><li>LaTeX</li><li>Tableau</li><li>Excel</li><li>Figma</li>
           </ul>
         </div>
         <div class="reveal">
