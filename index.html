@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>McKenzie Hebert | Biostatistics</title>
+  <meta name="description" content="McKenzie Hebert. MS Biostatistics, University of Michigan School of Public Health. Research, projects and resume." />
+  <meta name="author" content="McKenzie Hebert" />
+  <meta name="theme-color" content="#f4f8f8" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="McKenzie Hebert | Biostatistics" />
+  <meta property="og:description" content="MS Biostatistics, University of Michigan School of Public Health. Research, projects and resume." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.18/dist/lenis.min.js" defer></script>
+  <script src="main.js" defer></script>
+</head>
+<body id="top">
+
+  <div class="progress-bar" aria-hidden="true"><span id="progress"></span></div>
+
+  <!-- ===== NAV ===== -->
+  <nav id="nav" class="nav" aria-label="Primary">
+    <div class="wrap nav-inner">
+      <a href="#top" class="brand">McKenzie Hebert</a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <button id="burger" class="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span></button>
+    </div>
+    <div id="mobile-menu" class="mobile-menu">
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <header class="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">MS Biostatistics &middot; University of Michigan &middot; Class of 2028</p>
+        <h1><span class="line"><span>McKenzie</span></span> <span class="line"><span>Hebert</span></span></h1>
+        <p class="lede">Biostatistics graduate student with experience in predictive modeling, time series forecasting, and statistical analysis of clinical and public health data.</p>
+        <p class="seeking"><span class="dot" aria-hidden="true"></span>Seeking a summer 2027 internship in biostatistics or statistical programming</p>
+        <div class="hero-actions">
+          <a class="btn btn-solid" href="assets/docs/McKenzie-Hebert-Resume.pdf" target="_blank" rel="noopener">Resume</a>
+          <a class="btn" href="mailto:kenzihebert@gmail.com">Email</a>
+          <a class="btn" href="https://www.linkedin.com/in/mckenzie-hebert1/" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="btn" href="https://github.com/kenzihebert" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+      <figure class="hero-photo" data-photo>
+        <img src="assets/img/linkedin/headshot.jpg" alt="McKenzie Hebert" width="800" height="800" onerror="this.closest('[data-photo]').remove()" />
+      </figure>
+    </div>
+
+    <figure class="hero-chart" aria-label="Weekly influenza-like illness in the United States, October 2010 to September 2025">
+      <div class="hero-chart-plot">
+        <svg viewBox="0 0 1200 300" preserveAspectRatio="none" role="img" aria-hidden="true">
+          <defs>
+            <linearGradient id="iliFill" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#1f6f78" stop-opacity="0.22" />
+              <stop offset="1" stop-color="#1f6f78" stop-opacity="0" />
+            </linearGradient>
+          </defs>
+          <path id="ili-area" d="M0.0,260.4 L1.5,255.6 L3.1,255.1 L4.6,255.1 L6.2,248.8 L7.7,245.8 L9.2,242.3 L10.8,234.2 L12.3,238.4 L13.8,232.9 L15.4,216.5 L16.9,191.6 L18.5,188.0 L20.0,209.5 L21.5,196.0 L23.1,177.0 L24.6,151.4 L26.2,137.4 L27.7,140.5 L29.2,137.5 L30.8,154.2 L32.3,179.0 L33.8,193.2 L35.4,206.6 L36.9,225.3 L38.5,233.5 L40.0,242.4 L41.5,249.2 L43.1,252.2 L44.6,257.1 L46.2,259.0 L47.7,259.9 L49.2,261.9 L50.8,262.5 L52.3,258.9 L53.8,265.3 L55.4,268.0 L56.9,269.9 L58.5,270.9 L60.0,270.6 L61.5,275.9 L63.1,277.4 L64.6,277.1 L66.2,281.1 L67.7,277.0 L69.2,276.2 L70.8,274.8 L72.3,271.3 L73.8,267.6 L75.4,264.1 L76.9,263.0 L78.5,261.6 L80.0,258.5 L81.5,257.2 L83.1,254.3 L84.6,253.9 L86.2,249.0 L87.7,250.1 L89.2,247.9 L90.8,244.1 L92.3,252.0 L93.8,247.1 L95.4,241.6 L96.9,234.6 L98.5,224.8 L100.0,238.0 L101.5,244.6 L103.1,241.8 L104.6,237.1 L106.2,231.2 L107.7,231.4 L109.2,225.0 L110.8,220.0 L112.3,220.7 L113.8,222.6 L115.4,214.7 L116.9,229.8 L118.5,234.2 L120.0,239.8 L121.5,245.3 L123.1,250.7 L124.6,253.7 L126.2,250.2 L127.7,252.7 L129.2,256.1 L130.8,256.1 L132.3,254.7 L133.8,260.4 L135.4,260.9 L136.9,260.3 L138.5,260.5 L140.0,260.4 L141.5,264.3 L143.1,267.0 L144.6,266.1 L146.2,265.0 L147.7,267.0 L149.2,269.7 L150.8,262.7 L152.3,260.8 L153.8,256.4 L155.4,255.4 L156.9,256.1 L158.5,253.8 L160.0,256.1 L161.5,252.6 L163.1,252.1 L164.6,250.8 L166.2,246.4 L167.7,241.0 L169.2,236.9 L170.8,217.6 L172.3,222.7 L173.8,198.9 L175.4,177.2 L176.9,146.2 L178.5,83.5 L180.0,134.0 L181.5,145.5 L183.1,138.9 L184.6,149.4 L186.2,164.7 L187.7,182.4 L189.2,192.2 L190.8,203.0 L192.3,211.3 L193.8,207.9 L195.4,214.6 L196.9,226.2 L198.5,232.0 L200.0,240.7 L201.5,248.9 L203.1,254.4 L204.6,257.5 L206.2,260.9 L207.7,261.2 L209.2,261.7 L210.8,263.7 L212.3,262.6 L213.8,267.1 L215.4,267.1 L216.9,267.7 L218.5,270.3 L220.0,269.2 L221.5,273.9 L223.1,274.1 L224.6,273.5 L226.2,274.1 L227.7,273.0 L229.2,272.8 L230.8,272.1 L232.3,267.9 L233.8,264.3 L235.4,262.3 L236.9,260.8 L238.5,255.5 L240.0,258.7 L241.5,254.6 L243.1,253.0 L244.6,250.9 L246.2,247.6 L247.7,243.5 L249.2,242.8 L250.8,238.4 L252.3,224.6 L253.8,222.5 L255.4,215.4 L256.9,187.1 L258.5,136.1 L260.0,147.1 L261.5,172.8 L263.1,179.9 L264.6,178.7 L266.2,188.6 L267.7,198.7 L269.2,211.3 L270.8,218.8 L272.3,226.0 L273.8,229.2 L275.4,234.8 L276.9,235.0 L278.5,237.4 L280.0,237.7 L281.5,240.3 L283.1,245.8 L284.6,248.3 L286.2,253.9 L287.7,250.9 L289.2,252.1 L290.8,251.9 L292.3,256.7 L293.8,257.4 L295.4,259.2 L296.9,262.0 L298.5,259.8 L300.0,266.2 L301.5,266.3 L303.1,266.6 L304.6,270.8 L306.2,269.5 L307.7,273.3 L309.2,272.8 L310.8,272.6 L312.3,269.2 L313.8,264.8 L315.4,258.5 L316.9,256.2 L318.5,256.9 L320.0,258.5 L321.5,253.2 L323.1,251.0 L324.6,248.8 L326.2,249.0 L327.7,242.3 L329.2,240.7 L330.8,226.6 L332.3,209.4 L333.8,209.2 L335.4,171.2 L336.9,124.7 L338.5,86.3 L340.0,104.5 L341.5,149.5 L343.1,149.6 L344.6,147.9 L346.2,157.9 L347.7,170.2 L349.2,183.4 L350.8,195.3 L352.3,209.1 L353.8,211.7 L355.4,215.8 L356.9,222.5 L358.5,227.0 L360.0,230.2 L361.5,238.5 L363.1,245.1 L364.6,250.6 L366.2,247.8 L367.7,250.4 L369.2,251.9 L370.8,255.2 L372.3,256.6 L373.8,258.3 L375.4,262.6 L376.9,266.3 L378.5,266.6 L380.0,266.6 L381.5,269.1 L383.1,271.2 L384.6,273.5 L386.2,273.6 L387.7,273.5 L389.2,271.2 L390.8,270.8 L392.3,270.9 L393.8,269.3 L395.4,268.3 L396.9,264.0 L398.5,261.9 L400.0,262.1 L401.5,256.2 L403.1,253.2 L404.6,251.0 L406.2,250.3 L407.7,248.7 L409.2,246.4 L410.8,242.9 L412.3,232.3 L413.8,240.1 L415.4,236.3 L416.9,233.1 L418.5,217.1 L420.0,213.9 L421.5,230.6 L423.1,228.6 L424.6,224.3 L426.2,219.6 L427.7,215.3 L429.2,200.0 L430.8,187.0 L432.3,187.4 L433.8,181.0 L435.4,172.8 L436.9,190.9 L438.5,201.2 L440.0,212.8 L441.5,227.4 L443.1,229.1 L444.6,231.6 L446.2,239.3 L447.7,243.7 L449.2,250.2 L450.8,253.6 L452.3,257.7 L453.8,259.4 L455.4,262.8 L456.9,265.3 L458.5,269.2 L460.0,270.2 L461.5,272.0 L463.1,273.8 L464.6,275.0 L466.2,274.2 L467.7,276.3 L469.2,275.3 L470.8,274.6 L472.3,270.2 L473.8,264.5 L475.4,263.7 L476.9,261.7 L478.5,260.7 L480.0,257.6 L481.5,257.1 L483.1,256.0 L484.6,254.7 L486.2,251.3 L487.7,247.0 L489.2,244.3 L490.8,241.1 L492.3,231.7 L493.8,235.1 L495.4,231.6 L496.9,221.1 L498.5,202.3 L500.0,179.7 L501.5,189.4 L503.1,190.2 L504.6,174.4 L506.2,164.2 L507.7,139.2 L509.2,119.2 L510.8,126.4 L512.3,136.5 L513.8,173.0 L515.4,174.9 L516.9,185.2 L518.5,189.3 L520.0,200.3 L521.5,214.8 L523.1,229.6 L524.6,238.1 L526.2,244.2 L527.7,249.5 L529.2,254.5 L530.8,254.2 L532.3,258.3 L533.8,260.4 L535.4,262.7 L536.9,267.7 L538.5,267.8 L540.0,269.3 L541.5,270.8 L543.1,273.1 L544.6,273.9 L546.2,273.8 L547.7,273.9 L549.2,275.4 L550.8,273.9 L552.3,267.5 L553.8,263.5 L555.4,260.9 L556.9,260.9 L558.5,260.8 L560.0,257.5 L561.5,254.8 L563.1,253.3 L564.6,251.8 L566.2,245.8 L567.7,237.6 L569.2,233.2 L570.8,226.2 L572.3,218.5 L573.8,218.4 L575.4,207.7 L576.9,179.7 L578.5,131.5 L580.0,95.7 L581.5,93.7 L583.1,89.0 L584.6,68.2 L586.2,43.6 L587.7,31.1 L589.2,36.3 L590.8,69.3 L592.3,123.1 L593.8,168.8 L595.4,185.6 L596.9,200.4 L598.5,210.6 L600.0,213.9 L601.5,225.9 L603.1,236.3 L604.6,242.3 L606.2,245.0 L607.7,245.3 L609.2,253.7 L610.8,257.5 L612.3,255.4 L613.8,259.2 L615.4,264.7 L616.9,268.0 L618.5,268.1 L620.0,268.7 L621.5,272.3 L623.1,274.1 L624.6,275.6 L626.2,277.1 L627.7,277.1 L629.2,274.8 L630.8,274.7 L632.3,270.5 L633.8,269.1 L635.4,260.7 L636.9,258.8 L638.5,257.1 L640.0,255.3 L641.5,249.3 L643.1,249.9 L644.6,247.4 L646.2,241.3 L647.7,236.0 L649.2,233.2 L650.8,229.1 L652.3,219.9 L653.8,223.3 L655.4,219.5 L656.9,205.5 L658.5,187.8 L660.0,158.2 L661.5,176.4 L663.1,190.1 L664.6,181.1 L666.2,163.6 L667.7,144.9 L669.2,125.6 L670.8,119.9 L672.3,125.5 L673.8,137.5 L675.4,143.6 L676.9,149.0 L678.5,168.4 L680.0,189.7 L681.5,203.6 L683.1,218.4 L684.6,228.1 L686.2,238.8 L687.7,244.0 L689.2,246.4 L690.8,246.4 L692.3,249.2 L693.8,250.2 L695.4,256.5 L696.9,260.2 L698.5,264.6 L700.0,266.2 L701.5,268.7 L703.1,271.1 L704.6,273.0 L706.2,273.8 L707.7,274.0 L709.2,273.0 L710.8,273.9 L712.3,270.0 L713.8,264.7 L715.4,259.3 L716.9,256.0 L718.5,255.5 L720.0,252.2 L721.5,246.8 L723.1,243.1 L724.6,238.4 L726.2,234.5 L727.7,227.1 L729.2,214.5 L730.8,206.0 L732.3,195.7 L733.8,178.2 L735.4,183.5 L736.9,159.2 L738.5,119.1 L740.0,47.8 L741.5,88.6 L743.1,123.5 L744.6,109.6 L746.2,82.8 L747.7,59.0 L749.2,57.2 L750.8,81.7 L752.3,101.5 L753.8,117.0 L755.4,111.9 L756.9,97.5 L758.5,72.1 L760.0,124.4 L761.5,164.8 L763.1,200.0 L764.6,224.0 L766.2,238.1 L767.7,249.7 L769.2,257.7 L770.8,260.2 L772.3,264.1 L773.8,268.3 L775.4,270.9 L776.9,270.1 L778.5,266.8 L780.0,259.2 L781.5,254.5 L783.1,251.8 L784.6,252.0 L786.2,256.4 L787.7,258.8 L789.2,262.1 L790.8,265.0 L792.3,265.4 L793.8,264.3 L795.4,267.1 L796.9,263.0 L798.5,265.2 L800.0,262.0 L801.5,261.0 L803.1,256.7 L804.6,260.3 L806.2,257.6 L807.7,255.3 L809.2,248.4 L810.8,246.8 L812.3,244.3 L813.8,242.2 L815.4,243.8 L816.9,245.7 L818.5,246.2 L820.0,244.5 L821.5,243.2 L823.1,247.3 L824.6,254.0 L826.2,255.3 L827.7,260.7 L829.2,258.4 L830.8,264.1 L832.3,264.8 L833.8,269.1 L835.4,270.4 L836.9,268.5 L838.5,267.6 L840.0,266.2 L841.5,265.2 L843.1,262.1 L844.6,261.4 L846.2,260.6 L847.7,259.5 L849.2,258.9 L850.8,257.5 L852.3,255.5 L853.8,259.1 L855.4,257.7 L856.9,259.7 L858.5,257.5 L860.0,256.7 L861.5,256.7 L863.1,254.8 L864.6,250.5 L866.2,241.2 L867.7,235.6 L869.2,230.4 L870.8,227.3 L872.3,221.7 L873.8,220.0 L875.4,219.1 L876.9,221.0 L878.5,227.0 L880.0,232.1 L881.5,234.1 L883.1,226.8 L884.6,230.2 L886.2,231.2 L887.7,229.4 L889.2,223.6 L890.8,219.0 L892.3,213.9 L893.8,210.2 L895.4,208.4 L896.9,202.1 L898.5,187.3 L900.0,156.9 L901.5,125.2 L903.1,146.5 L904.6,175.0 L906.2,200.9 L907.7,226.6 L909.2,240.4 L910.8,248.7 L912.3,247.1 L913.8,247.8 L915.4,243.9 L916.9,239.4 L918.5,234.5 L920.0,232.8 L921.5,228.7 L923.1,224.7 L924.6,221.9 L926.2,220.8 L927.7,217.2 L929.2,214.7 L930.8,208.1 L932.3,212.0 L933.8,214.5 L935.4,213.5 L936.9,222.9 L938.5,229.1 L940.0,233.0 L941.5,235.7 L943.1,235.2 L944.6,240.3 L946.2,240.9 L947.7,240.5 L949.2,245.4 L950.8,245.8 L952.3,243.1 L953.8,234.8 L955.4,230.8 L956.9,228.5 L958.5,227.4 L960.0,218.6 L961.5,215.8 L963.1,206.7 L964.6,192.6 L966.2,181.4 L967.7,144.0 L969.2,106.4 L970.8,95.2 L972.3,88.6 L973.8,34.8 L975.4,42.2 L976.9,54.6 L978.5,75.1 L980.0,85.6 L981.5,109.3 L983.1,159.5 L984.6,194.8 L986.2,205.8 L987.7,206.2 L989.2,207.7 L990.8,207.4 L992.3,208.2 L993.8,209.7 L995.4,214.1 L996.9,215.8 L998.5,215.9 L1000.0,217.5 L1001.5,219.4 L1003.1,223.9 L1004.6,228.2 L1006.2,231.9 L1007.7,232.0 L1009.2,230.9 L1010.8,231.8 L1012.3,232.8 L1013.8,234.5 L1015.4,234.3 L1016.9,243.7 L1018.5,246.9 L1020.0,251.3 L1021.5,254.6 L1023.1,256.2 L1024.6,258.6 L1026.2,259.8 L1027.7,258.3 L1029.2,257.0 L1030.8,254.5 L1032.3,248.3 L1033.8,239.1 L1035.4,231.0 L1036.9,228.5 L1038.5,230.7 L1040.0,227.2 L1041.5,225.4 L1043.1,218.6 L1044.6,216.5 L1046.2,209.9 L1047.7,203.1 L1049.2,194.8 L1050.8,178.2 L1052.3,168.2 L1053.8,159.7 L1055.4,156.0 L1056.9,143.4 L1058.5,114.8 L1060.0,77.4 L1061.5,57.3 L1063.1,95.9 L1064.6,133.4 L1066.2,145.6 L1067.7,148.9 L1069.2,142.1 L1070.8,140.8 L1072.3,144.5 L1073.8,145.2 L1075.4,155.0 L1076.9,166.9 L1078.5,178.7 L1080.0,189.8 L1081.5,193.7 L1083.1,201.2 L1084.6,209.3 L1086.2,219.7 L1087.7,221.7 L1089.2,225.0 L1090.8,228.4 L1092.3,229.4 L1093.8,231.9 L1095.4,233.0 L1096.9,240.7 L1098.5,243.5 L1100.0,246.7 L1101.5,247.6 L1103.1,250.8 L1104.6,248.0 L1106.2,248.1 L1107.7,245.6 L1109.2,245.2 L1110.8,245.0 L1112.3,244.1 L1113.8,236.8 L1115.4,230.9 L1116.9,231.4 L1118.5,230.2 L1120.0,230.2 L1121.5,230.9 L1123.1,232.0 L1124.6,227.9 L1126.2,226.1 L1127.7,220.7 L1129.2,217.2 L1130.8,211.7 L1132.3,203.9 L1133.8,196.8 L1135.4,186.3 L1136.9,181.5 L1138.5,164.7 L1140.0,123.4 L1141.5,59.2 L1143.1,76.6 L1144.6,110.5 L1146.2,94.8 L1147.7,50.5 L1149.2,21.5 L1150.8,19.9 L1152.3,52.3 L1153.8,89.3 L1155.4,125.9 L1156.9,147.6 L1158.5,163.9 L1160.0,183.8 L1161.5,196.4 L1163.1,208.5 L1164.6,213.9 L1166.2,219.0 L1167.7,222.6 L1169.2,228.6 L1170.8,232.3 L1172.3,233.4 L1173.8,235.2 L1175.4,234.7 L1176.9,242.8 L1178.5,249.8 L1180.0,252.9 L1181.5,257.9 L1183.1,260.5 L1184.6,258.8 L1186.2,262.3 L1187.7,263.2 L1189.2,262.3 L1190.8,259.0 L1192.3,256.8 L1193.8,248.5 L1195.4,236.4 L1196.9,236.4 L1198.5,238.1 L1200.0,240.0 L1200,300 L0,300 Z" fill="url(#iliFill)" />
+          <path id="ili-line" d="M0.0,260.4 L1.5,255.6 L3.1,255.1 L4.6,255.1 L6.2,248.8 L7.7,245.8 L9.2,242.3 L10.8,234.2 L12.3,238.4 L13.8,232.9 L15.4,216.5 L16.9,191.6 L18.5,188.0 L20.0,209.5 L21.5,196.0 L23.1,177.0 L24.6,151.4 L26.2,137.4 L27.7,140.5 L29.2,137.5 L30.8,154.2 L32.3,179.0 L33.8,193.2 L35.4,206.6 L36.9,225.3 L38.5,233.5 L40.0,242.4 L41.5,249.2 L43.1,252.2 L44.6,257.1 L46.2,259.0 L47.7,259.9 L49.2,261.9 L50.8,262.5 L52.3,258.9 L53.8,265.3 L55.4,268.0 L56.9,269.9 L58.5,270.9 L60.0,270.6 L61.5,275.9 L63.1,277.4 L64.6,277.1 L66.2,281.1 L67.7,277.0 L69.2,276.2 L70.8,274.8 L72.3,271.3 L73.8,267.6 L75.4,264.1 L76.9,263.0 L78.5,261.6 L80.0,258.5 L81.5,257.2 L83.1,254.3 L84.6,253.9 L86.2,249.0 L87.7,250.1 L89.2,247.9 L90.8,244.1 L92.3,252.0 L93.8,247.1 L95.4,241.6 L96.9,234.6 L98.5,224.8 L100.0,238.0 L101.5,244.6 L103.1,241.8 L104.6,237.1 L106.2,231.2 L107.7,231.4 L109.2,225.0 L110.8,220.0 L112.3,220.7 L113.8,222.6 L115.4,214.7 L116.9,229.8 L118.5,234.2 L120.0,239.8 L121.5,245.3 L123.1,250.7 L124.6,253.7 L126.2,250.2 L127.7,252.7 L129.2,256.1 L130.8,256.1 L132.3,254.7 L133.8,260.4 L135.4,260.9 L136.9,260.3 L138.5,260.5 L140.0,260.4 L141.5,264.3 L143.1,267.0 L144.6,266.1 L146.2,265.0 L147.7,267.0 L149.2,269.7 L150.8,262.7 L152.3,260.8 L153.8,256.4 L155.4,255.4 L156.9,256.1 L158.5,253.8 L160.0,256.1 L161.5,252.6 L163.1,252.1 L164.6,250.8 L166.2,246.4 L167.7,241.0 L169.2,236.9 L170.8,217.6 L172.3,222.7 L173.8,198.9 L175.4,177.2 L176.9,146.2 L178.5,83.5 L180.0,134.0 L181.5,145.5 L183.1,138.9 L184.6,149.4 L186.2,164.7 L187.7,182.4 L189.2,192.2 L190.8,203.0 L192.3,211.3 L193.8,207.9 L195.4,214.6 L196.9,226.2 L198.5,232.0 L200.0,240.7 L201.5,248.9 L203.1,254.4 L204.6,257.5 L206.2,260.9 L207.7,261.2 L209.2,261.7 L210.8,263.7 L212.3,262.6 L213.8,267.1 L215.4,267.1 L216.9,267.7 L218.5,270.3 L220.0,269.2 L221.5,273.9 L223.1,274.1 L224.6,273.5 L226.2,274.1 L227.7,273.0 L229.2,272.8 L230.8,272.1 L232.3,267.9 L233.8,264.3 L235.4,262.3 L236.9,260.8 L238.5,255.5 L240.0,258.7 L241.5,254.6 L243.1,253.0 L244.6,250.9 L246.2,247.6 L247.7,243.5 L249.2,242.8 L250.8,238.4 L252.3,224.6 L253.8,222.5 L255.4,215.4 L256.9,187.1 L258.5,136.1 L260.0,147.1 L261.5,172.8 L263.1,179.9 L264.6,178.7 L266.2,188.6 L267.7,198.7 L269.2,211.3 L270.8,218.8 L272.3,226.0 L273.8,229.2 L275.4,234.8 L276.9,235.0 L278.5,237.4 L280.0,237.7 L281.5,240.3 L283.1,245.8 L284.6,248.3 L286.2,253.9 L287.7,250.9 L289.2,252.1 L290.8,251.9 L292.3,256.7 L293.8,257.4 L295.4,259.2 L296.9,262.0 L298.5,259.8 L300.0,266.2 L301.5,266.3 L303.1,266.6 L304.6,270.8 L306.2,269.5 L307.7,273.3 L309.2,272.8 L310.8,272.6 L312.3,269.2 L313.8,264.8 L315.4,258.5 L316.9,256.2 L318.5,256.9 L320.0,258.5 L321.5,253.2 L323.1,251.0 L324.6,248.8 L326.2,249.0 L327.7,242.3 L329.2,240.7 L330.8,226.6 L332.3,209.4 L333.8,209.2 L335.4,171.2 L336.9,124.7 L338.5,86.3 L340.0,104.5 L341.5,149.5 L343.1,149.6 L344.6,147.9 L346.2,157.9 L347.7,170.2 L349.2,183.4 L350.8,195.3 L352.3,209.1 L353.8,211.7 L355.4,215.8 L356.9,222.5 L358.5,227.0 L360.0,230.2 L361.5,238.5 L363.1,245.1 L364.6,250.6 L366.2,247.8 L367.7,250.4 L369.2,251.9 L370.8,255.2 L372.3,256.6 L373.8,258.3 L375.4,262.6 L376.9,266.3 L378.5,266.6 L380.0,266.6 L381.5,269.1 L383.1,271.2 L384.6,273.5 L386.2,273.6 L387.7,273.5 L389.2,271.2 L390.8,270.8 L392.3,270.9 L393.8,269.3 L395.4,268.3 L396.9,264.0 L398.5,261.9 L400.0,262.1 L401.5,256.2 L403.1,253.2 L404.6,251.0 L406.2,250.3 L407.7,248.7 L409.2,246.4 L410.8,242.9 L412.3,232.3 L413.8,240.1 L415.4,236.3 L416.9,233.1 L418.5,217.1 L420.0,213.9 L421.5,230.6 L423.1,228.6 L424.6,224.3 L426.2,219.6 L427.7,215.3 L429.2,200.0 L430.8,187.0 L432.3,187.4 L433.8,181.0 L435.4,172.8 L436.9,190.9 L438.5,201.2 L440.0,212.8 L441.5,227.4 L443.1,229.1 L444.6,231.6 L446.2,239.3 L447.7,243.7 L449.2,250.2 L450.8,253.6 L452.3,257.7 L453.8,259.4 L455.4,262.8 L456.9,265.3 L458.5,269.2 L460.0,270.2 L461.5,272.0 L463.1,273.8 L464.6,275.0 L466.2,274.2 L467.7,276.3 L469.2,275.3 L470.8,274.6 L472.3,270.2 L473.8,264.5 L475.4,263.7 L476.9,261.7 L478.5,260.7 L480.0,257.6 L481.5,257.1 L483.1,256.0 L484.6,254.7 L486.2,251.3 L487.7,247.0 L489.2,244.3 L490.8,241.1 L492.3,231.7 L493.8,235.1 L495.4,231.6 L496.9,221.1 L498.5,202.3 L500.0,179.7 L501.5,189.4 L503.1,190.2 L504.6,174.4 L506.2,164.2 L507.7,139.2 L509.2,119.2 L510.8,126.4 L512.3,136.5 L513.8,173.0 L515.4,174.9 L516.9,185.2 L518.5,189.3 L520.0,200.3 L521.5,214.8 L523.1,229.6 L524.6,238.1 L526.2,244.2 L527.7,249.5 L529.2,254.5 L530.8,254.2 L532.3,258.3 L533.8,260.4 L535.4,262.7 L536.9,267.7 L538.5,267.8 L540.0,269.3 L541.5,270.8 L543.1,273.1 L544.6,273.9 L546.2,273.8 L547.7,273.9 L549.2,275.4 L550.8,273.9 L552.3,267.5 L553.8,263.5 L555.4,260.9 L556.9,260.9 L558.5,260.8 L560.0,257.5 L561.5,254.8 L563.1,253.3 L564.6,251.8 L566.2,245.8 L567.7,237.6 L569.2,233.2 L570.8,226.2 L572.3,218.5 L573.8,218.4 L575.4,207.7 L576.9,179.7 L578.5,131.5 L580.0,95.7 L581.5,93.7 L583.1,89.0 L584.6,68.2 L586.2,43.6 L587.7,31.1 L589.2,36.3 L590.8,69.3 L592.3,123.1 L593.8,168.8 L595.4,185.6 L596.9,200.4 L598.5,210.6 L600.0,213.9 L601.5,225.9 L603.1,236.3 L604.6,242.3 L606.2,245.0 L607.7,245.3 L609.2,253.7 L610.8,257.5 L612.3,255.4 L613.8,259.2 L615.4,264.7 L616.9,268.0 L618.5,268.1 L620.0,268.7 L621.5,272.3 L623.1,274.1 L624.6,275.6 L626.2,277.1 L627.7,277.1 L629.2,274.8 L630.8,274.7 L632.3,270.5 L633.8,269.1 L635.4,260.7 L636.9,258.8 L638.5,257.1 L640.0,255.3 L641.5,249.3 L643.1,249.9 L644.6,247.4 L646.2,241.3 L647.7,236.0 L649.2,233.2 L650.8,229.1 L652.3,219.9 L653.8,223.3 L655.4,219.5 L656.9,205.5 L658.5,187.8 L660.0,158.2 L661.5,176.4 L663.1,190.1 L664.6,181.1 L666.2,163.6 L667.7,144.9 L669.2,125.6 L670.8,119.9 L672.3,125.5 L673.8,137.5 L675.4,143.6 L676.9,149.0 L678.5,168.4 L680.0,189.7 L681.5,203.6 L683.1,218.4 L684.6,228.1 L686.2,238.8 L687.7,244.0 L689.2,246.4 L690.8,246.4 L692.3,249.2 L693.8,250.2 L695.4,256.5 L696.9,260.2 L698.5,264.6 L700.0,266.2 L701.5,268.7 L703.1,271.1 L704.6,273.0 L706.2,273.8 L707.7,274.0 L709.2,273.0 L710.8,273.9 L712.3,270.0 L713.8,264.7 L715.4,259.3 L716.9,256.0 L718.5,255.5 L720.0,252.2 L721.5,246.8 L723.1,243.1 L724.6,238.4 L726.2,234.5 L727.7,227.1 L729.2,214.5 L730.8,206.0 L732.3,195.7 L733.8,178.2 L735.4,183.5 L736.9,159.2 L738.5,119.1 L740.0,47.8 L741.5,88.6 L743.1,123.5 L744.6,109.6 L746.2,82.8 L747.7,59.0 L749.2,57.2 L750.8,81.7 L752.3,101.5 L753.8,117.0 L755.4,111.9 L756.9,97.5 L758.5,72.1 L760.0,124.4 L761.5,164.8 L763.1,200.0 L764.6,224.0 L766.2,238.1 L767.7,249.7 L769.2,257.7 L770.8,260.2 L772.3,264.1 L773.8,268.3 L775.4,270.9 L776.9,270.1 L778.5,266.8 L780.0,259.2 L781.5,254.5 L783.1,251.8 L784.6,252.0 L786.2,256.4 L787.7,258.8 L789.2,262.1 L790.8,265.0 L792.3,265.4 L793.8,264.3 L795.4,267.1 L796.9,263.0 L798.5,265.2 L800.0,262.0 L801.5,261.0 L803.1,256.7 L804.6,260.3 L806.2,257.6 L807.7,255.3 L809.2,248.4 L810.8,246.8 L812.3,244.3 L813.8,242.2 L815.4,243.8 L816.9,245.7 L818.5,246.2 L820.0,244.5 L821.5,243.2 L823.1,247.3 L824.6,254.0 L826.2,255.3 L827.7,260.7 L829.2,258.4 L830.8,264.1 L832.3,264.8 L833.8,269.1 L835.4,270.4 L836.9,268.5 L838.5,267.6 L840.0,266.2 L841.5,265.2 L843.1,262.1 L844.6,261.4 L846.2,260.6 L847.7,259.5 L849.2,258.9 L850.8,257.5 L852.3,255.5 L853.8,259.1 L855.4,257.7 L856.9,259.7 L858.5,257.5 L860.0,256.7 L861.5,256.7 L863.1,254.8 L864.6,250.5 L866.2,241.2 L867.7,235.6 L869.2,230.4 L870.8,227.3 L872.3,221.7 L873.8,220.0 L875.4,219.1 L876.9,221.0 L878.5,227.0 L880.0,232.1 L881.5,234.1 L883.1,226.8 L884.6,230.2 L886.2,231.2 L887.7,229.4 L889.2,223.6 L890.8,219.0 L892.3,213.9 L893.8,210.2 L895.4,208.4 L896.9,202.1 L898.5,187.3 L900.0,156.9 L901.5,125.2 L903.1,146.5 L904.6,175.0 L906.2,200.9 L907.7,226.6 L909.2,240.4 L910.8,248.7 L912.3,247.1 L913.8,247.8 L915.4,243.9 L916.9,239.4 L918.5,234.5 L920.0,232.8 L921.5,228.7 L923.1,224.7 L924.6,221.9 L926.2,220.8 L927.7,217.2 L929.2,214.7 L930.8,208.1 L932.3,212.0 L933.8,214.5 L935.4,213.5 L936.9,222.9 L938.5,229.1 L940.0,233.0 L941.5,235.7 L943.1,235.2 L944.6,240.3 L946.2,240.9 L947.7,240.5 L949.2,245.4 L950.8,245.8 L952.3,243.1 L953.8,234.8 L955.4,230.8 L956.9,228.5 L958.5,227.4 L960.0,218.6 L961.5,215.8 L963.1,206.7 L964.6,192.6 L966.2,181.4 L967.7,144.0 L969.2,106.4 L970.8,95.2 L972.3,88.6 L973.8,34.8 L975.4,42.2 L976.9,54.6 L978.5,75.1 L980.0,85.6 L981.5,109.3 L983.1,159.5 L984.6,194.8 L986.2,205.8 L987.7,206.2 L989.2,207.7 L990.8,207.4 L992.3,208.2 L993.8,209.7 L995.4,214.1 L996.9,215.8 L998.5,215.9 L1000.0,217.5 L1001.5,219.4 L1003.1,223.9 L1004.6,228.2 L1006.2,231.9 L1007.7,232.0 L1009.2,230.9 L1010.8,231.8 L1012.3,232.8 L1013.8,234.5 L1015.4,234.3 L1016.9,243.7 L1018.5,246.9 L1020.0,251.3 L1021.5,254.6 L1023.1,256.2 L1024.6,258.6 L1026.2,259.8 L1027.7,258.3 L1029.2,257.0 L1030.8,254.5 L1032.3,248.3 L1033.8,239.1 L1035.4,231.0 L1036.9,228.5 L1038.5,230.7 L1040.0,227.2 L1041.5,225.4 L1043.1,218.6 L1044.6,216.5 L1046.2,209.9 L1047.7,203.1 L1049.2,194.8 L1050.8,178.2 L1052.3,168.2 L1053.8,159.7 L1055.4,156.0 L1056.9,143.4 L1058.5,114.8 L1060.0,77.4 L1061.5,57.3 L1063.1,95.9 L1064.6,133.4 L1066.2,145.6 L1067.7,148.9 L1069.2,142.1 L1070.8,140.8 L1072.3,144.5 L1073.8,145.2 L1075.4,155.0 L1076.9,166.9 L1078.5,178.7 L1080.0,189.8 L1081.5,193.7 L1083.1,201.2 L1084.6,209.3 L1086.2,219.7 L1087.7,221.7 L1089.2,225.0 L1090.8,228.4 L1092.3,229.4 L1093.8,231.9 L1095.4,233.0 L1096.9,240.7 L1098.5,243.5 L1100.0,246.7 L1101.5,247.6 L1103.1,250.8 L1104.6,248.0 L1106.2,248.1 L1107.7,245.6 L1109.2,245.2 L1110.8,245.0 L1112.3,244.1 L1113.8,236.8 L1115.4,230.9 L1116.9,231.4 L1118.5,230.2 L1120.0,230.2 L1121.5,230.9 L1123.1,232.0 L1124.6,227.9 L1126.2,226.1 L1127.7,220.7 L1129.2,217.2 L1130.8,211.7 L1132.3,203.9 L1133.8,196.8 L1135.4,186.3 L1136.9,181.5 L1138.5,164.7 L1140.0,123.4 L1141.5,59.2 L1143.1,76.6 L1144.6,110.5 L1146.2,94.8 L1147.7,50.5 L1149.2,21.5 L1150.8,19.9 L1152.3,52.3 L1153.8,89.3 L1155.4,125.9 L1156.9,147.6 L1158.5,163.9 L1160.0,183.8 L1161.5,196.4 L1163.1,208.5 L1164.6,213.9 L1166.2,219.0 L1167.7,222.6 L1169.2,228.6 L1170.8,232.3 L1172.3,233.4 L1173.8,235.2 L1175.4,234.7 L1176.9,242.8 L1178.5,249.8 L1180.0,252.9 L1181.5,257.9 L1183.1,260.5 L1184.6,258.8 L1186.2,262.3 L1187.7,263.2 L1189.2,262.3 L1190.8,259.0 L1192.3,256.8 L1193.8,248.5 L1195.4,236.4 L1196.9,236.4 L1198.5,238.1 L1200.0,240.0" fill="none" stroke="#1f6f78" stroke-width="1.6" stroke-linejoin="round" vector-effect="non-scaling-stroke" />
+        </svg>
+        <span class="peak" style="left:95.90%; top:6.62%"><i></i><b>7.8% of visits, Feb 2025</b></span>
+      </div>
+      <div class="hero-chart-axis" aria-hidden="true"><span style="left:1.67%">2011</span><span style="left:8.33%">2012</span><span style="left:15.00%">2013</span><span style="left:21.67%">2014</span><span style="left:28.46%">2015</span><span style="left:35.13%">2016</span><span style="left:41.79%">2017</span><span style="left:48.46%">2018</span><span style="left:55.13%">2019</span><span style="left:61.79%">2020</span><span style="left:68.59%">2021</span><span style="left:75.26%">2022</span><span style="left:81.92%">2023</span><span style="left:88.59%">2024</span><span style="left:95.26%">2025</span></div>
+      <figcaption>Weekly share of outpatient visits for influenza-like illness, United States, 2010 to 2025. CDC ILINet. This is the series behind her <a href="#projects">influenza forecasting capstone</a>.</figcaption>
+    </figure>
+  </header>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section">
+    <div class="wrap">
+      <h2 class="reveal">About</h2>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>I'm a master's student studying Biostatistics at the University of Michigan. I am interested in opportunities in biostatistics such as cancer research, clinical trials, pharmaceuticals, and biotechnology.</p>
+          <p>As an undergraduate I earned dual degrees in Data Science and Anthropology at Arizona State University as part of Barrett, the Honors College. This interdisciplinary approach lets me explore my love for human stories and public health while building proficiency in R, Python and statistical modeling.</p>
+          <p>I'm eager to apply my statistical modeling and problem solving skills to contribute to better health outcomes for everyone.</p>
+        </div>
+        <dl class="facts reveal">
+          <div><dt>Program</dt><dd>MS Biostatistics<br />University of Michigan School of Public Health</dd></div>
+          <div><dt>Graduation</dt><dd>May 2028</dd></div>
+          <div><dt>Undergraduate</dt><dd>BS Data Science, BS Anthropology<br />Arizona State University, Barrett, the Honors College</dd></div>
+          <div><dt>GPA</dt><dd>4.0, summa cum laude</dd></div>
+          <div><dt>Interests</dt><dd>Clinical trials, cancer research, pharmaceuticals, biotechnology</dd></div>
+          <div><dt>Based in</dt><dd>Ann Arbor, Michigan</dd></div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== RESEARCH ===== -->
+  <section id="research" class="section section-tint">
+    <div class="wrap">
+      <h2 class="reveal">Research</h2>
+
+      <!-- Case study 1 -->
+      <article class="case">
+        <header class="case-head reveal">
+          <p class="meta">University of Michigan Big Data Summer Institute &middot; Cancer Data Science &middot; Jun to Aug 2025</p>
+          <h3>Recurrence risk assessment for treated breast cancer patients</h3>
+          <p class="method">XGBoost &middot; SMOTE &middot; Calibration &middot; R Shiny</p>
+        </header>
+
+        <p class="case-summary reveal">The Oncotype score predicts recurrence risk for only some breast cancer types and informs only chemotherapy decisions. This project built a model on a broader set of clinical and molecular factors, then put it in an R Shiny app that clinicians and patients can read.</p>
+
+        <div class="specs reveal">
+          <div><b data-count="922">922</b><span>patients in source data</span></div>
+          <div><b data-count="818">818</b><span>in the modeling cohort</span></div>
+          <div><b data-count="98">98</b><span>variables</span></div>
+          <div><b data-count="0.75" data-dec="2">0.75</b><span>AUC</span></div>
+          <div><b data-count="0.07" data-dec="2">0.07</b><span>Brier score</span></div>
+        </div>
+
+        <div class="case-grid">
+          <figure class="panel reveal" id="flow">
+            <h4>Cohort</h4>
+            <div class="flow">
+              <div class="flow-row" style="--w:100%"><span class="bar"></span><b>922</b><em>Original dataset</em></div>
+              <div class="flow-row" style="--w:95.3%"><span class="bar"></span><b>879</b><em>Underwent surgery</em></div>
+              <div class="flow-row" style="--w:93.1%"><span class="bar"></span><b>858</b><em>Tumor grade recorded</em></div>
+              <div class="flow-row" style="--w:88.7%"><span class="bar"></span><b>818</b><em>Treatment data complete</em></div>
+            </div>
+            <h4 class="gap">Follow-up and events</h4>
+            <table class="mini">
+              <thead><tr><th>Window</th><th>Followed</th><th>Recurrences</th></tr></thead>
+              <tbody>
+                <tr><td>1 year</td><td><span class="fu" style="--w:91.6%"></span>91.6%</td><td>12</td></tr>
+                <tr><td>2 years</td><td><span class="fu" style="--w:83.5%"></span>83.5%</td><td>38</td></tr>
+                <tr class="on"><td>3 years</td><td><span class="fu" style="--w:69.4%"></span>69.4%</td><td>56</td></tr>
+              </tbody>
+            </table>
+            <figcaption>A longer window captures more events and loses certainty about outcome. The team chose 3 years, then used SMOTE to handle 56 recurrences among 818 patients.</figcaption>
+          </figure>
+
+          <figure class="panel reveal" id="picto-panel">
+            <h4>What the app shows a patient</h4>
+            <p class="picto-line">Out of 100 people like you, <strong><span id="picto-n">23</span> may have a recurrence</strong></p>
+            <div id="picto" class="picto" role="img" aria-label="Grid of 100 figures with 23 highlighted"></div>
+            <figcaption>Example output of the R Shiny app, redrawn from the symposium poster. A probability becomes a count of people, which is easier to discuss in a clinic.</figcaption>
+          </figure>
+        </div>
+
+        <div class="case-notes reveal">
+          <div>
+            <h4>Approach</h4>
+            <ul>
+              <li>Defined recurrence as a binary outcome within 3 years of diagnosis.</li>
+              <li>Balanced the minority class with SMOTE and tuned XGBoost by grid search with 5-fold cross validation.</li>
+              <li>Chose the Brier score as the primary metric to judge calibration of predicted probabilities, with AUC alongside.</li>
+              <li>Built and deployed the R Shiny app that takes diagnosis and treatment inputs and returns a risk probability.</li>
+            </ul>
+          </div>
+          <div>
+            <h4>Limitations and next steps</h4>
+            <ul>
+              <li>A binary outcome drops timing. Next step is time-to-event prediction.</li>
+              <li>Only 69.4% of patients were followed to the 3-year mark.</li>
+              <li>Sociodemographic and comorbidity predictors would be needed for clinical use.</li>
+              <li>Compare against Oncotype score predictions in a prospective trial.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="case-photos reveal">
+          <figure data-photo><img loading="lazy" src="assets/img/linkedin/bdsi-poster-session.jpg" alt="McKenzie presenting the poster at the BDSI symposium" onerror="this.closest('[data-photo]').remove()" /><figcaption>Poster session, BDSI symposium, July 2025</figcaption></figure>
+          <figure data-photo><img loading="lazy" src="assets/img/linkedin/bdsi-symposium-talk.jpg" alt="McKenzie presenting the project talk at the University of Michigan" onerror="this.closest('[data-photo]').remove()" /><figcaption>Symposium talk, University of Michigan</figcaption></figure>
+          <a class="poster-thumb" href="assets/docs/BDSI-Breast-Cancer-Recurrence-Poster.pdf" target="_blank" rel="noopener"><img loading="lazy" src="assets/img/work/bdsi-poster.jpg" alt="Research poster: Recurrence Risk Assessment for Treated Cancer Patients" /><span>Open the poster</span></a>
+        </div>
+
+        <footer class="case-foot reveal">
+          <div class="links">
+            <a class="btn btn-solid" href="assets/docs/BDSI-Breast-Cancer-Recurrence-Poster.pdf" target="_blank" rel="noopener">Poster (PDF)</a>
+            <a class="btn" href="https://github.com/kenzihebert/Breast-Cancer-Recurrence" target="_blank" rel="noopener">Code on GitHub</a>
+          </div>
+          <p class="credit">With Sabina Akelbek (Purdue University). Mentors: Dr. Krithika Suresh, Dr. Nicholas Hartman and Grant Carr. Data: Duke Breast Cancer MRI, The Cancer Imaging Archive (Saha et al., 2018).</p>
+        </footer>
+      </article>
+
+      <!-- Case study 2 -->
+      <article class="case">
+        <header class="case-head reveal">
+          <p class="meta">Arizona State University DESERT Aging Lab &middot; PI Dr. Rachel Koffer &middot; Aug 2025 to present</p>
+          <h3>Routines versus Diversity: Daily Activity Sequences Predict Self-Reported Sleep Quality in Older Adults</h3>
+          <p class="method">Sequence analysis &middot; Longitudinal diary data &middot; R</p>
+        </header>
+
+        <p class="case-summary reveal">Sequence analysis in R on daily activity diaries from older adults, asking which kinds of daily activity patterns go with better self-reported sleep.</p>
+
+        <div class="specs reveal">
+          <div><b data-count="144">144</b><span>older adults</span></div>
+          <div><b data-count="812">812</b><span>days of observation</span></div>
+          <div><b data-count="6">6</b><span>time points per day</span></div>
+          <div><b data-count="7">7</b><span>days per participant</span></div>
+        </div>
+
+        <div class="case-grid case-grid-wide">
+          <figure class="panel reveal" id="seq-panel">
+            <h4>The method</h4>
+            <canvas id="seq" width="960" height="640" role="img" aria-label="Schematic sequence index plot"></canvas>
+            <div class="seq-labels" aria-hidden="true"><span>More routine days</span><span>More diverse days</span></div>
+            <figcaption>Schematic of a sequence index plot. Each row is one day, each cell a time of day, and color is the activity recorded. Illustrative only. Study results are held until publication.</figcaption>
+          </figure>
+          <div class="case-side reveal">
+            <h4>Role</h4>
+            <ul>
+              <li>Conduct the sequence analysis in R.</li>
+              <li>Draft manuscript sections and prepare figures for a peer-reviewed publication.</li>
+              <li>Prepared the abstract for the SBSM 2026 Annual Scientific Meeting.</li>
+              <li>Literature reviews and visualizations for weekly research team meetings.</li>
+            </ul>
+            <h4>Status</h4>
+            <ul>
+              <li>Poster presented at the ASU College of Health Solutions Student Research Symposium, spring 2026.</li>
+              <li>Manuscript in preparation.</li>
+            </ul>
+            <figure class="side-photo" data-photo><img loading="lazy" src="assets/img/linkedin/desert-poster-solo.jpg" alt="McKenzie beside the research poster at the ASU symposium" onerror="this.closest('[data-photo]').remove()" /></figure>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects" class="section">
+    <div class="wrap">
+      <h2 class="reveal">Projects</h2>
+      <div class="cards">
+
+        <button class="card reveal" data-open="p-flu">
+          <span class="thumb thumb-flu" aria-hidden="true"><svg viewBox="0 0 1200 300" preserveAspectRatio="none"><path d="M0.0,260.4 L1.5,255.6 L3.1,255.1 L4.6,255.1 L6.2,248.8 L7.7,245.8 L9.2,242.3 L10.8,234.2 L12.3,238.4 L13.8,232.9 L15.4,216.5 L16.9,191.6 L18.5,188.0 L20.0,209.5 L21.5,196.0 L23.1,177.0 L24.6,151.4 L26.2,137.4 L27.7,140.5 L29.2,137.5 L30.8,154.2 L32.3,179.0 L33.8,193.2 L35.4,206.6 L36.9,225.3 L38.5,233.5 L40.0,242.4 L41.5,249.2 L43.1,252.2 L44.6,257.1 L46.2,259.0 L47.7,259.9 L49.2,261.9 L50.8,262.5 L52.3,258.9 L53.8,265.3 L55.4,268.0 L56.9,269.9 L58.5,270.9 L60.0,270.6 L61.5,275.9 L63.1,277.4 L64.6,277.1 L66.2,281.1 L67.7,277.0 L69.2,276.2 L70.8,274.8 L72.3,271.3 L73.8,267.6 L75.4,264.1 L76.9,263.0 L78.5,261.6 L80.0,258.5 L81.5,257.2 L83.1,254.3 L84.6,253.9 L86.2,249.0 L87.7,250.1 L89.2,247.9 L90.8,244.1 L92.3,252.0 L93.8,247.1 L95.4,241.6 L96.9,234.6 L98.5,224.8 L100.0,238.0 L101.5,244.6 L103.1,241.8 L104.6,237.1 L106.2,231.2 L107.7,231.4 L109.2,225.0 L110.8,220.0 L112.3,220.7 L113.8,222.6 L115.4,214.7 L116.9,229.8 L118.5,234.2 L120.0,239.8 L121.5,245.3 L123.1,250.7 L124.6,253.7 L126.2,250.2 L127.7,252.7 L129.2,256.1 L130.8,256.1 L132.3,254.7 L133.8,260.4 L135.4,260.9 L136.9,260.3 L138.5,260.5 L140.0,260.4 L141.5,264.3 L143.1,267.0 L144.6,266.1 L146.2,265.0 L147.7,267.0 L149.2,269.7 L150.8,262.7 L152.3,260.8 L153.8,256.4 L155.4,255.4 L156.9,256.1 L158.5,253.8 L160.0,256.1 L161.5,252.6 L163.1,252.1 L164.6,250.8 L166.2,246.4 L167.7,241.0 L169.2,236.9 L170.8,217.6 L172.3,222.7 L173.8,198.9 L175.4,177.2 L176.9,146.2 L178.5,83.5 L180.0,134.0 L181.5,145.5 L183.1,138.9 L184.6,149.4 L186.2,164.7 L187.7,182.4 L189.2,192.2 L190.8,203.0 L192.3,211.3 L193.8,207.9 L195.4,214.6 L196.9,226.2 L198.5,232.0 L200.0,240.7 L201.5,248.9 L203.1,254.4 L204.6,257.5 L206.2,260.9 L207.7,261.2 L209.2,261.7 L210.8,263.7 L212.3,262.6 L213.8,267.1 L215.4,267.1 L216.9,267.7 L218.5,270.3 L220.0,269.2 L221.5,273.9 L223.1,274.1 L224.6,273.5 L226.2,274.1 L227.7,273.0 L229.2,272.8 L230.8,272.1 L232.3,267.9 L233.8,264.3 L235.4,262.3 L236.9,260.8 L238.5,255.5 L240.0,258.7 L241.5,254.6 L243.1,253.0 L244.6,250.9 L246.2,247.6 L247.7,243.5 L249.2,242.8 L250.8,238.4 L252.3,224.6 L253.8,222.5 L255.4,215.4 L256.9,187.1 L258.5,136.1 L260.0,147.1 L261.5,172.8 L263.1,179.9 L264.6,178.7 L266.2,188.6 L267.7,198.7 L269.2,211.3 L270.8,218.8 L272.3,226.0 L273.8,229.2 L275.4,234.8 L276.9,235.0 L278.5,237.4 L280.0,237.7 L281.5,240.3 L283.1,245.8 L284.6,248.3 L286.2,253.9 L287.7,250.9 L289.2,252.1 L290.8,251.9 L292.3,256.7 L293.8,257.4 L295.4,259.2 L296.9,262.0 L298.5,259.8 L300.0,266.2 L301.5,266.3 L303.1,266.6 L304.6,270.8 L306.2,269.5 L307.7,273.3 L309.2,272.8 L310.8,272.6 L312.3,269.2 L313.8,264.8 L315.4,258.5 L316.9,256.2 L318.5,256.9 L320.0,258.5 L321.5,253.2 L323.1,251.0 L324.6,248.8 L326.2,249.0 L327.7,242.3 L329.2,240.7 L330.8,226.6 L332.3,209.4 L333.8,209.2 L335.4,171.2 L336.9,124.7 L338.5,86.3 L340.0,104.5 L341.5,149.5 L343.1,149.6 L344.6,147.9 L346.2,157.9 L347.7,170.2 L349.2,183.4 L350.8,195.3 L352.3,209.1 L353.8,211.7 L355.4,215.8 L356.9,222.5 L358.5,227.0 L360.0,230.2 L361.5,238.5 L363.1,245.1 L364.6,250.6 L366.2,247.8 L367.7,250.4 L369.2,251.9 L370.8,255.2 L372.3,256.6 L373.8,258.3 L375.4,262.6 L376.9,266.3 L378.5,266.6 L380.0,266.6 L381.5,269.1 L383.1,271.2 L384.6,273.5 L386.2,273.6 L387.7,273.5 L389.2,271.2 L390.8,270.8 L392.3,270.9 L393.8,269.3 L395.4,268.3 L396.9,264.0 L398.5,261.9 L400.0,262.1 L401.5,256.2 L403.1,253.2 L404.6,251.0 L406.2,250.3 L407.7,248.7 L409.2,246.4 L410.8,242.9 L412.3,232.3 L413.8,240.1 L415.4,236.3 L416.9,233.1 L418.5,217.1 L420.0,213.9 L421.5,230.6 L423.1,228.6 L424.6,224.3 L426.2,219.6 L427.7,215.3 L429.2,200.0 L430.8,187.0 L432.3,187.4 L433.8,181.0 L435.4,172.8 L436.9,190.9 L438.5,201.2 L440.0,212.8 L441.5,227.4 L443.1,229.1 L444.6,231.6 L446.2,239.3 L447.7,243.7 L449.2,250.2 L450.8,253.6 L452.3,257.7 L453.8,259.4 L455.4,262.8 L456.9,265.3 L458.5,269.2 L460.0,270.2 L461.5,272.0 L463.1,273.8 L464.6,275.0 L466.2,274.2 L467.7,276.3 L469.2,275.3 L470.8,274.6 L472.3,270.2 L473.8,264.5 L475.4,263.7 L476.9,261.7 L478.5,260.7 L480.0,257.6 L481.5,257.1 L483.1,256.0 L484.6,254.7 L486.2,251.3 L487.7,247.0 L489.2,244.3 L490.8,241.1 L492.3,231.7 L493.8,235.1 L495.4,231.6 L496.9,221.1 L498.5,202.3 L500.0,179.7 L501.5,189.4 L503.1,190.2 L504.6,174.4 L506.2,164.2 L507.7,139.2 L509.2,119.2 L510.8,126.4 L512.3,136.5 L513.8,173.0 L515.4,174.9 L516.9,185.2 L518.5,189.3 L520.0,200.3 L521.5,214.8 L523.1,229.6 L524.6,238.1 L526.2,244.2 L527.7,249.5 L529.2,254.5 L530.8,254.2 L532.3,258.3 L533.8,260.4 L535.4,262.7 L536.9,267.7 L538.5,267.8 L540.0,269.3 L541.5,270.8 L543.1,273.1 L544.6,273.9 L546.2,273.8 L547.7,273.9 L549.2,275.4 L550.8,273.9 L552.3,267.5 L553.8,263.5 L555.4,260.9 L556.9,260.9 L558.5,260.8 L560.0,257.5 L561.5,254.8 L563.1,253.3 L564.6,251.8 L566.2,245.8 L567.7,237.6 L569.2,233.2 L570.8,226.2 L572.3,218.5 L573.8,218.4 L575.4,207.7 L576.9,179.7 L578.5,131.5 L580.0,95.7 L581.5,93.7 L583.1,89.0 L584.6,68.2 L586.2,43.6 L587.7,31.1 L589.2,36.3 L590.8,69.3 L592.3,123.1 L593.8,168.8 L595.4,185.6 L596.9,200.4 L598.5,210.6 L600.0,213.9 L601.5,225.9 L603.1,236.3 L604.6,242.3 L606.2,245.0 L607.7,245.3 L609.2,253.7 L610.8,257.5 L612.3,255.4 L613.8,259.2 L615.4,264.7 L616.9,268.0 L618.5,268.1 L620.0,268.7 L621.5,272.3 L623.1,274.1 L624.6,275.6 L626.2,277.1 L627.7,277.1 L629.2,274.8 L630.8,274.7 L632.3,270.5 L633.8,269.1 L635.4,260.7 L636.9,258.8 L638.5,257.1 L640.0,255.3 L641.5,249.3 L643.1,249.9 L644.6,247.4 L646.2,241.3 L647.7,236.0 L649.2,233.2 L650.8,229.1 L652.3,219.9 L653.8,223.3 L655.4,219.5 L656.9,205.5 L658.5,187.8 L660.0,158.2 L661.5,176.4 L663.1,190.1 L664.6,181.1 L666.2,163.6 L667.7,144.9 L669.2,125.6 L670.8,119.9 L672.3,125.5 L673.8,137.5 L675.4,143.6 L676.9,149.0 L678.5,168.4 L680.0,189.7 L681.5,203.6 L683.1,218.4 L684.6,228.1 L686.2,238.8 L687.7,244.0 L689.2,246.4 L690.8,246.4 L692.3,249.2 L693.8,250.2 L695.4,256.5 L696.9,260.2 L698.5,264.6 L700.0,266.2 L701.5,268.7 L703.1,271.1 L704.6,273.0 L706.2,273.8 L707.7,274.0 L709.2,273.0 L710.8,273.9 L712.3,270.0 L713.8,264.7 L715.4,259.3 L716.9,256.0 L718.5,255.5 L720.0,252.2 L721.5,246.8 L723.1,243.1 L724.6,238.4 L726.2,234.5 L727.7,227.1 L729.2,214.5 L730.8,206.0 L732.3,195.7 L733.8,178.2 L735.4,183.5 L736.9,159.2 L738.5,119.1 L740.0,47.8 L741.5,88.6 L743.1,123.5 L744.6,109.6 L746.2,82.8 L747.7,59.0 L749.2,57.2 L750.8,81.7 L752.3,101.5 L753.8,117.0 L755.4,111.9 L756.9,97.5 L758.5,72.1 L760.0,124.4 L761.5,164.8 L763.1,200.0 L764.6,224.0 L766.2,238.1 L767.7,249.7 L769.2,257.7 L770.8,260.2 L772.3,264.1 L773.8,268.3 L775.4,270.9 L776.9,270.1 L778.5,266.8 L780.0,259.2 L781.5,254.5 L783.1,251.8 L784.6,252.0 L786.2,256.4 L787.7,258.8 L789.2,262.1 L790.8,265.0 L792.3,265.4 L793.8,264.3 L795.4,267.1 L796.9,263.0 L798.5,265.2 L800.0,262.0 L801.5,261.0 L803.1,256.7 L804.6,260.3 L806.2,257.6 L807.7,255.3 L809.2,248.4 L810.8,246.8 L812.3,244.3 L813.8,242.2 L815.4,243.8 L816.9,245.7 L818.5,246.2 L820.0,244.5 L821.5,243.2 L823.1,247.3 L824.6,254.0 L826.2,255.3 L827.7,260.7 L829.2,258.4 L830.8,264.1 L832.3,264.8 L833.8,269.1 L835.4,270.4 L836.9,268.5 L838.5,267.6 L840.0,266.2 L841.5,265.2 L843.1,262.1 L844.6,261.4 L846.2,260.6 L847.7,259.5 L849.2,258.9 L850.8,257.5 L852.3,255.5 L853.8,259.1 L855.4,257.7 L856.9,259.7 L858.5,257.5 L860.0,256.7 L861.5,256.7 L863.1,254.8 L864.6,250.5 L866.2,241.2 L867.7,235.6 L869.2,230.4 L870.8,227.3 L872.3,221.7 L873.8,220.0 L875.4,219.1 L876.9,221.0 L878.5,227.0 L880.0,232.1 L881.5,234.1 L883.1,226.8 L884.6,230.2 L886.2,231.2 L887.7,229.4 L889.2,223.6 L890.8,219.0 L892.3,213.9 L893.8,210.2 L895.4,208.4 L896.9,202.1 L898.5,187.3 L900.0,156.9 L901.5,125.2 L903.1,146.5 L904.6,175.0 L906.2,200.9 L907.7,226.6 L909.2,240.4 L910.8,248.7 L912.3,247.1 L913.8,247.8 L915.4,243.9 L916.9,239.4 L918.5,234.5 L920.0,232.8 L921.5,228.7 L923.1,224.7 L924.6,221.9 L926.2,220.8 L927.7,217.2 L929.2,214.7 L930.8,208.1 L932.3,212.0 L933.8,214.5 L935.4,213.5 L936.9,222.9 L938.5,229.1 L940.0,233.0 L941.5,235.7 L943.1,235.2 L944.6,240.3 L946.2,240.9 L947.7,240.5 L949.2,245.4 L950.8,245.8 L952.3,243.1 L953.8,234.8 L955.4,230.8 L956.9,228.5 L958.5,227.4 L960.0,218.6 L961.5,215.8 L963.1,206.7 L964.6,192.6 L966.2,181.4 L967.7,144.0 L969.2,106.4 L970.8,95.2 L972.3,88.6 L973.8,34.8 L975.4,42.2 L976.9,54.6 L978.5,75.1 L980.0,85.6 L981.5,109.3 L983.1,159.5 L984.6,194.8 L986.2,205.8 L987.7,206.2 L989.2,207.7 L990.8,207.4 L992.3,208.2 L993.8,209.7 L995.4,214.1 L996.9,215.8 L998.5,215.9 L1000.0,217.5 L1001.5,219.4 L1003.1,223.9 L1004.6,228.2 L1006.2,231.9 L1007.7,232.0 L1009.2,230.9 L1010.8,231.8 L1012.3,232.8 L1013.8,234.5 L1015.4,234.3 L1016.9,243.7 L1018.5,246.9 L1020.0,251.3 L1021.5,254.6 L1023.1,256.2 L1024.6,258.6 L1026.2,259.8 L1027.7,258.3 L1029.2,257.0 L1030.8,254.5 L1032.3,248.3 L1033.8,239.1 L1035.4,231.0 L1036.9,228.5 L1038.5,230.7 L1040.0,227.2 L1041.5,225.4 L1043.1,218.6 L1044.6,216.5 L1046.2,209.9 L1047.7,203.1 L1049.2,194.8 L1050.8,178.2 L1052.3,168.2 L1053.8,159.7 L1055.4,156.0 L1056.9,143.4 L1058.5,114.8 L1060.0,77.4 L1061.5,57.3 L1063.1,95.9 L1064.6,133.4 L1066.2,145.6 L1067.7,148.9 L1069.2,142.1 L1070.8,140.8 L1072.3,144.5 L1073.8,145.2 L1075.4,155.0 L1076.9,166.9 L1078.5,178.7 L1080.0,189.8 L1081.5,193.7 L1083.1,201.2 L1084.6,209.3 L1086.2,219.7 L1087.7,221.7 L1089.2,225.0 L1090.8,228.4 L1092.3,229.4 L1093.8,231.9 L1095.4,233.0 L1096.9,240.7 L1098.5,243.5 L1100.0,246.7 L1101.5,247.6 L1103.1,250.8 L1104.6,248.0 L1106.2,248.1 L1107.7,245.6 L1109.2,245.2 L1110.8,245.0 L1112.3,244.1 L1113.8,236.8 L1115.4,230.9 L1116.9,231.4 L1118.5,230.2 L1120.0,230.2 L1121.5,230.9 L1123.1,232.0 L1124.6,227.9 L1126.2,226.1 L1127.7,220.7 L1129.2,217.2 L1130.8,211.7 L1132.3,203.9 L1133.8,196.8 L1135.4,186.3 L1136.9,181.5 L1138.5,164.7 L1140.0,123.4 L1141.5,59.2 L1143.1,76.6 L1144.6,110.5 L1146.2,94.8 L1147.7,50.5 L1149.2,21.5 L1150.8,19.9 L1152.3,52.3 L1153.8,89.3 L1155.4,125.9 L1156.9,147.6 L1158.5,163.9 L1160.0,183.8 L1161.5,196.4 L1163.1,208.5 L1164.6,213.9 L1166.2,219.0 L1167.7,222.6 L1169.2,228.6 L1170.8,232.3 L1172.3,233.4 L1173.8,235.2 L1175.4,234.7 L1176.9,242.8 L1178.5,249.8 L1180.0,252.9 L1181.5,257.9 L1183.1,260.5 L1184.6,258.8 L1186.2,262.3 L1187.7,263.2 L1189.2,262.3 L1190.8,259.0 L1192.3,256.8 L1193.8,248.5 L1195.4,236.4 L1196.9,236.4 L1198.5,238.1 L1200.0,240.0" fill="none" stroke="currentColor" stroke-width="2" vector-effect="non-scaling-stroke" /></svg></span>
+          <span class="card-body"><b>Forecasting Seasonality and Magnitude of Influenza</b><i>SARIMA &middot; Random Forest &middot; Conformal prediction intervals</i></span>
+        </button>
+
+        <button class="card reveal" data-open="p-swim">
+          <span class="thumb thumb-swim" aria-hidden="true"><svg viewBox="0 0 300 160" preserveAspectRatio="none"><path d="M0,40 q37,-18 75,0 t75,0 t75,0 t75,0" /><path d="M0,80 q37,-18 75,0 t75,0 t75,0 t75,0" /><path d="M0,120 q37,-18 75,0 t75,0 t75,0 t75,0" /></svg></span>
+          <span class="card-body"><b>ASU Swim and Dive Performance Analytics</b><i>Predictive modeling &middot; R &middot; Python</i></span>
+        </button>
+
+        <button class="card reveal" data-open="p-song">
+          <span class="thumb thumb-song" aria-hidden="true"><svg viewBox="0 0 300 160"><g><rect x="30" y="90" width="18" height="50" /><rect x="60" y="60" width="18" height="80" /><rect x="90" y="30" width="18" height="110" /><rect x="120" y="70" width="18" height="70" /><rect x="150" y="45" width="18" height="95" /><rect x="180" y="85" width="18" height="55" /><rect x="210" y="55" width="18" height="85" /><rect x="240" y="100" width="18" height="40" /></g></svg></span>
+          <span class="card-body"><b>Predicting Song Popularity</b><i>Random Forest regression &middot; EDA &middot; Python</i></span>
+        </button>
+
+        <button class="card reveal" data-open="p-ballot">
+          <span class="thumb thumb-ballot" aria-hidden="true"><svg viewBox="0 0 300 160"><rect x="95" y="25" width="110" height="110" rx="10" /><path d="M120,82 l22,22 l40,-46" /></svg></span>
+          <span class="card-body"><b>Ballot Binge</b><i>Honors thesis &middot; Survey research &middot; App prototype</i></span>
+        </button>
+
+        <button class="card reveal" data-open="p-statcom">
+          <span class="thumb thumb-statcom" aria-hidden="true"><svg viewBox="0 0 300 160"><path d="M60,110 L120,50 L190,95 L245,40" /><circle cx="60" cy="110" r="8" /><circle cx="120" cy="50" r="8" /><circle cx="190" cy="95" r="8" /><circle cx="245" cy="40" r="8" /></svg></span>
+          <span class="card-body"><b>STATCOM</b><i>Pro bono statistical consulting &middot; In progress</i></span>
+        </button>
+
+      </div>
+      <p class="more reveal">More on <a href="https://github.com/kenzihebert" target="_blank" rel="noopener">GitHub</a>.</p>
+    </div>
+  </section>
+
+  <!-- Project dialogs -->
+  <dialog id="p-flu" class="modal">
+    <button class="modal-close" aria-label="Close">&times;</button>
+    <p class="meta">Data Science Capstone &middot; Arizona State University &middot; Aug to Dec 2025</p>
+    <h3>Forecasting Seasonality and Magnitude of Influenza</h3>
+    <p>Forecasting weekly influenza-like illness at the national level and for California, to help hospitals anticipate periods of higher strain. Data came from CDC ILINet and the California Department of Public Health.</p>
+    <ul>
+      <li>Modeled seasonal incidence with SARIMA, applying differencing and a 52-week seasonal component.</li>
+      <li>Compared SARIMA, auto-ARIMA and a tuned Random Forest by RMSE. The Random Forest reached 0.16 on national data. SARIMA reached 1.35 on state data and 4.09 on national data.</li>
+      <li>Added 95% prediction intervals with split conformal regression (MAPIE).</li>
+      <li>Ran one-way ANOVA for differences in mean incidence across pediatric age groups and geographic subregions.</li>
+    </ul>
+    <p class="tools">Python, R, statsmodels, scikit-learn, MAPIE, Tableau</p>
+    <p class="credit">With Kassia Crouse and Jamie Yu.</p>
+    <div class="links">
+      <a class="btn btn-solid" href="assets/docs/Influenza-Forecasting-Capstone.pdf" target="_blank" rel="noopener">Report (PDF)</a>
+      <a class="btn" href="https://github.com/kenzihebert/Data-Science-Capstone" target="_blank" rel="noopener">Code on GitHub</a>
+    </div>
+  </dialog>
+
+  <dialog id="p-swim" class="modal">
+    <button class="modal-close" aria-label="Close">&times;</button>
+    <p class="meta">Data Science Intern &middot; Arizona State University Swim and Dive &middot; Sep 2024 to May 2025</p>
+    <h3>ASU Swim and Dive Performance Analytics</h3>
+    <p>Worked with the coaching staff of a Division I program to turn practice and meet data into training decisions.</p>
+    <ul>
+      <li>Built predictive models in R and Python on performance metrics, training load and recovery, contributing to 5+ personal bests during the season.</li>
+      <li>Wrote post-practice reports that helped swimmers and coaches read practice data.</li>
+      <li>Created a lineup tool in Excel to maximize team points at meets.</li>
+      <li>Worked with 7 student interns and 4 coaches.</li>
+    </ul>
+    <p class="tools">R, Python, Excel</p>
+  </dialog>
+
+  <dialog id="p-song" class="modal">
+    <button class="modal-close" aria-label="Close">&times;</button>
+    <p class="meta">Course project &middot; Arizona State University &middot; 2025</p>
+    <h3>Predicting Song Popularity</h3>
+    <p>Can streaming success be predicted from audio features, release timing and chart performance? Built on the Spotify 2023 dataset of 953 songs and 24 features.</p>
+    <ul>
+      <li>Cleaned the data in Python and explored feature distributions and correlations with streams.</li>
+      <li>Compared popularity patterns across Spotify, Apple Music and Deezer.</li>
+      <li>Fit a Random Forest regressor. Playlist and chart counts carried far more predictive power than acoustic features.</li>
+    </ul>
+    <p class="tools">Python, pandas, scikit-learn, Matplotlib, Seaborn</p>
+    <div class="links">
+      <a class="btn btn-solid" href="https://github.com/kenzihebert/Song-Probability-Prediction" target="_blank" rel="noopener">Code on GitHub</a>
+    </div>
+  </dialog>
+
+  <dialog id="p-ballot" class="modal">
+    <button class="modal-close" aria-label="Close">&times;</button>
+    <p class="meta">Honors Thesis &middot; Barrett, the Honors College &middot; Founder's Lab, 2024 to 2025</p>
+    <h3>Ballot Binge</h3>
+    <figure class="modal-photo" data-photo><img loading="lazy" src="assets/img/linkedin/ballot-binge-board.jpg" alt="Ballot Binge presentation board with survey result charts" onerror="this.closest('[data-photo]').remove()" /></figure>
+    <p>A year-long, three-person entrepreneurship thesis that took an idea from concept to company. Ballot Binge is a swipe-style app that helps voters learn about candidates and propositions at the national and local level.</p>
+    <ul>
+      <li>Surveyed voters on how informed they feel and how they research a ballot.</li>
+      <li>Designed and prototyped the app, then defended the thesis in spring 2025.</li>
+    </ul>
+    <p class="credit">With Kenzie Jarnagin and Kennedi Humble. Thesis director Jared Byrne, second reader John Pierce.</p>
+  </dialog>
+
+  <dialog id="p-statcom" class="modal">
+    <button class="modal-close" aria-label="Close">&times;</button>
+    <p class="meta">Volunteer &middot; University of Michigan &middot; Sep 2026 to present</p>
+    <h3>Statistics in the Community (STATCOM)</h3>
+    <p>Pro bono statistical consulting for nonprofit organizations in the Ann Arbor area. Project work will be added here as it finishes.</p>
+  </dialog>
+
+  <!-- ===== EXPERIENCE + EDUCATION ===== -->
+  <section id="experience" class="section section-tint">
+    <div class="wrap two-col">
+      <div>
+        <h2 class="reveal">Experience</h2>
+        <ol class="timeline">
+          <li class="reveal"><time>Sep 2026 to present</time><b>Statistical Consulting Volunteer</b><span>STATCOM, University of Michigan &middot; Ann Arbor, MI</span></li>
+          <li class="reveal"><time>Aug 2025 to present</time><b>Undergraduate Research Assistant</b><span>ASU DESERT Aging Lab &middot; Tempe, AZ</span></li>
+          <li class="reveal"><time>Jun to Aug 2025</time><b>Undergraduate Research Assistant</b><span>University of Michigan Big Data Summer Institute &middot; Ann Arbor, MI</span></li>
+          <li class="reveal"><time>Sep 2024 to May 2025</time><b>Data Science Intern</b><span>ASU Swim and Dive &middot; Tempe, AZ</span></li>
+          <li class="reveal"><time>May 2024 to May 2026</time><b>Operations Assistant</b><span>ASU Greek Leadership Community Center &middot; Tempe, AZ</span></li>
+          <li class="reveal"><time>Nov 2023 to Nov 2024</time><b>Vice President of Academics</b><span>Delta Zeta Sorority &middot; 330+ members, chapter GPA from 3.15 to 3.22</span></li>
+          <li class="reveal"><time>Aug 2019 to May 2025</time><b>Director of Ecommerce</b><span>The Silver Wren &middot; Shopify, Etsy and Google Merchant Center, 30,000+ five-star reviews</span></li>
+        </ol>
+      </div>
+      <div>
+        <h2 class="reveal">Education</h2>
+        <div class="edu reveal">
+          <time>Expected May 2028</time>
+          <b>MS Biostatistics</b>
+          <span>University of Michigan School of Public Health</span>
+          <p>Coursework: Linear Regression Theory, Probability and Inference, Epidemiology</p>
+        </div>
+        <div class="edu reveal">
+          <time>May 2026</time>
+          <b>BS Data Science, BS Anthropology</b>
+          <span>Arizona State University &middot; Barrett, the Honors College</span>
+          <p>4.0 GPA, summa cum laude. Data Science on the Business Data Analytics track. Study abroad at Florence University of the Arts, 2024.</p>
+          <figure class="edu-photo" data-photo><img loading="lazy" src="assets/img/linkedin/asu-graduation.jpg" alt="McKenzie at Arizona State University graduation" onerror="this.closest('[data-photo]').remove()" /></figure>
+        </div>
+
+        <h2 class="reveal h2-gap">Awards</h2>
+        <ul class="awards">
+          <li class="reveal"><b>Moeur Award</b><span>Arizona State University, 2026. Awarded for graduating with a 4.0.</span></li>
+          <li class="reveal"><b>Grace Mason Lundy Award</b><span>Delta Zeta, regional and national recipient, 2026</span></li>
+          <li class="reveal"><b>Phoenix Panhellenic Alumnae Association Scholarship</b><span>Three-time recipient</span></li>
+          <li class="reveal"><b>Wexler Mathematical Sciences Senior Dinner</b><span>Selected senior, ASU School of Mathematical and Statistical Sciences, 2026</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills" class="section">
+    <div class="wrap">
+      <h2 class="reveal">Skills</h2>
+      <div class="skills">
+        <div class="reveal">
+          <h4>Statistical methods</h4>
+          <ul class="chips">
+            <li>Regression analysis</li><li>ANOVA</li><li>Hypothesis testing</li><li>Time series (SARIMA, ARIMA)</li><li>Sequence analysis</li><li>Survival analysis</li><li>Gradient boosting</li><li>Random forests</li><li>Model calibration</li><li>Cross validation</li>
+          </ul>
+        </div>
+        <div class="reveal">
+          <h4>Software</h4>
+          <ul class="chips">
+            <li>R</li><li>Python</li><li>SQL</li><li>R Shiny</li><li>ggplot2</li><li>scikit-learn</li><li>Tableau</li><li>Excel</li><li class="soft">SAS (in progress)</li>
+          </ul>
+        </div>
+        <div class="reveal">
+          <h4>Coursework and training</h4>
+          <ul class="chips">
+            <li>Linear Regression Theory</li><li>Probability and Inference</li><li>Epidemiology</li><li>Causal inference</li><li>Bayesian inference</li><li>Clinical trial design</li><li>Electronic health records</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== RESUME ===== -->
+  <section id="resume" class="section section-tint">
+    <div class="wrap">
+      <div class="resume-head reveal">
+        <h2>Resume</h2>
+        <a class="btn btn-solid" href="assets/docs/McKenzie-Hebert-Resume.pdf" download>Download PDF</a>
+      </div>
+      <div class="resume-frame reveal">
+        <iframe id="resume-frame" src="assets/docs/McKenzie-Hebert-Resume.pdf#view=FitH&toolbar=0" title="McKenzie Hebert resume" loading="lazy"></iframe>
+        <p class="resume-fallback">Your browser can't show the PDF inline. <a href="assets/docs/McKenzie-Hebert-Resume.pdf" target="_blank" rel="noopener">Open the resume</a>.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section contact">
+    <div class="wrap">
+      <h2 class="reveal">Contact</h2>
+      <div class="contact-grid">
+        <a class="contact-item reveal" href="mailto:kenzihebert@gmail.com"><span>Email</span><b>kenzihebert@gmail.com</b></a>
+        <a class="contact-item reveal" href="https://www.linkedin.com/in/mckenzie-hebert1/" target="_blank" rel="noopener"><span>LinkedIn</span><b>in/mckenzie-hebert1</b></a>
+        <a class="contact-item reveal" href="https://github.com/kenzihebert" target="_blank" rel="noopener"><span>GitHub</span><b>kenzihebert</b></a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="wrap"><span>&copy; <span id="year">2026</span> McKenzie Hebert</span><a href="#top">Back to top</a></div>
+  </footer>
+
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="person" viewBox="0 0 20 40"><circle cx="10" cy="6" r="5" /><path d="M3,15 a4,4 0 0 1 4,-4 h6 a4,4 0 0 1 4,4 v11 a2,2 0 0 1 -4,0 v11 a2,2 0 0 1 -3,0 a2,2 0 0 1 -3,0 v-11 a2,2 0 0 1 -4,0 z" /></symbol>
+  </svg>
+</body>
+</html>
