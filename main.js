@@ -102,7 +102,7 @@
       .to(area, { opacity: 1, duration: 1.2, ease: 'power1.out' }, '-=0.9')
       .add(() => { peak.classList.add('in'); gsap.set(line, { strokeDasharray: 'none' }); }, '-=0.5');
     // if frames are being throttled and nothing has moved, show the content rather than wait
-    setTimeout(() => { if (tl.progress() < 0.05) tl.progress(1); }, 3500);
+    setTimeout(() => { if (tl.progress() < 0.05) { tl.progress(1); peak.classList.add('in'); } }, 3500);
   } else {
     peak.classList.add('in');
   }
