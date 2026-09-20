@@ -252,10 +252,10 @@
         <header class="case-head reveal">
           <p class="meta">Arizona State University DESERT Aging Lab &middot; PI Dr. Rachel Koffer &middot; Aug 2025 to present</p>
           <h3>Routines versus Diversity: Daily Activity Sequences Predict Self-Reported Sleep Quality in Older Adults</h3>
-          <p class="method">Sequence analysis &middot; Longitudinal diary data &middot; R</p>
+          <p class="method">Sequence analysis &middot; Cluster analysis &middot; Multilevel models &middot; R</p>
         </header>
 
-        <p class="case-summary reveal">Sequence analysis in R on daily activity diaries from older adults, asking which kinds of daily activity patterns go with better self-reported sleep.</p>
+        <p class="case-summary reveal">Most measures of how varied someone's day is ignore the order things happen in. This study treats each day as a sequence, using a week of in-the-moment surveys from older adults in the Berlin Aging Study II, and asks whether the shape of a day relates to how well they report sleeping that night.</p>
 
         <div class="specs reveal">
           <div><b data-count="144">144</b><span>older adults</span></div>
@@ -266,15 +266,25 @@
 
         <div class="case-grid case-grid-wide">
           <figure class="panel reveal" id="seq-panel">
-            <h4>The method</h4>
-            <canvas id="seq" width="960" height="640" role="img" aria-label="Schematic sequence index plot"></canvas>
-            <div class="seq-labels" aria-hidden="true"><span>More routine days</span><span>More diverse days</span></div>
-            <figcaption>Schematic of a sequence index plot. Each row is one day, each cell a time of day, and color is the activity recorded. Illustrative only. Study results are held until publication.</figcaption>
+            <h4>How a day becomes a sequence</h4>
+            <div class="seq" role="img" aria-label="Three example days, each shown as six colored tiles for the six daily check-ins">
+              <div class="seq-day seq-times" aria-hidden="true"><div class="seq-name"></div><div class="seq-tiles"><em>9 AM</em><em>11 AM</em><em>1 PM</em><em>3 PM</em><em>5 PM</em><em>7 PM</em></div></div>
+              <div class="seq-day"><div class="seq-name"><b>Routine day</b><span>one activity most of the day</span></div><div class="seq-tiles"><i class="t t-pr" style="--i:0"><span>Productive</span></i><i class="t t-pr" style="--i:1"><span>Productive</span></i><i class="t t-pr" style="--i:2"><span>Productive</span></i><i class="t t-pr" style="--i:3"><span>Productive</span></i><i class="t t-pr" style="--i:4"><span>Productive</span></i><i class="t t-le" style="--i:5"><span>Leisure</span></i></div></div>
+              <div class="seq-day"><div class="seq-name"><b>Shifting day</b><span>one block, then another</span></div><div class="seq-tiles"><i class="t t-sc" style="--i:0"><span>Self-care</span></i><i class="t t-do" style="--i:1"><span>Domestic</span></i><i class="t t-do" style="--i:2"><span>Domestic</span></i><i class="t t-so" style="--i:3"><span>Social</span></i><i class="t t-so" style="--i:4"><span>Social</span></i><i class="t t-so" style="--i:5"><span>Social</span></i></div></div>
+              <div class="seq-day"><div class="seq-name"><b>Diverse day</b><span>something different each time</span></div><div class="seq-tiles"><i class="t t-ph" style="--i:0"><span>Physical</span></i><i class="t t-me" style="--i:1"><span>Mental</span></i><i class="t t-do" style="--i:2"><span>Domestic</span></i><i class="t t-so" style="--i:3"><span>Social</span></i><i class="t t-le" style="--i:4"><span>Leisure</span></i><i class="t t-sc" style="--i:5"><span>Self-care</span></i></div></div>
+            </div>
+            <ul class="seq-legend" aria-hidden="true"><li><i class="t-so"></i>Social</li><li><i class="t-ph"></i>Physical</li><li><i class="t-do"></i>Domestic</li><li><i class="t-me"></i>Mental</li><li><i class="t-sc"></i>Self-care</li><li><i class="t-pr"></i>Productive</li><li><i class="t-le"></i>Leisure</li></ul>
+            <ol class="seq-steps">
+              <li><b>1</b>Code each day as an ordered sequence of activities.</li>
+              <li><b>2</b>Measure how different any two days are, then cluster similar days.</li>
+              <li><b>3</b>Model that night's sleep quality on the type of day.</li>
+            </ol>
+            <figcaption>Participants reported what they were doing six times a day for a week, choosing from seven activity types. The three days above are made-up examples to show the idea. Study results are held until publication.</figcaption>
           </figure>
           <div class="case-side reveal">
             <h4>Role</h4>
             <ul>
-              <li>Conduct the sequence analysis in R.</li>
+              <li>Conduct the sequence analysis in R with TraMineR, and the cluster analysis of the distance matrix.</li>
               <li>Draft manuscript sections and prepare figures for a peer-reviewed publication.</li>
               <li>Prepared the abstract for the SBSM 2026 Annual Scientific Meeting.</li>
               <li>Literature reviews and visualizations for weekly research team meetings.</li>

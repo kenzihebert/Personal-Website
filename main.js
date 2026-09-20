@@ -1,7 +1,7 @@
 /* =====================================================================
    McKenzie Hebert - portfolio
    Interactions: smooth scroll, nav, hero chart draw, reveals, counters,
-   pictogram, sequence plot, project dialogs.
+   pictogram, project dialogs.
 
    Scroll work is one rAF-coalesced pass with cached offsets. Everything
    that animates does so once, on entry, and then stays still.
@@ -137,6 +137,8 @@
       const end = parseFloat(el.dataset.count);
       const dec = parseInt(el.dataset.dec || '0', 10);
       const t0 = performance.now();
+      // never leave a half-counted number on screen if frames stall
+      setTimeout(() => { el.textContent = end.toFixed(dec); }, 1800);
       (function step(now) {
         const t = Math.min((now - t0) / 1400, 1);
         const e = 1 - Math.pow(1 - t, 4);
@@ -172,57 +174,6 @@
       hits.forEach((idx, k) => setTimeout(() => people[idx].classList.add('hit'), reduced ? 0 : 300 + k * 55));
     }, { threshold: 0.4 });
     pio.observe(picto);
-  }
-
-  /* ---------- sequence index plot (schematic) ---------- */
-  const seq = $('#seq');
-  if (seq) {
-    const ctx = seq.getContext('2d');
-    const W = seq.width, H = seq.height;
-    const ROWS = 84, COLS = 42, GAP = 16;
-    const palette = ['#1f6f78', '#86aea3', '#c25e86', '#e9b872', '#5a7fa8', '#d5e2e2'];
-    // seeded so the picture is identical on every load
-    let seed = 7;
-    const rnd = () => { seed = (seed * 1664525 + 1013904223) % 4294967296; return seed / 4294967296; };
-    const base = [0, 1, 1, 3, 2, 0];
-    const rows = [];
-    for (let r = 0; r < ROWS; r++) {
-      const routine = r < ROWS / 2;
-      const row = [];
-      for (let c = 0; c < COLS; c++) {
-        const slot = c % 6;
-        if (routine) row.push(rnd() < 0.1 ? Math.floor(rnd() * 6) : base[slot]);
-        else row.push(rnd() < 0.3 ? base[slot] : Math.floor(rnd() * 6));
-      }
-      rows.push(row);
-    }
-    const cw = W / COLS;
-    const rh = (H - GAP) / ROWS;
-    function draw(upTo) {
-      ctx.clearRect(0, 0, W, H);
-      for (let r = 0; r < Math.min(upTo, ROWS); r++) {
-        const y = r * rh + (r >= ROWS / 2 ? GAP : 0);
-        for (let c = 0; c < COLS; c++) {
-          ctx.fillStyle = palette[rows[r][c]];
-          ctx.fillRect(c * cw, y, cw + 0.5, rh - 1);
-        }
-      }
-      // day separators
-      ctx.fillStyle = 'rgba(244,248,248,0.95)';
-      for (let d = 1; d < 7; d++) ctx.fillRect(d * 6 * cw - 1.5, 0, 3, H);
-    }
-    const sio = new IntersectionObserver((entries) => {
-      if (!entries[0].isIntersecting) return;
-      sio.disconnect();
-      if (reduced) { draw(ROWS); return; }
-      const t0 = performance.now();
-      (function step(now) {
-        const t = Math.min((now - t0) / 1800, 1);
-        draw(Math.ceil((1 - Math.pow(1 - t, 3)) * ROWS));
-        if (t < 1) requestAnimationFrame(step);
-      })(t0);
-    }, { threshold: 0.3 });
-    sio.observe(seq);
   }
 
   /* ---------- project dialogs ---------- */
