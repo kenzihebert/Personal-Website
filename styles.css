@@ -120,17 +120,6 @@ h1 .line span { display: inline-block; }
 .hero-chart-axis span::before { content: ""; position: absolute; left: 50%; top: -7px; width: 1px; height: 5px; background: var(--line); }
 .hero-chart figcaption { width: min(var(--wrap), 100% - 48px); margin: 10px auto 0; font-size: 0.82rem; color: var(--muted); }
 
-/* ---------- campus banner ---------- */
-.banner { position: relative; margin-top: clamp(56px, 8vw, 96px); height: clamp(250px, 36vw, 460px); overflow: hidden; background: #2f6fb0; }
-.banner img { position: absolute; left: 0; top: -12%; width: 100%; height: 124%; object-fit: cover; object-position: 28% 45%; will-change: transform; }
-.banner-shade { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(10, 40, 70, 0) 35%, rgba(10, 40, 70, 0.42) 100%), linear-gradient(0deg, rgba(10, 40, 70, 0.35), rgba(10, 40, 70, 0) 45%); }
-.banner figcaption { position: absolute; inset: 0; left: 50%; transform: translateX(-50%); display: flex; flex-direction: column; justify-content: center; align-items: flex-end; text-align: right; color: #fff; }
-.banner-kicker { font-family: var(--mono); font-size: 0.74rem; letter-spacing: 0.14em; text-transform: uppercase; color: #ffcb05; }
-.banner-title { font-family: var(--display); font-weight: 500; font-size: clamp(1.9rem, 4.6vw, 3.6rem); line-height: 1.05; letter-spacing: -0.02em; margin-top: 10px; text-shadow: 0 2px 24px rgba(10, 40, 70, 0.45); }
-.banner-sub { margin-top: 12px; font-size: clamp(0.85rem, 1.3vw, 1.02rem); max-width: 40em; text-shadow: 0 1px 12px rgba(10, 40, 70, 0.6); }
-.banner-credit { position: absolute; right: 12px; bottom: 8px; font-size: 0.66rem; color: rgba(255, 255, 255, 0.78); text-decoration: none; }
-.banner-credit:hover { color: #fff; text-decoration: underline; }
-
 /* ---------- sections ---------- */
 .section { padding: clamp(72px, 10vw, 120px) 0; }
 .section-tint { background: var(--tint); }
@@ -352,9 +341,6 @@ h4.gap { margin-top: 28px; }
   .seq-steps { grid-template-columns: 1fr; }
   .awards { grid-template-columns: 1fr; }
   .edu-split { grid-template-columns: 1fr 110px; gap: 16px; }
-  .banner img { object-position: 22% 45%; }
-  .banner-shade { background: linear-gradient(0deg, rgba(10, 40, 70, 0.6), rgba(10, 40, 70, 0.1) 70%); }
-  .banner figcaption { justify-content: flex-end; padding-bottom: 34px; }
   .wrap { width: calc(100% - 36px); }
   .specs { grid-template-columns: 1fr 1fr; }
   .specs div { padding: 16px 12px 14px 0; }
