@@ -79,7 +79,7 @@ h4 { font-family: var(--mono); font-size: 0.74rem; font-weight: 500; letter-spac
 .nav.scrolled { background: rgba(244, 248, 248, 0.92); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); box-shadow: 0 1px 0 var(--line); }
 .nav-inner { display: flex; align-items: center; justify-content: space-between; height: 64px; }
 .brand { font-family: var(--display); font-size: 1.15rem; font-weight: 500; color: var(--ink); text-decoration: none; }
-.nav-links { display: flex; gap: 28px; }
+.nav-links { display: flex; gap: 24px; }
 .nav-links a { position: relative; font-size: 0.9rem; color: var(--muted); text-decoration: none; padding: 6px 0; transition: color 0.2s; }
 .nav-links a::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 2px; background: var(--accent); transform: scaleX(0); transform-origin: 0 50%; transition: transform 0.35s var(--ease); }
 .nav-links a:hover, .nav-links a.active { color: var(--ink); }
@@ -132,6 +132,11 @@ h1 .line span { display: inline-block; }
 .facts div { display: grid; grid-template-columns: 120px 1fr; gap: 16px; padding: 14px 0; border-bottom: 1px solid var(--line); }
 .facts dt { font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); padding-top: 4px; }
 .facts dd { font-size: 0.95rem; color: var(--ink); line-height: 1.5; }
+
+.with-badge { display: flex; gap: 12px; align-items: flex-start; }
+.school { flex: none; display: grid; place-items: center; width: 30px; height: 30px; margin-top: 2px; border-radius: 7px; font-family: var(--sans); font-weight: 800; font-size: 1rem; line-height: 1; }
+.school-um { background: #00274c; color: #ffcb05; }
+.school-asu { background: #8c1d40; color: #ffc627; }
 
 /* case studies */
 .case { background: var(--surface); border: 1px solid var(--line); border-radius: calc(var(--radius) + 6px); padding: clamp(24px, 4.5vw, 56px); }
@@ -245,6 +250,14 @@ h4.gap { margin-top: 28px; }
 .awards li { padding: 14px 0; border-bottom: 1px solid var(--line); }
 .awards li:first-child { border-top: 1px solid var(--line); }
 
+/* study abroad */
+.abroad-grid { display: grid; grid-template-columns: 1.2fr 1fr; gap: clamp(32px, 6vw, 80px); align-items: center; }
+.abroad-grid:not(:has(.abroad-photo)) { grid-template-columns: minmax(0, 46em); }
+.abroad-text h3 { margin: 10px 0 18px; }
+.abroad-text .facts { margin-top: 28px; }
+.abroad-photo img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: var(--radius); }
+.credit-first { margin-top: 0; }
+
 /* skills */
 .skills { display: grid; grid-template-columns: repeat(3, 1fr); gap: clamp(28px, 5vw, 56px); }
 .chips { display: flex; flex-wrap: wrap; gap: 8px; }
@@ -285,7 +298,7 @@ h4.gap { margin-top: 28px; }
   .hero { padding-top: 104px; }
   .hero-grid { grid-template-columns: 1fr; gap: 36px; }
   .hero-photo { order: -1; width: 168px; }
-  .about-grid, .case-grid, .case-grid-wide, .case-notes, .two-col, .skills, .contact-grid { grid-template-columns: 1fr; }
+  .about-grid, .abroad-grid, .case-grid, .case-grid-wide, .case-notes, .two-col, .skills, .contact-grid { grid-template-columns: 1fr; }
   .hero-chart-axis span:nth-child(even) { display: none; }
   .peak b { font-size: 0.64rem; }
 }

@@ -47,7 +47,7 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600;800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
@@ -68,6 +68,7 @@
         <a href="#projects">Projects</a>
         <a href="#experience">Experience</a>
         <a href="#skills">Skills</a>
+        <a href="#abroad">Study Abroad</a>
         <a href="#resume">Resume</a>
         <a href="#contact">Contact</a>
       </div>
@@ -79,6 +80,7 @@
       <a href="#projects">Projects</a>
       <a href="#experience">Experience</a>
       <a href="#skills">Skills</a>
+      <a href="#abroad">Study Abroad</a>
       <a href="#resume">Resume</a>
       <a href="#contact">Contact</a>
     </div>
@@ -134,9 +136,9 @@
           <p>I'm eager to apply my statistical modeling and problem solving skills to contribute to better health outcomes for everyone.</p>
         </div>
         <dl class="facts reveal">
-          <div><dt>Program</dt><dd>MS Biostatistics<br />University of Michigan School of Public Health</dd></div>
+          <div><dt>Program</dt><dd class="with-badge"><span class="school school-um" aria-hidden="true">M</span><span>MS Biostatistics<br />University of Michigan School of Public Health</span></dd></div>
           <div><dt>Graduation</dt><dd>May 2028</dd></div>
-          <div><dt>Undergraduate</dt><dd>BS Data Science, BS Anthropology<br />Arizona State University, Barrett, the Honors College</dd></div>
+          <div><dt>Undergraduate</dt><dd class="with-badge"><span class="school school-asu" aria-hidden="true">A</span><span>BS Data Science, BS Anthropology<br />Arizona State University, Barrett, the Honors College</span></dd></div>
           <div><dt>GPA</dt><dd>4.0, summa cum laude</dd></div>
           <div><dt>Interests</dt><dd>Clinical trials, cancer research, pharmaceuticals, biotechnology</dd></div>
           <div><dt>Based in</dt><dd>Ann Arbor, Michigan</dd></div>
@@ -273,6 +275,10 @@
             <figure class="side-photo" data-photo><img loading="lazy" src="assets/img/linkedin/desert-poster-solo.jpg" alt="McKenzie beside the research poster at the ASU symposium" onerror="this.closest('[data-photo]').remove()" /></figure>
           </div>
         </div>
+
+        <footer class="case-foot reveal">
+          <p class="credit credit-first">With Paige McKenna and Erin Clancy. Principal investigator: Dr. Rachel Koffer, Arizona State University.</p>
+        </footer>
       </article>
     </div>
   </section>
@@ -410,7 +416,7 @@
           <time>May 2026</time>
           <b>BS Data Science, BS Anthropology</b>
           <span>Arizona State University &middot; Barrett, the Honors College</span>
-          <p>4.0 GPA, summa cum laude. Data Science on the Business Data Analytics track. Study abroad at Florence University of the Arts, 2024.</p>
+          <p>4.0 GPA, summa cum laude. Data Science on the Business Data Analytics track.</p>
           <figure class="edu-photo" data-photo><img loading="lazy" src="assets/img/linkedin/asu-graduation.jpg" alt="McKenzie at Arizona State University graduation" onerror="this.closest('[data-photo]').remove()" /></figure>
         </div>
 
@@ -452,8 +458,28 @@
     </div>
   </section>
 
+  <!-- ===== STUDY ABROAD ===== -->
+  <section id="abroad" class="section section-tint">
+    <div class="wrap">
+      <h2 class="reveal">Study Abroad</h2>
+      <div class="abroad-grid">
+        <div class="abroad-text reveal">
+          <p class="meta">Florence, Italy &middot; Summer 2024</p>
+          <h3>Florence University of the Arts</h3>
+          <p>I studied abroad with International Studies Abroad (ISA) at the Florence University of the Arts. I had the opportunity to immerse myself in the Italian language and culture and to take on coursework that broadened my horizons. The experience deepened my appreciation for cultural diversity and taught me more about other ways of life.</p>
+          <dl class="facts facts-tight">
+            <div><dt>Program</dt><dd>International Studies Abroad (ISA)</dd></div>
+            <div><dt>Host</dt><dd>Florence University of the Arts</dd></div>
+            <div><dt>Length</dt><dd>One month</dd></div>
+          </dl>
+        </div>
+        <!-- photo slot: add <figure class="abroad-photo reveal"><img loading="lazy" src="assets/img/abroad/florence.jpg" alt="Florence, Italy" /></figure> once she sends one -->
+      </div>
+    </div>
+  </section>
+
   <!-- ===== RESUME ===== -->
-  <section id="resume" class="section section-tint">
+  <section id="resume" class="section">
     <div class="wrap">
       <div class="resume-head reveal">
         <h2>Resume</h2>
@@ -467,7 +493,7 @@
   </section>
 
   <!-- ===== CONTACT ===== -->
-  <section id="contact" class="section contact">
+  <section id="contact" class="section section-tint contact">
     <div class="wrap">
       <h2 class="reveal">Contact</h2>
       <div class="contact-grid">
