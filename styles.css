@@ -272,11 +272,13 @@ h4.gap { margin-top: 28px; }
 .awards span { margin-top: 8px; }
 
 /* study abroad */
-.abroad-grid { display: grid; grid-template-columns: 1.2fr 1fr; gap: clamp(32px, 6vw, 80px); align-items: center; }
+.abroad-grid { display: grid; grid-template-columns: 1.3fr 1fr; gap: clamp(32px, 6vw, 80px); align-items: center; }
 .abroad-grid:not(:has(.abroad-photo)) { grid-template-columns: minmax(0, 46em); }
 .abroad-text h3 { margin: 10px 0 18px; }
 .abroad-text .facts { margin-top: 28px; }
-.abroad-photo img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: var(--radius); }
+.abroad-photo { max-width: 400px; justify-self: end; width: 100%; }
+.abroad-photo img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: 50% 62%; border-radius: var(--radius); }
+.abroad-photo figcaption { margin-top: 8px; font-size: 0.8rem; color: var(--muted); }
 .credit-first { margin-top: 0; }
 
 /* skills */
