@@ -195,7 +195,7 @@
             <h4>What the app shows a patient</h4>
             <p class="picto-line">Out of 100 people like you, <strong><span id="picto-n">23</span> may have a recurrence</strong></p>
             <div id="picto" class="picto" role="img" aria-label="Grid of 100 figures with 23 highlighted"></div>
-            <figcaption>Example output of the R Shiny app, redrawn from the symposium poster. A probability becomes a count of people, which is easier to discuss in a clinic.</figcaption>
+            <figcaption>Example output of the R Shiny app, redrawn from the symposium poster. A probability becomes a count of people, which is easier to discuss in a clinic. <a href="https://kenzihebert.shinyapps.io/BDSI/" target="_blank" rel="noopener">Try the live app</a>.</figcaption>
           </figure>
         </div>
 
@@ -206,7 +206,7 @@
               <li>Defined recurrence as a binary outcome within 3 years of diagnosis.</li>
               <li>Balanced the minority class with SMOTE and tuned XGBoost by grid search with 5-fold cross validation.</li>
               <li>Chose the Brier score as the primary metric to judge calibration of predicted probabilities, with AUC alongside.</li>
-              <li>Built and deployed the R Shiny app that takes diagnosis and treatment inputs and returns a risk probability.</li>
+              <li>Built and deployed the <a href="https://kenzihebert.shinyapps.io/BDSI/" target="_blank" rel="noopener">R Shiny app</a> that takes diagnosis and treatment inputs and returns a 3-year risk probability.</li>
             </ul>
           </div>
           <div>
@@ -228,7 +228,8 @@
 
         <footer class="case-foot reveal">
           <div class="links">
-            <a class="btn btn-solid" href="assets/docs/BDSI-Breast-Cancer-Recurrence-Poster.pdf" target="_blank" rel="noopener">Poster (PDF)</a>
+            <a class="btn btn-solid" href="https://kenzihebert.shinyapps.io/BDSI/" target="_blank" rel="noopener">Try the app</a>
+            <a class="btn" href="assets/docs/BDSI-Breast-Cancer-Recurrence-Poster.pdf" target="_blank" rel="noopener">Poster (PDF)</a>
             <a class="btn" href="https://github.com/kenzihebert/Breast-Cancer-Recurrence" target="_blank" rel="noopener">Code on GitHub</a>
           </div>
           <p class="credit">With Sabina Akelbek (Purdue University). Mentors: Dr. Krithika Suresh, Dr. Nicholas Hartman and Grant Carr. Data: Duke Breast Cancer MRI, The Cancer Imaging Archive (Saha et al., 2018).</p>
