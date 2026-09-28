@@ -1,0 +1,5 @@
+{
+  "_what": "Reminders added by hand. Merged into the countdown strip and the Deadlines card by app.js. The nightly task reads this and never writes it. Delete a row once its date has passed.",
+  "updated": "2026-09-28",
+  "deadlines": []
+}

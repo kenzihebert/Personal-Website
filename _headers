@@ -6,3 +6,7 @@
 
 /assets/*
   Cache-Control: public, max-age=86400
+
+/dashboard/*
+  X-Robots-Tag: noindex, nofollow
+  Cache-Control: no-store

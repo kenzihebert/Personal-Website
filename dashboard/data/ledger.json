@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "updated": "2026-09-28",
+  "_comment": "The nightly task's memory across runs. Read-modify-write each night. postings/people/news/searches are keyed maps; runs is an append-only list of {date, ok, pushed, notes, playbook_change}.",
+  "runs": [],
+  "postings": {},
+  "people": {},
+  "news": {},
+  "searches": {},
+  "total": {
+    "postings": 0,
+    "people": 0,
+    "news": 0,
+    "searches": 0
+  }
+}

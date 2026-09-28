@@ -1,0 +1,12 @@
+{
+  "updated": "2026-09-16",
+  "note": "What you have actually done, kept by hand. A tick on the page is saved in that browser only; it lands here when you report it. The nightly task reads this file and will not list a recorded id in Open now again.",
+  "schema": {
+    "id": "stable slug matching the item id in kenzie.json",
+    "title": "what was done, past tense",
+    "status": "done | waiting  (waiting = applied, awaiting a reply)",
+    "date": "ISO date",
+    "note": "one line"
+  },
+  "done": []
+}
