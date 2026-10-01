@@ -24,11 +24,6 @@
    "status": "critical"
   },
   {
-   "date": "2026-10-30",
-   "label": "Gilead Research Data Sciences closes",
-   "status": "warning"
-  },
-  {
    "date": "2026-10-31",
    "label": "Merck Biostatistics intern closes (New Jersey)"
   },
@@ -58,12 +53,12 @@
        "status": "critical"
       }
      ],
-     "detail": "The numbers tonight: **0** applications recorded in the last 7 days and **0** in the last 14. **18** open rows, **12** of them close by October 31, and **9** close on **October 16**, fifteen days out. The Gilead rows have been on this page since at least September 23.\n\nLikely reason: nine Gilead and Kite rows read like nine separate applications. They are not. Gilead and Kite share one Workday account, so the first one takes an evening and each one after that takes minutes.\n\nOne small change: one sitting this week for **Gilead Epidemiology & RWE**, **Gilead Biostatistics Oncology**, **Gilead Development Biostatistics** and **Kite Data Management**, in that order. If you have already sent any of them, report it so it moves to Completed."
+     "detail": "The numbers tonight: **0** applications recorded in the last 7 days and **0** in the last 14. **17** open rows, **11** of them close by October 31, and **9** close on **October 16**, fifteen days out. The Gilead rows have been on this page since at least September 23.\n\nLikely reason: eight Gilead and Kite rows read like eight separate applications. Gilead and Kite share one Workday account, so the first one takes an evening and each one after that takes minutes.\n\nOne small change: one sitting this week for **Gilead Epidemiology & RWE**, **Gilead Biostatistics Oncology**, **Gilead Development Biostatistics** and **Kite Data Management**, in that order. If you have already sent any of them, report it so it moves to Completed."
     },
     {
      "id": "kz-start-this-week",
      "title": "Worth doing this week",
-     "detail": "**1. The Gilead and Kite sitting** above, before October 16.\n\n**2. Stryker Statistical Programming, Irvine.** New tonight and one of the best fits on the page: clinical research and real-world data in SAS or R, master's named, device company, paid housing or a stipend. It has no close date, which usually means it closes when it fills. Send it this week.\n\n**3. Analysis Group Health Care** (October 28). It wants transcripts and a cover letter naming Los Angeles, so start it now rather than the night before.\n\n**4. Register on Pfizer's Statistics program site.** San Diego is a listed site, interviews run November to March, and it fills rolling."
+     "detail": "**1. The Gilead and Kite sitting** above, before October 16.\n\n**2. Stryker Statistical Programming, Irvine.** One of the best fits on the page: clinical research and real-world data in SAS or R, master's named, device company, paid housing or a stipend. It has no close date, which usually means it closes when it fills. Send it this week.\n\n**3. Analysis Group Health Care** (October 28). It wants transcripts and a cover letter naming Los Angeles, so start it early.\n\n**4. Register on Pfizer's Statistics program site.** San Diego is a listed site, interviews run November to March, and it fills rolling.\n\n**5. Ask your department who went where.** Michigan Biostatistics lists Gilead, Amgen, Kaiser Permanente, Cedars-Sinai, Centene, Medtronic, Pfizer and Johnson & Johnson among the places its graduates were hired. Your program office or SPH Career Services can name an alum at one of them, and one introduction beats a cold application. [Placement list](https://sph.umich.edu/biostat/biostat_placement_data.html)"
     },
     {
      "id": "kz-start-howhiring",
@@ -294,22 +289,6 @@
       }
      ],
      "detail": "Commercial analytics; Biostatistics and Epidemiology are among the preferred fields. Lower on fit with trials. Req R0054598. [Apply](https://gilead.wd1.myworkdayjobs.com/en-US/gileadcareers/job/United-States---California---Foster-City/Intern---Commercial---Corporate-Affairs---Marketing-Sciences--Liver-Integrated-Insights-_R0054598)"
-    },
-    {
-     "id": "kz-gilead-datasci",
-     "title": "Gilead: Research Data Sciences Intern",
-     "location": "Foster City (Bay Area)",
-     "tags": [
-      {
-       "label": "Data science",
-       "status": "warning"
-      },
-      {
-       "label": "Closes Oct 30",
-       "status": "warning"
-      }
-     ],
-     "detail": "Retitled and reposted Sept 28 with a later close date. Research side, PhD preferred. Req R0054572. [Apply](https://gilead.wd1.myworkdayjobs.com/en-US/gileadcareers/job/United-States---California---Foster-City/Intern---Research---Data-Sciences_R0054572)"
     },
     {
      "id": "kz-dexcom-early",
@@ -564,7 +543,7 @@
     },
     {
      "title": "Bay Area",
-     "detail": "**Gilead**, Foster City: eight seats open, seven close Oct 16.\nGenentech, BioMarin, Exelixis, Denali: no summer statistics seats posted.\nStanford Health Care: nothing posted.\nGuardant, GRAIL, Natera: genomics, listed last."
+     "detail": "**Gilead**, Foster City: seven seats open, all close Oct 16.\nGenentech, BioMarin, Exelixis, Denali: no summer statistics seats posted.\nStanford Health Care: nothing posted.\nGuardant, GRAIL, Natera: genomics, listed last."
     },
     {
      "title": "San Diego",
@@ -584,6 +563,11 @@
    "id": "not-a-fit",
    "title": "Checked and not a fit",
    "items": [
+    {
+     "id": "kz-nf-gilead-datasci",
+     "title": "Gilead: Research Data Sciences Intern",
+     "detail": "Moved here tonight after reading the body. The work is oncology target discovery on *single-cell and spatial biology datasets, human genetics resources, functional genomics*, with *Preferred degree level: Ph.D.* Genomics, which you asked to avoid. Say so if you want it back; it closes October 30."
+    },
     {
      "id": "kz-nf-zs",
      "title": "ZS: Decision Analytics Associate Intern",
@@ -617,7 +601,7 @@
     {
      "id": "kz-nf-merck-others",
      "title": "Merck: other 2027 statistics interns",
-     "detail": "Epidemiology & RWE requires PhD students. Statistical Programmer (closes Oct 17), Health Economics & Data Science, Quantitative Pharmacology and Nonclinical Drug Safety are New Jersey, Pennsylvania or Boston only."
+     "detail": "Epidemiology & RWE requires PhD students. Statistical Programmer (closes Oct 17), Health Economics & Data Science, Quantitative Pharmacology and Nonclinical Drug Safety are New Jersey, Pennsylvania or Boston only. Read tonight: **Outcomes Research** (R413998) takes students *pursuing a masters' or PhD* in epidemiology or public health, closes October 30, and is Rahway, New Jersey or Upper Gwynedd, Pennsylvania. Say so if you want East Coast seats listed."
     },
     {
      "id": "kz-nf-precision-ma",
@@ -677,7 +661,7 @@
     {
      "id": "kz-nf-device-wave",
      "title": "Boston Scientific, Alcon, Abbott 2027 interns",
-     "detail": "Minnesota, Texas, Illinois or abroad; none clinical or statistical in your metros."
+     "detail": "Minnesota, Texas, Illinois or abroad; none clinical or statistical in your metros. Boston Scientific's R&D Research Data Science intern takes master's students, but it is deep learning on ECG signals for implant engineers, on site five days a week, and the posting names no site."
     },
     {
      "id": "kz-nf-amgen-undergrad-ds",
@@ -691,8 +675,8 @@
     },
     {
      "id": "kz-nf-misc",
-     "title": "Neurocrine, IQVIA, Molina, Elevance, Banner, USC BeST",
-     "detail": "PhD-only; closed; undergraduate IT; Indianapolis only; high-school programs; unpaid training."
+     "title": "Neurocrine, IQVIA, Molina, Elevance, Banner, Beckman, USC",
+     "detail": "PhD-only; closed; undergraduate IT; Indianapolis only; high-school programs; undergraduate IT data catalog work in Brea; unpaid training."
     }
    ]
   },
@@ -761,13 +745,13 @@
    "items": [
     {
      "id": "kz-blocked-browser",
-     "title": "Read in the browser tonight: 4",
-     "detail": "Denali (no intern reqs), Xencor (6 roles, no intern), Children's Hospital Los Angeles (no intern), and Analysis Group's two postings. TGen's Helios page now returns *page not found*; genomics, not chased."
+     "title": "Read in the browser tonight",
+     "detail": "Denali (no intern reqs), Xencor (6 roles, no intern), Children's Hospital Los Angeles (no intern), and Analysis Group's two postings. Capsida's careers page lists no roles itself and sends you to LinkedIn. Arcutis's job portal loaded with an error and showed 0 positions. TGen's Helios page returns *page not found*; genomics, not chased."
     },
     {
      "id": "kz-blocked-unread",
      "title": "Not covered tonight",
-     "detail": "Arcutis, Puma, Capsida, ImmunityBio, Scripps Research, Salk, Sanford Burnham Prebys and La Jolla Institute have no feed and were not opened tonight; their summer programs have been undergraduate. Intuitive Surgical and BD were tried and their job feeds did not answer."
+     "detail": "Puma, ImmunityBio, Scripps Research, Salk, Sanford Burnham Prebys and La Jolla Institute have no feed and were not opened tonight; their summer programs have been undergraduate. Intuitive Surgical and BD were tried and their job feeds did not answer."
     }
    ]
   },

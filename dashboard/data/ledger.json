@@ -13,6 +13,17 @@
    "pushed": true,
    "playbook_change": "v2: first real playbook from run 1",
    "notes": "First full run. The 09-29 and 09-30 runs left no trace (no commit, no log entry). Page rewritten to schema: title Your search, ids on every item, location field. New: Stryker Irvine. Moved out: ZS, J&J RDLDP, RAND, Gilead ClinOps and L&D, closed HonorHealth and J&J Jacksonville. Amgen grad DS req says no deadline, so the standing Nov 7 date was dropped."
+  },
+  {
+   "date": "2026-10-01",
+   "ok": true,
+   "new_postings": 0,
+   "searches_run": 6,
+   "searches_dry": 3,
+   "boards_read_in_browser": 2,
+   "pushed": true,
+   "playbook_change": "v3: phrase search across all Workday boards recorded as working; Gilead Data Sciences lesson",
+   "notes": "Second firing on the same date; the first run pushed at 11:46 and this one started at 11:47. Sweep identical (399 intern rows, none new or gone). Delta only: Gilead Research Data Sciences moved to not-a-fit after body read (genomics, PhD preferred; req id is now R0055524); Merck Outcomes Research R413998 and Boston Scientific R&D data science noted under not-a-fit; Michigan placement list added to Start. If the schedule keeps double-firing, check the scheduler."
   }
  ],
  "postings": {
@@ -108,11 +119,11 @@
    "status": "open"
   },
   "https://gilead.wd1.myworkdayjobs.com/en-US/gileadcareers/job/United-States---California---Foster-City/Intern---Research---Data-Sciences_R0054572": {
-   "id": "kz-gilead-datasci",
+   "id": "kz-nf-gilead-datasci",
    "title": "Gilead: Research Data Sciences Intern",
    "first_seen": "2026-10-01",
    "last_seen": "2026-10-01",
-   "status": "open"
+   "status": "not-a-fit"
   },
   "https://dexcom.wd1.myworkdayjobs.com/en-US/dexcom/job/San-Diego-California/XMLNAME-2027-US-Summer-Internship---Early-Interest_JR116511": {
    "id": "kz-dexcom-early",
@@ -340,6 +351,24 @@
    "first_seen": "2026-10-01",
    "last_seen": "2026-10-01",
    "status": "filled"
+  },
+  "https://msd.wd5.myworkdayjobs.com/en-US/SearchJobs/job/USA---New-Jersey---Rahway/XMLNAME-2027-Future-Talent-Program---Value---Implementation---Outcomes-Research-Intern_R413998": {
+   "title": "Merck: Outcomes Research Intern (NJ/PA, MS eligible, closes Oct 30)",
+   "first_seen": "2026-10-01",
+   "last_seen": "2026-10-01",
+   "status": "not-a-fit"
+  },
+  "https://bostonscientific.eightfold.ai/careers/job/563602813667382": {
+   "title": "Boston Scientific: R&D Research Data Science Intern (ECG deep learning, site not stated)",
+   "first_seen": "2026-10-01",
+   "last_seen": "2026-10-01",
+   "status": "not-a-fit"
+  },
+  "https://danaher.wd1.myworkdayjobs.com/en-US/DanaherJobs/job/Brea-California-United-States/IT-Data-Analyst-Intern_R1316675": {
+   "title": "Beckman Coulter: IT Data Analyst Intern, Brea (undergraduate IT)",
+   "first_seen": "2026-10-01",
+   "last_seen": "2026-10-01",
+   "status": "not-a-fit"
   }
  },
  "people": {},
@@ -348,7 +377,7 @@
   "sweep-boards-Z": {
    "query": "sweep_boards.py --who Z",
    "last_run": "2026-10-01",
-   "result": "66 boards, 4 BLOCKED; 1 relevant new row family checked",
+   "result": "66 boards, 4 BLOCKED; second sweep today identical, 399 intern rows",
    "status": "open",
    "empty_runs": 0
   },
@@ -428,12 +457,54 @@
    "result": "RAND moved to not-a-fit (MS not considered); Medtronic master's window closes Oct 13; Amgen req says no deadline",
    "status": "open",
    "empty_runs": 0
+  },
+  "explore-workday-phrases": {
+   "query": "6 phrases (statistical programming, biostatistics, epidemiology, summer 2027, real world evidence, co-op statistics) on all 35 Workday boards plus Stryker, no intern filter",
+   "last_run": "2026-10-01",
+   "result": "Merck Outcomes Research R413998; Beckman IT Data Analyst; Gilead Data Sciences req id R0055524; nothing new in her metros",
+   "status": "open",
+   "empty_runs": 0
+  },
+  "explore-umich-placement": {
+   "query": "Michigan SPH biostatistics placement and internship pages, for named recruiters",
+   "last_run": "2026-10-01",
+   "result": "employer list only (Gilead, Amgen, Kaiser, Cedars-Sinai, Centene, Medtronic, Pfizer, J&J); no named people",
+   "status": "answered",
+   "empty_runs": 0
+  },
+  "browser-arcutis": {
+   "query": "Arcutis job portal (jobs.mix-talent.com/arcutis) in browser",
+   "last_run": "2026-10-01",
+   "result": "portal error, 0 positions shown",
+   "status": "open",
+   "empty_runs": 1
+  },
+  "browser-capsida": {
+   "query": "capsida.com/careers in browser",
+   "last_run": "2026-10-01",
+   "result": "no listings on site; links to LinkedIn jobs",
+   "status": "blocked",
+   "empty_runs": 0
+  },
+  "verify-offsweep-rows": {
+   "query": "Workday job endpoint for Stryker, BRG, Centene, Gilead Data Sciences",
+   "last_run": "2026-10-01",
+   "result": "all four live; Gilead DS end 2026-10-30, others no end date",
+   "status": "open",
+   "empty_runs": 0
+  },
+  "explore-bsc-datasci": {
+   "query": "Boston Scientific R&D Research Data Science Intern body",
+   "last_run": "2026-10-01",
+   "result": "MS eligible, ECG deep learning, onsite, site not stated; not a fit",
+   "status": "answered",
+   "empty_runs": 0
   }
  },
  "total": {
-  "postings": 49,
+  "postings": 52,
   "people": 0,
   "news": 0,
-  "searches": 12
+  "searches": 18
  }
 }

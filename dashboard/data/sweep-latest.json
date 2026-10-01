@@ -457,7 +457,7 @@
    "system": "workday",
    "key": "jj.wd5.myworkdayjobs.com|jj|JJ|Irvine intern,biostatistics intern,clinical data intern",
    "status": "ok",
-   "total": 404,
+   "total": 406,
    "intern": [
     {
      "title": "Summer 2027 MBA Internship- MedTech Marketing Leadership Development Program (MLDP)",
@@ -1287,7 +1287,7 @@
    "system": "smartrecruiters",
    "key": "HenryFordHealth1",
    "status": "ok",
-   "total": 98,
+   "total": 99,
    "intern": [
     {
      "title": "Pharmacy Intern - Inpatient - Contingent - St. Johns",
@@ -3043,7 +3043,7 @@
    "system": "oraclehcm",
    "key": "evac.fa.us2.oraclecloud.com|CX_1|intern",
    "status": "ok",
-   "total": 93,
+   "total": 92,
    "intern": []
   },
   "Dignity Health / CommonSpirit": {
