@@ -1,77 +1,79 @@
 # Research playbook
 
-**v3, 2026-10-01 (second run of the day).** Rewritten every run. Hard cap 6 KB.
+**v4, 2026-10-02.** Rewritten every run. Hard cap 6 KB.
 
 ## Who this is for
 
 MS Biostatistics, Michigan, May 2028. Summer 2027 internship with a return offer. Master's only.
 Private sector only. Trials, devices, health analytics; genomics last.
 
-## What is working (last confirmed 2026-10-01)
+## What is working (last confirmed 2026-10-02)
 
-- Workday `cxs` job endpoint gives `endDate` and the full body for every Workday req. Call it
-  with curl; Python's urllib fails certificate checks on this machine.
-- Phrase search with no intern filter across all 35 Workday boards (six phrases, about two
-  minutes). It surfaced Merck Outcomes Research, and showed Gilead Data Sciences now carries
-  req id R0055524. Run it weekly, not nightly.
-- iCIMS boards (Analysis Group, Pfizer) read in the browser via the `icims_content_iframe`
-  contentDocument. `fetch_posting_text.py` cannot fetch them (2 MISS every run); expected.
-- Searching an employer's own Workday by phrase found Stryker R572769.
+- Workday `cxs` job endpoint: `endDate`, body and liveness for every Workday row in one pass.
+  Use curl; Python's urllib fails certificate checks here.
+- Phrase search on device boards. "summer 2027" on Edwards found Clinical & Regulatory
+  Req-49745 (statistics named, closes Nov 1), which the sweep's `intern,biostatistics` filter
+  missed for a month. Run the phrase pass on all Workday boards weekly; device boards nightly.
+- Reading the employer's own program page beats the standing dates: Edwards' Clinical track
+  is Sep to Oct, not Jan to Apr.
+- iCIMS boards (Analysis Group, Pfizer program) read in the browser via the
+  `icims_content_iframe` contentDocument.
+- University-side contacts are findable: the SPH career fairs page names its coordinator.
 
 ## What is not working
 
-- Scheduling. 09-29 and 09-30 left no trace, then 10-01 fired twice a minute apart. A second
-  run on the same day should do delta work only: re-sweep, diff, body-read anything ranked on
-  its title, then the exploration queue.
-- 0 applications recorded while 9 rows close Oct 16. `kenzie-done.json` was last edited 09-16,
-  so either nothing is sent or nothing is reported. Cannot tell which from here.
-- Named people: zero. Michigan's placement and internship pages list employers only.
-- Titles mislead. Gilead Research Data Sciences sat in Open now on its title; the body is
-  functional genomics with PhD preferred. Gilead HEOR is qualitative work. Rank on the body.
-- Small LA biotechs: Capsida posts only on LinkedIn, Arcutis's portal errors. Low yield.
+- 0 applications recorded while 9 rows close Oct 16. Diagnosis given 10-01, escalated with the
+  cost 10-02. Drop it now; watch `kenzie-done.json`. Do not repeat it on 10-03.
+- `fetch_posting_text.py` overwrites the Analysis Group files with "could not fetch" stubs every
+  run. Restore the body by hand from the browser after running it, or skip iCIMS rows.
+- Employer-side named people: zero. Web search for recruiters returns LinkedIn only.
+- Small LA biotechs (Puma 403, Capsida LinkedIn-only, Arcutis portal error, Xencor, ImmunityBio,
+  Denali): six reads, nothing. Check weekly, not nightly.
+- Titles mislead (Gilead Research Data Sciences, Gilead HEOR, Kite Project Management). Rank on
+  the body.
 
 ## Targets
 
-- Gilead/Kite batch (Oct 16), Analysis Group HC (Oct 28), Stryker Irvine (rolling).
-- Watch for posting: Kite stats grad (Oct to Jan), Amgen R&D biostat, Edwards (Jan), Pfizer
-  stats listings, BMS San Diego, Kaiser R&E (Feb).
+- Gilead/Kite batch (Oct 16), BRG (Oct 16), Analysis Group HC (Oct 28), Edwards C&R (Nov 1),
+  Stryker Irvine (rolling).
+- Watch for posting: Kite stats grad (Oct to Jan), Pfizer stats positions list (empty 10-02),
+  Amgen R&D biostat, BMS San Diego, Kaiser R&E (Feb), Blue Shield (no 2027 yet).
 
 ## Hypotheses
 
-- H1: the long Gilead list reads as separate jobs and stalls action. Kill: an application
-  recorded within 7 days of framing it as one sitting (by Oct 8).
-- H2: SoCal device companies post MS statistics seats in fall outside the sweep. Kill: three more
-  device boards searched by phrase with nothing. Count so far: Danaher/Beckman nothing (1 of 3).
+- H1: framing the Gilead rows as one sitting gets an application out. Kill: nothing recorded
+  in `kenzie-done.json` by Oct 8.
+- H2: SoCal device companies post MS statistics seats in fall outside the sweep. Count: Edwards
+  confirms (1 hit), Danaher nothing. Kill: next two device boards (BD, Intuitive, Masimo)
+  phrase-searched with nothing.
 - H3: CRO US summer interns post after November. Kill: a US biostat intern at a CRO before Nov 15.
-- H4: a department introduction produces a named contact faster than web search. Kill: no name
-  on file by Oct 15.
+- H4: a university contact produces an employer name faster than web search. Kill: no
+  employer-side name on file by Oct 31.
 
 ## Exploration queue (never empty)
 
-1. Phrase-search BD, Intuitive, Baxter, Bausch, Insulet once their Workday hosts are confirmed
-   from their own careers pages.
-2. SPH Career Services employer-engagement page and its events calendar: which target
-   employers visit campus this fall, and who is named as the contact.
-3. Cytel and Certara career pages directly (sweep sees 0 to 1 rows; Certara's one is UK).
-4. Health plans with actuarial or analytics grad interns in CA: Blue Shield, Kaiser Health
-   Plan analytics.
-5. Exponent student page re-check after Oct 15.
-6. Puma (it has a statistical programming group in LA) and ImmunityBio official careers pages.
+1. Masimo, BD, Intuitive, Baxter, Insulet: find Workday hosts from their own careers pages,
+   then phrase-search "summer 2027" and "clinical".
+2. Amgen, Kite, J&J, Dexcom: phrase-search "clinical" and "statistic" (Edwards lesson).
+3. Health plans: Kaiser Health Plan analytics, Molina actuarial, Blue Shield Oracle portal.
+4. Exponent student page re-check after Oct 15.
+5. Cytel and Certara careers pages directly (sweep sees 0 to 1 rows).
 
 ## Notes to self
 
 - RAND is in not-a-fit; do not carry its Dec date.
-- Medtronic master's window closes Oct 13; no CA or AZ seat to apply to.
-- Stryker remote Data Science is commercial; do not re-surface.
-- Merck rule: one out-of-metro exception (Biostatistics). Outcomes Research R413998 is MS
-  eligible but New Jersey or Pennsylvania; it sits in not-a-fit with an offer to list it.
-- Boston Scientific R&D Research Data Science: ECG deep learning, no site named. Not a fit.
-- Diagnosis was given 10-01. Next night escalate once with the cost, then drop it.
+- Medtronic master's window closes Oct 13 (confirmed 10-02); no CA or AZ seat to apply to.
+- Merck rule: one out-of-metro exception (Biostatistics). Outcomes Research and Clinical Trial
+  Data Management are NJ/PA; not-a-fit.
+- Pfizer program: move to Open now only when its positions list shows a Statistics req.
+- Contacts section added 10-02 (`people`). Renderer handles it.
 
 ## Proposed core changes
 
-- Standing dates in the core instructions are stale: RAND Dec 2 cannot be confirmed (its page
-  excludes biostat MS students); Amgen grad DS says no deadline, where the core says Nov 7.
-  Suggest removing both.
-- Add Stryker to `sweep_boards.py` (`stryker.wd1.myworkdayjobs.com|stryker|StrykerCareers|intern`).
-- Say what a second run on the same date should do, or have the scheduler skip it.
+- Standing dates are stale: "Edwards opens Jan to Apr" is wrong for its Clinical & Regulatory
+  track (Sep to Oct, Req-49745 closes Nov 1). RAND Dec 2 cannot be confirmed (its page excludes
+  biostat MS students). Amgen grad DS says no deadline, not Nov 7. Suggest removing all three.
+- Add `summer 2027` and `clinical` to the Edwards row's search terms in `sweep_boards.py`.
+- Add Stryker (`stryker.wd1.myworkdayjobs.com|stryker|StrykerCareers|intern`) and Denali
+  (`dnli.wd1.myworkdayjobs.com|dnli|Development|intern`) to `sweep_boards.py`.
+- Have `fetch_posting_text.py` skip writing when a fetch fails, so saved bodies are not lost.
