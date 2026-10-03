@@ -14,7 +14,7 @@
   var MODULES = [
     { id: 'kenzie', label: 'Career', icon: 'target', src: 'data/kenzie.json', ledger: 'data/ledger.json',
       done: 'data/kenzie-done.json', reminders: 'data/reminders.json',
-      stale: { days: 2, task: 'kenzie-research' }, reader: true, enabled: true }
+      stale: { days: 2, task: 'kenzie-research' }, reader: true, apps: { kind: 'done', cycle: 'summer-2027' }, enabled: true }
   ];
 
   // Staleness is opt-in per module via `stale: { days, task }`. Hand-maintained tabs (Targets,
@@ -518,6 +518,481 @@
     }).join('') + '</div>';
   }
 
+
+  /* ---------------- applications card ----------------
+     One place for every application and its outcome. Rows are merged by id
+     from four places:
+       1. the data file: on the career tab the Notion mirror (counter.src),
+          every row that was actually sent; on a reader page the done file.
+       2. postings ticked on this page but not yet in the data file.
+       3. rows added here by hand, for the ones found elsewhere and applied to
+          anyway. Stored in localStorage (`dash-apps`).
+       4. outcome and note overrides set here, same store.
+     Outcomes: waiting, interview, offer, rejected, withdrawn, closed.
+
+     Sync: when the site has the /api/apps Pages Function with a KV binding,
+     the local store is merged with the server copy on load and pushed on
+     every change, so phone and desktop agree and the nightly task can read
+     it. Without it the card says plainly that edits live on this device only.
+  ---------------------------------------------------- */
+  var OUTCOMES = [
+    ['waiting',   'Waiting',   'warning'],
+    ['interview', 'Interview', 'good'],
+    ['offer',     'Offer',     'good'],
+    ['rejected',  'Rejected',  'critical'],
+    ['withdrawn', 'Withdrawn', ''],
+    ['closed',    'Closed',    '']
+  ];
+  var OUTCOME_LABEL = {}, OUTCOME_STATUS = {};
+  OUTCOMES.forEach(function (o) { OUTCOME_LABEL[o[0]] = o[1]; OUTCOME_STATUS[o[0]] = o[2]; });
+
+  var remoteAppsDoc = null;      // last GET /api/apps result, or null
+  var appsFilter = 'all';
+  var appsShowOlder = false;
+  var appsAddOpen = false;
+  var appsSyncState = 'local';   // local | needs-key | synced | rejected | offline
+
+  function appsEnabled() { return !!(currentMod && currentMod.apps); }
+
+  function appsStore() {
+    try { return JSON.parse(localStorage.getItem('dash-apps') || '{"manual":[],"overrides":{}}'); }
+    catch (e) { return { manual: [], overrides: {} }; }
+  }
+  function saveAppsStore(s) {
+    s.updated = new Date().toISOString();
+    try { localStorage.setItem('dash-apps', JSON.stringify(s)); } catch (e) {}
+    return s;
+  }
+  function appsKey() { try { return localStorage.getItem('dash-apps-key') || ''; } catch (e) { return ''; } }
+
+  function localToday() {
+    var d = new Date();
+    return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
+  }
+
+  // Newer `updated` wins per id. Removed manual rows stay as tombstones so a
+  // removal made on one device reaches the others.
+  function mergeApps(a, b) {
+    var m = {}, o = {};
+    [a, b].forEach(function (d) {
+      if (!d) return;
+      (d.manual || []).forEach(function (x) {
+        if (!x || !x.id) return;
+        if (!m[x.id] || String(x.updated || '') > String(m[x.id].updated || '')) m[x.id] = x;
+      });
+      Object.keys(d.overrides || {}).forEach(function (id) {
+        var x = d.overrides[id];
+        if (!x) return;
+        if (!o[id] || String(x.updated || '') > String(o[id].updated || '')) o[id] = x;
+      });
+    });
+    return { manual: Object.keys(m).map(function (k) { return m[k]; }), overrides: o };
+  }
+
+  function normUrl(u) {
+    return String(u || '').toLowerCase().replace(/^https?:\/\/(www\.)?/, '').replace(/[?#].*$/, '').replace(/\/+$/, '');
+  }
+  // A posting URL identifies one requisition only when it goes deeper than
+  // the board root (jobs.ashbyhq.com/acme/<id>, not job-boards.greenhouse.io/acme).
+  function specificUrl(u) {
+    var n = normUrl(u);
+    return n && n.split('/').length >= 3 ? n : '';
+  }
+  // The mirror leaves company empty when Notion has no option for it. Fall
+  // back to the note, then to the board slug in the URL.
+  function guessCompany(r) {
+    if (r.company) return r.company;
+    var m = /company is ([^,.;]+)/i.exec(r.note || '');
+    if (m) return m[1].trim();
+    var u = String(r.url || '');
+    var b = /greenhouse\.io\/([^\/?#]+)/.exec(u) || /ashbyhq\.com\/([^\/?#]+)/.exec(u) || /lever\.co\/([^\/?#]+)/.exec(u) || /^https?:\/\/([^.\/]+)\.wd\d/.exec(u);
+    if (b) return b[1].charAt(0).toUpperCase() + b[1].slice(1);
+    return '';
+  }
+  // "3. Varda: Vehicle Integration & Test Internship" -> company Varda, role the rest.
+  // A title with no colon is all company; the role stays empty.
+  function splitTitle(t) {
+    var s = String(t || '').replace(/^\s*\d+\.\s*/, '').trim();
+    var m = /^([^:]{1,60}):\s*(.+)$/.exec(s);
+    return m ? { company: m[1].trim(), role: m[2].trim() } : { company: s, role: '' };
+  }
+
+  // Rows from the data file and from ticks on this page, before overrides.
+  function appsBaseRows() {
+    var mod = currentMod, out = [];
+    if (!mod || !mod.apps) return out;
+    var c = cache[mod.id] || {};
+
+    if (mod.apps.kind === 'notion') {
+      var rows = (counterDoc && (counterDoc.applications || counterDoc.rows)) || [];
+      rows.forEach(function (r) {
+        if (!r) return;
+        var st = String(r.stage || '').toLowerCase();
+        var byMail = !!r.mail_confirmation;
+        if (!SENT[st] && !byMail) return;
+        var outcome = st === 'rejected' ? 'rejected' : (st === 'offered' || st === 'signed') ? 'offer' : st === 'closed' ? 'closed' : 'waiting';
+        out.push({
+          id: 'n-' + hash([r.company || '', r.position || '', r.req || '', r.url || ''].join('|').toLowerCase()),
+          company: guessCompany(r), role: r.position || '', location: '', url: r.url || '',
+          applied: r.applied || (byMail && r.mail_confirmation.date) || '',
+          outcome: outcome, cycle: r.cycle || '',
+          source: byMail && !SENT[st] ? 'email' : 'notion',
+          note: r.note || '', req: r.req || ''
+        });
+      });
+    } else if (mod.apps.kind === 'done') {
+      ((c.done && c.done.done) || []).forEach(function (r) {
+        if (!r || !r.id) return;
+        if (r.status !== 'waiting' && !/\bapplied\b/i.test(r.title || '')) return;
+        out.push({ id: r.id, company: r.title || r.id, role: '', location: '', url: '', applied: r.date || '',
+          outcome: 'waiting', cycle: mod.apps.cycle || '', source: 'record', note: r.note || '', req: '' });
+      });
+    }
+
+    // Postings ticked here and not yet in the data file. The nightly task
+    // moves them into the file; the URL match below then hides this copy.
+    var ticks = localDone();
+    ((c.data && c.data.sections) || []).forEach(function (sec) {
+      if (!sec || !sec.checkable || !/postings|apply/.test(sec.id || '')) return;
+      (sec.items || sec.rows || []).forEach(function (raw) {
+        if (!raw || typeof raw !== 'object') return;
+        var key = itemKey(raw);
+        if (!ticks[key] || remoteDone[key]) return;
+        var link = lastLink(raw.detail);
+        var when = new Date(Number(ticks[key]));
+        var parts = splitTitle(raw.title);
+        out.push({
+          id: 'tick-' + key, company: raw.company || parts.company, role: parts.role,
+          location: raw.location || '', url: link ? link.url : '',
+          applied: isNaN(when) ? '' : when.getFullYear() + '-' + String(when.getMonth() + 1).padStart(2, '0') + '-' + String(when.getDate()).padStart(2, '0'),
+          outcome: 'waiting', cycle: (mod.apps.cycle || (mod.counter && mod.counter.cycle) || ''), source: 'ticked', note: '', req: ''
+        });
+      });
+    });
+    return out;
+  }
+
+  // Everything, merged: file rows, ticks and manual rows, with overrides
+  // applied and duplicates folded (same URL, or same company and role).
+  function appsList() {
+    if (!appsEnabled()) return null;
+    var store = mergeApps(appsStore(), remoteAppsDoc && remoteAppsDoc.configured ? remoteAppsDoc : null);
+    var rows = appsBaseRows();
+    (store.manual || []).forEach(function (m) {
+      if (!m || m.deleted) return;
+      rows.push(Object.assign({ source: 'manual' }, m));
+    });
+    rows.forEach(function (r) {
+      var o = store.overrides[r.id];
+      if (o) {
+        if (o.outcome) r.outcome = o.outcome;
+        if (o.note !== undefined && o.note !== null) r.note = o.note;
+      }
+    });
+    // Fold a tick or hand row into the file row for the same requisition
+    // (same posting URL, or same company and role). File rows are never
+    // folded into each other: two reqs at one company are two applications.
+    // The hand row's outcome survives when the file still says waiting, so a
+    // rejection set here is not lost when the row later appears in the file.
+    var seen = {}, out = [];
+    var rank = { notion: 0, email: 0, record: 0, ticked: 1, manual: 2 };
+    rows.sort(function (a, b) { return (rank[a.source] || 0) - (rank[b.source] || 0); });
+    rows.forEach(function (r) {
+      var keys = [];
+      if (specificUrl(r.url)) keys.push('u:' + specificUrl(r.url));
+      if (r.company && r.role) keys.push('c:' + normCompany(r.company) + '|' + normCompany(r.role));
+      var dup = null;
+      keys.forEach(function (k) { if (!dup && seen[k]) dup = seen[k]; });
+      if (dup && (rank[r.source] || 0) <= (rank[dup.source] || 0)) dup = null;
+      if (dup) {
+        if (dup.outcome === 'waiting' && r.outcome !== 'waiting') dup.outcome = r.outcome;
+        if (!dup.note && r.note) dup.note = r.note;
+        if (!dup.location && r.location) dup.location = r.location;
+        dup.folded = (dup.folded || 0) + 1;
+        return;
+      }
+      keys.forEach(function (k) { seen[k] = r; });
+      out.push(r);
+    });
+    return out;
+  }
+
+  function appsCurrentCycle() {
+    var mod = currentMod;
+    return (mod && mod.apps && mod.apps.cycle) || (mod && mod.counter && mod.counter.cycle) || '';
+  }
+
+  function appsStats(rows) {
+    var cyc = appsCurrentCycle();
+    var s = { sent: 0, waiting: 0, interview: 0, offer: 0, rejected: 0, withdrawn: 0, closed: 0, ticked: 0 };
+    rows.forEach(function (r) {
+      if (cyc && r.cycle && r.cycle !== cyc) return;
+      s.sent++;
+      if (s[r.outcome] !== undefined) s[r.outcome]++;
+      if (r.source === 'ticked') s.ticked++;
+    });
+    return s;
+  }
+
+  var OUTCOME_ORDER = { interview: 0, offer: 0, waiting: 1, rejected: 2, withdrawn: 3, closed: 3 };
+  var SOURCE_TEXT = {
+    manual: 'added on the dashboard', email: 'sent per the employer confirmation email', notion: 'from Notion',
+    record: 'from the record', ticked: 'ticked on this page, not in the record yet'
+  };
+
+  function renderAppRow(r) {
+    var badge = tag({ label: OUTCOME_LABEL[r.outcome] || r.outcome, status: OUTCOME_STATUS[r.outcome] || '' });
+    var src = r.source === 'manual' ? '<span class="tag">added here</span>' :
+              r.source === 'ticked' ? '<span class="tag">ticked here</span>' :
+              r.source === 'email' ? '<span class="tag" title="Sent per the employer confirmation email">email</span>' : '';
+    var title = '<span class="item-title"><b>' + escapeHtml(r.company || r.role) + '</b>' +
+      (r.role && r.company ? ': ' + escapeHtml(r.role) : '') + ' ' + badge + src +
+      (r.applied ? '<span class="apps-date">' + escapeHtml(fmtDate(r.applied)) + '</span>' : '') + '</span>';
+    var buttons = OUTCOMES.map(function (o) {
+      return '<button type="button" class="apps-btn' + (r.outcome === o[0] ? ' on' : '') + '" data-apps="outcome" data-id="' +
+        escapeHtml(r.id) + '" data-value="' + o[0] + '">' + o[1] + '</button>';
+    }).join('');
+    var meta = [];
+    if (r.location) meta.push(escapeHtml(r.location));
+    if (r.req) meta.push('req ' + escapeHtml(r.req));
+    if (r.cycle) meta.push(escapeHtml(r.cycle));
+    meta.push(SOURCE_TEXT[r.source] || r.source);
+    if (r.url) meta.push('<a href="' + escapeHtml(r.url) + '" target="_blank" rel="noopener noreferrer">open posting</a>');
+    return '<li class="item has-status apps-row" data-open="false" data-key="' + escapeHtml(r.id) + '" style="--s:var(--' + (OUTCOME_STATUS[r.outcome] || 'border-2') + ')">' +
+      '<button class="item-head" type="button" aria-expanded="false">' + svg('chev', 'item-chev') + title + '</button>' +
+      '<div class="item-body"><div><div class="item-detail apps-detail">' +
+        '<div class="apps-meta">' + meta.join(' · ') + '</div>' +
+        '<div class="apps-outcomes">' + buttons + '</div>' +
+        '<textarea class="apps-note" data-id="' + escapeHtml(r.id) + '" rows="2" placeholder="Note: who you heard from, next step, anything worth remembering">' + escapeHtml(r.note || '') + '</textarea>' +
+        '<div class="apps-actions"><button type="button" class="apps-btn" data-apps="save-note" data-id="' + escapeHtml(r.id) + '">Save note</button>' +
+        (r.source === 'manual' ? '<button type="button" class="apps-btn danger" data-apps="remove" data-id="' + escapeHtml(r.id) + '">Remove</button>' : '') +
+        '</div></div></div></div></li>';
+  }
+
+  function appsSyncText() {
+    if (appsSyncState === 'synced') return 'Synced across your devices.';
+    if (appsSyncState === 'needs-key') return 'Sync is set up on the server. <button type="button" class="apps-link" data-apps="key">Enter the passphrase</button> once on this device to turn it on.';
+    if (appsSyncState === 'rejected') return 'The server rejected the passphrase. <button type="button" class="apps-link" data-apps="key">Enter it again</button>.';
+    if (appsSyncState === 'offline') return 'Could not reach the sync server. Edits are saved here and will sync when it is back.';
+    return 'Edits are saved on this device only until sync is set up (KV binding APPS and variable APPS_KEY on the Pages project).';
+  }
+
+  function renderAppsCard() {
+    var rows = appsList();
+    if (rows === null) return '';
+    var cyc = appsCurrentCycle();
+    var s = appsStats(rows);
+    var older = cyc ? rows.filter(function (r) { return r.cycle && r.cycle !== cyc; }) : [];
+    var current = cyc ? rows.filter(function (r) { return !r.cycle || r.cycle === cyc; }) : rows.slice();
+    var shown = (appsShowOlder ? rows.slice() : current).filter(function (r) {
+      return appsFilter === 'all' || r.outcome === appsFilter;
+    });
+    shown.sort(function (a, b) {
+      var d = (OUTCOME_ORDER[a.outcome] === undefined ? 1 : OUTCOME_ORDER[a.outcome]) - (OUTCOME_ORDER[b.outcome] === undefined ? 1 : OUTCOME_ORDER[b.outcome]);
+      if (d) return d;
+      return (b.applied || '') < (a.applied || '') ? -1 : (b.applied || '') > (a.applied || '') ? 1 : 0;
+    });
+    var chips = [['all', 'All'], ['waiting', 'Waiting'], ['interview', 'Interview'], ['offer', 'Offer'], ['rejected', 'Rejected']].map(function (c) {
+      return '<button type="button" class="apps-chip' + (appsFilter === c[0] ? ' on' : '') + '" data-apps="filter" data-value="' + c[0] + '">' + c[1] + '</button>';
+    }).join('');
+    if (older.length) {
+      chips += '<button type="button" class="apps-chip' + (appsShowOlder ? ' on' : '') + '" data-apps="older">' +
+        (appsShowOlder ? 'Hide earlier cycles' : 'Earlier cycles (' + older.length + ')') + '</button>';
+    }
+    var summary = s.sent + ' sent' + (cyc ? ' this cycle' : '') +
+      (s.waiting ? ' · ' + s.waiting + ' waiting' : '') +
+      (s.interview ? ' · ' + s.interview + ' interview' + (s.interview > 1 ? 's' : '') : '') +
+      (s.offer ? ' · ' + s.offer + ' offer' + (s.offer > 1 ? 's' : '') : '') +
+      (s.rejected ? ' · ' + s.rejected + ' rejected' : '') +
+      (s.withdrawn + s.closed ? ' · ' + (s.withdrawn + s.closed) + ' withdrawn or closed' : '');
+
+    var form = appsAddOpen ?
+      '<form class="apps-form" data-apps="form">' +
+        '<input name="company" placeholder="Company (required)" required autocomplete="organization">' +
+        '<input name="role" placeholder="Role">' +
+        '<input name="location" placeholder="City or remote">' +
+        '<input name="url" placeholder="Posting URL" inputmode="url">' +
+        '<label>Applied <input name="applied" type="date" value="' + localToday() + '"></label>' +
+        '<label>Outcome <select name="outcome">' + OUTCOMES.map(function (o) { return '<option value="' + o[0] + '">' + o[1] + '</option>'; }).join('') + '</select></label>' +
+        '<div class="apps-actions"><button type="submit" class="apps-btn on">Add application</button>' +
+        '<button type="button" class="apps-btn" data-apps="cancel">Cancel</button></div>' +
+      '</form>' : '';
+
+    return '<section class="card apps-card span-full" data-sid="applications" data-collapsed="false">' +
+      '<div class="card-head"><span class="card-icon">' + svg('case') + '</span>' +
+        '<h2 class="card-title">Applications</h2><span class="card-count">' + s.sent + '</span>' +
+        '<button type="button" class="apps-btn on apps-add" data-apps="add">' + (appsAddOpen ? 'Close' : '+ Add one') + '</button>' +
+        '<button class="card-toggle" type="button" aria-label="Collapse section">' + svg('chev') + '</button></div>' +
+      '<div class="card-body"><div>' +
+        '<div class="apps-summary">' + escapeHtml(summary) + '</div>' +
+        form +
+        '<div class="apps-chips">' + chips + '</div>' +
+        (shown.length ? '<ul class="items">' + shown.map(renderAppRow).join('') + '</ul>'
+                      : '<p class="card-note" style="border:0">Nothing here yet' + (appsFilter !== 'all' ? ' with that outcome' : '') + '. Use + Add one for anything you applied to elsewhere.</p>') +
+        '<p class="card-note apps-sync">' + appsSyncText() + '</p>' +
+      '</div></div></section>';
+  }
+
+  // Redraw the card in place, keeping open rows open and the fold state.
+  function rerenderApps() {
+    var old = document.querySelector('.apps-card');
+    if (!old) return;
+    var open = {};
+    Array.prototype.forEach.call(old.querySelectorAll('.apps-row[data-open="true"]'), function (li) { open[li.dataset.key] = 1; });
+    var folded = old.getAttribute('data-collapsed') === 'true';
+    old.outerHTML = renderAppsCard();
+    var card = document.querySelector('.apps-card');
+    if (card) {
+      if (folded) { card.setAttribute('data-collapsed', 'true'); var b = card.querySelector('.card-body'); if (b) b.style.height = '0px'; }
+      Array.prototype.forEach.call(card.querySelectorAll('.apps-row'), function (li) {
+        if (!open[li.dataset.key]) return;
+        li.setAttribute('data-open', 'true');
+        var h = li.querySelector('.item-head'); if (h) h.setAttribute('aria-expanded', 'true');
+        var body = li.querySelector('.item-body'); if (body) body.style.height = 'auto';
+      });
+    }
+    if (typeof refreshCounter === 'function') refreshCounter();
+  }
+
+  function setSyncText() {
+    var el = document.querySelector('.apps-sync');
+    if (el) el.innerHTML = appsSyncText();
+  }
+
+  function pushApps() {
+    if (!remoteAppsDoc || !remoteAppsDoc.configured) return;
+    var key = appsKey();
+    if (!key) { appsSyncState = 'needs-key'; setSyncText(); return; }
+    var s = appsStore();
+    fetch('/api/apps', { method: 'POST', cache: 'no-store',
+      headers: { 'content-type': 'application/json', 'authorization': 'Bearer ' + key },
+      body: JSON.stringify({ manual: s.manual || [], overrides: s.overrides || {} }) })
+      .then(function (r) {
+        if (r.status === 401) { appsSyncState = 'rejected'; try { localStorage.removeItem('dash-apps-key'); } catch (e) {} return null; }
+        if (!r.ok) throw new Error(r.status);
+        return r.json();
+      })
+      .then(function (doc) {
+        if (doc) {
+          remoteAppsDoc = doc;
+          var merged = mergeApps(appsStore(), doc);
+          merged.updated = doc.updated || new Date().toISOString();
+          try { localStorage.setItem('dash-apps', JSON.stringify(merged)); } catch (e) {}
+          appsSyncState = 'synced';
+        }
+        setSyncText();
+      })
+      .catch(function () { appsSyncState = 'offline'; setSyncText(); });
+  }
+
+  // Called on every module render with the GET /api/apps result (or null).
+  function adoptRemoteApps(doc) {
+    remoteAppsDoc = doc;
+    if (doc && doc.configured) {
+      var local = appsStore();
+      var merged = mergeApps(local, doc);
+      merged.updated = String(local.updated || '') > String(doc.updated || '') ? local.updated : (doc.updated || '');
+      try { localStorage.setItem('dash-apps', JSON.stringify(merged)); } catch (e) {}
+      appsSyncState = appsKey() ? 'synced' : 'needs-key';
+      // Edits made while offline or before the passphrase was entered.
+      if (appsKey() && String(local.updated || '') > String(doc.updated || '')) setTimeout(pushApps, 0);
+    } else {
+      appsSyncState = 'local';
+    }
+  }
+
+  function touchRow(id, patch) {
+    var s = appsStore();
+    var now = new Date().toISOString();
+    var m = (s.manual || []).filter(function (x) { return x && x.id === id; })[0];
+    if (m) { Object.keys(patch).forEach(function (k) { m[k] = patch[k]; }); m.updated = now; }
+    else {
+      s.overrides = s.overrides || {};
+      var o = s.overrides[id] || {};
+      Object.keys(patch).forEach(function (k) { o[k] = patch[k]; });
+      o.updated = now;
+      s.overrides[id] = o;
+    }
+    saveAppsStore(s);
+    pushApps();
+    rerenderApps();
+  }
+
+  function setOutcome(id, outcome) {
+    touchRow(id, { outcome: outcome });
+    if (outcome === 'interview' || outcome === 'offer') {
+      playWin(true); fireConfetti(true);
+      flashBanner(outcome === 'offer' ? 'An offer.' : 'An interview.', '');
+    }
+  }
+
+  function addApp(f) {
+    var s = appsStore();
+    var row = {
+      id: 'm-' + Date.now().toString(36) + Math.random().toString(36).slice(2, 6),
+      company: f.company.trim(), role: f.role.trim(), location: f.location.trim(), url: f.url.trim(),
+      applied: f.applied || localToday(), outcome: f.outcome || 'waiting',
+      cycle: appsCurrentCycle(), note: '', updated: new Date().toISOString()
+    };
+    s.manual = s.manual || []; s.manual.push(row);
+    saveAppsStore(s); pushApps();
+    appsAddOpen = false; appsFilter = 'all'; rerenderApps();
+    playWin(true); fireConfetti(true);
+    flashBanner(PRAISE[Math.floor(Math.random() * PRAISE.length)], appsStats(appsList() || []).sent + ' applications in');
+  }
+
+  function removeApp(id) {
+    var s = appsStore();
+    (s.manual || []).forEach(function (x) { if (x && x.id === id) { x.deleted = true; x.updated = new Date().toISOString(); } });
+    saveAppsStore(s); pushApps(); rerenderApps();
+  }
+
+  document.addEventListener('submit', function (e) {
+    var f = e.target.closest && e.target.closest('form[data-apps="form"]');
+    if (!f) return;
+    e.preventDefault();
+    var g = function (n) { return (f.elements[n] && f.elements[n].value) || ''; };
+    if (!g('company').trim()) { f.elements.company.focus(); return; }
+    addApp({ company: g('company'), role: g('role'), location: g('location'), url: g('url'), applied: g('applied'), outcome: g('outcome') });
+  });
+
+  document.addEventListener('click', function (e) {
+    var b = e.target.closest('[data-apps]');
+    if (!b || b.tagName === 'FORM') return;
+    var act = b.dataset.apps, id = b.dataset.id;
+    if (act === 'add') {
+      appsAddOpen = !appsAddOpen; rerenderApps();
+      if (appsAddOpen) { var i = document.querySelector('.apps-form input[name=company]'); if (i) i.focus(); }
+    }
+    else if (act === 'cancel') { appsAddOpen = false; rerenderApps(); }
+    else if (act === 'filter') { appsFilter = b.dataset.value; rerenderApps(); }
+    else if (act === 'older') { appsShowOlder = !appsShowOlder; rerenderApps(); }
+    else if (act === 'outcome') { setOutcome(id, b.dataset.value); }
+    else if (act === 'save-note') {
+      var t = document.querySelector('.apps-note[data-id="' + CSS.escape(id) + '"]');
+      if (t) touchRow(id, { note: t.value });
+    }
+    else if (act === 'remove') { if (confirm('Remove this application from the list?')) removeApp(id); }
+    else if (act === 'key') {
+      var k = prompt('Sync passphrase (the APPS_KEY variable on the Cloudflare Pages project):');
+      if (k) { try { localStorage.setItem('dash-apps-key', k.trim()); } catch (err) {} appsSyncState = 'synced'; pushApps(); rerenderApps(); }
+    }
+  });
+
+  // The Applications card sits right after the week's to-do list (or after
+  // the first section) so what is already out the door is visible before
+  // the long ranked list.
+  function sectionsWithApps(sections) {
+    var html = (sections || []).map(renderSection);
+    var card = renderAppsCard();
+    if (card) {
+      var at = -1;
+      (sections || []).forEach(function (s, i) { if (at < 0 && s && /this-week|start-week|do-this/.test(s.id || '')) at = i; });
+      html.splice(at < 0 ? Math.min(1, html.length) : at + 1, 0, card);
+    }
+    return html.join('');
+  }
+
   function renderModule(mod, data, ledger, doneDoc) {
     currentMod = mod;
     return '<div class="view-head"><div>' +
@@ -531,7 +1006,7 @@
       '</div></div>' +
       healthBanner(ledger) + staleBanner(data.updated || data.generated, mod.stale) +
       renderCountdowns(data.deadlines) +
-      '<div class="grid">' + (data.sections || []).map(renderSection).join('') +
+      '<div class="grid">' + sectionsWithApps(data.sections) +
         renderDeadlineSection(data.deadlines) +
         renderCompletedSection(doneDoc) + '</div>' +
 
@@ -561,6 +1036,7 @@
     if (cache[mod.id]) {
       var c = cache[mod.id];
       remoteDone = c.doneMap;
+      adoptRemoteApps(c.apps);
       buildAppliedIndex(c.applied);
       view.innerHTML = renderModule(mod, c.data, c.ledger, c.done);
       restoreCollapsed();
@@ -579,7 +1055,9 @@
       mod.ledger ? getJson(mod.ledger).catch(function () { return null; }) : Promise.resolve(null),
       mod.done ? getJson(mod.done).catch(function () { return null; }) : Promise.resolve(null),
       mod.applied ? getJson(mod.applied).catch(function () { return null; }) : Promise.resolve(null),
-      mod.reminders ? getJson(mod.reminders).catch(function () { return null; }) : Promise.resolve(null)
+      mod.reminders ? getJson(mod.reminders).catch(function () { return null; }) : Promise.resolve(null),
+      // Shared store for the Applications card. 501 until the KV binding exists.
+      mod.apps ? getJson('/api/apps').catch(function () { return null; }) : Promise.resolve(null)
     ]).then(function (res) {
       // Hand-set reminders ride along with the nightly task's deadlines. The task rewrites
       // career.json nightly, so anything the owner pins by hand has to live elsewhere.
@@ -590,7 +1068,8 @@
       var map = {};
       ((doneDoc && doneDoc.done) || []).forEach(function (r) { if (r && r.id) map[r.id] = r; });
 
-      cache[mod.id] = { data: res[0], ledger: res[1], done: doneDoc, doneMap: map, applied: res[3] };
+      cache[mod.id] = { data: res[0], ledger: res[1], done: doneDoc, doneMap: map, applied: res[3], apps: res[5] };
+      adoptRemoteApps(res[5]);
       if (active === mod.id) {
         remoteDone = map;
         buildAppliedIndex(res[3]);
@@ -870,6 +1349,7 @@
       saveLocalDone(m);
       row.setAttribute('data-done', String(now));
       chk.setAttribute('aria-pressed', String(now));
+      rerenderApps();
       if (now) celebrate(row);
       chk.title = now ? 'Mark not done' : 'Mark done';
       return;
