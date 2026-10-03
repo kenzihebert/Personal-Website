@@ -774,7 +774,7 @@
     if (appsSyncState === 'needs-key') return 'Sync is set up on the server. <button type="button" class="apps-link" data-apps="key">Enter the passphrase</button> once on this device to turn it on.';
     if (appsSyncState === 'rejected') return 'The server rejected the passphrase. <button type="button" class="apps-link" data-apps="key">Enter it again</button>.';
     if (appsSyncState === 'offline') return 'Could not reach the sync server. Edits are saved here and will sync when it is back.';
-    return 'Edits are saved on this device only until sync is set up (KV binding APPS and variable APPS_KEY on the Pages project).';
+    return 'Edits are saved on this device only. Sync across devices turns on once the site has its APPS store and passphrase set up.';
   }
 
   function renderAppsCard() {
