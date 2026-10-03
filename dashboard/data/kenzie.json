@@ -1,6 +1,6 @@
 {
  "title": "Your search",
- "updated": "2026-10-02",
+ "updated": "2026-10-03",
  "generatedBy": "nightly research",
  "deadlines": [
   {
@@ -56,19 +56,19 @@
    "items": [
     {
      "id": "kz-start-diagnosis",
-     "title": "Oct 16 is 14 days out; still nothing recorded as sent",
+     "title": "Nothing new opened tonight; this list is the fall",
      "tags": [
       {
        "label": "Oct 16",
        "status": "critical"
       }
      ],
-     "detail": "The numbers tonight: **0** applications recorded in the last 7 days and **0** in the last 14. **18** open rows; **12** close by November 1, and **9** of those close on **October 16**. The Gilead rows have been on this page since at least September 23.\n\nWhat waiting costs: if October 16 passes with nothing sent, half the page goes, including **Gilead Biostatistics Oncology** and **Development Biostatistics**, the only biostatistics-titled seats open in California tonight, and **Kite Data Management**, the only trial-data seat in Los Angeles. Kite posts more graduate seats October to January, but nothing says a statistics seat comes back this cycle.\n\nSome of these may already be sent and just not reported; this page cannot tell. One small change: send one line listing anything already submitted, then open **Gilead Epidemiology & RWE** tonight. The Workday profile is the slow part, and Kite uses the same one."
+     "detail": "The numbers: **0** applications recorded in the last 7 and 14 days. **18** open rows; **12** close by November 1, **9** of them on **October 16**, now 13 days out.\n\nWhat changed: tonight's sweep read **441** intern postings across 67 employer boards, and a second pass searched 18 more boards by phrase (statistics, clinical, epidemiology, summer 2027). **None** was a new fit. The likely reason is timing: pharma and device employers posted their fall statistics seats in September, and the next wave (Kite graduate seats, Pfizer's Statistics program, Kaiser, Ionis) arrives November to March. Waiting for something better to appear does not help before October 16.\n\nOne small change: if anything has already gone out, tick it on this page so the count stops reading zero."
     },
     {
      "id": "kz-start-this-week",
      "title": "Worth doing this week",
-     "detail": "**1. Gilead and Kite before October 16:** Epidemiology & RWE, Biostatistics Oncology, Development Biostatistics, Kite Data Management, in that order.\n\n**2. Edwards Clinical & Regulatory, Irvine.** New tonight and closes **November 1**. Statistics is a named degree, master's students are eligible, and it lists conversion into Edwards' new grad programs.\n\n**3. Stryker Statistical Programming, Irvine.** No close date, which usually means it closes when it fills.\n\n**4. BRG and Analysis Group together.** Both want a resume, cover letter and transcripts; BRG's final review is October 16 and Analysis Group's deadline is October 28. One letter, adapted twice.\n\n**5. Email Michigan Public Health's employer engagement coordinator** (see Contacts) and ask which pharma, CRO and device employers came to the September 25 fair, and for an alum at Gilead, Kite, Amgen or Edwards."
+     "detail": "**1. Gilead and Kite before October 16:** Epidemiology & RWE, Biostatistics Oncology, Development Biostatistics, Kite Data Management, in that order. One Workday profile covers all of them.\n\n**2. BRG before October 16** (final review), then **Analysis Group Health Care by October 28**. One cover letter, adapted twice.\n\n**3. Edwards Clinical & Regulatory, Irvine,** closes **November 1**; **Stryker Statistical Programming, Irvine,** has no close date, which usually means it closes when filled.\n\n**4. Email Michigan Public Health's employer engagement coordinator** (see Contacts) for the employers that came to the fall fair and an alum at Gilead, Kite, Amgen or Edwards."
     },
     {
      "id": "kz-start-howhiring",
@@ -82,7 +82,7 @@
    "title": "Open now",
    "layout": "table",
    "checkable": true,
-   "note": "Every row read on the employer's own system tonight, Oct 2. Ranked by fit with trials, devices and health analytics, then location.",
+   "note": "Every row read on the employer's own system tonight, Oct 3. Ranked by fit with trials, devices and health analytics, then location.",
    "items": [
     {
      "id": "kz-analysisgroup-health",
@@ -144,10 +144,6 @@
       {
        "label": "Closes Nov 1",
        "status": "critical"
-      },
-      {
-       "label": "New",
-       "status": "good"
       }
      ],
      "detail": "Hands-on clinical or regulatory work at headquarters, applying device regulations to bring products to market. Required: *Pursuing a degree in life sciences, engineering/bio-med engineering, statistics, economics, or nursing*, master's eligible, *Graduating December 2027 or later*, 3.0 GPA. Subsidized housing; lists *Conversion Opportunities into our New Grad Programs*. California base range $54,000 to $72,000. Req 49745. [Apply](https://edwards.wd5.myworkdayjobs.com/EdwardsCareers/job/USA-IRV-1442-AltonMIC/Clinical---Regulatory-Internship--Summer-2027_Req-49745)"
@@ -596,11 +592,11 @@
     },
     {
      "title": "Orange County",
-     "detail": "**Stryker**, Irvine: Statistical Programming intern open now.\n**Edwards Lifesciences**, Irvine: Clinical & Regulatory intern open, closes Nov 1; other tracks Feb to Apr.\nJ&J MedTech (Irvine): only supply chain interns posted.\nAbbott, Masimo, Beckman Coulter, Applied Medical, Alcon, AbbVie/Allergan: no fitting seat in California."
+     "detail": "**Stryker**, Irvine: Statistical Programming intern open now.\n**Edwards Lifesciences**, Irvine: Clinical & Regulatory intern open, closes Nov 1; other tracks Feb to Apr.\nJ&J MedTech (Irvine): only supply chain interns posted.\nInsulet (Irvine): manufacturing co-op only.\nAbbott, Masimo, Beckman Coulter, Applied Medical, Alcon, AbbVie/Allergan: no fitting seat in California."
     },
     {
      "title": "Bay Area",
-     "detail": "**Gilead**, Foster City: seven seats open, all close Oct 16.\nGenentech, BioMarin, Exelixis, Denali: no summer statistics seats posted.\nStanford Health Care: nothing posted.\nBlue Shield of California (Oakland), health plan: graduate interns eligible; no 2027 posting yet.\nGuardant, GRAIL, Natera: genomics, listed last."
+     "detail": "**Gilead**, Foster City: seven seats open, all close Oct 16.\nGenentech, BioMarin, Exelixis, Denali, BeOne Medicines (San Carlos): no summer statistics seats posted.\nStanford Health Care: nothing posted.\nBlue Shield of California (Oakland), health plan: graduate interns eligible; no 2027 posting yet.\nGuardant, GRAIL, Natera: genomics, listed last."
     },
     {
      "title": "San Diego",
@@ -624,6 +620,26 @@
      "id": "kz-nf-kite-pm",
      "title": "Kite: Research Project Management Intern",
      "detail": "New tonight, Santa Monica. Process improvement and project tracking for the Research organization, with deliverables like *meeting minutes, dashboards*; no statistics."
+    },
+    {
+     "id": "kz-nf-gilead-cdm-tech",
+     "title": "Gilead: Clinical Data Management, Technology",
+     "detail": "Despite the title, the work is building *AI agents* and Databricks data pipelines, preferred field *Computer Science*. An engineering seat. Say so if you want it back; it closes October 16."
+    },
+    {
+     "id": "kz-nf-gilead-virology-ai",
+     "title": "Gilead: Clinical Virology AI Intern",
+     "detail": "New this week, Foster City. *Preferred degree level: Undergraduate*, AI tools for HIV lab research."
+    },
+    {
+     "id": "kz-nf-medtronic-ace",
+     "title": "Medtronic: Clinical Experience (ACE) Intern",
+     "detail": "Hospital field support for cardiac procedures; requires *working toward a bachelor's degree*."
+    },
+    {
+     "id": "kz-nf-regeneron",
+     "title": "Regeneron: 2027 co-ops",
+     "detail": "New on its board tonight: 23 co-ops, all New York, New Jersey, Massachusetts or Washington. The data science seats are computational biology or manufacturing IT."
     },
     {
      "id": "kz-nf-gilead-datasci",
@@ -658,7 +674,7 @@
     {
      "id": "kz-nf-jnj-jax",
      "title": "J&J R&D Biostatistics Intern, Jacksonville",
-     "detail": "Closed, and it required PhD standing."
+     "detail": "Reposted October 3 and closes October 23, but still asks for *at least 1 year of graduate school in a PhD program*, on site in Florida."
     },
     {
      "id": "kz-nf-merck-others",
@@ -813,12 +829,12 @@
     {
      "id": "kz-blocked-browser",
      "title": "Read in the browser tonight",
-     "detail": "Denali (no intern among its 40 listed roles), Xencor (6 roles, no intern), Children's Hospital Los Angeles (no internship among 156 jobs), ImmunityBio (no intern on its Workday), both Analysis Group postings, and Pfizer's Statistics program site (no positions listed yet)."
+     "detail": "Both Analysis Group postings (still open), Pfizer's Statistics program site (no positions listed yet), and the Medtronic, BMS and Michigan Public Health pages behind the dates on this page."
     },
     {
      "id": "kz-blocked-unread",
      "title": "Not covered tonight",
-     "detail": "Puma's careers page returned *403 Forbidden*. Arcutis's portal errored last night and Capsida lists only on LinkedIn; not retried. Scripps Research, Salk, Sanford Burnham Prebys and La Jolla Institute run undergraduate programs and were not opened. TGen is genomics and not chased."
+     "detail": "Denali, Xencor and Children's Hospital Los Angeles were read on October 2 with nothing, and are now checked weekly. Puma (*403 Forbidden*), Arcutis (portal error) and Capsida (LinkedIn only) are not retried nightly. Scripps Research, Salk, Sanford Burnham Prebys and La Jolla Institute run undergraduate programs. TGen is genomics and not chased."
     }
    ]
   },
