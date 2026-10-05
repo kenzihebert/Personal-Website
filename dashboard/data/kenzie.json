@@ -19,6 +19,11 @@
    "status": "serious"
   },
   {
+   "date": "2026-10-16",
+   "label": "Henry Ford Cancer Epidemiology intern application closes (Detroit)",
+   "status": "critical"
+  },
+  {
    "date": "2026-10-28",
    "label": "Analysis Group Health Care Summer Analyst deadline",
    "status": "critical"
@@ -56,14 +61,14 @@
    "items": [
     {
      "id": "kz-start-diagnosis",
-     "title": "Nine rows close in 11 days",
+     "title": "Ten rows close in 11 days",
      "tags": [
       {
        "label": "Oct 16",
        "status": "critical"
       }
      ],
-     "detail": "The numbers: 0 applications recorded in the last 7 and 14 days. 19 open rows, 12 closing within 30 days, 9 of them on October 16, eleven days out: every Gilead row, the only Kite row, and BRG.\n\nWhat waiting costs: after October 16 this page drops from 19 rows to 10. The two Gilead biostatistics seats and Epidemiology & RWE, your closest Bay Area fits, go with them, and the next wave (Pfizer, Kaiser, Ionis, Edwards' other tracks) opens January to April.\n\nSo tonight's ask is one sitting: create the Workday account on the **Kite Data Management** row, then apply to **Gilead Epidemiology & RWE**, which runs on the same Gilead Workday system, before you close the tab. Two applications from one resume upload.\n\nIf anything has already gone out, say so: a tick on this page stays in your browser, and the count here only moves once it is recorded."
+     "detail": "The numbers: 0 applications recorded in the last 7 and 14 days. 20 open rows, 13 closing within 30 days, 10 of them on October 16, eleven days out: every Gilead row, the only Kite row, and BRG.\n\nWhat waiting costs: after October 16 this page drops from 20 rows to 10. The two Gilead biostatistics seats and Epidemiology & RWE, your closest Bay Area fits, go with them, and the next wave (Pfizer, Kaiser, Ionis, Edwards' other tracks) opens January to April.\n\nSo tonight's ask is one sitting: create the Workday account on the **Kite Data Management** row, then apply to **Gilead Epidemiology & RWE**, which runs on the same Gilead Workday system, before you close the tab. Two applications from one resume upload.\n\nIf anything has already gone out, say so: a tick on this page stays in your browser, and the count here only moves once it is recorded.\n\n**Added October 5:** the Henry Ford Cancer Epidemiology application is open and also closes October 16. It is first in Open now. It uses its own form, so it needs no Workday account."
     },
     {
      "id": "kz-start-this-week",
@@ -84,6 +89,22 @@
    "checkable": true,
    "note": "Every row read on the employer's own system tonight, Oct 5. Ranked by fit with trials, devices and health analytics, then location. Begin with the three tagged First three.",
    "items": [
+    {
+     "id": "kz-henryford-cepc",
+     "title": "Henry Ford Health: Cancer Epidemiology, Prevention and Control Intern",
+     "location": "Detroit (on-site)",
+     "tags": [
+      {
+       "label": "Cancer epidemiology",
+       "status": "critical"
+      },
+      {
+       "label": "Closes Oct 16",
+       "status": "critical"
+      }
+     ],
+     "detail": "The program you asked for. Henry Ford's Public Health Sciences department takes the application through its own form, and *Cancer Epidemiology and Prevention and Control (CEPC)* is the first program choice on it. Biostatistics is a listed program of study, and the self-assessment rates R/SAS programming, data analysis, study design and REDCap.\n\n**What the form asks for:** a cover letter on your research background and what you hope to gain, a resume or CV, and transcripts (unofficial is fine). A recommendation letter is optional. You also name two strengths and two things to improve, and rank four priorities; *Statistics and Analysis* is one of them. The role is on-site in Detroit and the form has you acknowledge that.\n\nYour breast cancer recurrence project is the natural lead for the cover letter. Closes October 16 by the date you gave; the form itself shows no date, so do not leave it to the last day. [Apply](https://redcap.hfhs.org/redcap/surveys/?s=AX83M7JKYHH7A8TJ)"
+    },
     {
      "id": "kz-analysisgroup-health",
      "title": "Analysis Group: Summer Analyst, Health Care",
@@ -549,20 +570,6 @@
       }
      ],
      "detail": "Its page still shows the 2026 program, mid June to late August, hybrid. It names no biostatistics seat tonight. [Program page](https://acadia.com/en-us/careers/summer-internship-program)"
-    },
-    {
-     "id": "kz-later-henryford",
-     "title": "Henry Ford Health: Public Health summer interns",
-     "tags": [
-      {
-       "label": "Expected ~Feb",
-       "status": "good"
-      },
-      {
-       "label": "Detroit"
-      }
-     ],
-     "detail": "The 2026 Student Public Health Summer Intern posting went up February 17, 2026 and took undergraduate or graduate students; it is closed. No 2027 posting tonight. Detroit is close to Ann Arbor. [2026 posting](https://henryford.referrals.selectminds.com/jobs/student-public-health-summer-intern-program-123021)"
     },
     {
      "id": "kz-later-medtronic",
