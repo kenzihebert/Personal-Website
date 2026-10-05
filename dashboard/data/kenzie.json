@@ -1,6 +1,6 @@
 {
  "title": "Your search",
- "updated": "2026-10-04",
+ "updated": "2026-10-05",
  "generatedBy": "nightly research",
  "deadlines": [
   {
@@ -56,19 +56,19 @@
    "items": [
     {
      "id": "kz-start-diagnosis",
-     "title": "Start with the top three rows",
+     "title": "Nine rows close in 11 days",
      "tags": [
       {
        "label": "Oct 16",
        "status": "critical"
       }
      ],
-     "detail": "The numbers: 0 applications recorded in the last 7 and 14 days. 19 open rows, 12 closing within 30 days, 9 of them on October 16, now 12 days out.\n\nA likely reason nothing has gone out: nineteen rows with nine marked urgent gives no obvious place to begin. So tonight the page picks three, tagged *First three* in Open now, in this order:\n\n**1. Kite Data Management** (El Segundo, closes October 16). Kite and Gilead run on the same Workday system, so the profile you build here should carry to the Gilead rows.\n\n**2. Stryker Statistical Programming** (Irvine). Names a master's and accepts R. No close date, so it can come down without notice.\n\n**3. Analysis Group Health Care** (Los Angeles, October 28). Names first-year master's students in biostatistics. It needs a cover letter and transcripts, so start the letter now.\n\nEverything below those three can wait until they are in. If something has already gone out, say so: a tick on this page stays in your browser, and the count here only moves once it is recorded."
+     "detail": "The numbers: 0 applications recorded in the last 7 and 14 days. 19 open rows, 12 closing within 30 days, 9 of them on October 16, eleven days out: every Gilead row, the only Kite row, and BRG.\n\nWhat waiting costs: after October 16 this page drops from 19 rows to 10. The two Gilead biostatistics seats and Epidemiology & RWE, your closest Bay Area fits, go with them, and the next wave (Pfizer, Kaiser, Ionis, Edwards' other tracks) opens January to April.\n\nSo tonight's ask is one sitting: create the Workday account on the **Kite Data Management** row, then apply to **Gilead Epidemiology & RWE**, which runs on the same Gilead Workday system, before you close the tab. Two applications from one resume upload.\n\nIf anything has already gone out, say so: a tick on this page stays in your browser, and the count here only moves once it is recorded."
     },
     {
      "id": "kz-start-this-week",
      "title": "Worth doing this week",
-     "detail": "**1. On the same Gilead profile, before October 16:** Epidemiology & RWE, Biostatistics Oncology, Development Biostatistics, in that order. Each is a few minutes once the profile exists.\n\n**2. BRG before October 16** (final review), reusing the Analysis Group letter. **Edwards Clinical & Regulatory**, Irvine, closes November 1.\n\n**3. Email Michigan Public Health's employer engagement coordinator** (see Contacts) for the employers that came to the fall fair and an alum at Gilead, Kite, Amgen or Edwards.\n\nNew tonight: Blue Cross Blue Shield of Michigan posted a Data Science / Biostatistician intern in Detroit. It is outside your metros, so it sits last in Open now. Say so if a Michigan summer is off the table and it comes off."
+     "detail": "**1. Before October 16:** Kite Data Management and Gilead Epidemiology & RWE (above), then Biostatistics Oncology and Development Biostatistics on the same account. **BRG** (final review October 16), choosing Healthcare Analytics and Disputes.\n\n**2. Analysis Group Health Care** by October 28; interviews begin in November. Write its letter once and reuse it for BRG. **Stryker** (Irvine, no close date) and **Edwards Clinical & Regulatory** (Irvine, November 1) next.\n\n**3. Email Michigan Public Health's employer engagement coordinator** (see Contacts) for the employers that came to the fall fair and an alum at Gilead, Kite, Amgen or Edwards.\n\nNothing new fit tonight: 435 intern rows across 67 boards, every open row re-read. Medtronic's master's window closes October 13, with no California or Arizona seat posted."
     },
     {
      "id": "kz-start-howhiring",
@@ -82,7 +82,7 @@
    "title": "Open now",
    "layout": "table",
    "checkable": true,
-   "note": "Every row read on the employer's own system tonight, Oct 4. Ranked by fit with trials, devices and health analytics, then location. Begin with the three tagged First three.",
+   "note": "Every row read on the employer's own system tonight, Oct 5. Ranked by fit with trials, devices and health analytics, then location. Begin with the three tagged First three.",
    "items": [
     {
      "id": "kz-analysisgroup-health",
@@ -290,7 +290,7 @@
        "status": "good"
       }
      ],
-     "detail": "Retitled this week to the Technology, AI & Data organization, a technology group. Requires completing the first year of a Master's before the internship, which you will; the preferred concentrations are *Information Technology, Computer Science*, Engineering or Business. The req says Amgen *does not have an application deadline* and accepts applications until filled. Req R-255722. [Apply](https://amgen.wd1.myworkdayjobs.com/en-US/Careers/job/United-States---Remote/Grad-Intern---Data-Scientist---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255722)"
+     "detail": "Sits in the Technology, AI & Data organization, a technology group. Requires completing the first year of a Master's before the internship, which you will; the preferred concentrations are *Information Technology, Computer Science*, Engineering or Business. The req says Amgen *does not have an application deadline* and accepts applications until filled. Req R-255722. [Apply](https://amgen.wd1.myworkdayjobs.com/en-US/Careers/job/United-States---Remote/Grad-Intern---Data-Scientist---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255722)"
     },
     {
      "id": "kz-gilead-heor",
@@ -370,7 +370,7 @@
        "status": "warning"
       }
      ],
-     "detail": "The stated deadline passed September 30; the posting says applications are still reviewed on a rolling basis. Master's graduating winter 2027 or summer 2028 eligible. Send only alongside the Health Care application above. Req 3005. [Apply](https://analystcareers-analysisgroup.icims.com/jobs/3005/summer-analyst-intern---generalist-%282027-start-date%29/job)"
+     "detail": "The stated deadline passed September 30 and interviews began in early to mid October; the posting says applications are still reviewed on a rolling basis. Master's graduating winter 2027 or summer 2028 eligible. Send only alongside the Health Care application above. Req 3005. [Apply](https://analystcareers-analysisgroup.icims.com/jobs/3005/summer-analyst-intern---generalist-%282027-start-date%29/job)"
     },
     {
      "id": "kz-merck-biostat",
@@ -402,10 +402,6 @@
       },
       {
        "label": "Outside your metros"
-      },
-      {
-       "label": "New",
-       "status": "good"
       },
       {
        "label": "Open, no close date",
@@ -603,7 +599,7 @@
        "status": "warning"
       }
      ],
-     "detail": "38 roles on its board tonight, no internship. It leans strategy, so it stays here until a real internship appears."
+     "detail": "37 roles on its board tonight, no internship. It leans strategy, so it stays here until a real internship appears."
     },
     {
      "id": "kz-later-exponent",
@@ -888,12 +884,12 @@
     {
      "id": "kz-blocked-browser",
      "title": "Read in the browser tonight",
-     "detail": "Denali (its internship page and all five of its job boards: no internship), Xencor and Children's Hospital Los Angeles (no internship listed), both Analysis Group postings (still open), Pfizer's Statistics program site (no positions listed yet), Corcept, Blue Cross Blue Shield of Michigan, and the Medtronic, Edwards and Michigan Public Health pages behind the dates on this page."
+     "detail": "Both Analysis Group postings (open; Health Care deadline October 28), Pfizer's Statistics program site (no positions listed yet), Denali's internship page (no listing; its site says applications run in October, so it is checked again next week), and the Medtronic and Michigan Public Health pages behind the dates on this page."
     },
     {
      "id": "kz-blocked-unread",
      "title": "Not covered tonight",
-     "detail": "Puma (*403 Forbidden* on October 2), Arcutis (portal error) and Capsida (LinkedIn only) are not retried nightly. Scripps Research, Salk, Sanford Burnham Prebys and La Jolla Institute run undergraduate programs. TGen is genomics and not chased."
+     "detail": "Xencor and Children's Hospital Los Angeles are read weekly (last October 4, nothing listed). Puma (*403 Forbidden* on October 2), Arcutis (portal error) and Capsida (LinkedIn only) are not retried nightly. Scripps Research, Salk, Sanford Burnham Prebys and La Jolla Institute run undergraduate programs. TGen is genomics and not chased."
     }
    ]
   },

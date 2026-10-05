@@ -1,6 +1,6 @@
 # Research playbook
 
-**v6, 2026-10-04.** Rewritten every run. Hard cap 6 KB.
+**v7, 2026-10-05.** Rewritten every run. Hard cap 6 KB.
 
 ## Who this is for
 
@@ -9,12 +9,12 @@ Private sector only. Trials, devices, health analytics; genomics last.
 
 ## Governing metric
 
-Rows unsent for 7+ runs. Tonight: 5 logged runs since 10-01, 0 sent, 19 open. The Oct 16 rows hit
-7 runs on 10-06. Shape changed tonight, ahead of that: three rows tagged "First three" and the
-first Start item names them in order. Next shape change if still zero on 10-10: cut Start to one
-row and one link.
+Rows unsent for 7+ runs. Tonight: 6 logged runs since 10-01, 0 sent, 19 open. The Oct 16 rows hit
+7 runs tomorrow. 10-04 changed shape (First three); 10-05 escalated once with the cost (9 of 19
+rows gone after Oct 16) and a one-sitting ask (Kite + Gilead RWE). 10-06: do not repeat it; watch.
+If still zero on 10-10: cut Start to one row and one link.
 
-## What is working (last confirmed 2026-10-04)
+## What is working (last confirmed 2026-10-05)
 
 - Workday `cxs` job endpoint by curl: `endDate`, body, liveness. In Git Bash pass the job path
   without a leading slash (MSYS rewrites it).
@@ -24,6 +24,7 @@ row and one link.
   BCBS Michigan found and read this way 10-04.
 - Greenhouse `boards-api.greenhouse.io/v1/boards/<slug>/jobs` for off-sweep biotechs.
 - Two generic web queries every 3 days: dry three nights, then two real leads 10-04.
+- Takeda's real board is jobs.takeda.com (Radancy `search-jobs/results`), readable by curl (10-05).
 - Backing up the Analysis Group postings-text files before `fetch_posting_text.py`.
 
 ## What is not working
@@ -31,6 +32,9 @@ row and one link.
 - 0 applications recorded across 5 runs. `/api/apps` answers 501, so ticks never arrive.
 - Employer-side named people: zero in 4 runs. Nightly search killed; weekly at most.
 - `sweep_boards.py --help` starts a full sweep. Never probe it; the flags are in its header.
+- In Git Bash pass `--out` with forward slashes; backslashes were stripped 10-05 and the file
+  landed in his repo root (moved, not committed).
+- Greenhouse guesses for Cytokinetics, Arcus, Jazz, Otsuka, Certara, Cytel: no boards (10-05).
 - Device boards beyond Edwards and Stryker: dead (H2).
 
 ## Targets
@@ -66,13 +70,14 @@ row and one link.
 1. BCBSM siblings unread: Data Analytics HEDIS (14838), Program Performance (14841).
 2. Exponent student page after Oct 15.
 3. Health plans by Oracle REST: Kaiser Health Plan analytics, Molina actuarial, Blue Shield.
-4. Revolution Medicines, Arcus, Cytokinetics, Jazz, Otsuka: find last cycle's intern postings.
-5. Takeda San Diego: find the real board from takeda.com.
+4. Cytokinetics, Jazz, Otsuka: find their real ATS from each careers page (not Greenhouse).
+5. Takeda: recheck jobs.takeda.com for a US 2027 intern weekly (next 10-12).
 6. Cytel and Certara careers pages directly.
 
 ## Notes to self
 
 - Phrase pass on all Workday boards weekly (next 10-08); small LA biotechs weekly (next 10-09).
+- Denali, Xencor, CHLA in the browser weekly (next 10-11).
 - RAND is in not-a-fit; do not carry its Dec date.
 - Medtronic master's window closes Oct 13; no CA or AZ seat.
 - Out-of-metro exceptions on the page: Merck Biostatistics, BCBSM. No more without a yes.
