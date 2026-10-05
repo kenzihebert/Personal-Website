@@ -14,7 +14,7 @@
   var MODULES = [
     { id: 'kenzie', label: 'Career', icon: 'target', src: 'data/kenzie.json', ledger: 'data/ledger.json',
       done: 'data/kenzie-done.json', reminders: 'data/reminders.json',
-      stale: { days: 2, task: 'kenzie-research' }, reader: true, apps: { kind: 'done', cycle: 'summer-2027' }, enabled: true }
+      stale: { days: 2, task: 'kenzie-research' }, reader: true, apps: { kind: 'done', cycle: 'summer-2027', after: 'apply-now' }, enabled: true }
   ];
 
   // Staleness is opt-in per module via `stale: { days, task }`. Hand-maintained tabs (Targets,
@@ -979,16 +979,19 @@
     }
   });
 
-  // The Applications card sits right after the week's to-do list (or after
-  // the first section) so what is already out the door is visible before
-  // the long ranked list.
+  // The Applications card sits directly under the list of what is still open
+  // to apply to (`apps.after`, a section id). The open list changes every
+  // night and has to be seen first; what is already sent is the record and
+  // gets looked at far less often. With no such section the card goes last.
   function sectionsWithApps(sections) {
     var html = (sections || []).map(renderSection);
     var card = renderAppsCard();
     if (card) {
+      var want = (currentMod && currentMod.apps && currentMod.apps.after) || '';
       var at = -1;
-      (sections || []).forEach(function (s, i) { if (at < 0 && s && /this-week|start-week|do-this/.test(s.id || '')) at = i; });
-      html.splice(at < 0 ? Math.min(1, html.length) : at + 1, 0, card);
+      (sections || []).forEach(function (s, i) { if (at < 0 && s && want && s.id === want) at = i; });
+      if (at < 0) (sections || []).forEach(function (s, i) { if (at < 0 && s && /postings|apply/.test(s.id || '')) at = i; });
+      html.splice(at < 0 ? html.length : at + 1, 0, card);
     }
     return html.join('');
   }
