@@ -1,946 +1,986 @@
 {
- "title": "Your search",
- "updated": "2026-10-05",
- "generatedBy": "nightly research",
- "deadlines": [
-  {
-   "date": "2026-10-13",
-   "label": "Medtronic: master's applications for this cycle close",
-   "status": "warning"
-  },
-  {
-   "date": "2026-10-16",
-   "label": "Gilead (7 reqs) and Kite El Segundo close",
-   "status": "critical"
-  },
-  {
-   "date": "2026-10-16",
-   "label": "BRG Summer Associate: final review deadline",
-   "status": "serious"
-  },
-  {
-   "date": "2026-10-16",
-   "label": "Henry Ford Cancer Epidemiology intern application closes (Detroit)",
-   "status": "critical"
-  },
-  {
-   "date": "2026-10-28",
-   "label": "Analysis Group Health Care Summer Analyst deadline",
-   "status": "critical"
-  },
-  {
-   "date": "2026-10-31",
-   "label": "Merck Biostatistics intern closes (New Jersey)"
-  },
-  {
-   "date": "2026-11-01",
-   "label": "Edwards Clinical & Regulatory intern closes (Irvine)",
-   "status": "critical"
-  },
-  {
-   "date": "2026-11-20",
-   "label": "J&J Clinical Pharmacology intern closes",
-   "status": "warning"
-  },
-  {
-   "date": "2027-01-29",
-   "label": "Michigan Public Health winter career fair",
-   "status": "warning"
-  },
-  {
-   "date": "2027-01-31",
-   "label": "Pfizer Statistics summer program deadline (San Diego site)",
-   "status": "warning"
-  }
- ],
- "sections": [
-  {
-   "id": "start",
-   "title": "Start here",
-   "emphasis": "primary",
-   "items": [
+  "title": "Your search",
+  "updated": "2026-10-06",
+  "generatedBy": "nightly research",
+  "deadlines": [
     {
-     "id": "kz-start-diagnosis",
-     "title": "Ten rows close in 11 days",
-     "tags": [
-      {
-       "label": "Oct 16",
-       "status": "critical"
-      }
-     ],
-     "detail": "The numbers: 0 applications recorded in the last 7 and 14 days. 20 open rows, 13 closing within 30 days, 10 of them on October 16, eleven days out: every Gilead row, the only Kite row, and BRG.\n\nWhat waiting costs: after October 16 this page drops from 20 rows to 10. The two Gilead biostatistics seats and Epidemiology & RWE, your closest Bay Area fits, go with them, and the next wave (Pfizer, Kaiser, Ionis, Edwards' other tracks) opens January to April.\n\nSo tonight's ask is one sitting: create the Workday account on the **Kite Data Management** row, then apply to **Gilead Epidemiology & RWE**, which runs on the same Gilead Workday system, before you close the tab. Two applications from one resume upload.\n\nIf anything has already gone out, say so: a tick on this page stays in your browser, and the count here only moves once it is recorded.\n\n**Added October 5:** the Henry Ford Cancer Epidemiology application is open and also closes October 16. It is first in Open now. It uses its own form, so it needs no Workday account."
+      "date": "2026-10-13",
+      "label": "Medtronic: master's applications for this cycle close",
+      "status": "warning"
     },
     {
-     "id": "kz-start-this-week",
-     "title": "Worth doing this week",
-     "detail": "**1. Before October 16:** Kite Data Management and Gilead Epidemiology & RWE (above), then Biostatistics Oncology and Development Biostatistics on the same account. **BRG** (final review October 16), choosing Healthcare Analytics and Disputes.\n\n**2. Analysis Group Health Care** by October 28; interviews begin in November. Write its letter once and reuse it for BRG. **Stryker** (Irvine, no close date) and **Edwards Clinical & Regulatory** (Irvine, November 1) next.\n\n**3. Email Michigan Public Health's employer engagement coordinator** (see Contacts) for the employers that came to the fall fair and an alum at Gilead, Kite, Amgen or Edwards.\n\nNothing new fit tonight: 435 intern rows across 67 boards, every open row re-read. Medtronic's master's window closes October 13, with no California or Arizona seat posted."
+      "date": "2026-10-16",
+      "label": "Gilead (7 reqs) and Kite El Segundo close",
+      "status": "critical"
     },
     {
-     "id": "kz-start-howhiring",
-     "title": "How this field hires a master's student",
-     "detail": "Big pharma opens structured summer programs between September and November and often prefers or requires a PhD for biostatistics seats; read the qualification line before the title. Gilead lists PhD as *preferred* on most of its reqs, which is a ranking signal; master's students can still apply. Contract research organizations hire master's statisticians at volume, but later and more rolling, and mostly in SAS. Southern California device companies run their own calendars: Stryker and Edwards' clinical track are open now, and Edwards' remaining tracks open February to April. Smaller biotechs post later still: Corcept's master's-level biostatistics intern for last summer came down on January 6. Economic and HEOR consulting states master's eligibility openly and pays the most."
+      "date": "2026-10-16",
+      "label": "BRG Summer Associate: final review deadline",
+      "status": "serious"
+    },
+    {
+      "date": "2026-10-16",
+      "label": "Henry Ford Cancer Epidemiology intern application closes (Detroit)",
+      "status": "critical"
+    },
+    {
+      "date": "2026-10-20",
+      "label": "J&J Immunology Pediatric Clinical Development intern closes",
+      "status": "warning"
+    },
+    {
+      "date": "2026-10-28",
+      "label": "Analysis Group Health Care Summer Analyst deadline",
+      "status": "critical"
+    },
+    {
+      "date": "2026-10-31",
+      "label": "Merck Biostatistics intern closes (New Jersey)"
+    },
+    {
+      "date": "2026-11-01",
+      "label": "Edwards Clinical & Regulatory intern closes (Irvine)",
+      "status": "critical"
+    },
+    {
+      "date": "2026-11-20",
+      "label": "J&J Clinical Pharmacology intern closes",
+      "status": "warning"
+    },
+    {
+      "date": "2027-01-29",
+      "label": "Michigan Public Health winter career fair",
+      "status": "warning"
+    },
+    {
+      "date": "2027-01-31",
+      "label": "Pfizer Statistics summer program deadline (San Diego site)",
+      "status": "warning"
     }
-   ]
-  },
-  {
-   "id": "apply-now",
-   "title": "Open now",
-   "layout": "table",
-   "checkable": true,
-   "note": "Every row read on the employer's own system tonight, Oct 5. Ranked by fit with trials, devices and health analytics, then location. Begin with the three tagged First three.",
-   "items": [
+  ],
+  "sections": [
     {
-     "id": "kz-henryford-cepc",
-     "title": "Henry Ford Health: Cancer Epidemiology, Prevention and Control Intern",
-     "location": "Detroit (on-site)",
-     "tags": [
-      {
-       "label": "Cancer epidemiology",
-       "status": "critical"
-      },
-      {
-       "label": "Closes Oct 16",
-       "status": "critical"
-      }
-     ],
-     "detail": "The program you asked for. Henry Ford's Public Health Sciences department takes the application through its own form, and *Cancer Epidemiology and Prevention and Control (CEPC)* is the first program choice on it. Biostatistics is a listed program of study, and the self-assessment rates R/SAS programming, data analysis, study design and REDCap.\n\n**What the form asks for:** a cover letter on your research background and what you hope to gain, a resume or CV, and transcripts (unofficial is fine). A recommendation letter is optional. You also name two strengths and two things to improve, and rank four priorities; *Statistics and Analysis* is one of them. The role is on-site in Detroit and the form has you acknowledge that.\n\nYour breast cancer recurrence project is the natural lead for the cover letter. Closes October 16 by the date you gave; the form itself shows no date, so do not leave it to the last day. [Apply](https://redcap.hfhs.org/redcap/surveys/?s=AX83M7JKYHH7A8TJ)"
+      "id": "start",
+      "title": "Start here",
+      "emphasis": "primary",
+      "items": [
+        {
+          "id": "kz-start-diagnosis",
+          "title": "One cover letter covers three applications",
+          "tags": [
+            {
+              "label": "Oct 16",
+              "status": "critical"
+            }
+          ],
+          "detail": "The numbers: 0 applications recorded in the last 7 and 14 days. 21 open rows, 14 closing within 30 days, 10 of them on October 16. The Gilead and Kite rows have been on this page since October 1.\n\nA likely reason: three of the applications you most want ask for a cover letter. **Henry Ford** wants one on *your research background to date and what you hope to gain*; **Analysis Group Health Care** and **BRG** both ask for one too. Writing a letter is the slow part, and nothing moves until it exists.\n\nThe one change: write that letter tonight, built on the recurrence model and the DESERT Aging Lab work, and send it to Henry Ford first. The Analysis Group and BRG versions are the same letter with a new first paragraph.\n\nIf anything has already gone out, say so: a tick on this page stays in your browser, and the count here only moves once it is recorded."
+        },
+        {
+          "id": "kz-start-this-week",
+          "title": "Worth doing this week",
+          "detail": "**1. Before October 16:** Henry Ford (letter, resume, transcript). Then Kite Data Management and Gilead Epidemiology & RWE on one Workday account, then both Gilead biostatistics seats. **BRG** (final review October 16), choosing Healthcare Analytics and Disputes.\n\n**2. New tonight, closes October 20:** J&J Immunology Pediatric Clinical Development. Master's students are preferred candidates; read its location line before you apply.\n\n**3. By October 28:** Analysis Group Health Care, same letter. Then **Stryker** (Irvine, no close date) and **Edwards Clinical & Regulatory** (Irvine, November 1).\n\n**4. Email Michigan Public Health's employer engagement coordinator** (see Contacts) for the employers that came to the fall fair."
+        },
+        {
+          "id": "kz-start-howhiring",
+          "title": "How this field hires a master's student",
+          "detail": "Big pharma opens structured summer programs between September and November and often prefers or requires a PhD for biostatistics seats; read the qualification line before the title. Gilead lists PhD as *preferred* on most of its reqs, which is a ranking signal; master's students can still apply. Contract research organizations hire master's statisticians at volume, but later and more rolling, and mostly in SAS. Southern California device companies run their own calendars: Stryker and Edwards' clinical track are open now, and Edwards' remaining tracks open February to April. J&J posted its Immunology intern batch on October 5 with a two-week window, so a big-pharma req can open and close inside a fortnight. Smaller biotechs post later still: Corcept's master's-level biostatistics intern for last summer came down on January 6. Economic and HEOR consulting states master's eligibility openly and pays the most."
+        }
+      ]
     },
     {
-     "id": "kz-analysisgroup-health",
-     "title": "Analysis Group: Summer Analyst, Health Care",
-     "location": "Los Angeles (also SF, Boston, New York)",
-     "tags": [
-      {
-       "label": "HEOR, epidemiology",
-       "status": "critical"
-      },
-      {
-       "label": "Closes Oct 28",
-       "status": "critical"
-      },
-      {
-       "label": "First three",
-       "status": "good"
-      }
-     ],
-     "detail": "Names *first year masters/MPH candidates* in biostatistics or epidemiology. Claims, EHR and trial data in R, SAS and Stata; cost-effectiveness and budget-impact models. $2,000 a week, 3.3 GPA floor, evaluated for a full-time offer in your internship office. Interviews begin in November. Send resume, all unofficial transcripts, and a cover letter naming Los Angeles. Req 3064. [Apply](https://analystcareers-analysisgroup.icims.com/jobs/3064/job)"
+      "id": "apply-now",
+      "title": "Open now",
+      "layout": "table",
+      "checkable": true,
+      "note": "Every row read on the employer's own system tonight, Oct 6. Ranked by fit with trials, devices and health analytics, then location. Begin with the three tagged First three.",
+      "items": [
+        {
+          "id": "kz-henryford-cepc",
+          "title": "Henry Ford Health: Cancer Epidemiology (CEPC) Intern",
+          "location": "Detroit (on-site)",
+          "tags": [
+            {
+              "label": "Cancer epidemiology",
+              "status": "critical"
+            },
+            {
+              "label": "Closes Oct 16",
+              "status": "critical"
+            }
+          ],
+          "detail": "The program you asked for. Henry Ford's Public Health Sciences department takes the application through its own form, and *Cancer Epidemiology and Prevention and Control (CEPC)* is the first program choice on it. Biostatistics is a listed program of study, and the self-assessment rates R/SAS programming, data analysis, study design and REDCap.\n\n**What the form asks for:** a cover letter on your research background and what you hope to gain, a resume or CV, and transcripts (unofficial is fine). A recommendation letter is optional. You also name two strengths and two things to improve, and rank four priorities; *Statistics and Analysis* is one of them. The role is on-site in Detroit and the form has you acknowledge that.\n\nYour breast cancer recurrence project is the natural lead for the cover letter. Closes October 16 by the date you gave; the form itself shows no date, so do not leave it to the last day. [Apply](https://redcap.hfhs.org/redcap/surveys/?s=AX83M7JKYHH7A8TJ)"
+        },
+        {
+          "id": "kz-analysisgroup-health",
+          "title": "Analysis Group: Summer Analyst, Health Care",
+          "location": "Los Angeles (also SF, Boston, New York)",
+          "tags": [
+            {
+              "label": "HEOR, epidemiology",
+              "status": "critical"
+            },
+            {
+              "label": "Closes Oct 28",
+              "status": "critical"
+            },
+            {
+              "label": "First three",
+              "status": "good"
+            }
+          ],
+          "detail": "Names *first year masters/MPH candidates* in biostatistics or epidemiology. Claims, EHR and trial data in R, SAS and Stata; cost-effectiveness and budget-impact models. $2,000 a week, 3.3 GPA floor, evaluated for a full-time offer in your internship office. Interviews begin in November. Send resume, all unofficial transcripts, and a cover letter naming Los Angeles. Req 3064. [Apply](https://analystcareers-analysisgroup.icims.com/jobs/3064/job)"
+        },
+        {
+          "id": "kz-kite-cdm",
+          "title": "Kite: Clinical Development Data Management Intern",
+          "location": "El Segundo (Los Angeles)",
+          "tags": [
+            {
+              "label": "Trials",
+              "status": "critical"
+            },
+            {
+              "label": "Closes Oct 16",
+              "status": "critical"
+            },
+            {
+              "label": "First three",
+              "status": "good"
+            }
+          ],
+          "detail": "Kite is Gilead's cell-therapy company. Data management builds and cleans the trial datasets biostatisticians analyze. Graduate degree preferred; Epidemiology and Public Health are named fields. Same Workday system as the Gilead rows below. Req R0054782. [Apply](https://gilead.wd1.myworkdayjobs.com/en-US/kitepharmacareers/job/United-States---California---El-Segundo/Intern---Kite-Development---Clinical-Development--Data-Management-_R0054782)"
+        },
+        {
+          "id": "kz-stryker-stat-programming",
+          "title": "Stryker: Statistical Programming Intern",
+          "location": "Irvine (Orange County)",
+          "tags": [
+            {
+              "label": "Devices, trials",
+              "status": "critical"
+            },
+            {
+              "label": "Open, no close date",
+              "status": "good"
+            },
+            {
+              "label": "First three",
+              "status": "good"
+            }
+          ],
+          "detail": "Programs clinical research data from trials and real-world evidence, CDISC standardization, exploratory analyses with statisticians. Asks for a Bachelor's or **Master's** in Statistics or related, 3.0 GPA, *Strong knowledge of SAS and/or R*, so your R qualifies today. $20 to $35 an hour, sign-on bonus, corporate housing or a stipend. Posted Sept 1. Req R572769. [Apply](https://stryker.wd1.myworkdayjobs.com/en-US/StrykerCareers/job/Irvine-California/Summer-2027-Internship---Statistical-Programming---California_R572769)"
+        },
+        {
+          "id": "kz-edwards-clinical-regulatory",
+          "title": "Edwards: Clinical & Regulatory Internship",
+          "location": "Irvine (Orange County)",
+          "tags": [
+            {
+              "label": "Devices, trials",
+              "status": "critical"
+            },
+            {
+              "label": "Closes Nov 1",
+              "status": "critical"
+            }
+          ],
+          "detail": "Hands-on clinical or regulatory work at headquarters, applying device regulations to bring products to market. Required: *Pursuing a degree in life sciences, engineering/bio-med engineering, statistics, economics, or nursing*, master's eligible, *Graduating December 2027 or later*, 3.0 GPA. Subsidized housing; lists *Conversion Opportunities into our New Grad Programs*. California base range $54,000 to $72,000. Req 49745. [Apply](https://edwards.wd5.myworkdayjobs.com/EdwardsCareers/job/USA-IRV-1442-AltonMIC/Clinical---Regulatory-Internship--Summer-2027_Req-49745)"
+        },
+        {
+          "id": "kz-gilead-rwe",
+          "title": "Gilead: Epidemiology & Real-World Evidence Intern",
+          "location": "Foster City (Bay Area)",
+          "tags": [
+            {
+              "label": "RWE",
+              "status": "critical"
+            },
+            {
+              "label": "Closes Oct 16",
+              "status": "critical"
+            }
+          ],
+          "detail": "The only Gilead statistics req whose preferred degree is *Masters (MA, MS, MPH), PhD*, with Biostatistics named. Virology real-world evidence, close to your influenza work. Req R0054648. [Apply](https://gilead.wd1.myworkdayjobs.com/en-US/gileadcareers/job/United-States---California---Foster-City/Intern---Development---Epidemiology---Real-World-Evidence-Virology_R0054648)"
+        },
+        {
+          "id": "kz-gilead-biostat-onc",
+          "title": "Gilead: Biostatistics Oncology Intern",
+          "location": "Foster City (Bay Area)",
+          "tags": [
+            {
+              "label": "Biostatistics",
+              "status": "critical"
+            },
+            {
+              "label": "Closes Oct 16",
+              "status": "critical"
+            }
+          ],
+          "detail": "Bayesian, survival and causal methods, simulation studies in R; survival analysis is already on your resume. Master's students are eligible; *Preferred Degree qualification: PhD*, so expect PhD competition. Req R0054464. [Apply](https://gilead.wd1.myworkdayjobs.com/en-US/gileadcareers/job/United-States---California---Foster-City/Intern---Development---Biostatistics-Oncology_R0054464)"
+        },
+        {
+          "id": "kz-gilead-dev-biostat",
+          "title": "Gilead: Development Biostatistics Intern",
+          "location": "Foster City (Bay Area)",
+          "tags": [
+            {
+              "label": "Biostatistics",
+              "status": "critical"
+            },
+            {
+              "label": "Closes Oct 16",
+              "status": "critical"
+            }
+          ],
+          "detail": "Same terms as the Oncology seat: master's eligible, PhD preferred, same Workday profile so it costs little extra. Req R0054649. [Apply](https://gilead.wd1.myworkdayjobs.com/en-US/gileadcareers/job/United-States---California---Foster-City/Intern---Development---Biostatistics_R0054649)"
+        },
+        {
+          "id": "kz-brg-summer-associate",
+          "title": "BRG: 2027 Summer Associate",
+          "location": "Los Angeles (also Bay Area)",
+          "tags": [
+            {
+              "label": "Health analytics",
+              "status": "serious"
+            },
+            {
+              "label": "Final review Oct 16",
+              "status": "serious"
+            }
+          ],
+          "detail": "Economic and litigation consulting; choose **Healthcare Analytics and Disputes** on the questionnaire. Master's with graduation between Winter 2027 and Summer 2028 is eligible, 3.6 GPA preferred, $25 to $40 an hour, about 8 weeks, pipeline to a full-time Associate offer. Send a resume, cover letter and transcript. Req JR100976. [Apply](https://thinkbrg.wd5.myworkdayjobs.com/en-US/BRG_External_Career_Site/job/Washington-DC/XMLNAME-2027-Summer-Associate--Intern-_JR100976)"
+        },
+        {
+          "id": "kz-gilead-medaffairs-research",
+          "title": "Gilead: Medical Affairs Research Intern",
+          "location": "Foster City (Bay Area)",
+          "tags": [
+            {
+              "label": "Health analytics",
+              "status": "serious"
+            },
+            {
+              "label": "Closes Oct 16",
+              "status": "critical"
+            }
+          ],
+          "detail": "Preferred majors start with Statistical Programming, Biostatistics, Public Health and Epidemiology; graduate degree preferred. Req R0054468. [Apply](https://gilead.wd1.myworkdayjobs.com/en-US/gileadcareers/job/United-States---California---Foster-City/Intern---Development---Medical-Affairs-Research_R0054468)"
+        },
+        {
+          "id": "kz-gilead-gra",
+          "title": "Gilead: Governance, Risk & Analysis Intern",
+          "location": "Foster City (Bay Area)",
+          "tags": [
+            {
+              "label": "Analytics",
+              "status": "serious"
+            },
+            {
+              "label": "Closes Oct 16",
+              "status": "critical"
+            }
+          ],
+          "detail": "Preferred majors name Biostatistics and Statistical Programming; preferred degree *Graduate/PhD*. Req R0054743. [Apply](https://gilead.wd1.myworkdayjobs.com/en-US/gileadcareers/job/United-States---California---Foster-City/Intern---Development---Governance--Risk---Analysis_R0054743)"
+        },
+        {
+          "id": "kz-centene-analytics-grad",
+          "title": "Centene: Analytics Summer 2027 Intern, Graduate",
+          "location": "Remote",
+          "tags": [
+            {
+              "label": "Health analytics",
+              "status": "serious"
+            },
+            {
+              "label": "Remote",
+              "status": "good"
+            }
+          ],
+          "detail": "Health plan. Graduate students only; Biostatistics and Public Health Analytics are named preferred programs; teams include Healthcare Analytics. $21 to $30 an hour, no close date. Req 1660479. [Apply](https://centene.wd5.myworkdayjobs.com/en-US/centene_external/job/Remote-FL/Centene-2027-Graduate-Summer-Intern_1660479)"
+        },
+        {
+          "id": "kz-amgen-grad-ds",
+          "title": "Amgen: Grad Intern, Data Scientist",
+          "location": "Remote",
+          "tags": [
+            {
+              "label": "Data science",
+              "status": "warning"
+            },
+            {
+              "label": "Remote",
+              "status": "good"
+            },
+            {
+              "label": "Rolling",
+              "status": "good"
+            }
+          ],
+          "detail": "Sits in the Technology, AI & Data organization, a technology group. Requires completing the first year of a Master's before the internship, which you will; the preferred concentrations are *Information Technology, Computer Science*, Engineering or Business. The req says Amgen *does not have an application deadline* and accepts applications until filled. Req R-255722. [Apply](https://amgen.wd1.myworkdayjobs.com/en-US/Careers/job/United-States---Remote/Grad-Intern---Data-Scientist---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255722)"
+        },
+        {
+          "id": "kz-gilead-heor",
+          "title": "Gilead: Health Economics & Outcomes Research Intern",
+          "location": "Foster City (Bay Area)",
+          "tags": [
+            {
+              "label": "HEOR",
+              "status": "warning"
+            },
+            {
+              "label": "Closes Oct 16",
+              "status": "critical"
+            }
+          ],
+          "detail": "Read the body: this seat develops *an analysis plan for qualitative data analysis*, and the preferred fields are Psychology, **Anthropology** and Cognitive science, PhD preferred. Less statistics than the title suggests, but your anthropology degree is named. Req R0054793. [Apply](https://gilead.wd1.myworkdayjobs.com/en-US/gileadcareers/job/United-States---California---Foster-City/Intern---Commercial---Corporate-Affairs---Health-Economics-and-Outcomes-Research_R0054793)"
+        },
+        {
+          "id": "kz-gilead-mktsci",
+          "title": "Gilead: Marketing Sciences Intern",
+          "location": "Foster City (Bay Area)",
+          "tags": [
+            {
+              "label": "Commercial analytics",
+              "status": "warning"
+            },
+            {
+              "label": "Closes Oct 16",
+              "status": "critical"
+            }
+          ],
+          "detail": "Commercial analytics; Biostatistics and Epidemiology are among the preferred fields. Lower on fit with trials. Req R0054598. [Apply](https://gilead.wd1.myworkdayjobs.com/en-US/gileadcareers/job/United-States---California---Foster-City/Intern---Commercial---Corporate-Affairs---Marketing-Sciences--Liver-Integrated-Insights-_R0054598)"
+        },
+        {
+          "id": "kz-dexcom-early",
+          "title": "Dexcom: 2027 Summer Internship Early Interest",
+          "location": "San Diego",
+          "tags": [
+            {
+              "label": "Devices",
+              "status": "serious"
+            },
+            {
+              "label": "Talent pool",
+              "status": "warning"
+            }
+          ],
+          "detail": "A talent pool: you get matched when reqs post. 12 weeks; requires graduating December 2027 or later, which you do. Req JR116511. [Apply](https://dexcom.wd1.myworkdayjobs.com/en-US/dexcom/job/San-Diego-California/XMLNAME-2027-US-Summer-Internship---Early-Interest_JR116511)"
+        },
+        {
+          "id": "kz-jnj-clin-pharm",
+          "title": "J&J: Clinical Pharmacology & Pharmacometrics Intern",
+          "location": "La Jolla (San Diego) or remote",
+          "tags": [
+            {
+              "label": "Trials",
+              "status": "warning"
+            },
+            {
+              "label": "Closes Nov 20",
+              "status": "warning"
+            }
+          ],
+          "detail": "PK/PD modeling of trial data; La Jolla is one of five sites and the req says remote may be available, housing stipend offered. Risk: it asks for an MS or higher *in a life sciences-related discipline such as Pharmacology*, so make your modeling case plainly. $23.50 to $52.50 an hour. Req R-098266. [Apply](https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Spring-House-Pennsylvania-United-States-of-America/Clinical-Pharmacology-and-Pharmacometrics-Intern---Summer-2027_R-098266)"
+        },
+        {
+          "id": "kz-jnj-imm-peds-clindev",
+          "title": "J&J: Immunology Pediatric Clinical Development Intern",
+          "location": "Spring House, Pennsylvania, or La Jolla (San Diego)",
+          "tags": [
+            {
+              "label": "Trials",
+              "status": "serious"
+            },
+            {
+              "label": "Closes Oct 20",
+              "status": "warning"
+            },
+            {
+              "label": "New",
+              "status": "good"
+            }
+          ],
+          "detail": "Reviews clinical, scientific and safety data from pediatric trials alongside Biostatistics and Clinical Pharmacology, plus one research project you present. *MPH, MS, or related advanced degree* candidates are preferred, 3.0 GPA, hybrid three days on site. Location risk: the req gives Spring House May 17 to August 6, and La Jolla June 14 to September 10 *for those on the quarter system*; Michigan runs semesters, so ask about La Jolla in the application. Req R-103285. [Apply](https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Spring-House-Pennsylvania-United-States-of-America/IMM-Peds-Clinical-Dev-Intern_R-103285)"
+        },
+        {
+          "id": "kz-analysisgroup-generalist",
+          "title": "Analysis Group: Summer Analyst, Generalist",
+          "location": "Los Angeles or San Francisco",
+          "tags": [
+            {
+              "label": "Consulting",
+              "status": "warning"
+            },
+            {
+              "label": "Rolling since Sep 30",
+              "status": "warning"
+            }
+          ],
+          "detail": "The stated deadline passed September 30 and interviews began in early to mid October; the posting says applications are still reviewed on a rolling basis. Master's graduating winter 2027 or summer 2028 eligible. Send only alongside the Health Care application above. Req 3005. [Apply](https://analystcareers-analysisgroup.icims.com/jobs/3005/summer-analyst-intern---generalist-%282027-start-date%29/job)"
+        },
+        {
+          "id": "kz-merck-biostat",
+          "title": "Merck: 2027 Biostatistics Intern",
+          "location": "Rahway, New Jersey",
+          "tags": [
+            {
+              "label": "Trials",
+              "status": "serious"
+            },
+            {
+              "label": "Outside your metros"
+            },
+            {
+              "label": "Closes Oct 31",
+              "status": "warning"
+            }
+          ],
+          "detail": "Listed near the end because of geography. The rare big-pharma biostatistics req that states an MS outright: *at least (2) semesters of graduate work towards an MS or PhD degree in Statistics or Biostatistics by May 2027*, SAS, S-Plus and/or R. Req R416450. [Apply](https://msd.wd5.myworkdayjobs.com/en-US/SearchJobs/job/USA---New-Jersey---Rahway/XMLNAME-2027-Future-Talent-Program---Biostatistics---Intern_R416450)"
+        },
+        {
+          "id": "kz-bcbsm-ds-biostat",
+          "title": "BCBS Michigan: Data Science / Biostatistician Intern",
+          "location": "Detroit, Michigan (hybrid)",
+          "tags": [
+            {
+              "label": "Health analytics",
+              "status": "serious"
+            },
+            {
+              "label": "Outside your metros"
+            },
+            {
+              "label": "Open, no close date",
+              "status": "good"
+            }
+          ],
+          "detail": "Health plan. Program evaluation on the Health Care Value informatics team, answering questions like *Is the program reducing inpatient and emergency care utilization?* with statistical models. Asks for a Bachelor's in Statistics, Data Science or related, *Master's Degree in related field preferred*, and *SAS, R, Python/PySpark and SQL*. Posted September 28. A sibling req, Epidemiology / Biostatistics (14840), supports managed care pharmacy and is lighter on statistics. Listed last because of geography. Req 14837. [Apply](https://ejko.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/14837)"
+        }
+      ]
     },
     {
-     "id": "kz-kite-cdm",
-     "title": "Kite: Clinical Development Data Management Intern",
-     "location": "El Segundo (Los Angeles)",
-     "tags": [
-      {
-       "label": "Trials",
-       "status": "critical"
-      },
-      {
-       "label": "Closes Oct 16",
-       "status": "critical"
-      },
-      {
-       "label": "First three",
-       "status": "good"
-      }
-     ],
-     "detail": "Kite is Gilead's cell-therapy company. Data management builds and cleans the trial datasets biostatisticians analyze. Graduate degree preferred; Epidemiology and Public Health are named fields. Same Workday system as the Gilead rows below. Req R0054782. [Apply](https://gilead.wd1.myworkdayjobs.com/en-US/kitepharmacareers/job/United-States---California---El-Segundo/Intern---Kite-Development---Clinical-Development--Data-Management-_R0054782)"
+      "id": "later",
+      "title": "Coming up",
+      "items": [
+        {
+          "id": "kz-later-pfizer-stats",
+          "title": "Pfizer: Statistics Summer Internship Program",
+          "tags": [
+            {
+              "label": "Deadline Jan 31",
+              "status": "warning"
+            },
+            {
+              "label": "Statistics",
+              "status": "critical"
+            }
+          ],
+          "detail": "For current graduate students with at least one year of graduate study by June 2027. **CA- San Diego** is a listed site. 12 weeks between May and September; employed by AtriumWorks and placed at Pfizer. Interviews run November to March, rolling. Its positions list was empty tonight, so there is nothing to submit yet. [Program site](https://pfizerstatistics-internprogram-atriumworks.icims.com/jobs/intro)"
+        },
+        {
+          "id": "kz-later-kite-grad",
+          "title": "Kite: graduate intern postings, Los Angeles",
+          "tags": [
+            {
+              "label": "Posts Oct to Jan",
+              "status": "good"
+            },
+            {
+              "label": "Trials",
+              "status": "serious"
+            }
+          ],
+          "detail": "Kite says US graduate and undergraduate intern positions are typically posted October through January, 10 to 12 weeks. Its 10 live intern reqs tonight include no statistics seat. [Kite early talent](https://www.kitepharma.com/careers/early-talent-programs-at-kite)"
+        },
+        {
+          "id": "kz-later-corcept",
+          "title": "Corcept: Biostatistics Intern, Redwood City",
+          "tags": [
+            {
+              "label": "Not posted yet",
+              "status": "warning"
+            },
+            {
+              "label": "Biostatistics",
+              "status": "critical"
+            },
+            {
+              "label": "New",
+              "status": "good"
+            }
+          ],
+          "detail": "Bay Area. Last cycle's posting took students *pursuing a master's degree or PhD in statistics, mathematics, data science or a related field*, with R, SAS or Python, at $26 to $32 an hour, on site, and came down January 6, 2026. Corcept's own board lists 80 roles tonight and no internship yet, so expect it before the new year. [Corcept openings](https://corcept.com/careers/current-opportunities/), [last cycle's posting](https://www.builtinsf.com/job/biostatistics-intern/7974432)"
+        },
+        {
+          "id": "kz-later-bms",
+          "title": "Bristol Myers Squibb: summer internships",
+          "tags": [
+            {
+              "label": "Aug to Mar",
+              "status": "good"
+            },
+            {
+              "label": "Biostatistics",
+              "status": "serious"
+            }
+          ],
+          "detail": "BMS accepts summer applications August through March for 10 to 12 weeks. None of its 40 intern reqs tonight is a San Diego statistics seat. [BMS internships](https://careers.bms.com/internships-co-ops/)"
+        },
+        {
+          "id": "kz-later-edwards",
+          "title": "Edwards Lifesciences: other internship tracks",
+          "tags": [
+            {
+              "label": "Feb to Apr",
+              "status": "good"
+            },
+            {
+              "label": "Devices",
+              "status": "serious"
+            }
+          ],
+          "detail": "Edwards lists additional internships (Human Resources, IT, Quality and more) with an application timeline of February to April, and its Engineering track reopens January to March, all Irvine. The Clinical & Regulatory track (September to October) is in Open now. [Edwards internships](https://www.edwards.com/careers/university-recruiting/internship-programs)"
+        },
+        {
+          "id": "kz-later-kaiser",
+          "title": "Kaiser Permanente Research & Evaluation",
+          "tags": [
+            {
+              "label": "Posts Feb to Mar",
+              "status": "good"
+            },
+            {
+              "label": "Hospital research",
+              "status": "warning"
+            }
+          ],
+          "detail": "Graduate-level summer interns, 10 to 12 weeks, paid, Southern California. Positions post February to March. Questions to RE-internships@kp.org. [Program page](https://www.kp-scalresearch.org/aboutus/join-our-team/summer-internship-program/)"
+        },
+        {
+          "id": "kz-later-blueshield",
+          "title": "Blue Shield of California: summer internship",
+          "tags": [
+            {
+              "label": "No 2027 posting yet",
+              "status": "warning"
+            },
+            {
+              "label": "Health plan"
+            }
+          ],
+          "detail": "A ten-week program open to *undergraduate and graduate students*. No 2027 posting found tonight. [Blue Shield programs](https://careers.blueshieldca.com/growth-development)"
+        },
+        {
+          "id": "kz-later-ionis",
+          "title": "Ionis: summer intern program, Carlsbad",
+          "tags": [
+            {
+              "label": "Feb 9 to Apr 30 (2026 dates)",
+              "status": "good"
+            },
+            {
+              "label": "Trials",
+              "status": "serious"
+            }
+          ],
+          "detail": "The 2026 window was February 9 to April 30, open to undergraduate and graduate students. Expect similar for 2027. [Ionis intern program](https://ionis.com/careers/intern-program)"
+        },
+        {
+          "id": "kz-later-acadia",
+          "title": "Acadia Pharmaceuticals: summer program, San Diego",
+          "tags": [
+            {
+              "label": "Expect early 2027",
+              "status": "good"
+            }
+          ],
+          "detail": "Its page still shows the 2026 program, mid June to late August, hybrid. It names no biostatistics seat tonight. [Program page](https://acadia.com/en-us/careers/summer-internship-program)"
+        },
+        {
+          "id": "kz-later-medtronic",
+          "title": "Medtronic: Northridge and Tempe",
+          "tags": [
+            {
+              "label": "Window closes Oct 13",
+              "status": "warning"
+            },
+            {
+              "label": "77% convert",
+              "status": "good"
+            }
+          ],
+          "detail": "Medtronic says undergraduate and master's applications are accepted August 1 to October 13. None of its 17 live intern reqs tonight is in California or Arizona; all are Minnesota, Puerto Rico or abroad. [Medtronic early careers](https://www.medtronic.com/en-us/our-company/careers/early-careers.html)"
+        },
+        {
+          "id": "kz-later-amgen-biostat",
+          "title": "Amgen: R&D Biostatistics grad intern",
+          "tags": [
+            {
+              "label": "Not posted",
+              "status": "warning"
+            }
+          ],
+          "detail": "Not posted. Amgen's 34 live intern reqs tonight are technology roles. The grad Data Scientist seat is in Open now."
+        },
+        {
+          "id": "kz-chartis",
+          "title": "Chartis: no internship posted",
+          "tags": [
+            {
+              "label": "Not posted",
+              "status": "warning"
+            }
+          ],
+          "detail": "37 roles on its board tonight, no internship. It leans strategy, so it stays here until a real internship appears."
+        },
+        {
+          "id": "kz-later-exponent",
+          "title": "Exponent Health Sciences: no internships",
+          "tags": [
+            {
+              "label": "Not posted",
+              "status": "warning"
+            }
+          ],
+          "detail": "Its board returned no open roles to tonight's sweep. Scientific consulting in your sense; watched."
+        }
+      ]
     },
     {
-     "id": "kz-stryker-stat-programming",
-     "title": "Stryker: Statistical Programming Intern",
-     "location": "Irvine (Orange County)",
-     "tags": [
-      {
-       "label": "Devices, trials",
-       "status": "critical"
-      },
-      {
-       "label": "Open, no close date",
-       "status": "good"
-      },
-      {
-       "label": "First three",
-       "status": "good"
-      }
-     ],
-     "detail": "Programs clinical research data from trials and real-world evidence, CDISC standardization, exploratory analyses with statisticians. Asks for a Bachelor's or **Master's** in Statistics or related, 3.0 GPA, *Strong knowledge of SAS and/or R*, so your R qualifies today. $20 to $35 an hour, sign-on bonus, corporate housing or a stipend. Posted Sept 1. Req R572769. [Apply](https://stryker.wd1.myworkdayjobs.com/en-US/StrykerCareers/job/Irvine-California/Summer-2027-Internship---Statistical-Programming---California_R572769)"
+      "id": "people",
+      "title": "Contacts",
+      "items": [
+        {
+          "id": "kz-person-white",
+          "title": "Neika White, Michigan Public Health Careers",
+          "tags": [
+            {
+              "label": "Employer engagement",
+              "status": "good"
+            }
+          ],
+          "detail": "Employer Engagement Coordinator. Runs the school's two career fairs (September 25, 2026 and January 29, 2027) and registers the employers; the page says the fall fair aligns with private sector recruiting. Email on the page: ncwhite@umich.edu. Ask which employers recruited biostatistics master's students this fall and who to talk to at them. [Career fairs page](https://sph.umich.edu/careers/employer-engagement/career-fairs.html)"
+        }
+      ]
     },
     {
-     "id": "kz-edwards-clinical-regulatory",
-     "title": "Edwards: Clinical & Regulatory Internship",
-     "location": "Irvine (Orange County)",
-     "tags": [
-      {
-       "label": "Devices, trials",
-       "status": "critical"
-      },
-      {
-       "label": "Closes Nov 1",
-       "status": "critical"
-      }
-     ],
-     "detail": "Hands-on clinical or regulatory work at headquarters, applying device regulations to bring products to market. Required: *Pursuing a degree in life sciences, engineering/bio-med engineering, statistics, economics, or nursing*, master's eligible, *Graduating December 2027 or later*, 3.0 GPA. Subsidized housing; lists *Conversion Opportunities into our New Grad Programs*. California base range $54,000 to $72,000. Req 49745. [Apply](https://edwards.wd5.myworkdayjobs.com/EdwardsCareers/job/USA-IRV-1442-AltonMIC/Clinical---Regulatory-Internship--Summer-2027_Req-49745)"
+      "id": "employers",
+      "title": "Where to look",
+      "note": "Bold: a program open or confirmed that fits a master's.",
+      "items": [
+        {
+          "title": "Los Angeles",
+          "detail": "**Kite (Gilead)**, Santa Monica and El Segundo: data management seat open; statistics grad interns post Oct to Jan.\n**Amgen**, Thousand Oaks: remote grad Data Scientist open; R&D biostatistics not posted.\n**Medtronic Diabetes**, Northridge: no local seat this cycle yet.\n**Kaiser Permanente Research & Evaluation**, Pasadena: graduate interns post Feb to Mar.\n**Analysis Group** and **BRG**, downtown: health consulting seats open now.\nXencor (Pasadena), ImmunityBio (El Segundo), Grifols: no intern seats in Los Angeles tonight. Arcutis, Capsida and Puma were not re-read tonight.\nCedars-Sinai, City of Hope, CHLA: private nonprofit medical centers; nothing for a statistician posted.\nMolina, Health Net, Elevance: health plans."
+        },
+        {
+          "title": "Orange County",
+          "detail": "**Stryker**, Irvine: Statistical Programming intern open now.\n**Edwards Lifesciences**, Irvine: Clinical & Regulatory intern open, closes Nov 1; other tracks Feb to Apr.\nJ&J MedTech (Irvine): only supply chain interns posted.\nInsulet (Irvine): manufacturing co-op only.\nAbbott, Masimo, Beckman Coulter, Applied Medical, Alcon, AbbVie/Allergan: no fitting seat in California."
+        },
+        {
+          "title": "Bay Area",
+          "detail": "**Gilead**, Foster City: seven seats open, all close Oct 16.\n**Corcept**, Redwood City: master's-level biostatistics intern last cycle; not posted yet.\nRevolution Medicines (Redwood City): a large statistics group, 262 roles on its board, no internship.\nGenentech, BioMarin, Exelixis, Denali, Cytokinetics, BeOne Medicines (San Carlos): no summer statistics seats posted.\nStryker (Fremont): regulatory affairs intern only.\nStanford Health Care: nothing posted.\nBlue Shield of California (Oakland), health plan: graduate interns eligible; no 2027 posting yet.\nGuardant, GRAIL, Natera: genomics, listed last."
+        },
+        {
+          "title": "San Diego",
+          "detail": "**Pfizer**, La Jolla: Statistics program, deadline Jan 31.\n**Dexcom**: early-interest pool open.\n**Bristol Myers Squibb**: applications Aug to Mar.\n**J&J Innovative Medicine**, La Jolla: Immunology pediatric clinical development intern open until Oct 20; the La Jolla dates suit quarter-system schools.\nIonis (Carlsbad), Acadia, Vertex (last year's biostatistics intern was PhD-only, Boston), Neurocrine (biostatistics intern is PhD-only).\nResMed, Tandem, Insulet: devices; nothing that fits tonight.\nScripps, Salk, Sharp: no fitting seats.\nAbbott's La Jolla cancer diagnostics intern: lab, bioinformatics and AI tracks, no clinical statistics.\nIllumina: genomics, listed last."
+        },
+        {
+          "title": "Phoenix",
+          "detail": "Medtronic Tempe, Mayo Clinic Arizona, HonorHealth, Banner Health, Dignity Health: nothing that fits is posted tonight.\nStryker (Tempe): regulatory affairs intern only, no statistics.\nTGen: genomics, listed last."
+        },
+        {
+          "title": "Remote and CROs",
+          "detail": "**Centene** and **Amgen**: remote grad seats open now.\nIQVIA, Parexel, ICON, Syneos, Medpace, Fortrea, Precision for Medicine, Cytel, Certara: all read tonight, no US biostatistics or programming intern. Medpace's summer seats are Cincinnati; Parexel's new programming interns are in South Africa.\nOutside your metros: **Merck** (New Jersey), MS biostatistics intern open; **Blue Cross Blue Shield of Michigan** (Detroit), Data Science / Biostatistician intern open."
+        }
+      ]
     },
     {
-     "id": "kz-gilead-rwe",
-     "title": "Gilead: Epidemiology & Real-World Evidence Intern",
-     "location": "Foster City (Bay Area)",
-     "tags": [
-      {
-       "label": "RWE",
-       "status": "critical"
-      },
-      {
-       "label": "Closes Oct 16",
-       "status": "critical"
-      }
-     ],
-     "detail": "The only Gilead statistics req whose preferred degree is *Masters (MA, MS, MPH), PhD*, with Biostatistics named. Virology real-world evidence, close to your influenza work. Req R0054648. [Apply](https://gilead.wd1.myworkdayjobs.com/en-US/gileadcareers/job/United-States---California---Foster-City/Intern---Development---Epidemiology---Real-World-Evidence-Virology_R0054648)"
+      "id": "not-a-fit",
+      "title": "Checked and not a fit",
+      "items": [
+        {
+          "id": "kz-nf-jnj-imm-others",
+          "title": "J&J Immunology: other 2027 intern seats",
+          "detail": "Posted October 5, close October 20. Translational and Discovery (La Jolla) are lab seats (*ELISA, PCR, DNA sequencing, flow cytometry*); Computational asks for *computational biology, bioinformatics, computer science*; Clinical Scientist is trial operations in Spring House, Pennsylvania only."
+        },
+        {
+          "id": "kz-nf-abbott-cancer-dx",
+          "title": "Abbott: R&D Cancer Diagnostics Intern, La Jolla",
+          "detail": "Product development wants lab experience (*PCR/qPCR*, NGS); bioinformatics wants a PhD; the ML and AI track wants AI or computer science, *PhD preferred*. Diagnostics close to genomics."
+        },
+        {
+          "id": "kz-nf-bcbsm-analytics",
+          "title": "BCBS Michigan: HEDIS and Program Performance interns",
+          "detail": "Detroit, hybrid. Excel, SQL Server and claims reporting, lighter on statistics than the Data Science / Biostatistician row in Open now."
+        },
+        {
+          "id": "kz-nf-stryker-regulatory",
+          "title": "Stryker: Regulatory and Clinical Affairs interns",
+          "detail": "Read tonight. Regulatory Affairs in Tempe and Fremont prepares submissions and targets *Biomedical Engineering, Biological Sciences, Chemistry*; Clinical Affairs is Michigan or New Jersey and asks for Biomedical Engineering or Clinical Research. No statistics in either."
+        },
+        {
+          "id": "kz-nf-kite-pm",
+          "title": "Kite: Research Project Management Intern",
+          "detail": "Santa Monica. Process improvement and project tracking for the Research organization, with deliverables like *meeting minutes, dashboards*; no statistics."
+        },
+        {
+          "id": "kz-nf-gilead-cdm-tech",
+          "title": "Gilead: Clinical Data Management, Technology",
+          "detail": "Despite the title, the work is building *AI agents* and Databricks data pipelines, preferred field *Computer Science*. An engineering seat. Say so if you want it back; it closes October 16."
+        },
+        {
+          "id": "kz-nf-gilead-virology-ai",
+          "title": "Gilead: Clinical Virology AI Intern",
+          "detail": "Foster City. *Preferred degree level: Undergraduate*, AI tools for HIV lab research."
+        },
+        {
+          "id": "kz-nf-medtronic-ace",
+          "title": "Medtronic: Clinical Experience (ACE) Intern",
+          "detail": "Hospital field support for cardiac procedures; requires *working toward a bachelor's degree*."
+        },
+        {
+          "id": "kz-nf-regeneron",
+          "title": "Regeneron: 2027 co-ops",
+          "detail": "23 co-ops, all New York, New Jersey, Massachusetts or Washington. The data science seats are computational biology or manufacturing IT."
+        },
+        {
+          "id": "kz-nf-gilead-datasci",
+          "title": "Gilead: Research Data Sciences Intern",
+          "detail": "The work is oncology target discovery on *single-cell and spatial biology datasets, human genetics resources, functional genomics*, with *Preferred degree level: Ph.D.* Genomics, which you asked to avoid. Say so if you want it back; it closes October 30."
+        },
+        {
+          "id": "kz-nf-zs",
+          "title": "ZS: Decision Analytics Associate Intern",
+          "detail": "ZS describes itself as *a management consulting and technology firm*, and the work is pharma commercial analytics. Your scope excludes management consulting. Say so if you want it back."
+        },
+        {
+          "id": "kz-nf-jnj-rdldp",
+          "title": "J&J RDLDP Intern, Santa Clara",
+          "detail": "Requires *graduate students enrolled in an engineering graduate program*."
+        },
+        {
+          "id": "kz-nf-gilead-clinops",
+          "title": "Gilead Clinical Operations Intern",
+          "detail": "Trial documentation and Trial Master File quality checks; no statistics."
+        },
+        {
+          "id": "kz-nf-gilead-ld",
+          "title": "Gilead Medical Excellence Learning & Development Intern",
+          "detail": "Builds training, does not analyze data."
+        },
+        {
+          "id": "kz-nf-honorhealth",
+          "title": "HonorHealth Translational Science Intern",
+          "detail": "Closed; the req no longer loads."
+        },
+        {
+          "id": "kz-nf-jnj-jax",
+          "title": "J&J R&D Biostatistics Intern, Jacksonville",
+          "detail": "Closes October 23 and asks for *at least 1 year of graduate school in a PhD program*, on site in Florida."
+        },
+        {
+          "id": "kz-nf-merck-others",
+          "title": "Merck: other 2027 statistics interns",
+          "detail": "Epidemiology & RWE requires PhD students. Statistical Programmer (closes Oct 17), Health Economics & Data Science, Quantitative Pharmacology and Nonclinical Drug Safety are New Jersey, Pennsylvania or Boston only. **Outcomes Research** (R413998) takes students *pursuing a masters' or PhD* in epidemiology or public health, closes October 30, and is Rahway, New Jersey or Upper Gwynedd, Pennsylvania. Say so if you want East Coast seats listed. Clinical Trial Data Management is also East Coast (Rahway, New Jersey)."
+        },
+        {
+          "id": "kz-nf-precision-ma",
+          "title": "Precision for Medicine: Market Access Consulting",
+          "detail": "New York only; skills listed are PowerPoint, Excel and Word, no statistics."
+        },
+        {
+          "id": "kz-nf-az-epi",
+          "title": "AstraZeneca Epidemiology & Real-World Science",
+          "detail": "Mississauga, Canada, eight months January to August 2027."
+        },
+        {
+          "id": "kz-nf-stryker-ds",
+          "title": "Stryker Data Science Intern, remote",
+          "detail": "Commercial excellence and operations data for the Trauma division, not health analytics."
+        },
+        {
+          "id": "kz-nf-medpace",
+          "title": "Medpace summer interns",
+          "detail": "Clinical Informatics and Feasibility seats are Cincinnati."
+        },
+        {
+          "id": "kz-nf-fortrea",
+          "title": "Fortrea Statistical Programmer Internship",
+          "detail": "Mexico City, and filled."
+        },
+        {
+          "id": "kz-nf-rand",
+          "title": "RAND Summer Associate",
+          "detail": "Its page says it *typically does not consider master's degree students except in the Engineering, Computer or Information Science, and Operations Research disciplines*, and wants two years of graduate work."
+        },
+        {
+          "id": "kz-nf-worldwide-cta",
+          "title": "Worldwide Clinical Trials: Trial Associates Intern",
+          "detail": "Administrative trial support, no statistics."
+        },
+        {
+          "id": "kz-nf-cornerstone",
+          "title": "Cornerstone Research Summer Analyst",
+          "detail": "Undergraduate juniors only."
+        },
+        {
+          "id": "kz-nf-compass-lexecon",
+          "title": "Compass Lexecon Analyst Intern",
+          "detail": "Wants final-year master's students."
+        },
+        {
+          "id": "kz-nf-cedars-mast",
+          "title": "Cedars-Sinai MAST research intern",
+          "detail": "Academic-credit bench microbiology."
+        },
+        {
+          "id": "kz-nf-genentech",
+          "title": "Genentech 2027 interns",
+          "detail": "Spring-term laboratory seats only; no summer statistics."
+        },
+        {
+          "id": "kz-nf-device-wave",
+          "title": "Boston Scientific, Alcon, Abbott 2027 interns",
+          "detail": "Minnesota, Texas, Illinois or abroad; none clinical or statistical in your metros. Boston Scientific's R&D Research Data Science intern takes master's students, but it is deep learning on ECG signals for implant engineers, on site five days a week, and the posting names no site."
+        },
+        {
+          "id": "kz-nf-amgen-undergrad-ds",
+          "title": "Amgen Undergrad Data Scientist",
+          "detail": "Undergraduate version of the grad seat in Open now."
+        },
+        {
+          "id": "kz-nf-gilead-misc",
+          "title": "Gilead Portfolio Strategy and CDS research seats",
+          "detail": "MBA/PhD/PharmD preferred, or a software engineering seat."
+        },
+        {
+          "id": "kz-nf-misc",
+          "title": "Neurocrine, IQVIA, Molina, Elevance, Banner, Beckman, USC",
+          "detail": "PhD-only; closed; undergraduate IT; Indianapolis only; high-school programs; undergraduate IT data catalog work in Brea; unpaid training."
+        },
+        {
+          "id": "kz-nf-vertex-biostat",
+          "title": "Vertex: Biostatistics & Statistical Programming Intern",
+          "detail": "Last year's version required enrollment *leading to a Ph.D.* with two years of graduate study, in Boston. No 2027 version posted."
+        }
+      ]
     },
     {
-     "id": "kz-gilead-biostat-onc",
-     "title": "Gilead: Biostatistics Oncology Intern",
-     "location": "Foster City (Bay Area)",
-     "tags": [
-      {
-       "label": "Biostatistics",
-       "status": "critical"
-      },
-      {
-       "label": "Closes Oct 16",
-       "status": "critical"
-      }
-     ],
-     "detail": "Bayesian, survival and causal methods, simulation studies in R; survival analysis is already on your resume. Master's students are eligible; *Preferred Degree qualification: PhD*, so expect PhD competition. Req R0054464. [Apply](https://gilead.wd1.myworkdayjobs.com/en-US/gileadcareers/job/United-States---California---Foster-City/Intern---Development---Biostatistics-Oncology_R0054464)"
+      "id": "return-offers",
+      "title": "Return offers",
+      "items": [
+        {
+          "id": "kz-ro-nace",
+          "title": "Benchmark: 63.1% of interns converted",
+          "tags": [
+            {
+              "label": "Verified",
+              "status": "good"
+            }
+          ],
+          "detail": "NACE: *The conversion rate has surged to 63.1% for 2024-25 interns*, from its 2026 Internship & Co-op Survey of 284 organizations. [NACE](https://www.naceweb.org/talent-acquisition/internships/intern-conversion-rate-hits-highest-mark-in-five-years)"
+        },
+        {
+          "id": "kz-ro-medtronic",
+          "title": "Medtronic: 77% of eligible interns hired",
+          "tags": [
+            {
+              "label": "Verified",
+              "status": "good"
+            },
+            {
+              "label": "Devices",
+              "status": "serious"
+            }
+          ],
+          "detail": "Medtronic's newsroom: *77% of eligible interns became full-time employees*, from a program of nearly 400. [Medtronic](https://news.medtronic.com/medtronic-summer-internship-program)"
+        },
+        {
+          "id": "kz-ro-stated",
+          "title": "Stated in tonight's postings",
+          "tags": [
+            {
+              "label": "Verified",
+              "status": "good"
+            }
+          ],
+          "detail": "Analysis Group: evaluated *for a full-time analyst offer in the office that their internship takes place*. BRG: *we aim to convert Summer Associates to full-time Associates*. Edwards: *Conversion Opportunities into our New Grad Programs*. J&J Clinical Pharmacology: used to assess *potential for future* hiring. Kite: *Consideration for future full-time positions, rotation programs, or contract roles*. No published rate for any of them."
+        },
+        {
+          "id": "kz-ro-estimates",
+          "title": "J&J 65-70%, Amgen R&D ~75%, Gilead 40-55%",
+          "tags": [
+            {
+              "label": "Estimate",
+              "status": "warning"
+            }
+          ],
+          "detail": "Third-party guide estimates, not company figures, and not re-sourced tonight. Treat as rough."
+        },
+        {
+          "id": "kz-ro-how",
+          "title": "How to get the offer",
+          "detail": "Say in week one that you want a return offer and ask what earns one; ship something that outlives the summer; meet people on adjacent teams."
+        }
+      ]
     },
     {
-     "id": "kz-gilead-dev-biostat",
-     "title": "Gilead: Development Biostatistics Intern",
-     "location": "Foster City (Bay Area)",
-     "tags": [
-      {
-       "label": "Biostatistics",
-       "status": "critical"
-      },
-      {
-       "label": "Closes Oct 16",
-       "status": "critical"
-      }
-     ],
-     "detail": "Same terms as the Oncology seat: master's eligible, PhD preferred, same Workday profile so it costs little extra. Req R0054649. [Apply](https://gilead.wd1.myworkdayjobs.com/en-US/gileadcareers/job/United-States---California---Foster-City/Intern---Development---Biostatistics_R0054649)"
+      "id": "blocked",
+      "title": "Careers sites checked by hand",
+      "items": [
+        {
+          "id": "kz-blocked-browser",
+          "title": "Read in the browser tonight",
+          "detail": "Both Analysis Group postings (open; Health Care deadline October 28), Pfizer's Statistics program site and positions list (still empty), Denali's careers page and its five Workday sites (no internship), and the Medtronic, Edwards and Michigan Public Health pages behind the dates on this page."
+        },
+        {
+          "id": "kz-blocked-unread",
+          "title": "Not covered tonight",
+          "detail": "City of Hope's job board was down for maintenance tonight; it is retried tomorrow. Xencor and Children's Hospital Los Angeles are read weekly (last October 4, next October 11). Puma (*403 Forbidden* on October 2), Arcutis (portal error) and Capsida (LinkedIn only) are not retried nightly. Scripps Research, Salk, Sanford Burnham Prebys and La Jolla Institute run undergraduate programs. TGen is genomics and not chased."
+        }
+      ]
     },
     {
-     "id": "kz-brg-summer-associate",
-     "title": "BRG: 2027 Summer Associate",
-     "location": "Los Angeles (also Bay Area)",
-     "tags": [
-      {
-       "label": "Health analytics",
-       "status": "serious"
-      },
-      {
-       "label": "Final review Oct 16",
-       "status": "serious"
-      }
-     ],
-     "detail": "Economic and litigation consulting; choose **Healthcare Analytics and Disputes** on the questionnaire. Master's with graduation between Winter 2027 and Summer 2028 is eligible, 3.6 GPA preferred, $25 to $40 an hour, about 8 weeks, pipeline to a full-time Associate offer. Send a resume, cover letter and transcript. Req JR100976. [Apply](https://thinkbrg.wd5.myworkdayjobs.com/en-US/BRG_External_Career_Site/job/Washington-DC/XMLNAME-2027-Summer-Associate--Intern-_JR100976)"
-    },
-    {
-     "id": "kz-gilead-medaffairs-research",
-     "title": "Gilead: Medical Affairs Research Intern",
-     "location": "Foster City (Bay Area)",
-     "tags": [
-      {
-       "label": "Health analytics",
-       "status": "serious"
-      },
-      {
-       "label": "Closes Oct 16",
-       "status": "critical"
-      }
-     ],
-     "detail": "Preferred majors start with Statistical Programming, Biostatistics, Public Health and Epidemiology; graduate degree preferred. Req R0054468. [Apply](https://gilead.wd1.myworkdayjobs.com/en-US/gileadcareers/job/United-States---California---Foster-City/Intern---Development---Medical-Affairs-Research_R0054468)"
-    },
-    {
-     "id": "kz-gilead-gra",
-     "title": "Gilead: Governance, Risk & Analysis Intern",
-     "location": "Foster City (Bay Area)",
-     "tags": [
-      {
-       "label": "Analytics",
-       "status": "serious"
-      },
-      {
-       "label": "Closes Oct 16",
-       "status": "critical"
-      }
-     ],
-     "detail": "Preferred majors name Biostatistics and Statistical Programming; preferred degree *Graduate/PhD*. Req R0054743. [Apply](https://gilead.wd1.myworkdayjobs.com/en-US/gileadcareers/job/United-States---California---Foster-City/Intern---Development---Governance--Risk---Analysis_R0054743)"
-    },
-    {
-     "id": "kz-centene-analytics-grad",
-     "title": "Centene: Analytics Summer 2027 Intern, Graduate",
-     "location": "Remote",
-     "tags": [
-      {
-       "label": "Health analytics",
-       "status": "serious"
-      },
-      {
-       "label": "Remote",
-       "status": "good"
-      }
-     ],
-     "detail": "Health plan. Graduate students only; Biostatistics and Public Health Analytics are named preferred programs; teams include Healthcare Analytics. $21 to $30 an hour, no close date. Req 1660479. [Apply](https://centene.wd5.myworkdayjobs.com/en-US/centene_external/job/Remote-FL/Centene-2027-Graduate-Summer-Intern_1660479)"
-    },
-    {
-     "id": "kz-amgen-grad-ds",
-     "title": "Amgen: Grad Intern, Data Scientist",
-     "location": "Remote",
-     "tags": [
-      {
-       "label": "Data science",
-       "status": "warning"
-      },
-      {
-       "label": "Remote",
-       "status": "good"
-      },
-      {
-       "label": "Rolling",
-       "status": "good"
-      }
-     ],
-     "detail": "Sits in the Technology, AI & Data organization, a technology group. Requires completing the first year of a Master's before the internship, which you will; the preferred concentrations are *Information Technology, Computer Science*, Engineering or Business. The req says Amgen *does not have an application deadline* and accepts applications until filled. Req R-255722. [Apply](https://amgen.wd1.myworkdayjobs.com/en-US/Careers/job/United-States---Remote/Grad-Intern---Data-Scientist---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255722)"
-    },
-    {
-     "id": "kz-gilead-heor",
-     "title": "Gilead: Health Economics & Outcomes Research Intern",
-     "location": "Foster City (Bay Area)",
-     "tags": [
-      {
-       "label": "HEOR",
-       "status": "warning"
-      },
-      {
-       "label": "Closes Oct 16",
-       "status": "critical"
-      }
-     ],
-     "detail": "Read the body: this seat develops *an analysis plan for qualitative data analysis*, and the preferred fields are Psychology, **Anthropology** and Cognitive science, PhD preferred. Less statistics than the title suggests, but your anthropology degree is named. Req R0054793. [Apply](https://gilead.wd1.myworkdayjobs.com/en-US/gileadcareers/job/United-States---California---Foster-City/Intern---Commercial---Corporate-Affairs---Health-Economics-and-Outcomes-Research_R0054793)"
-    },
-    {
-     "id": "kz-gilead-mktsci",
-     "title": "Gilead: Marketing Sciences Intern",
-     "location": "Foster City (Bay Area)",
-     "tags": [
-      {
-       "label": "Commercial analytics",
-       "status": "warning"
-      },
-      {
-       "label": "Closes Oct 16",
-       "status": "critical"
-      }
-     ],
-     "detail": "Commercial analytics; Biostatistics and Epidemiology are among the preferred fields. Lower on fit with trials. Req R0054598. [Apply](https://gilead.wd1.myworkdayjobs.com/en-US/gileadcareers/job/United-States---California---Foster-City/Intern---Commercial---Corporate-Affairs---Marketing-Sciences--Liver-Integrated-Insights-_R0054598)"
-    },
-    {
-     "id": "kz-dexcom-early",
-     "title": "Dexcom: 2027 Summer Internship Early Interest",
-     "location": "San Diego",
-     "tags": [
-      {
-       "label": "Devices",
-       "status": "serious"
-      },
-      {
-       "label": "Talent pool",
-       "status": "warning"
-      }
-     ],
-     "detail": "A talent pool: you get matched when reqs post. 12 weeks; requires graduating December 2027 or later, which you do. Req JR116511. [Apply](https://dexcom.wd1.myworkdayjobs.com/en-US/dexcom/job/San-Diego-California/XMLNAME-2027-US-Summer-Internship---Early-Interest_JR116511)"
-    },
-    {
-     "id": "kz-jnj-clin-pharm",
-     "title": "J&J: Clinical Pharmacology & Pharmacometrics Intern",
-     "location": "La Jolla (San Diego) or remote",
-     "tags": [
-      {
-       "label": "Trials",
-       "status": "warning"
-      },
-      {
-       "label": "Closes Nov 20",
-       "status": "warning"
-      }
-     ],
-     "detail": "PK/PD modeling of trial data; La Jolla is one of five sites and the req says remote may be available, housing stipend offered. Risk: it asks for an MS or higher *in a life sciences-related discipline such as Pharmacology*, so make your modeling case plainly. $23.50 to $52.50 an hour. Req R-098266. [Apply](https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Spring-House-Pennsylvania-United-States-of-America/Clinical-Pharmacology-and-Pharmacometrics-Intern---Summer-2027_R-098266)"
-    },
-    {
-     "id": "kz-analysisgroup-generalist",
-     "title": "Analysis Group: Summer Analyst, Generalist",
-     "location": "Los Angeles or San Francisco",
-     "tags": [
-      {
-       "label": "Consulting",
-       "status": "warning"
-      },
-      {
-       "label": "Rolling since Sep 30",
-       "status": "warning"
-      }
-     ],
-     "detail": "The stated deadline passed September 30 and interviews began in early to mid October; the posting says applications are still reviewed on a rolling basis. Master's graduating winter 2027 or summer 2028 eligible. Send only alongside the Health Care application above. Req 3005. [Apply](https://analystcareers-analysisgroup.icims.com/jobs/3005/summer-analyst-intern---generalist-%282027-start-date%29/job)"
-    },
-    {
-     "id": "kz-merck-biostat",
-     "title": "Merck: 2027 Biostatistics Intern",
-     "location": "Rahway, New Jersey",
-     "tags": [
-      {
-       "label": "Trials",
-       "status": "serious"
-      },
-      {
-       "label": "Outside your metros"
-      },
-      {
-       "label": "Closes Oct 31",
-       "status": "warning"
-      }
-     ],
-     "detail": "Listed near the end because of geography. The rare big-pharma biostatistics req that states an MS outright: *at least (2) semesters of graduate work towards an MS or PhD degree in Statistics or Biostatistics by May 2027*, SAS, S-Plus and/or R. Req R416450. [Apply](https://msd.wd5.myworkdayjobs.com/en-US/SearchJobs/job/USA---New-Jersey---Rahway/XMLNAME-2027-Future-Talent-Program---Biostatistics---Intern_R416450)"
-    },
-    {
-     "id": "kz-bcbsm-ds-biostat",
-     "title": "BCBS Michigan: Data Science / Biostatistician Intern",
-     "location": "Detroit, Michigan (hybrid)",
-     "tags": [
-      {
-       "label": "Health analytics",
-       "status": "serious"
-      },
-      {
-       "label": "Outside your metros"
-      },
-      {
-       "label": "Open, no close date",
-       "status": "good"
-      }
-     ],
-     "detail": "Health plan. Program evaluation on the Health Care Value informatics team, answering questions like *Is the program reducing inpatient and emergency care utilization?* with statistical models. Asks for a Bachelor's in Statistics, Data Science or related, *Master's Degree in related field preferred*, and *SAS, R, Python/PySpark and SQL*. Posted September 28. A sibling req, Epidemiology / Biostatistics (14840), supports managed care pharmacy and is lighter on statistics. Listed last because of geography. Req 14837. [Apply](https://ejko.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/14837)"
+      "id": "profile",
+      "title": "What this page ranks against",
+      "note": "If any of this is wrong, say so and the ranking changes.",
+      "items": [
+        {
+          "id": "kz-pf-sector",
+          "title": "Private industry first: pharma, CROs, biotech",
+          "detail": "Hospital systems and research institutes are fine; no government or public sector. Public universities and their hospitals are excluded; private nonprofits like Kaiser, Cedars-Sinai, City of Hope and Mayo are in."
+        },
+        {
+          "id": "kz-pf-direction",
+          "title": "Clinical trials, devices, health analytics",
+          "detail": "Genomics stays on the map but ranks last."
+        },
+        {
+          "id": "kz-pf-consulting",
+          "title": "Consulting: scientific yes, strategy no",
+          "detail": "HEOR, epidemiology and economic consulting count (Analysis Group, Exponent). Strategy and management consulting does not (Guidehouse; ZS is out on that rule)."
+        },
+        {
+          "id": "kz-pf-degree",
+          "title": "MS Biostatistics, Michigan, May 2028",
+          "detail": "Master's only. BS Data Science and Anthropology, ASU, 4.0, Barrett Honors."
+        },
+        {
+          "id": "kz-pf-skills",
+          "title": "R and Python strong, SQL moderate, SAS in progress",
+          "detail": "Also Tableau, R Shiny, ggplot2, scikit-learn; XGBoost recurrence model (AUC 0.75), SARIMA influenza capstone. Open question: **when does the SAS class end?** Reqs that say *SAS and/or R* are open to you now."
+        },
+        {
+          "id": "kz-pf-geo",
+          "title": "LA, Orange County, Bay Area, San Diego, Phoenix, remote",
+          "detail": "Detroit for Henry Ford Health. Tonight one Detroit health-plan seat is listed last in Open now; say so if Michigan should stay off the page."
+        },
+        {
+          "id": "kz-pf-goal",
+          "title": "Goal: a return offer",
+          "detail": "See Return offers."
+        }
+      ]
     }
-   ]
-  },
-  {
-   "id": "later",
-   "title": "Coming up",
-   "items": [
-    {
-     "id": "kz-later-pfizer-stats",
-     "title": "Pfizer: Statistics Summer Internship Program",
-     "tags": [
-      {
-       "label": "Deadline Jan 31",
-       "status": "warning"
-      },
-      {
-       "label": "Statistics",
-       "status": "critical"
-      }
-     ],
-     "detail": "For current graduate students with at least one year of graduate study by June 2027. **CA- San Diego** is a listed site. 12 weeks between May and September; employed by AtriumWorks and placed at Pfizer. Interviews run November to March, rolling. Its positions list was empty tonight, so there is nothing to submit yet. [Program site](https://pfizerstatistics-internprogram-atriumworks.icims.com/jobs/intro)"
-    },
-    {
-     "id": "kz-later-kite-grad",
-     "title": "Kite: graduate intern postings, Los Angeles",
-     "tags": [
-      {
-       "label": "Posts Oct to Jan",
-       "status": "good"
-      },
-      {
-       "label": "Trials",
-       "status": "serious"
-      }
-     ],
-     "detail": "Kite says US graduate and undergraduate intern positions are typically posted October through January, 10 to 12 weeks. Its 10 live intern reqs tonight include no statistics seat. [Kite early talent](https://www.kitepharma.com/careers/early-talent-programs-at-kite)"
-    },
-    {
-     "id": "kz-later-corcept",
-     "title": "Corcept: Biostatistics Intern, Redwood City",
-     "tags": [
-      {
-       "label": "Not posted yet",
-       "status": "warning"
-      },
-      {
-       "label": "Biostatistics",
-       "status": "critical"
-      },
-      {
-       "label": "New",
-       "status": "good"
-      }
-     ],
-     "detail": "Bay Area. Last cycle's posting took students *pursuing a master's degree or PhD in statistics, mathematics, data science or a related field*, with R, SAS or Python, at $26 to $32 an hour, on site, and came down January 6, 2026. Corcept's own board lists 80 roles tonight and no internship yet, so expect it before the new year. [Corcept openings](https://corcept.com/careers/current-opportunities/), [last cycle's posting](https://www.builtinsf.com/job/biostatistics-intern/7974432)"
-    },
-    {
-     "id": "kz-later-bms",
-     "title": "Bristol Myers Squibb: summer internships",
-     "tags": [
-      {
-       "label": "Aug to Mar",
-       "status": "good"
-      },
-      {
-       "label": "Biostatistics",
-       "status": "serious"
-      }
-     ],
-     "detail": "BMS accepts summer applications August through March for 10 to 12 weeks. None of its 40 intern reqs tonight is a San Diego statistics seat. [BMS internships](https://careers.bms.com/internships-co-ops/)"
-    },
-    {
-     "id": "kz-later-edwards",
-     "title": "Edwards Lifesciences: other internship tracks",
-     "tags": [
-      {
-       "label": "Feb to Apr",
-       "status": "good"
-      },
-      {
-       "label": "Devices",
-       "status": "serious"
-      }
-     ],
-     "detail": "Edwards lists additional internships (Human Resources, IT, Quality and more) with an application timeline of February to April, and its Engineering track reopens January to March, all Irvine. The Clinical & Regulatory track (September to October) is in Open now. [Edwards internships](https://www.edwards.com/careers/university-recruiting/internship-programs)"
-    },
-    {
-     "id": "kz-later-kaiser",
-     "title": "Kaiser Permanente Research & Evaluation",
-     "tags": [
-      {
-       "label": "Posts Feb to Mar",
-       "status": "good"
-      },
-      {
-       "label": "Hospital research",
-       "status": "warning"
-      }
-     ],
-     "detail": "Graduate-level summer interns, 10 to 12 weeks, paid, Southern California. Positions post February to March. Questions to RE-internships@kp.org. [Program page](https://www.kp-scalresearch.org/aboutus/join-our-team/summer-internship-program/)"
-    },
-    {
-     "id": "kz-later-blueshield",
-     "title": "Blue Shield of California: summer internship",
-     "tags": [
-      {
-       "label": "No 2027 posting yet",
-       "status": "warning"
-      },
-      {
-       "label": "Health plan"
-      }
-     ],
-     "detail": "A ten-week program open to *undergraduate and graduate students*. No 2027 posting found tonight. [Blue Shield programs](https://careers.blueshieldca.com/growth-development)"
-    },
-    {
-     "id": "kz-later-ionis",
-     "title": "Ionis: summer intern program, Carlsbad",
-     "tags": [
-      {
-       "label": "Feb 9 to Apr 30 (2026 dates)",
-       "status": "good"
-      },
-      {
-       "label": "Trials",
-       "status": "serious"
-      }
-     ],
-     "detail": "The 2026 window was February 9 to April 30, open to undergraduate and graduate students. Expect similar for 2027. [Ionis intern program](https://ionis.com/careers/intern-program)"
-    },
-    {
-     "id": "kz-later-acadia",
-     "title": "Acadia Pharmaceuticals: summer program, San Diego",
-     "tags": [
-      {
-       "label": "Expect early 2027",
-       "status": "good"
-      }
-     ],
-     "detail": "Its page still shows the 2026 program, mid June to late August, hybrid. It names no biostatistics seat tonight. [Program page](https://acadia.com/en-us/careers/summer-internship-program)"
-    },
-    {
-     "id": "kz-later-medtronic",
-     "title": "Medtronic: Northridge and Tempe",
-     "tags": [
-      {
-       "label": "Window closes Oct 13",
-       "status": "warning"
-      },
-      {
-       "label": "77% convert",
-       "status": "good"
-      }
-     ],
-     "detail": "Medtronic says undergraduate and master's applications are accepted August 1 to October 13. None of its 17 live intern reqs tonight is in California or Arizona; all are Minnesota, Puerto Rico or abroad. [Medtronic early careers](https://www.medtronic.com/en-us/our-company/careers/early-careers.html)"
-    },
-    {
-     "id": "kz-later-amgen-biostat",
-     "title": "Amgen: R&D Biostatistics grad intern",
-     "tags": [
-      {
-       "label": "Not posted",
-       "status": "warning"
-      }
-     ],
-     "detail": "Not posted. Amgen's 34 live intern reqs tonight are technology roles. The grad Data Scientist seat is in Open now."
-    },
-    {
-     "id": "kz-chartis",
-     "title": "Chartis: no internship posted",
-     "tags": [
-      {
-       "label": "Not posted",
-       "status": "warning"
-      }
-     ],
-     "detail": "37 roles on its board tonight, no internship. It leans strategy, so it stays here until a real internship appears."
-    },
-    {
-     "id": "kz-later-exponent",
-     "title": "Exponent Health Sciences: no internships",
-     "tags": [
-      {
-       "label": "Not posted",
-       "status": "warning"
-      }
-     ],
-     "detail": "Its board returned no open roles to tonight's sweep. Scientific consulting in your sense; watched."
-    }
-   ]
-  },
-  {
-   "id": "people",
-   "title": "Contacts",
-   "items": [
-    {
-     "id": "kz-person-white",
-     "title": "Neika White, Michigan Public Health Careers",
-     "tags": [
-      {
-       "label": "Employer engagement",
-       "status": "good"
-      }
-     ],
-     "detail": "Employer Engagement Coordinator. Runs the school's two career fairs (September 25, 2026 and January 29, 2027) and registers the employers; the page says the fall fair aligns with private sector recruiting. Email on the page: ncwhite@umich.edu. Ask which employers recruited biostatistics master's students this fall and who to talk to at them. [Career fairs page](https://sph.umich.edu/careers/employer-engagement/career-fairs.html)"
-    }
-   ]
-  },
-  {
-   "id": "employers",
-   "title": "Where to look",
-   "note": "Bold: a program open or confirmed that fits a master's.",
-   "items": [
-    {
-     "title": "Los Angeles",
-     "detail": "**Kite (Gilead)**, Santa Monica and El Segundo: data management seat open; statistics grad interns post Oct to Jan.\n**Amgen**, Thousand Oaks: remote grad Data Scientist open; R&D biostatistics not posted.\n**Medtronic Diabetes**, Northridge: no local seat this cycle yet.\n**Kaiser Permanente Research & Evaluation**, Pasadena: graduate interns post Feb to Mar.\n**Analysis Group** and **BRG**, downtown: health consulting seats open now.\nXencor (Pasadena), ImmunityBio (El Segundo), Grifols: no intern seats in Los Angeles tonight. Arcutis, Capsida and Puma were not re-read tonight.\nCedars-Sinai, City of Hope, CHLA: private nonprofit medical centers; nothing for a statistician posted.\nMolina, Health Net, Elevance: health plans."
-    },
-    {
-     "title": "Orange County",
-     "detail": "**Stryker**, Irvine: Statistical Programming intern open now.\n**Edwards Lifesciences**, Irvine: Clinical & Regulatory intern open, closes Nov 1; other tracks Feb to Apr.\nJ&J MedTech (Irvine): only supply chain interns posted.\nInsulet (Irvine): manufacturing co-op only.\nAbbott, Masimo, Beckman Coulter, Applied Medical, Alcon, AbbVie/Allergan: no fitting seat in California."
-    },
-    {
-     "title": "Bay Area",
-     "detail": "**Gilead**, Foster City: seven seats open, all close Oct 16.\n**Corcept**, Redwood City: master's-level biostatistics intern last cycle; not posted yet.\nRevolution Medicines (Redwood City): a large statistics group, 262 roles on its board, no internship.\nGenentech, BioMarin, Exelixis, Denali, BeOne Medicines (San Carlos): no summer statistics seats posted.\nStryker (Fremont): regulatory affairs intern only.\nStanford Health Care: nothing posted.\nBlue Shield of California (Oakland), health plan: graduate interns eligible; no 2027 posting yet.\nGuardant, GRAIL, Natera: genomics, listed last."
-    },
-    {
-     "title": "San Diego",
-     "detail": "**Pfizer**, La Jolla: Statistics program, deadline Jan 31.\n**Dexcom**: early-interest pool open.\n**Bristol Myers Squibb**: applications Aug to Mar.\nIonis (Carlsbad), Acadia, Vertex (last year's biostatistics intern was PhD-only, Boston), Neurocrine (biostatistics intern is PhD-only).\nResMed, Tandem, Insulet: devices; nothing that fits tonight.\nScripps, Salk, Sharp: no fitting seats.\nIllumina: genomics, listed last."
-    },
-    {
-     "title": "Phoenix",
-     "detail": "Medtronic Tempe, Mayo Clinic Arizona, HonorHealth, Banner Health, Dignity Health: nothing that fits is posted tonight.\nStryker (Tempe): regulatory affairs intern only, no statistics.\nTGen: genomics, listed last."
-    },
-    {
-     "title": "Remote and CROs",
-     "detail": "**Centene** and **Amgen**: remote grad seats open now.\nIQVIA, Parexel, ICON, Syneos, Medpace, Fortrea, Precision for Medicine, Cytel, Certara: all read tonight, no US biostatistics or programming intern. Medpace's summer seats are Cincinnati.\nOutside your metros: **Merck** (New Jersey), MS biostatistics intern open; **Blue Cross Blue Shield of Michigan** (Detroit), Data Science / Biostatistician intern open."
-    }
-   ]
-  },
-  {
-   "id": "not-a-fit",
-   "title": "Checked and not a fit",
-   "items": [
-    {
-     "id": "kz-nf-stryker-regulatory",
-     "title": "Stryker: Regulatory and Clinical Affairs interns",
-     "detail": "Read tonight. Regulatory Affairs in Tempe and Fremont prepares submissions and targets *Biomedical Engineering, Biological Sciences, Chemistry*; Clinical Affairs is Michigan or New Jersey and asks for Biomedical Engineering or Clinical Research. No statistics in either."
-    },
-    {
-     "id": "kz-nf-kite-pm",
-     "title": "Kite: Research Project Management Intern",
-     "detail": "Santa Monica. Process improvement and project tracking for the Research organization, with deliverables like *meeting minutes, dashboards*; no statistics."
-    },
-    {
-     "id": "kz-nf-gilead-cdm-tech",
-     "title": "Gilead: Clinical Data Management, Technology",
-     "detail": "Despite the title, the work is building *AI agents* and Databricks data pipelines, preferred field *Computer Science*. An engineering seat. Say so if you want it back; it closes October 16."
-    },
-    {
-     "id": "kz-nf-gilead-virology-ai",
-     "title": "Gilead: Clinical Virology AI Intern",
-     "detail": "Foster City. *Preferred degree level: Undergraduate*, AI tools for HIV lab research."
-    },
-    {
-     "id": "kz-nf-medtronic-ace",
-     "title": "Medtronic: Clinical Experience (ACE) Intern",
-     "detail": "Hospital field support for cardiac procedures; requires *working toward a bachelor's degree*."
-    },
-    {
-     "id": "kz-nf-regeneron",
-     "title": "Regeneron: 2027 co-ops",
-     "detail": "23 co-ops, all New York, New Jersey, Massachusetts or Washington. The data science seats are computational biology or manufacturing IT."
-    },
-    {
-     "id": "kz-nf-gilead-datasci",
-     "title": "Gilead: Research Data Sciences Intern",
-     "detail": "The work is oncology target discovery on *single-cell and spatial biology datasets, human genetics resources, functional genomics*, with *Preferred degree level: Ph.D.* Genomics, which you asked to avoid. Say so if you want it back; it closes October 30."
-    },
-    {
-     "id": "kz-nf-zs",
-     "title": "ZS: Decision Analytics Associate Intern",
-     "detail": "ZS describes itself as *a management consulting and technology firm*, and the work is pharma commercial analytics. Your scope excludes management consulting. Say so if you want it back."
-    },
-    {
-     "id": "kz-nf-jnj-rdldp",
-     "title": "J&J RDLDP Intern, Santa Clara",
-     "detail": "Requires *graduate students enrolled in an engineering graduate program*."
-    },
-    {
-     "id": "kz-nf-gilead-clinops",
-     "title": "Gilead Clinical Operations Intern",
-     "detail": "Trial documentation and Trial Master File quality checks; no statistics."
-    },
-    {
-     "id": "kz-nf-gilead-ld",
-     "title": "Gilead Medical Excellence Learning & Development Intern",
-     "detail": "Builds training, does not analyze data."
-    },
-    {
-     "id": "kz-nf-honorhealth",
-     "title": "HonorHealth Translational Science Intern",
-     "detail": "Closed; the req no longer loads."
-    },
-    {
-     "id": "kz-nf-jnj-jax",
-     "title": "J&J R&D Biostatistics Intern, Jacksonville",
-     "detail": "Closes October 23 and asks for *at least 1 year of graduate school in a PhD program*, on site in Florida."
-    },
-    {
-     "id": "kz-nf-merck-others",
-     "title": "Merck: other 2027 statistics interns",
-     "detail": "Epidemiology & RWE requires PhD students. Statistical Programmer (closes Oct 17), Health Economics & Data Science, Quantitative Pharmacology and Nonclinical Drug Safety are New Jersey, Pennsylvania or Boston only. **Outcomes Research** (R413998) takes students *pursuing a masters' or PhD* in epidemiology or public health, closes October 30, and is Rahway, New Jersey or Upper Gwynedd, Pennsylvania. Say so if you want East Coast seats listed. Clinical Trial Data Management is also East Coast (Rahway, New Jersey)."
-    },
-    {
-     "id": "kz-nf-precision-ma",
-     "title": "Precision for Medicine: Market Access Consulting",
-     "detail": "New York only; skills listed are PowerPoint, Excel and Word, no statistics."
-    },
-    {
-     "id": "kz-nf-az-epi",
-     "title": "AstraZeneca Epidemiology & Real-World Science",
-     "detail": "Mississauga, Canada, eight months January to August 2027."
-    },
-    {
-     "id": "kz-nf-stryker-ds",
-     "title": "Stryker Data Science Intern, remote",
-     "detail": "Commercial excellence and operations data for the Trauma division, not health analytics."
-    },
-    {
-     "id": "kz-nf-medpace",
-     "title": "Medpace summer interns",
-     "detail": "Clinical Informatics and Feasibility seats are Cincinnati."
-    },
-    {
-     "id": "kz-nf-fortrea",
-     "title": "Fortrea Statistical Programmer Internship",
-     "detail": "Mexico City, and filled."
-    },
-    {
-     "id": "kz-nf-rand",
-     "title": "RAND Summer Associate",
-     "detail": "Its page says it *typically does not consider master's degree students except in the Engineering, Computer or Information Science, and Operations Research disciplines*, and wants two years of graduate work."
-    },
-    {
-     "id": "kz-nf-worldwide-cta",
-     "title": "Worldwide Clinical Trials: Trial Associates Intern",
-     "detail": "Administrative trial support, no statistics."
-    },
-    {
-     "id": "kz-nf-cornerstone",
-     "title": "Cornerstone Research Summer Analyst",
-     "detail": "Undergraduate juniors only."
-    },
-    {
-     "id": "kz-nf-compass-lexecon",
-     "title": "Compass Lexecon Analyst Intern",
-     "detail": "Wants final-year master's students."
-    },
-    {
-     "id": "kz-nf-cedars-mast",
-     "title": "Cedars-Sinai MAST research intern",
-     "detail": "Academic-credit bench microbiology."
-    },
-    {
-     "id": "kz-nf-genentech",
-     "title": "Genentech 2027 interns",
-     "detail": "Spring-term laboratory seats only; no summer statistics."
-    },
-    {
-     "id": "kz-nf-device-wave",
-     "title": "Boston Scientific, Alcon, Abbott 2027 interns",
-     "detail": "Minnesota, Texas, Illinois or abroad; none clinical or statistical in your metros. Boston Scientific's R&D Research Data Science intern takes master's students, but it is deep learning on ECG signals for implant engineers, on site five days a week, and the posting names no site."
-    },
-    {
-     "id": "kz-nf-amgen-undergrad-ds",
-     "title": "Amgen Undergrad Data Scientist",
-     "detail": "Undergraduate version of the grad seat in Open now."
-    },
-    {
-     "id": "kz-nf-gilead-misc",
-     "title": "Gilead Portfolio Strategy and CDS research seats",
-     "detail": "MBA/PhD/PharmD preferred, or a software engineering seat."
-    },
-    {
-     "id": "kz-nf-misc",
-     "title": "Neurocrine, IQVIA, Molina, Elevance, Banner, Beckman, USC",
-     "detail": "PhD-only; closed; undergraduate IT; Indianapolis only; high-school programs; undergraduate IT data catalog work in Brea; unpaid training."
-    },
-    {
-     "id": "kz-nf-vertex-biostat",
-     "title": "Vertex: Biostatistics & Statistical Programming Intern",
-     "detail": "Last year's version required enrollment *leading to a Ph.D.* with two years of graduate study, in Boston. No 2027 version posted."
-    }
-   ]
-  },
-  {
-   "id": "return-offers",
-   "title": "Return offers",
-   "items": [
-    {
-     "id": "kz-ro-nace",
-     "title": "Benchmark: 63.1% of interns converted",
-     "tags": [
-      {
-       "label": "Verified",
-       "status": "good"
-      }
-     ],
-     "detail": "NACE: *The conversion rate has surged to 63.1% for 2024-25 interns*, from its 2026 Internship & Co-op Survey of 284 organizations. [NACE](https://www.naceweb.org/talent-acquisition/internships/intern-conversion-rate-hits-highest-mark-in-five-years)"
-    },
-    {
-     "id": "kz-ro-medtronic",
-     "title": "Medtronic: 77% of eligible interns hired",
-     "tags": [
-      {
-       "label": "Verified",
-       "status": "good"
-      },
-      {
-       "label": "Devices",
-       "status": "serious"
-      }
-     ],
-     "detail": "Medtronic's newsroom: *77% of eligible interns became full-time employees*, from a program of nearly 400. [Medtronic](https://news.medtronic.com/medtronic-summer-internship-program)"
-    },
-    {
-     "id": "kz-ro-stated",
-     "title": "Stated in tonight's postings",
-     "tags": [
-      {
-       "label": "Verified",
-       "status": "good"
-      }
-     ],
-     "detail": "Analysis Group: evaluated *for a full-time analyst offer in the office that their internship takes place*. BRG: *we aim to convert Summer Associates to full-time Associates*. Edwards: *Conversion Opportunities into our New Grad Programs*. J&J Clinical Pharmacology: used to assess *potential for future* hiring. Kite: *Consideration for future full-time positions, rotation programs, or contract roles*. No published rate for any of them."
-    },
-    {
-     "id": "kz-ro-estimates",
-     "title": "J&J 65-70%, Amgen R&D ~75%, Gilead 40-55%",
-     "tags": [
-      {
-       "label": "Estimate",
-       "status": "warning"
-      }
-     ],
-     "detail": "Third-party guide estimates, not company figures, and not re-sourced tonight. Treat as rough."
-    },
-    {
-     "id": "kz-ro-how",
-     "title": "How to get the offer",
-     "detail": "Say in week one that you want a return offer and ask what earns one; ship something that outlives the summer; meet people on adjacent teams."
-    }
-   ]
-  },
-  {
-   "id": "blocked",
-   "title": "Careers sites checked by hand",
-   "items": [
-    {
-     "id": "kz-blocked-browser",
-     "title": "Read in the browser tonight",
-     "detail": "Both Analysis Group postings (open; Health Care deadline October 28), Pfizer's Statistics program site (no positions listed yet), Denali's internship page (no listing; its site says applications run in October, so it is checked again next week), and the Medtronic and Michigan Public Health pages behind the dates on this page."
-    },
-    {
-     "id": "kz-blocked-unread",
-     "title": "Not covered tonight",
-     "detail": "Xencor and Children's Hospital Los Angeles are read weekly (last October 4, nothing listed). Puma (*403 Forbidden* on October 2), Arcutis (portal error) and Capsida (LinkedIn only) are not retried nightly. Scripps Research, Salk, Sanford Burnham Prebys and La Jolla Institute run undergraduate programs. TGen is genomics and not chased."
-    }
-   ]
-  },
-  {
-   "id": "profile",
-   "title": "What this page ranks against",
-   "note": "If any of this is wrong, say so and the ranking changes.",
-   "items": [
-    {
-     "id": "kz-pf-sector",
-     "title": "Private industry first: pharma, CROs, biotech",
-     "detail": "Hospital systems and research institutes are fine; no government or public sector. Public universities and their hospitals are excluded; private nonprofits like Kaiser, Cedars-Sinai, City of Hope and Mayo are in."
-    },
-    {
-     "id": "kz-pf-direction",
-     "title": "Clinical trials, devices, health analytics",
-     "detail": "Genomics stays on the map but ranks last."
-    },
-    {
-     "id": "kz-pf-consulting",
-     "title": "Consulting: scientific yes, strategy no",
-     "detail": "HEOR, epidemiology and economic consulting count (Analysis Group, Exponent). Strategy and management consulting does not (Guidehouse; ZS is out on that rule)."
-    },
-    {
-     "id": "kz-pf-degree",
-     "title": "MS Biostatistics, Michigan, May 2028",
-     "detail": "Master's only. BS Data Science and Anthropology, ASU, 4.0, Barrett Honors."
-    },
-    {
-     "id": "kz-pf-skills",
-     "title": "R and Python strong, SQL moderate, SAS in progress",
-     "detail": "Also Tableau, R Shiny, ggplot2, scikit-learn; XGBoost recurrence model (AUC 0.75), SARIMA influenza capstone. Open question: **when does the SAS class end?** Reqs that say *SAS and/or R* are open to you now."
-    },
-    {
-     "id": "kz-pf-geo",
-     "title": "LA, Orange County, Bay Area, San Diego, Phoenix, remote",
-     "detail": "Detroit for Henry Ford Health. Tonight one Detroit health-plan seat is listed last in Open now; say so if Michigan should stay off the page."
-    },
-    {
-     "id": "kz-pf-goal",
-     "title": "Goal: a return offer",
-     "detail": "See Return offers."
-    }
-   ]
-  }
- ]
+  ]
 }
