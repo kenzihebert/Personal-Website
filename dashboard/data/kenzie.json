@@ -1,6 +1,6 @@
 {
   "title": "Your search",
-  "updated": "2026-10-07",
+  "updated": "2026-10-08",
   "generatedBy": "nightly research",
   "deadlines": [
     {
@@ -66,20 +66,20 @@
       "items": [
         {
           "id": "kz-start-diagnosis",
-          "title": "Oct 16 is close and this page cannot see what you sent",
+          "title": "Eight days to October 16, nothing recorded yet",
           "tags": [
             {
               "label": "Oct 16",
               "status": "critical"
             }
           ],
-          "detail": "The numbers: 0 applications recorded in the last 7 and 14 days. 20 open rows, 14 closing within 30 days, 10 of them on October 16. The Gilead and Kite rows have been on this page since October 1, eight runs.\n\nA reason the count may be wrong rather than true: the record this page reads is empty since September 16, and the ticks you make on a phone stay on that phone. If you have already sent Henry Ford, Gilead or anything else, nothing here knows it, and the page keeps pushing the same ten rows at you.\n\nThe one change: reply with the list of what you have actually submitted, even if it is nothing, so it can be recorded and these rows move to Completed. If the answer really is zero, the order below still stands: Henry Ford first, then the four Gilead and Kite reqs in one Workday sitting."
+          "detail": "The numbers tonight: 0 applications recorded in the last 7 and 14 days. 20 open rows, all still live on the employers' own systems. 14 close within 30 days; 10 of them close on October 16 (Henry Ford, Kite, seven Gilead seats, BRG's final review). The Gilead and Kite rows have sat here since October 1.\n\nNothing new to diagnose tonight. If you have already sent any of these, say which, so they move to Completed. If not, the order below is unchanged."
         },
         {
           "id": "kz-start-this-week",
           "title": "Worth doing this week",
           "tags": [],
-          "detail": "**1. By October 16:** Henry Ford (letter, resume, transcript). Then Kite Data Management and Gilead Epidemiology & RWE on one Workday account, then both Gilead biostatistics seats. **BRG** (final review October 16), choosing Healthcare Analytics and Disputes.\n\n**2. By October 20:** J&J Immunology Pediatric Clinical Development. Master's students are preferred candidates; read its location line before you apply.\n\n**3. By October 28:** Analysis Group Health Care, same letter; the deadline and the November interview start were re-read on the posting tonight. Then **Stryker** (Irvine, no close date) and **Edwards Clinical & Regulatory** (Irvine, November 1).\n\nNothing new that fits tonight: 24 new intern rows across 67 boards, all lab, engineering, regulatory, sales or undergraduate. Centene's remote graduate analytics seat has come down and is out."
+          "detail": "**1. By October 16:** Henry Ford (letter, resume, transcript). Then Kite Data Management and Gilead Epidemiology & RWE on one Workday account, then both Gilead biostatistics seats. **BRG** (final review October 16), choosing Healthcare Analytics and Disputes.\n\n**2. By October 20:** J&J Immunology Pediatric Clinical Development. Master's students are preferred candidates; read its location line before you apply.\n\n**3. By October 28:** Analysis Group Health Care, same letter; its October 28 deadline and November interview start were re-read on the posting tonight. Then **Stryker** (Irvine, no close date) and **Edwards Clinical & Regulatory** (Irvine, November 1).\n\nNothing new that fits tonight: 24 new intern rows across 67 boards, all engineering, lab, co-op, overseas or bachelor's seats. UnitedHealth Group's board was read for the first time: its only graduate seat is a PhD-level AI/ML research intern. [UnitedHealth intern search](https://careers.unitedhealthgroup.com/search-jobs/intern%202027/)"
         },
         {
           "id": "kz-start-howhiring",
@@ -94,7 +94,7 @@
       "title": "Open now",
       "layout": "table",
       "checkable": true,
-      "note": "Every row read on the employer's own system tonight, Oct 6. Ranked by fit with trials, devices and health analytics, then location. Begin with the three tagged First three.",
+      "note": "Every row read on the employer's own system tonight, Oct 8. Ranked by fit with trials, devices and health analytics, then location. Begin with the three tagged First three.",
       "items": [
         {
           "id": "kz-henryford-cepc",
@@ -472,7 +472,7 @@
               "status": "serious"
             }
           ],
-          "detail": "Kite says US graduate and undergraduate intern positions are typically posted October through January, 10 to 12 weeks. Its 11 live intern reqs tonight include no statistics seat beyond the Data Management row in Open now. [Kite early talent](https://www.kitepharma.com/careers/early-talent-programs-at-kite)"
+          "detail": "Kite says US graduate and undergraduate intern positions are typically posted October through January, 10 to 12 weeks. Its live intern reqs tonight include no statistics seat beyond the Data Management row in Open now. [Kite early talent](https://www.kitepharma.com/careers/early-talent-programs-at-kite)"
         },
         {
           "id": "kz-later-corcept",
@@ -542,7 +542,7 @@
               "label": "Health plan"
             }
           ],
-          "detail": "Found tonight on Blue Shield's own Oracle board: the Summer 2027 program runs June 14 or 21 to August 20, ten weeks, hybrid, $30 an hour for graduate students, with recruiter calls in October and November and offers in November. The two seats posted September 30 (Actuarial and Financial Summer Interns, Long Beach) ask for a bachelor's in progress and a passed actuarial exam, so they are under Not a fit. Other teams post into October; this board is now read nightly. [Blue Shield program page](https://careers.blueshieldca.com/growth-development), [Actuarial posting](https://ecge.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003/job/20261874)"
+          "detail": "Found tonight on Blue Shield's own Oracle board: the Summer 2027 program runs June 14 or 21 to August 20, ten weeks, hybrid, $30 an hour for graduate students, with recruiter calls in October and November and offers in November. The two seats posted September 30 (Actuarial and Financial Summer Interns, Long Beach) ask for a bachelor's in progress and a passed actuarial exam, so they are under Not a fit. Other teams post into October; re-read tonight, still only those two intern seats. [Blue Shield program page](https://careers.blueshieldca.com/growth-development), [Actuarial posting](https://ecge.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003/job/20261874)"
         },
         {
           "id": "kz-later-ionis",
@@ -664,7 +664,7 @@
         },
         {
           "title": "Remote and CROs",
-          "detail": "**Amgen**: remote grad Data Scientist open now. Centene's remote graduate analytics seat came down tonight; its new wave (Medical Economics, Actuarial, Public Health) is undergraduate, MBA or pharmacy.\nIQVIA, Parexel, ICON, Syneos, Medpace, Fortrea, Precision for Medicine, Cytel, Certara: all read tonight, no US biostatistics or programming intern. Fortrea's new seats are inside sales; IQVIA's are China and South Africa.\nOutside your metros: **Merck** (New Jersey), MS biostatistics intern open until Oct 31; **Blue Cross Blue Shield of Michigan** (Detroit), Data Science / Biostatistician intern open."
+          "detail": "**Amgen**: remote grad Data Scientist open now. Centene's remote graduate analytics seat came down tonight; its new wave (Medical Economics, Actuarial, Public Health) is undergraduate, MBA or pharmacy.\nIQVIA, Parexel, ICON, Syneos, Medpace, Fortrea, Precision for Medicine, Cytel, Certara: all read tonight, no US biostatistics or programming intern. Fortrea's new seats are inside sales; IQVIA's are China and South Africa.\nOutside your metros: **Merck** (New Jersey), MS biostatistics intern open until Oct 31; **Blue Cross Blue Shield of Michigan** (Detroit), Data Science / Biostatistician intern open. UnitedHealth Group's board, read October 8, has no master's-level remote analytics intern posted for 2027. [UnitedHealth intern search](https://careers.unitedhealthgroup.com/search-jobs/intern%202027/)"
         }
       ]
     },
@@ -672,6 +672,16 @@
       "id": "not-a-fit",
       "title": "Checked and not a fit",
       "items": [
+        {
+          "id": "kz-nf-jnj-medtech-clinaffairs",
+          "title": "J&J MedTech: Clinical Affairs & Strategy Intern",
+          "detail": "Posted today, closes October 22, Raritan, New Jersey (hybrid or remote possible). Asks for a student *pursuing a bachelor's degree in engineering, pharmacy, health sciences*; process and operations work, no statistics. [Posting](https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Raritan-New-Jersey-United-States-of-America/Clinical-Affairs---Strategy-Intern_R-098803)"
+        },
+        {
+          "id": "kz-nf-uhg-aiml",
+          "title": "UnitedHealth Group: AI/ML Research Intern, remote",
+          "detail": "The only 2027 graduate seat on UnitedHealth's board tonight, and it is PhD level. The rest are sales, pharmacy and accounting interns. [UnitedHealth intern search](https://careers.unitedhealthgroup.com/search-jobs/intern%202027/)"
+        },
         {
           "id": "kz-nf-centene-closed",
           "title": "Centene: Analytics Summer 2027 Intern, Graduate",
@@ -839,7 +849,7 @@
         {
           "id": "kz-nf-device-wave",
           "title": "Boston Scientific, Alcon, Abbott 2027 interns",
-          "detail": "Minnesota, Texas, Illinois or abroad; none clinical or statistical in your metros. Boston Scientific's R&D Research Data Science intern takes master's students, but it is deep learning on ECG signals for implant engineers, on site five days a week, and the posting names no site."
+          "detail": "Minnesota, Texas, Illinois or abroad; none clinical or statistical in your metros. Boston Scientific's R&D Research Data Science intern takes master's students, but it is deep learning on ECG signals for implant engineers, on site five days a week, and the posting names no site. Boston Scientific's R&D Research Data Science Intern reappeared tonight under a new listing: still ECG deep learning for implantable devices, on site five days a week."
         },
         {
           "id": "kz-nf-amgen-undergrad-ds",
@@ -930,13 +940,13 @@
           "id": "kz-blocked-browser",
           "title": "Read in the browser tonight",
           "tags": [],
-          "detail": "Both Analysis Group postings (open; Health Care deadline October 28 confirmed on the page), Pfizer's Statistics program intro (January 31) and positions list (still empty), Medtronic's early-careers timeline (master's window closes October 13), and the Michigan Public Health career-fairs page. City of Hope's board is back from maintenance and was read by the sweep: no internship. Blue Shield's Oracle board was found and read tonight."
+          "detail": "Both Analysis Group postings (open; Health Care deadline October 28 confirmed on the page; Generalist past its September 30 deadline and still reviewing on a rolling basis) and Pfizer's Statistics program positions list (still empty). Blue Shield's and Cytokinetics' boards were read directly: no new intern seat. Every Workday row in Open now was re-read at the source."
         },
         {
           "id": "kz-blocked-unread",
           "title": "Not covered tonight",
           "tags": [],
-          "detail": "Xencor and Children's Hospital Los Angeles are read weekly (last October 4, next October 11). Puma (*403 Forbidden* on October 2), Arcutis (portal error) and Capsida (LinkedIn only) are not retried nightly. Jazz's Workday site did not answer again. Scripps Research, Salk, Sanford Burnham Prebys and La Jolla Institute run undergraduate programs. TGen is genomics and not chased."
+          "detail": "Xencor and Children's Hospital Los Angeles are read weekly (last October 4, next October 11). Denali's board did not answer tonight under the site name tried; last read October 7 with no internship. Puma (*403 Forbidden* on October 2), Arcutis (portal error) and Capsida (LinkedIn only) are not retried nightly. Jazz's Workday site has not answered. Scripps Research, Salk, Sanford Burnham Prebys and La Jolla Institute run undergraduate programs. TGen is genomics and not chased."
         }
       ]
     },

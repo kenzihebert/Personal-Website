@@ -1,6 +1,6 @@
 # Research playbook
 
-**v9, 2026-10-07.** Rewritten every run. Hard cap 6 KB.
+**v10, 2026-10-08.** Rewritten every run. Hard cap 6 KB.
 
 ## Who this is for
 
@@ -9,22 +9,22 @@ Private sector only. Trials, devices, health analytics; genomics last.
 
 ## Governing metric
 
-Rows unsent for 7+ runs. Tonight: 8 runs since 10-01, 0 sent, 20 open (Centene closed). The
-Gilead/Kite batch is at 8 runs. Diagnoses so far: 10-04 shape, 10-05 cost, 10-06 materials,
-10-07 recording gap (done file empty since 09-16, /api/apps 501, so the zero may be unrecorded;
-asked her for the list). 10-08: do not repeat; watch. 10-10 with zero recorded: cut Start to one
-row and one link. 10-17: whatever closed Oct 16 unsent gets named in the log, not on the page.
+Rows unsent for 7+ runs. Tonight: 9 runs since 10-01, 0 sent, 20 open, all live. The
+Gilead/Kite batch is at 9 runs. Diagnoses so far: 10-04 shape, 10-05 cost, 10-06 materials,
+10-07 recording gap. 10-08: numbers only, no diagnosis (done). 10-10 with zero recorded: cut
+Start to one row and one link. 10-17: whatever closed Oct 16 unsent gets named in the log, not
+on the page.
 
-## What is working (last confirmed 2026-10-07)
+## What is working (last confirmed 2026-10-08)
 
 - Workday `cxs` job endpoint by curl: `endDate`, body, liveness (17 rows in one script, 10-07).
   Centene's cxs job path answers 403 while its `jobs` search works: use search for Centene.
-- Workday `jobs` POST search by curl (`searchText`), 10-07: jj, gilead, amgen, dnli, cytokinetics.
+- Workday `jobs` POST search by curl (`searchText`), 10-08: 10 boards x 6 phrases in one script.
   The same call from Python subprocess failed on jj and gilead once; plain curl in bash worked.
 - Diffing tonight's sweep against last night's by URL (24 new rows triaged in a minute).
 - Reading the body kills title traps (Blue Shield Actuarial, Centene Public Health, 10-07).
 - iCIMS (Analysis Group, Pfizer) in the browser: `#icims_content_iframe` innerText via JS;
-  `get_page_text` returns only the sidebar.
+  `get_page_text` returns only the sidebar. Use `/jobs/<id>/job`; the slug URL gave a 504.
 - Oracle HCM REST reads Oracle boards by curl: BCBSM, Cytel, and now Blue Shield
   (`ecge.fa.us2.oraclecloud.com|CX_1003`, found from the careers page link scrape, 10-07).
 - Careers-page link scrape finds the real ATS (Denali, Cytokinetics, Blue Shield).
@@ -33,7 +33,9 @@ row and one link. 10-17: whatever closed Oct 16 unsent gets named in the log, no
 
 ## What is not working
 
-- 0 applications recorded across 8 runs. `/api/apps` answers 501, so ticks never arrive.
+- 0 applications recorded across 9 runs. `/api/apps` answers 501, so ticks never arrive.
+- The sweep's Kite list dropped the live Kite CDM row on 10-08; trust cxs over the sweep list.
+- Denali: site name `Denali_Careers` 404s. Record the five real dnli site names when next found.
 - Employer-side named people: zero. Weekly at most.
 - `sweep_boards.py --help` starts a full sweep. Never probe it.
 - Jazz Workday cxs (`vhr-jazz`, both site names) does not answer; Certara is a login portal.
@@ -51,7 +53,6 @@ row and one link. 10-17: whatever closed Oct 16 unsent gets named in the log, no
 
 ## Hypotheses
 
-- H1: one-sitting framing gets a Gilead application out. Kill: nothing recorded by Oct 8.
 - H3: CRO US summer interns post after November. Kill: a US CRO biostat intern before Nov 15.
 - H4: a university contact yields an employer name faster than search. Kill: none by Oct 31.
 - H6: a three-row shortlist gets a first application recorded. Kill: nothing by Oct 10.
@@ -69,8 +70,8 @@ row and one link. 10-17: whatever closed Oct 16 unsent gets named in the log, no
    try phrase `analyst intern` and `master's intern` weekly.
 5. Takeda: recheck jobs.takeda.com for a US 2027 intern (next 10-12).
 6. Jazz: find a working board; Otsuka: careers page shows no ATS link.
-7. Optum / UnitedHealth and Elevance remote actuarial or health-analytics grad interns (new).
-8. Weekly Workday phrase pass (next 10-08); small LA biotechs (next 10-09).
+7. Remote health-analytics grad seats: Humana, CVS/Aetna (UnitedHealth closed 10-08: PhD only).
+8. Weekly Workday phrase pass (next 10-15); small LA biotechs (next 10-09).
 
 ## Notes to self
 
