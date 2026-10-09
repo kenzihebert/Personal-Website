@@ -1,6 +1,6 @@
 # Research playbook
 
-**v10, 2026-10-08.** Rewritten every run. Hard cap 6 KB.
+**v11, 2026-10-09.** Rewritten every run. Hard cap 6 KB.
 
 ## Who this is for
 
@@ -9,90 +9,91 @@ Private sector only. Trials, devices, health analytics; genomics last.
 
 ## Governing metric
 
-Rows unsent for 7+ runs. Tonight: 9 runs since 10-01, 0 sent, 20 open, all live. The
-Gilead/Kite batch is at 9 runs. Diagnoses so far: 10-04 shape, 10-05 cost, 10-06 materials,
-10-07 recording gap. 10-08: numbers only, no diagnosis (done). 10-10 with zero recorded: cut
-Start to one row and one link. 10-17: whatever closed Oct 16 unsent gets named in the log, not
-on the page.
+Rows unsent for 7+ runs. Tonight: 10 runs since 10-01, 0 sent, 20 open, all live; 17 rows are
+past 7 runs. Diagnoses so far: 10-04 shape, 10-05 cost, 10-06 materials, 10-07 recording gap,
+10-08 numbers only, 10-09 the cut (Start names three Oct 16 sends, the other seven optional).
+10-10: watch, numbers only. 10-17: name in the log whatever closed Oct 16 unsent; never on the
+page.
 
-## What is working (last confirmed 2026-10-08)
+## What is working (last confirmed 2026-10-09)
 
-- Workday `cxs` job endpoint by curl: `endDate`, body, liveness (17 rows in one script, 10-07).
-  Centene's cxs job path answers 403 while its `jobs` search works: use search for Centene.
-- Workday `jobs` POST search by curl (`searchText`), 10-08: 10 boards x 6 phrases in one script.
-  The same call from Python subprocess failed on jj and gilead once; plain curl in bash worked.
-- Diffing tonight's sweep against last night's by URL (24 new rows triaged in a minute).
+- Workday `cxs` job endpoint by curl from a Python script: `endDate`, body, liveness (17 rows).
+- Workday `jobs` POST search by curl (`searchText`). Found Humana's grad analytics seat 10-09.
+- Diffing tonight's sweep against last night's by URL (19 new rows triaged in a minute).
 - Reading the body kills title traps (Blue Shield Actuarial, Centene Public Health, 10-07).
-- iCIMS (Analysis Group, Pfizer) in the browser: `#icims_content_iframe` innerText via JS;
-  `get_page_text` returns only the sidebar. Use `/jobs/<id>/job`; the slug URL gave a 504.
-- Oracle HCM REST reads Oracle boards by curl: BCBSM, Cytel, and now Blue Shield
-  (`ecge.fa.us2.oraclecloud.com|CX_1003`, found from the careers page link scrape, 10-07).
-- Careers-page link scrape finds the real ATS (Denali, Cytokinetics, Blue Shield).
-- Backing up postings-text before `fetch_posting_text.py`, restoring stubs under 1.5 KB.
-- `--out` with forward slashes in Git Bash.
+- iCIMS (Analysis Group) in the browser: `#icims_content_iframe` innerText via JS. Use
+  `/jobs/<id>/job`. Pfizer's list page has no iframe; `get_page_text` shows it empty.
+- Oracle HCM REST by curl: BCBSM 14837 (`finder=ById;Id="14837",siteNumber=CX_3`), Cytel,
+  Blue Shield.
+- Careers-page link scrape in the browser finds the real board (Denali 10-09, Arrowhead 10-09).
+- Back up postings-text before `fetch_posting_text.py`; restore stubs under 1.5 KB (AG, BCBSM
+  stub every night).
+- `--out` with forward slashes in Git Bash. Sweep takes about 6 minutes; run it in background.
 
 ## What is not working
 
-- 0 applications recorded across 9 runs. `/api/apps` answers 501, so ticks never arrive.
-- The sweep's Kite list dropped the live Kite CDM row on 10-08; trust cxs over the sweep list.
-- Denali: site name `Denali_Careers` 404s. Record the five real dnli site names when next found.
+- 0 applications recorded across 10 runs. `/api/apps` answers 501, so ticks never arrive.
+- The sweep's Kite list omits Kite CDM R0054782 (10-08, 10-09); trust cxs.
 - Employer-side named people: zero. Weekly at most.
 - `sweep_boards.py --help` starts a full sweep. Never probe it.
-- Jazz Workday cxs (`vhr-jazz`, both site names) does not answer; Certara is a login portal.
+- Jazz Workday cxs (`vhr-jazz`) does not answer; Certara is a login portal.
 - Bash heredocs with apostrophes in Python strings break: write scripts with the Write tool.
-- Medtronic, Edwards, Pfizer intro and SPH pages are JS or 403 to curl: browser only.
+- Python print to console needs `PYTHONIOENCODING=utf-8` (IQVIA Chinese titles crash cp1252).
 
 ## Targets
 
-- First three: Henry Ford (Oct 16), Kite CDM (Oct 16), Analysis Group HC (Oct 28).
-- Then: Gilead RWE and both Biostatistics, BRG (Oct 16), J&J Peds Clinical Dev (Oct 20),
-  Stryker (rolling), Edwards C&R (Nov 1).
-- Watch for posting: Corcept biostat intern (by Jan), Kite stats grad (Oct to Jan), Pfizer
-  positions list (empty 10-07), Amgen R&D biostat, BMS San Diego, Kaiser R&E (Feb), Blue Shield
-  non-finance seats (October), a Centene graduate analytics repost.
+- This week: Henry Ford, Kite CDM, Gilead RWE (all Oct 16). Then J&J Peds (Oct 20), Analysis
+  Group HC (Oct 28), Stryker (rolling), Edwards C&R (Nov 1).
+- Watch: Corcept biostat intern (by Jan), Kite stats grad (Oct to Jan), Pfizer positions list
+  (empty 10-09), Amgen R&D biostat, BMS San Diego, Kaiser R&E (Feb), Denali interns (Oct to Jan,
+  five Workday sites: Discovery, Technical_Operations_Manufacturing, Development, Commercial,
+  Corporate_Positions), Arrowhead Biostats & Data Management (Pasadena).
 
 ## Hypotheses
 
 - H3: CRO US summer interns post after November. Kill: a US CRO biostat intern before Nov 15.
 - H4: a university contact yields an employer name faster than search. Kill: none by Oct 31.
-- H6: a three-row shortlist gets a first application recorded. Kill: nothing by Oct 10.
+- H6: a three-row shortlist gets a first application recorded. Test started 10-09. Kill:
+  nothing recorded by Oct 17.
 - H7: the blocker is the cover letter. Kill: Henry Ford still unsent on Oct 13.
 - H8: big pharma posts batches with two-week windows; nightly diffing catches them. Kill: no
   such batch again by Nov 15.
-- H9 (new): the zero is a recording gap, not an application gap. Kill: she confirms nothing sent.
+- H9: the zero is a recording gap. Kill: she confirms nothing sent.
+- H10 (new): large health plans run graduate analytics programs that take MS biostat (Humana
+  does, on-site). Kill: CVS/Aetna, Elevance and Kaiser health plan show none by Oct 23.
 
 ## Exploration queue (never empty)
 
-1. Blue Shield Oracle board nightly by curl until the sweep has it; other teams post in October.
-2. Add Denali and Cytokinetics to the nightly curl list until the sweep has them.
-3. Exponent student page after Oct 15.
-4. Kaiser Permanente health plan analytics (not R&E): Radancy board shows pharmacy only;
-   try phrase `analyst intern` and `master's intern` weekly.
+1. CVS Health / Aetna graduate analytics intern (jobs.cvshealth.com), next 10-10.
+2. Elevance and Molina graduate analytics seats (Molina was undergrad last read).
+3. Blue Shield Oracle board weekly (next 10-14); other teams post in October.
+4. Exponent student page after Oct 15.
 5. Takeda: recheck jobs.takeda.com for a US 2027 intern (next 10-12).
 6. Jazz: find a working board; Otsuka: careers page shows no ATS link.
-7. Remote health-analytics grad seats: Humana, CVS/Aetna (UnitedHealth closed 10-08: PhD only).
-8. Weekly Workday phrase pass (next 10-15); small LA biotechs (next 10-09).
+7. Weekly Workday phrase pass (next 10-15). Other LA biotechs: MannKind (no ATS link found),
+   Puma, ImmunityBio.
 
 ## Notes to self
 
-- Xencor, CHLA in the browser weekly (next 10-11). Denali and City of Hope are curl/sweep now.
+- Xencor, CHLA in the browser weekly (next 10-11).
 - RAND is in not-a-fit; do not carry its Dec date.
-- Medtronic master's window closes Oct 13; no statistics seat. Drop from Later after Oct 13.
-- Out-of-metro exceptions: Merck Biostatistics, BCBSM, J&J Peds. No more without a yes.
+- Medtronic master's window closes Oct 13; drop it from Later and the deadline strip on 10-14.
+- Out-of-metro exceptions in Open now: Merck Biostatistics, BCBSM, J&J Peds. Humana went to
+  Not a fit with an offer to move it; follow her answer.
 - Pfizer program: move to Open now only when its positions list shows a Statistics req.
-- Actuarial seats this cycle (Blue Shield, Centene) want a passed exam or an undergraduate;
-  profile row asks her whether she plans to sit one.
-- No day counts in prose; dates only. Titles under 60 characters.
+- Actuarial seats this cycle want a passed exam or an undergraduate.
+- No day counts in prose; dates only. Titles under 60 characters. When carrying text forward,
+  strip "tonight" and "posted today" from rows not re-read.
 
 ## Proposed core changes
 
-- Decide Detroit scope: BCBS Michigan is listed last as an exception. Keep, widen, or remove.
+- Decide Detroit and out-of-metro scope: BCBSM, Merck and J&J Peds are exceptions; Humana
+  (exact body fit, Chicago or New York hubs) is held in Not a fit. Keep, widen, or remove.
 - Standing dates are stale: Edwards C&R runs Sep to Oct (Req-49745 closes Nov 1); RAND excludes
   biostat MS students; Amgen grad DS has no deadline; Analysis Group Generalist deadline passed.
-- `sweep_boards.py`: add Stryker, Denali (`dnli.wd1`, 5 sites), Corcept (greenhouse
+- `sweep_boards.py`: add Stryker, Denali (`dnli.wd1`, five sites above), Corcept (greenhouse
   `corcepttherapeutics`), BCBSM (oraclehcm `ejko.fa.us2.oraclecloud.com|CX_3|intern`),
-  Cytokinetics (`cytokinetics.wd1|cytokinetics|Cytokinetics`), Blue Shield (oraclehcm
-  `ecge.fa.us2.oraclecloud.com|CX_1003|intern`), Centene (`centene.wd5|centene|centene_external`);
-  make `--help` print and exit.
+  Cytokinetics, Blue Shield (oraclehcm `ecge.fa.us2.oraclecloud.com|CX_1003|intern`), Centene,
+  Humana (`humana.wd5|humana|Humana_External_Career_Site`); make `--help` print and exit.
 - `fetch_posting_text.py`: skip writing when a fetch fails, so saved bodies are not lost.
 - Bind the `APPS` KV namespace on the Pages project so ticks reach the nightly run.
