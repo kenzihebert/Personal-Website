@@ -1,6 +1,6 @@
 {
   "title": "Your search",
-  "updated": "2026-10-09",
+  "updated": "2026-10-10",
   "generatedBy": "nightly research",
   "deadlines": [
     {
@@ -48,6 +48,11 @@
       "status": "warning"
     },
     {
+      "date": "2026-12-18",
+      "label": "Alcon Clinical Data Science intern closes (Fort Worth)",
+      "status": "warning"
+    },
+    {
       "date": "2027-01-29",
       "label": "Michigan Public Health winter career fair",
       "status": "warning"
@@ -66,20 +71,20 @@
       "items": [
         {
           "id": "kz-start-diagnosis",
-          "title": "One week to October 16: three applications",
+          "title": "Six days to October 16: the same three",
           "tags": [
             {
               "label": "Oct 16",
               "status": "critical"
             }
           ],
-          "detail": "Tonight's numbers: 0 applications recorded in the last 7 and 14 days, 20 open rows, 14 closing within 30 days, 10 of them on October 16. All 20 are still live at the source.\n\nTen rows on one date reads as a wall, so the list is cut for this week. Send these three before October 16 and treat the other seven October 16 rows as optional:\n\n1. **Henry Ford** Cancer Epidemiology (cover letter, resume, transcript).\n2. **Kite** Clinical Development Data Management.\n3. **Gilead** Epidemiology & Real-World Evidence, on the same Workday account as Kite.\n\nIf any of these is already sent, say so and it moves to Completed."
+          "detail": "Numbers only tonight: 0 applications recorded in the last 7 and 14 days, 21 open rows (Alcon is new), 14 closing by November 9, 10 of them on October 16. The other 20 were re-checked at the source and are still live.\n\nThe shortlist stands. Send these three before October 16; the other seven October 16 rows are optional:\n\n1. **Henry Ford** Cancer Epidemiology (cover letter, resume, transcript).\n2. **Kite** Clinical Development Data Management.\n3. **Gilead** Epidemiology & Real-World Evidence, on the same Workday account as Kite.\n\nIf any of these is already sent, say so and it moves to Completed."
         },
         {
           "id": "kz-start-this-week",
           "title": "After October 16",
           "tags": [],
-          "detail": "**By October 20:** J&J Immunology Pediatric Clinical Development (read its location line first).\n\n**By October 28:** Analysis Group Health Care, deadline and November interview start re-read on the posting tonight. Then **Stryker** (Irvine, no close date) and **Edwards Clinical & Regulatory** (Irvine, November 1).\n\nNew tonight, outside your metros: Humana's Graduate Analytics Internship names biostatistics master's students graduating December 2027 to summer 2028, which is your window. It is on-site in Louisville or one of five hubs (Chicago, New York, Nashville, Arlington, Fort Lauderdale), no remote option, so it sits in Not a fit. Say the word and it moves to Open now. [Humana posting](https://humana.wd5.myworkdayjobs.com/Humana_External_Career_Site/job/Louisville-KY/Graduate-Analytics-Internship---Summer-2027_R-429772)"
+          "detail": "**By October 20:** J&J Immunology Pediatric Clinical Development (read its location line first).\n\n**By October 28:** Analysis Group Health Care; the deadline and November interview start were re-read on the posting. Then **Stryker** (Irvine, no close date) and **Edwards Clinical & Regulatory** (Irvine, November 1).\n\nNew, outside your metros: **Alcon's Clinical Data Science intern** (Fort Worth, closes December 18) names biostatistics master's students and works on trial data for eye-care devices. It is in Open now, near the end.\n\nStill waiting on your answer: Humana's Graduate Analytics Internship fits your degree and graduation window but is on-site in Louisville or five hubs outside your metros, so it sits in Not a fit. Say the word and it moves to Open now. [Humana posting](https://humana.wd5.myworkdayjobs.com/Humana_External_Career_Site/job/Louisville-KY/Graduate-Analytics-Internship---Summer-2027_R-429772)"
         },
         {
           "id": "kz-start-howhiring",
@@ -401,6 +406,25 @@
           "detail": "The stated deadline passed September 30 and interviews began in early to mid October; the posting says applications are still reviewed on a rolling basis. Master's graduating winter 2027 or summer 2028 eligible. Send only alongside the Health Care application above. Req 3005. [Apply](https://analystcareers-analysisgroup.icims.com/jobs/3005/summer-analyst-intern---generalist-%282027-start-date%29/job)"
         },
         {
+          "id": "kz-alcon-clinical-ds",
+          "title": "Alcon: Clinical Data Science Intern",
+          "location": "Fort Worth, Texas",
+          "tags": [
+            {
+              "label": "Devices, clinical data",
+              "status": "critical"
+            },
+            {
+              "label": "Outside your metros"
+            },
+            {
+              "label": "Closes Dec 18",
+              "status": "warning"
+            }
+          ],
+          "detail": "Eye-care devices. A proof-of-concept comparing synthetic patient data (GANs, Bayesian networks) with bootstrapping on Alcon's historical clinical data. Minimum: *Must be pursuing a M.S. or PhD in statistics, biostatistics, data science*, working R or Python, 2.8 GPA; 10 to 12 weeks, full time. The posting names only Fort Worth, so it is listed near the end for geography. Posted October 9. Req R-2026-50204. [Apply](https://alcon.wd5.myworkdayjobs.com/careers_alcon/job/Fort-Worth-Texas/Clinical-Data-Science-Intern_R-2026-50204)"
+        },
+        {
           "id": "kz-merck-biostat",
           "title": "Merck: 2027 Biostatistics Intern",
           "location": "Rahway, New Jersey",
@@ -457,7 +481,7 @@
               "status": "critical"
             }
           ],
-          "detail": "For current graduate students with at least one year of graduate study by June 2027. **CA- San Diego** is a listed site. 12 weeks between May and September; employed by AtriumWorks and placed at Pfizer. Deadline January 31, 2027; recruitment is rolling and the program asks for early applications. Its positions list was empty again, so there is nothing to submit yet. [Program site](https://pfizerstatistics-internprogram-atriumworks.icims.com/jobs/intro)"
+          "detail": "For current graduate students with at least one year of graduate study by June 2027. **CA- San Diego** is a listed site. 12 weeks between May and September; employed by AtriumWorks and placed at Pfizer. Deadline January 31, 2027; recruitment is rolling and the program asks for early applications. Its positions list is still empty, so there is nothing to submit yet. [Program site](https://pfizerstatistics-internprogram-atriumworks.icims.com/jobs/intro)"
         },
         {
           "id": "kz-later-kite-grad",
@@ -542,7 +566,7 @@
               "label": "Health plan"
             }
           ],
-          "detail": "Found on Blue Shield's own Oracle board: the Summer 2027 program runs June 14 or 21 to August 20, ten weeks, hybrid, $30 an hour for graduate students, with recruiter calls in October and November and offers in November. The two seats posted September 30 (Actuarial and Financial Summer Interns, Long Beach) ask for a bachelor's in progress and a passed actuarial exam, so they are under Not a fit. Other teams post into October;, still only those two intern seats. [Blue Shield program page](https://careers.blueshieldca.com/growth-development), [Actuarial posting](https://ecge.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003/job/20261874)"
+          "detail": "Found on Blue Shield's own Oracle board: the Summer 2027 program runs June 14 or 21 to August 20, ten weeks, hybrid, $30 an hour for graduate students, with recruiter calls in October and November and offers in November. The two seats posted September 30 (Actuarial and Financial Summer Interns, Long Beach) ask for a bachelor's in progress and a passed actuarial exam, so they are under Not a fit. Other teams post into October; so far, still only those two intern seats. [Blue Shield program page](https://careers.blueshieldca.com/growth-development), [Actuarial posting](https://ecge.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003/job/20261874)"
         },
         {
           "id": "kz-later-ionis",
@@ -616,7 +640,7 @@
               "status": "warning"
             }
           ],
-          "detail": "Its board returned no open roles to's sweep. Scientific consulting in your sense; watched, with a student-page check after October 15."
+          "detail": "Its board returned no open roles in the board sweep. Scientific consulting in your sense; watched, with a student-page check after October 15."
         }
       ]
     },
@@ -664,7 +688,7 @@
         },
         {
           "title": "Remote and CROs",
-          "detail": "**Amgen**: remote grad Data Scientist open now. Centene's remote graduate analytics seat came down; its new wave (Medical Economics, Actuarial, Public Health) is undergraduate, MBA or pharmacy.\nIQVIA, Parexel, ICON, Syneos, Medpace, Fortrea, Precision for Medicine, Cytel, Certara: all read, no US biostatistics or programming intern. Fortrea's new seats are inside sales; IQVIA's are China and South Africa.\nOutside your metros: **Merck** (New Jersey), MS biostatistics intern open until Oct 31; **Blue Cross Blue Shield of Michigan** (Detroit), Data Science / Biostatistician intern open. UnitedHealth Group's board, read October 8, has no master's-level remote analytics intern posted for 2027. [UnitedHealth intern search](https://careers.unitedhealthgroup.com/search-jobs/intern%202027/)\nHumana: its Graduate Analytics Internship takes biostatistics master's students but is on-site in Louisville or five hubs outside your metros; see Not a fit."
+          "detail": "**Amgen**: remote grad Data Scientist open now. Centene's remote graduate analytics seat came down; its new wave (Medical Economics, Actuarial, Public Health) is undergraduate, MBA or pharmacy.\nIQVIA, Parexel, ICON, Syneos, Medpace, Fortrea, Precision for Medicine, Cytel, Certara: all read, no US biostatistics or programming intern. Fortrea's new seats are inside sales; IQVIA's are China and South Africa.\nOutside your metros: **Alcon** (Fort Worth), Clinical Data Science intern open until Dec 18; **Merck** (New Jersey), MS biostatistics intern open until Oct 31; **Blue Cross Blue Shield of Michigan** (Detroit), Data Science / Biostatistician intern open. UnitedHealth Group's board, read October 8, has no master's-level remote analytics intern posted for 2027. [UnitedHealth intern search](https://careers.unitedhealthgroup.com/search-jobs/intern%202027/)\nHumana: its Graduate Analytics Internship takes biostatistics master's students but is on-site in Louisville or five hubs outside your metros; see Not a fit.\nCVS Health / Aetna and Elevance Health: every 2027 internship on their boards is undergraduate or finance, audit and actuarial, in Hartford, Rhode Island, Indianapolis or Tampa; no graduate analytics seat."
         }
       ]
     },
@@ -676,6 +700,16 @@
           "id": "kz-nf-humana-grad-analytics",
           "title": "Humana: Graduate Analytics Internship",
           "detail": "Location only. The body is a close fit: *currently pursuing a master's degree in* fields that include Biostatistics and Epidemiology, graduation *between December 2027 and Summer 2028*, statistical modeling on claims and clinical data in R, Python or SAS. But it runs May 24 to August 13, 2027, on-site 3 to 4 days a week in Louisville, Arlington, Chicago, Fort Lauderdale, Nashville or New York, and *the program is not offered remotely*. Req R-429772, no close date. Say the word and it moves to Open now. [Posting](https://humana.wd5.myworkdayjobs.com/Humana_External_Career_Site/job/Louisville-KY/Graduate-Analytics-Internship---Summer-2027_R-429772)"
+        },
+        {
+          "id": "kz-nf-hfh-actuarial",
+          "title": "Henry Ford Health: College Intern (actuarial)",
+          "detail": "Posted October 9, Troy, Michigan, marked remote. Health-plan actuarial work in SAS, SQL and Excel; requires *Pursuing a Bachelor's Degree in Actuarial Science, Mathematics, Statistics*, one exam highly preferred. [Posting](https://jobs.smartrecruiters.com/HenryFordHealth1/3743990016020536-college-intern)"
+        },
+        {
+          "id": "kz-nf-cvs-elevance",
+          "title": "CVS Health / Aetna and Elevance: 2027 interns",
+          "detail": "CVS's Medicare Business Analytics intern asks for *Currently pursuing a Bachelor's degree*, hybrid in Hartford; every CVS 2027 corporate internship is labelled undergraduate. Elevance's 2027 seats are finance, tax, audit, security and actuarial in Indianapolis or Tampa; the Actuarial Intern closes November 7 and favours a passed exam. [CVS posting](https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/CT---Hartford/Medicare-Business-Analytics-Corporate-Internship---Summer-2027--Undergraduate-_R1052378), [Elevance posting](https://elevancehealth.wd1.myworkdayjobs.com/ANT/job/IN-INDIANAPOLIS-220-VIRGINIA-AVE/Actuarial-Intern---Summer-2027_JR204425)"
         },
         {
           "id": "kz-nf-jnj-medtech-clinaffairs",
@@ -910,14 +944,14 @@
         },
         {
           "id": "kz-ro-stated",
-          "title": "Stated in's postings",
+          "title": "Stated in the postings",
           "tags": [
             {
               "label": "Verified",
               "status": "good"
             }
           ],
-          "detail": "Analysis Group: evaluated *for a full-time analyst offer in the office that their internship takes place* (re-read). BRG: *we aim to convert Summer Associates to full-time Associates*. Edwards: *Conversion Opportunities into our New Grad Programs*. J&J Clinical Pharmacology: used to assess *potential for future* hiring. Kite: *Consideration for future full-time positions, rotation programs, or contract roles*. No published rate for any of them."
+          "detail": "Analysis Group: evaluated *for a full-time analyst offer in the office that their internship takes place*. BRG: *we aim to convert Summer Associates to full-time Associates*. Edwards: *Conversion Opportunities into our New Grad Programs*. J&J Clinical Pharmacology: used to assess *potential for future* hiring. Kite: *Consideration for future full-time positions, rotation programs, or contract roles*. No published rate for any of them."
         },
         {
           "id": "kz-ro-estimates",
@@ -943,9 +977,9 @@
       "items": [
         {
           "id": "kz-blocked-browser",
-          "title": "Read in the browser tonight",
+          "title": "Read in the browser",
           "tags": [],
-          "detail": "Both Analysis Group postings (Health Care deadline October 28 confirmed; Generalist past its September 30 deadline, still rolling), Pfizer's Statistics program positions list (still empty), Denali's careers page (40 roles, no internship) and Arrowhead's job openings (no internship). Every Workday row in Open now, BCBS Michigan and the Henry Ford form were re-read at the source."
+          "detail": "Analysis Group Health Care (deadline October 28 and November interviews confirmed) and Pfizer's Statistics program positions list (still empty). Every Workday row in Open now, BCBS Michigan and the Henry Ford form were re-read at the source."
         },
         {
           "id": "kz-blocked-unread",

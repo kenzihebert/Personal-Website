@@ -1,6 +1,6 @@
 # Research playbook
 
-**v11, 2026-10-09.** Rewritten every run. Hard cap 6 KB.
+**v12, 2026-10-10.** Rewritten every run. Hard cap 6 KB.
 
 ## Who this is for
 
@@ -9,17 +9,18 @@ Private sector only. Trials, devices, health analytics; genomics last.
 
 ## Governing metric
 
-Rows unsent for 7+ runs. Tonight: 10 runs since 10-01, 0 sent, 20 open, all live; 17 rows are
-past 7 runs. Diagnoses so far: 10-04 shape, 10-05 cost, 10-06 materials, 10-07 recording gap,
+Rows unsent for 7+ runs. Tonight: 11 runs since 10-01, 0 sent, 21 open (Alcon new), all live;
+17 rows are past 7 runs. Diagnoses so far: 10-04 shape, 10-05 cost, 10-06 materials, 10-07 recording gap,
 10-08 numbers only, 10-09 the cut (Start names three Oct 16 sends, the other seven optional).
-10-10: watch, numbers only. 10-17: name in the log whatever closed Oct 16 unsent; never on the
+10-10 watch, numbers only (done). 10-11 to 10-15: watch; numbers plus the three names. 10-17: name in the log whatever closed Oct 16 unsent; never on the
 page.
 
-## What is working (last confirmed 2026-10-09)
+## What is working (last confirmed 2026-10-10)
 
 - Workday `cxs` job endpoint by curl from a Python script: `endDate`, body, liveness (17 rows).
 - Workday `jobs` POST search by curl (`searchText`). Found Humana's grad analytics seat 10-09.
-- Diffing tonight's sweep against last night's by URL (19 new rows triaged in a minute).
+- Diffing tonight's sweep against last night's by URL (15 new 10-10; found Alcon Clinical Data
+  Science, Fort Worth). Sweep JSON is `{run, boards:{name:{...lists}}}`; walk every list.
 - Reading the body kills title traps (Blue Shield Actuarial, Centene Public Health, 10-07).
 - iCIMS (Analysis Group) in the browser: `#icims_content_iframe` innerText via JS. Use
   `/jobs/<id>/job`. Pfizer's list page has no iframe; `get_page_text` shows it empty.
@@ -35,8 +36,8 @@ page.
 - 0 applications recorded across 10 runs. `/api/apps` answers 501, so ticks never arrive.
 - The sweep's Kite list omits Kite CDM R0054782 (10-08, 10-09); trust cxs.
 - Employer-side named people: zero. Weekly at most.
-- `sweep_boards.py --help` starts a full sweep. Never probe it.
-- Jazz Workday cxs (`vhr-jazz`) does not answer; Certara is a login portal.
+- Stripping "tonight" by blind replace garbled text 10-09 ("Stated in's postings"). Edit by
+  whole sentence.
 - Bash heredocs with apostrophes in Python strings break: write scripts with the Write tool.
 - Python print to console needs `PYTHONIOENCODING=utf-8` (IQVIA Chinese titles crash cp1252).
 
@@ -59,13 +60,15 @@ page.
 - H8: big pharma posts batches with two-week windows; nightly diffing catches them. Kill: no
   such batch again by Nov 15.
 - H9: the zero is a recording gap. Kill: she confirms nothing sent.
-- H10 (new): large health plans run graduate analytics programs that take MS biostat (Humana
-  does, on-site). Kill: CVS/Aetna, Elevance and Kaiser health plan show none by Oct 23.
+- H10: large health plans run graduate analytics programs that take MS biostat (Humana does,
+  on-site). CVS/Aetna and Elevance: none, 10-10. Kill: Kaiser health plan and Molina none by Oct 23.
+- H11 (new): device makers post MS clinical-data seats outside her metros first (Alcon Fort
+  Worth 10-09). Kill: no device MS statistics seat in her metros by Dec 1.
 
 ## Exploration queue (never empty)
 
-1. CVS Health / Aetna graduate analytics intern (jobs.cvshealth.com), next 10-10.
-2. Elevance and Molina graduate analytics seats (Molina was undergrad last read).
+1. Molina graduate analytics seat (was undergrad last read), next 10-11.
+2. Alcon Lake Forest: watch its Workday for a California clinical seat (weekly, next 10-17).
 3. Blue Shield Oracle board weekly (next 10-14); other teams post in October.
 4. Exponent student page after Oct 15.
 5. Takeda: recheck jobs.takeda.com for a US 2027 intern (next 10-12).
@@ -87,7 +90,7 @@ page.
 
 ## Proposed core changes
 
-- Decide Detroit and out-of-metro scope: BCBSM, Merck and J&J Peds are exceptions; Humana
+- Decide Detroit and out-of-metro scope: BCBSM, Merck, J&J Peds and Alcon are exceptions; Humana
   (exact body fit, Chicago or New York hubs) is held in Not a fit. Keep, widen, or remove.
 - Standing dates are stale: Edwards C&R runs Sep to Oct (Req-49745 closes Nov 1); RAND excludes
   biostat MS students; Amgen grad DS has no deadline; Analysis Group Generalist deadline passed.
