@@ -1,6 +1,6 @@
 {
   "title": "Your search",
-  "updated": "2026-10-11",
+  "updated": "2026-10-12",
   "generatedBy": "nightly research",
   "deadlines": [
     {
@@ -71,14 +71,14 @@
       "items": [
         {
           "id": "kz-start-diagnosis",
-          "title": "Five days to October 16: the same three",
+          "title": "Four days to October 16: the same three",
           "tags": [
             {
               "label": "Oct 16",
               "status": "critical"
             }
           ],
-          "detail": "Numbers only: 0 applications recorded in the last 7 and 14 days, 21 open rows, 14 closing by November 10, 10 of them on October 16. All 21 were re-read at the source on October 11 and are still live. The Kite and Gilead rows have been on this page since October 1.\n\nThe shortlist stands. Send these three before October 16; the other seven October 16 rows are optional:\n\n1. **Henry Ford** Cancer Epidemiology (cover letter, resume, transcript).\n2. **Kite** Clinical Development Data Management.\n3. **Gilead** Epidemiology & Real-World Evidence, on the same Workday account as Kite.\n\nIf any of these is already sent, say so and it moves to Completed."
+          "detail": "Numbers only: 0 applications recorded in the last 7 and 14 days, 21 open rows, 14 closing by November 11, 10 of them on October 16. All 21 were re-read at the source on October 12 and are still live. The Kite and Gilead rows have been on this page since October 1.\n\nThe shortlist stands. Send these three before October 16; the other seven October 16 rows are optional:\n\n1. **Henry Ford** Cancer Epidemiology (cover letter, resume, transcript).\n2. **Kite** Clinical Development Data Management.\n3. **Gilead** Epidemiology & Real-World Evidence, on the same Workday account as Kite.\n\nIf any of these is already sent, say so and it moves to Completed."
         },
         {
           "id": "kz-start-this-week",
@@ -99,7 +99,7 @@
       "title": "Open now",
       "layout": "table",
       "checkable": true,
-      "note": "Every row re-read on the employer's own system on October 11. Ranked by fit with trials, devices and health analytics, then location. This week, start with Henry Ford, Kite and Gilead Epidemiology & RWE.",
+      "note": "Every row re-read on the employer's own system on October 12. Ranked by fit with trials, devices and health analytics, then location. This week, start with Henry Ford, Kite and Gilead Epidemiology & RWE.",
       "items": [
         {
           "id": "kz-henryford-cepc",
@@ -175,7 +175,7 @@
               "status": "critical"
             }
           ],
-          "detail": "Names *first year masters/MPH candidates* in biostatistics or epidemiology. Claims, EHR and trial data in R, SAS and Stata; cost-effectiveness and budget-impact models. $2,000 a week, 3.3 GPA floor, evaluated for a full-time offer in your internship office. Deadline Wednesday October 28, interviews begin in November, then rolling review; re-read October 11. Send resume, all unofficial transcripts, and a cover letter naming Los Angeles. Req 3064. [Apply](https://analystcareers-analysisgroup.icims.com/jobs/3064/job)"
+          "detail": "Names *first year masters/MPH candidates* in biostatistics or epidemiology. Claims, EHR and trial data in R, SAS and Stata; cost-effectiveness and budget-impact models. $2,000 a week, 3.3 GPA floor, evaluated for a full-time offer in your internship office. Deadline Wednesday October 28, interviews begin in November, then rolling review; re-read October 12. Send resume, all unofficial transcripts, and a cover letter naming Los Angeles. Req 3064. [Apply](https://analystcareers-analysisgroup.icims.com/jobs/3064/job)"
         },
         {
           "id": "kz-stryker-stat-programming",
@@ -552,7 +552,7 @@
               "status": "warning"
             }
           ],
-          "detail": "Graduate-level summer interns, 10 to 12 weeks, paid, Southern California. Positions post February to March. Questions to RE-internships@kp.org. [Program page](https://www.kp-scalresearch.org/aboutus/join-our-team/summer-internship-program/)"
+          "detail": "Graduate-level summer interns, 10 to 12 weeks, paid, Southern California. Positions post February to March. Questions to RE-internships@kp.org. [Program page](https://www.kp-scalresearch.org/aboutus/join-our-team/summer-internship-program/)\n\nSeparate track: Kaiser's Pasadena offices also ran *Master's Intern* analytics seats last cycle. One, Data Reporting and Analytics Master's Intern, was posted February 9, 2026, hybrid in Pasadena, for master's students, with Python, R, SQL or SAS named and *Knowledge of SQL or SAS highly desirable*. None is posted now; expect the next round from January. [Last cycle's posting](https://simplify.jobs/p/cfbe723e-9302-407c-8916-161866239f71)"
         },
         {
           "id": "kz-later-blueshield",
@@ -668,7 +668,7 @@
       "items": [
         {
           "title": "Los Angeles",
-          "detail": "**Kite (Gilead)**, Santa Monica and El Segundo: data management seat open; statistics grad interns post Oct to Jan.\n**Amgen**, Thousand Oaks: remote grad Data Scientist open; R&D biostatistics not posted.\n**Medtronic Diabetes**, Northridge: no local seat this cycle; master's window closes Oct 13.\n**Kaiser Permanente Research & Evaluation**, Pasadena: graduate interns post Feb to Mar. Kaiser's main board: 13 intern rows, pharmacy and one bachelor's IT seat.\n**Analysis Group** and **BRG**, downtown: health consulting seats open now.\nCity of Hope's board is back after maintenance: no internship. Children's Hospital Los Angeles: 163 roles, none an internship (read October 11). Cedars-Sinai: lab research interns only. Xencor (seven roles on its Dayforce board, October 11), ImmunityBio, Grifols: no intern seats. Arcutis, Capsida and Puma were not.\nArrowhead Pharmaceuticals, Pasadena: has a Biostats & Data Management group (statistical programming roles open), no internship posted. [Arrowhead job openings](https://arrowheadpharma.com/en-us/careers/job-openings)"
+          "detail": "**Kite (Gilead)**, Santa Monica and El Segundo: data management seat open; statistics grad interns post Oct to Jan.\n**Amgen**, Thousand Oaks: remote grad Data Scientist open; R&D biostatistics not posted.\n**Medtronic Diabetes**, Northridge: no local seat this cycle; master's window closes Oct 13.\n**Kaiser Permanente Research & Evaluation**, Pasadena: graduate interns post Feb to Mar. Kaiser's main board on October 12: pharmacy interns and one bachelor's IT seat; its Pasadena master's analytics interns posted January to March last cycle.\n**Analysis Group** and **BRG**, downtown: health consulting seats open now.\nCity of Hope's board is back after maintenance: no internship. Children's Hospital Los Angeles: 163 roles, none an internship (read October 11). Cedars-Sinai: lab research interns only. Xencor (seven roles on its Dayforce board, October 11), ImmunityBio, Grifols: no intern seats. Arcutis, Capsida and Puma were not.\nArrowhead Pharmaceuticals, Pasadena: has a Biostats & Data Management group (statistical programming roles open), no internship posted. [Arrowhead job openings](https://arrowheadpharma.com/en-us/careers/job-openings)"
         },
         {
           "title": "Orange County",
@@ -979,11 +979,11 @@
           "id": "kz-blocked-browser",
           "title": "Read in the browser",
           "tags": [],
-          "detail": "Read on October 11: Analysis Group Health Care (deadline October 28, November interviews) and Generalist (rolling since September 30); Pfizer's Statistics program positions list (still empty); Xencor's Dayforce board and Children's Hospital Los Angeles (no internship at either); Denali's five Workday sites (no intern). Every Workday row in Open now, BCBS Michigan and the Henry Ford form were re-read at the source."
+          "detail": "Read on October 12: Analysis Group Health Care in the browser (deadline October 28, November interviews). Every Workday row in Open now was re-read at the source, plus BCBS Michigan, the Analysis Group Generalist posting and the Henry Ford form. Pfizer's Statistics program list is next read October 14; Xencor and Children's Hospital Los Angeles October 18."
         },
         {
           "id": "kz-blocked-unread",
-          "title": "Not covered on October 11",
+          "title": "Not covered on October 12",
           "tags": [],
           "detail": "Xencor and Children's Hospital Los Angeles are read weekly (next October 18). Puma, Arcutis and Capsida are not retried nightly (403, portal error, LinkedIn only). Jazz's Workday site has not answered. Scripps Research, Salk, Sanford Burnham Prebys and La Jolla Institute run undergraduate programs. TGen is genomics and not chased."
         }

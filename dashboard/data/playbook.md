@@ -1,6 +1,6 @@
 # Research playbook
 
-**v13, 2026-10-11.** Rewritten every run. Hard cap 6 KB.
+**v14, 2026-10-12.** Rewritten every run. Hard cap 6 KB.
 
 ## Who this is for
 
@@ -9,9 +9,9 @@ Private sector only. Trials, devices, health analytics; genomics last.
 
 ## Governing metric
 
-Rows unsent for 7+ runs. 10-11: 12 runs since 10-01, 0 sent, 21 open, all live; 17 rows past 7
-runs. Diagnoses used: shape, cost, materials, recording gap, the cut (three names). 10-12 to 10-15:
-watch, numbers plus the three names. 10-17: name in the log whatever closed Oct 16 unsent; never on
+Rows unsent for 7+ runs. 10-12: 13 runs since 10-01, 0 sent, 21 open, all live; 17 rows past 7
+runs. Diagnoses used: shape, cost, materials, recording gap, the cut (three names). 10-13 to 10-15:
+watch, numbers plus the three names (10-12 done). 10-17: name in the log whatever closed Oct 16 unsent; never on
 the page.
 
 ## Sunday review (10-11)
@@ -29,7 +29,8 @@ the page.
 
 ## What is working (last confirmed 2026-10-11)
 
-- Workday `cxs` job endpoint by curl from a Python script: `endDate`, body, liveness (16 rows).
+- Workday `cxs` job endpoint by curl from a Python script: `endDate`, body, liveness (16 rows,
+  10-12). Script pulls the last markdown link of each row; regex on the URL gives the cxs path.
 - Workday `jobs` POST search by curl (`searchText`): Denali's five sites 10-11.
 - Diffing tonight's sweep against last night's by URL. Back up `sweep-latest.json` first.
 - Reading the body kills title traps.
@@ -62,17 +63,17 @@ the page.
 - H6: a three-row shortlist gets a first application recorded. Kill: nothing recorded by Oct 17.
 - H7: the blocker is the cover letter. Kill: Henry Ford still unsent on Oct 13.
 - H8: big pharma posts batches with two-week windows. Kill: no such batch again by Nov 15.
-- H10: large health plans run graduate analytics programs that take MS biostat. Humana yes;
-  CVS, Elevance, Molina, UnitedHealth no. Kill: Kaiser health plan none by Oct 23.
+- H10 answered 10-12: Humana and Kaiser (Pasadena Master's Intern analytics, posted Jan to Mar
+  last cycle) yes; CVS, Elevance, Molina, UnitedHealth no. Watch Kaiser board from Jan 5.
 - H11: device makers post MS clinical-data seats outside her metros first (Alcon). Kill: no device
   MS statistics seat in her metros by Dec 1.
 
 ## Exploration queue (never empty)
 
-1. Takeda: recheck jobs.takeda.com for a US 2027 intern (10-12).
+1. Takeda: jobs.takeda.com/search-jobs/intern, US 2027 intern (dry 10-05, 10-12; next 10-26).
 2. Blue Shield Oracle board (10-14).
 3. Exponent student page (after 10-15).
-4. Kaiser Permanente health plan analytics interns (H10, by 10-23).
+4. Neurocrine San Diego: expected Oct to Dec; recheck its board 10-20.
 5. Alcon Workday for a California clinical seat (10-17).
 6. Jazz: find a working board; Otsuka: no ATS link. LA biotechs: MannKind, Puma, ImmunityBio.
 7. Weekly Workday phrase pass (10-15).
