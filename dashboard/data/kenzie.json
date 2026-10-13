@@ -1,6 +1,6 @@
 {
   "title": "Your search",
-  "updated": "2026-10-12",
+  "updated": "2026-10-13",
   "generatedBy": "nightly research",
   "deadlines": [
     {
@@ -43,6 +43,11 @@
       "status": "critical"
     },
     {
+      "date": "2026-11-09",
+      "label": "J&J Clinical & Statistical Programming intern closes (New Jersey)",
+      "status": "warning"
+    },
+    {
       "date": "2026-11-20",
       "label": "J&J Clinical Pharmacology intern closes",
       "status": "warning"
@@ -71,26 +76,26 @@
       "items": [
         {
           "id": "kz-start-diagnosis",
-          "title": "Four days to October 16: the same three",
+          "title": "Three days to October 16: the same three",
           "tags": [
             {
               "label": "Oct 16",
               "status": "critical"
             }
           ],
-          "detail": "Numbers only: 0 applications recorded in the last 7 and 14 days, 21 open rows, 14 closing by November 11, 10 of them on October 16. All 21 were re-read at the source on October 12 and are still live. The Kite and Gilead rows have been on this page since October 1.\n\nThe shortlist stands. Send these three before October 16; the other seven October 16 rows are optional:\n\n1. **Henry Ford** Cancer Epidemiology (cover letter, resume, transcript).\n2. **Kite** Clinical Development Data Management.\n3. **Gilead** Epidemiology & Real-World Evidence, on the same Workday account as Kite.\n\nIf any of these is already sent, say so and it moves to Completed."
+          "detail": "Numbers only: 0 applications recorded in the last 7 and 14 days, 22 open rows, 15 closing by November 12, 10 of them on October 16. All 21 rows from last night were re-read at the source on October 13 and are still live. The Kite and Gilead rows have been on this page since October 1.\n\nThe shortlist stands. Send these three before October 16; the other seven October 16 rows are optional:\n\n1. **Henry Ford** Cancer Epidemiology (cover letter, resume, transcript).\n2. **Kite** Clinical Development Data Management.\n3. **Gilead** Epidemiology & Real-World Evidence, on the same Workday account as Kite.\n\nIf any of these is already sent, say so and it moves to Completed."
         },
         {
           "id": "kz-start-this-week",
           "title": "After October 16",
           "tags": [],
-          "detail": "**By October 20:** J&J Immunology Pediatric Clinical Development (read its location line first).\n\n**By October 28:** Analysis Group Health Care; the deadline and November interview start were re-read on the posting. Then **Stryker** (Irvine, no close date) and **Edwards Clinical & Regulatory** (Irvine, November 1).\n\nOutside your metros: **Alcon's Clinical Data Science intern** (Fort Worth, closes December 18) names biostatistics master's students and works on trial data for eye-care devices. It is in Open now, near the end.\n\nStill waiting on your answer: Humana's Graduate Analytics Internship fits your degree and graduation window but is on-site in Louisville or five hubs outside your metros, so it sits in Not a fit. Say the word and it moves to Open now. [Humana posting](https://humana.wd5.myworkdayjobs.com/Humana_External_Career_Site/job/Louisville-KY/Graduate-Analytics-Internship---Summer-2027_R-429772)"
+          "detail": "**By October 20:** J&J Immunology Pediatric Clinical Development (read its location line first).\n\n**By October 28:** Analysis Group Health Care; the deadline and November interview start were re-read on the posting. Then **Stryker** (Irvine, no close date) and **Edwards Clinical & Regulatory** (Irvine, November 1).\n\nOutside your metros: **Alcon's Clinical Data Science intern** (Fort Worth, closes December 18) names biostatistics master's students and works on trial data for eye-care devices. It is in Open now, near the end.\n\nNew on October 12: **J&J's Clinical & Statistical Programming intern** (New Jersey or Pennsylvania, hybrid, closes November 9) takes master's students in statistics and uses Python, R, SAS and SQL. Also near the end.\n\nStill waiting on your answer: Humana's Graduate Analytics Internship fits your degree and graduation window but is on-site in Louisville or five hubs outside your metros, so it sits in Not a fit. Say the word and it moves to Open now. [Humana posting](https://humana.wd5.myworkdayjobs.com/Humana_External_Career_Site/job/Louisville-KY/Graduate-Analytics-Internship---Summer-2027_R-429772)"
         },
         {
           "id": "kz-start-howhiring",
           "title": "How this field hires a master's student",
           "tags": [],
-          "detail": "Big pharma opens structured summer programs between September and November and often prefers or requires a PhD for biostatistics seats; read the qualification line before the title. Gilead lists PhD as *preferred* on most of its reqs, which is a ranking signal; master's students can still apply. Contract research organizations hire master's statisticians at volume, but later and more rolling, and mostly in SAS. Southern California device companies run their own calendars: Stryker and Edwards' clinical track are open now; Medtronic takes master's applications only until October 13 and interviews in October. Health plans post in a wave at the end of September with offers in November: Blue Shield of California's 2027 interns went up September 30, Centene's on October 6, and both waves were undergraduate, MBA or pharmacy seats. J&J posts batches with two-week windows, so a seat you want can appear and close inside a fortnight."
+          "detail": "Big pharma opens structured summer programs between September and November and often prefers or requires a PhD for biostatistics seats; read the qualification line before the title. Gilead lists PhD as *preferred* on most of its reqs, which is a ranking signal; master's students can still apply. Contract research organizations hire master's statisticians at volume, but later and more rolling, and mostly in SAS. Southern California device companies run their own calendars: Stryker and Edwards' clinical track are open now; Medtronic took master's applications until October 13 and interviews in October. Health plans post in a wave at the end of September with offers in November: Blue Shield of California's 2027 interns went up September 30, Centene's on October 6, and both waves were undergraduate, MBA or pharmacy seats. J&J posts batches with short windows: its October 12 batch of data and programming interns closes November 9, and one medical affairs seat in it closes October 19."
         }
       ]
     },
@@ -99,7 +104,7 @@
       "title": "Open now",
       "layout": "table",
       "checkable": true,
-      "note": "Every row re-read on the employer's own system on October 12. Ranked by fit with trials, devices and health analytics, then location. This week, start with Henry Ford, Kite and Gilead Epidemiology & RWE.",
+      "note": "Every row re-read on the employer's own system on October 13. Ranked by fit with trials, devices and health analytics, then location. This week, start with Henry Ford, Kite and Gilead Epidemiology & RWE.",
       "items": [
         {
           "id": "kz-henryford-cepc",
@@ -444,6 +449,25 @@
           "detail": "Listed near the end because of geography. The rare big-pharma biostatistics req that states an MS outright: *at least (2) semesters of graduate work towards an MS or PhD degree in Statistics or Biostatistics by May 2027*, SAS, S-Plus and/or R. Req R416450. [Apply](https://msd.wd5.myworkdayjobs.com/en-US/SearchJobs/job/USA---New-Jersey---Rahway/XMLNAME-2027-Future-Talent-Program---Biostatistics---Intern_R416450)"
         },
         {
+          "id": "kz-jnj-idar-csp",
+          "title": "J&J: Clinical & Statistical Programming Intern",
+          "location": "Raritan or Titusville, New Jersey, or Spring House, Pennsylvania",
+          "tags": [
+            {
+              "label": "Statistical programming",
+              "status": "serious"
+            },
+            {
+              "label": "Outside your metros"
+            },
+            {
+              "label": "Closes Nov 9",
+              "status": "warning"
+            }
+          ],
+          "detail": "Listed near the end because of geography. Part of J&J's IDAR group, which runs clinical analysis and reporting; projects are AI, data, automation or SharePoint work chosen by your skills, using *Python, R, SAS, SQL*. Takes Bachelor's, Master's or MBA students, Statistics listed, 3.5 GPA, May to August 2027, hybrid three days on site. Ask for the programming and data track. Req R-103534. [Apply](https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Raritan-New-Jersey-United-States-of-America/IDAR-Summer-Intern--C-SP-_R-103534)"
+        },
+        {
           "id": "kz-bcbsm-ds-biostat",
           "title": "BCBS Michigan: Data Science / Biostatistician Intern",
           "location": "Detroit, Michigan (hybrid)",
@@ -553,6 +577,20 @@
             }
           ],
           "detail": "Graduate-level summer interns, 10 to 12 weeks, paid, Southern California. Positions post February to March. Questions to RE-internships@kp.org. [Program page](https://www.kp-scalresearch.org/aboutus/join-our-team/summer-internship-program/)\n\nSeparate track: Kaiser's Pasadena offices also ran *Master's Intern* analytics seats last cycle. One, Data Reporting and Analytics Master's Intern, was posted February 9, 2026, hybrid in Pasadena, for master's students, with Python, R, SQL or SAS named and *Knowledge of SQL or SAS highly desirable*. None is posted now; expect the next round from January. [Last cycle's posting](https://simplify.jobs/p/cfbe723e-9302-407c-8916-161866239f71)"
+        },
+        {
+          "id": "kz-later-mannkind",
+          "title": "MannKind: summer internships, Westlake Village",
+          "tags": [
+            {
+              "label": "Posts in Q4",
+              "status": "good"
+            },
+            {
+              "label": "Offers by mid-March"
+            }
+          ],
+          "detail": "MannKind's internship page: openings go on its careers board with locations announced in Q4, applications run from Q4 into the new year, interviews January and February, offers by mid-March. Master's candidates are considered *based on their past experience in biotech*; in person, 8 to 12 weeks. Its board on October 13 had two Massachusetts spring co-ops and no summer seat. [MannKind internships](https://mannkindcorp.com/internships/)"
         },
         {
           "id": "kz-later-blueshield",
@@ -668,7 +706,7 @@
       "items": [
         {
           "title": "Los Angeles",
-          "detail": "**Kite (Gilead)**, Santa Monica and El Segundo: data management seat open; statistics grad interns post Oct to Jan.\n**Amgen**, Thousand Oaks: remote grad Data Scientist open; R&D biostatistics not posted.\n**Medtronic Diabetes**, Northridge: no local seat this cycle; master's window closes Oct 13.\n**Kaiser Permanente Research & Evaluation**, Pasadena: graduate interns post Feb to Mar. Kaiser's main board on October 12: pharmacy interns and one bachelor's IT seat; its Pasadena master's analytics interns posted January to March last cycle.\n**Analysis Group** and **BRG**, downtown: health consulting seats open now.\nCity of Hope's board is back after maintenance: no internship. Children's Hospital Los Angeles: 163 roles, none an internship (read October 11). Cedars-Sinai: lab research interns only. Xencor (seven roles on its Dayforce board, October 11), ImmunityBio, Grifols: no intern seats. Arcutis, Capsida and Puma were not.\nArrowhead Pharmaceuticals, Pasadena: has a Biostats & Data Management group (statistical programming roles open), no internship posted. [Arrowhead job openings](https://arrowheadpharma.com/en-us/careers/job-openings)"
+          "detail": "**Kite (Gilead)**, Santa Monica and El Segundo: data management seat open; statistics grad interns post Oct to Jan.\n**Amgen**, Thousand Oaks: remote grad Data Scientist open; R&D biostatistics not posted.\n**Medtronic Diabetes**, Northridge: no local seat this cycle; master's window closed Oct 13.\n**Kaiser Permanente Research & Evaluation**, Pasadena: graduate interns post Feb to Mar. Kaiser's main board on October 12: pharmacy interns and one bachelor's IT seat; its Pasadena master's analytics interns posted January to March last cycle.\n**Analysis Group** and **BRG**, downtown: health consulting seats open now.\nCity of Hope's board is back after maintenance: no internship. Children's Hospital Los Angeles: 163 roles, none an internship (read October 11). Cedars-Sinai: lab research interns only. Xencor (seven roles on its Dayforce board, October 11), ImmunityBio, Grifols: no intern seats. Arcutis, Capsida and Puma were not read.\nArrowhead Pharmaceuticals, Pasadena: has a Biostats & Data Management group (statistical programming roles open), no internship posted. [Arrowhead job openings](https://arrowheadpharma.com/en-us/careers/job-openings)\nMannKind, Westlake Village: posts summer internships in Q4, offers by mid-March; none posted on October 13. [MannKind internships](https://mannkindcorp.com/internships/)"
         },
         {
           "title": "Orange County",
@@ -688,7 +726,7 @@
         },
         {
           "title": "Remote and CROs",
-          "detail": "**Amgen**: remote grad Data Scientist open now. Centene's remote graduate analytics seat came down; its new wave (Medical Economics, Actuarial, Public Health) is undergraduate, MBA or pharmacy.\nIQVIA, Parexel, ICON, Syneos, Medpace, Fortrea, Precision for Medicine, Cytel, Certara: all read, no US biostatistics or programming intern. Fortrea's new seats are inside sales; IQVIA's are China and South Africa.\nOutside your metros: **Alcon** (Fort Worth), Clinical Data Science intern open until Dec 18; **Merck** (New Jersey), MS biostatistics intern open until Oct 31; **Blue Cross Blue Shield of Michigan** (Detroit), Data Science / Biostatistician intern open. UnitedHealth Group's board, read October 8, has no master's-level remote analytics intern posted for 2027. [UnitedHealth intern search](https://careers.unitedhealthgroup.com/search-jobs/intern%202027/)\nHumana: its Graduate Analytics Internship takes biostatistics master's students but is on-site in Louisville or five hubs outside your metros; see Not a fit.\nCVS Health / Aetna and Elevance Health: every 2027 internship on their boards is undergraduate or finance, audit and actuarial, in Hartford, Rhode Island, Indianapolis or Tampa; no graduate analytics seat.\nMolina Healthcare: 403 roles on its board on October 11, no intern or graduate seat."
+          "detail": "**Amgen**: remote grad Data Scientist open now. Centene's remote graduate analytics seat came down; its new wave (Medical Economics, Actuarial, Public Health) is undergraduate, MBA or pharmacy.\nIQVIA, Parexel, ICON, Syneos, Medpace, Fortrea, Precision for Medicine, Cytel, Certara: all read, no US biostatistics or programming intern. Fortrea's new seats are inside sales and UK; IQVIA's are China and South Africa.\nOutside your metros: **Alcon** (Fort Worth), Clinical Data Science intern open until Dec 18; **Merck** (New Jersey), MS biostatistics intern open until Oct 31; **Blue Cross Blue Shield of Michigan** (Detroit), Data Science / Biostatistician intern open; **J&J** (New Jersey or Pennsylvania), Clinical & Statistical Programming intern open until Nov 9. UnitedHealth Group's board, read October 8, has no master's-level remote analytics intern posted for 2027. [UnitedHealth intern search](https://careers.unitedhealthgroup.com/search-jobs/intern%202027/)\nHumana: its Graduate Analytics Internship takes biostatistics master's students but is on-site in Louisville or five hubs outside your metros; see Not a fit.\nCVS Health / Aetna and Elevance Health: every 2027 internship on their boards is undergraduate or finance, audit and actuarial, in Hartford, Rhode Island, Indianapolis or Tampa; no graduate analytics seat.\nMolina Healthcare: 403 roles on its board on October 11, no intern or graduate seat."
         }
       ]
     },
@@ -697,14 +735,19 @@
       "title": "Checked and not a fit",
       "items": [
         {
+          "id": "kz-nf-jnj-idar-others",
+          "title": "J&J: other October 12 intern seats",
+          "detail": "Data Management & Central Monitoring and Global Development interns require an undergraduate program; Regulatory Medical Writing is document writing; Enabling Analytics & System Excellence is systems and process work; Immunology Medical Affairs Clinical Project Scientist (Horsham, closes October 19) is literature and Excel support. All New Jersey or Pennsylvania."
+        },
+        {
           "id": "kz-nf-humana-grad-analytics",
           "title": "Humana: Graduate Analytics Internship",
           "detail": "Location only. The body is a close fit: *currently pursuing a master's degree in* fields that include Biostatistics and Epidemiology, graduation *between December 2027 and Summer 2028*, statistical modeling on claims and clinical data in R, Python or SAS. But it runs May 24 to August 13, 2027, on-site 3 to 4 days a week in Louisville, Arlington, Chicago, Fort Lauderdale, Nashville or New York, and *the program is not offered remotely*. Req R-429772, no close date. Say the word and it moves to Open now. [Posting](https://humana.wd5.myworkdayjobs.com/Humana_External_Career_Site/job/Louisville-KY/Graduate-Analytics-Internship---Summer-2027_R-429772)"
         },
         {
           "id": "kz-nf-hfh-actuarial",
-          "title": "Henry Ford Health: College Intern (actuarial)",
-          "detail": "Posted October 9, Troy, Michigan, marked remote. Health-plan actuarial work in SAS, SQL and Excel; requires *Pursuing a Bachelor's Degree in Actuarial Science, Mathematics, Statistics*, one exam highly preferred. [Posting](https://jobs.smartrecruiters.com/HenryFordHealth1/3743990016020536-college-intern)"
+          "title": "Henry Ford Health: Actuarial College Intern (HAP)",
+          "detail": "Reposted October 12 for Health Alliance Plan, Troy, Michigan, marked remote. Health-plan actuarial work; requires a bachelor's program in actuarial science, mathematics or statistics, one exam highly preferred. [Posting](https://jobs.smartrecruiters.com/HenryFordHealth1/3743990016063946)"
         },
         {
           "id": "kz-nf-cvs-elevance",
@@ -979,13 +1022,13 @@
           "id": "kz-blocked-browser",
           "title": "Read in the browser",
           "tags": [],
-          "detail": "Read on October 12: Analysis Group Health Care in the browser (deadline October 28, November interviews). Every Workday row in Open now was re-read at the source, plus BCBS Michigan, the Analysis Group Generalist posting and the Henry Ford form. Pfizer's Statistics program list is next read October 14; Xencor and Children's Hospital Los Angeles October 18."
+          "detail": "Read on October 13: MannKind's careers board in the browser (no summer intern). Every Workday row in Open now was re-read at the source, plus BCBS Michigan, both Analysis Group postings and the Henry Ford form. Pfizer's Statistics program list is next read October 14; Xencor and Children's Hospital Los Angeles October 18."
         },
         {
           "id": "kz-blocked-unread",
-          "title": "Not covered on October 12",
+          "title": "Not covered on October 13",
           "tags": [],
-          "detail": "Xencor and Children's Hospital Los Angeles are read weekly (next October 18). Puma, Arcutis and Capsida are not retried nightly (403, portal error, LinkedIn only). Jazz's Workday site has not answered. Scripps Research, Salk, Sanford Burnham Prebys and La Jolla Institute run undergraduate programs. TGen is genomics and not chased."
+          "detail": "Xencor and Children's Hospital Los Angeles are read weekly (next October 18). Puma, Arcutis and Capsida are not retried nightly (403, portal error, LinkedIn only). Jazz's Workday site has not answered. Denali's board was not read on October 13. Scripps Research, Salk, Sanford Burnham Prebys and La Jolla Institute run undergraduate programs. TGen is genomics and not chased."
         }
       ]
     },
