@@ -1,6 +1,6 @@
 {
   "title": "Your search",
-  "updated": "2026-10-14",
+  "updated": "2026-10-15",
   "generatedBy": "nightly research",
   "deadlines": [
     {
@@ -76,20 +76,20 @@
       "items": [
         {
           "id": "kz-start-diagnosis",
-          "title": "Two days to October 16: the same three",
+          "title": "October 16 is tomorrow: the same three",
           "tags": [
             {
               "label": "Oct 16",
               "status": "critical"
             }
           ],
-          "detail": "Numbers only: 0 applications recorded in the last 7 and 14 days, 22 open rows, 15 closing by November 13, 9 of them on October 16. Gilead's Biostatistics Oncology req came down on October 14, two days before its stated close, so a Gilead date is a latest date and not a promise. The other 20 rows from last night were re-read at the source on October 14 and are still live.\n\nSend these three before October 16; the other six October 16 rows are optional:\n\n1. **Henry Ford** Cancer Epidemiology (cover letter, resume, transcript).\n2. **Kite** Clinical Development Data Management.\n3. **Gilead** Epidemiology & Real-World Evidence, on the same Workday account as Kite.\n\nIf any of these is already sent, say so and it moves to Completed."
+          "detail": "Numbers only: 0 applications recorded in the last 7 and 14 days, 22 open rows, 15 closing by November 13, 9 of them on October 16. All 22 were re-read at the source on October 15 and are still live. Gilead took one req down two days early on October 14, so do not count on the full day tomorrow.\n\nSend these three first:\n\n1. **Henry Ford** Cancer Epidemiology (cover letter, resume, transcript).\n2. **Kite** Clinical Development Data Management.\n3. **Gilead** Epidemiology & Real-World Evidence, on the same Workday account as Kite.\n\nThe other six October 16 rows are optional. If any of these is already sent, say so and it moves to Completed."
         },
         {
           "id": "kz-start-this-week",
           "title": "After October 16",
           "tags": [],
-          "detail": "**New on October 13, and the best statistics fit on this page:** J&J's **Statistics & Decision Sciences** summer intern. It is written for MS or PhD students in Biostatistics, names La Jolla as a site, says virtual internships are possible, and prefers R or Python. Closes November 13. It is second in Open now.\n\n**By October 20:** J&J Immunology Pediatric Clinical Development (read its location line first).\n\n**By October 28:** Analysis Group Health Care. Then **Stryker** (Irvine, no close date) and **Edwards Clinical & Regulatory** (Irvine, November 1).\n\nOutside your metros: **Alcon's Clinical Data Science intern** (Fort Worth, closes December 18) and **J&J's Clinical & Statistical Programming intern** (New Jersey or Pennsylvania, closes November 9). Both near the end of Open now.\n\nStill waiting on your answer: Humana's Graduate Analytics Internship fits your degree and graduation window but is on-site in Louisville or five hubs outside your metros, so it sits in Not a fit. Say the word and it moves to Open now. [Humana posting](https://humana.wd5.myworkdayjobs.com/Humana_External_Career_Site/job/Louisville-KY/Graduate-Analytics-Internship---Summer-2027_R-429772)"
+          "detail": "**The best statistics fit on this page:** J&J's **Statistics & Decision Sciences** summer intern. It is written for MS or PhD students in Biostatistics, names La Jolla as a site, says virtual internships are possible, and prefers R or Python. Closes November 13. It is second in Open now.\n\n**By October 20:** J&J Immunology Pediatric Clinical Development (read its location line first).\n\n**By October 28:** Analysis Group Health Care. Then **Stryker** (Irvine, no close date) and **Edwards Clinical & Regulatory** (Irvine, November 1).\n\nOutside your metros: **Alcon's Clinical Data Science intern** (Fort Worth, closes December 18) and **J&J's Clinical & Statistical Programming intern** (New Jersey or Pennsylvania, closes November 9). Both near the end of Open now.\n\nStill waiting on your answer: Humana's Graduate Analytics Internship fits your degree and graduation window but is on-site in Louisville or five hubs outside your metros, so it sits in Not a fit. Say the word and it moves to Open now. [Humana posting](https://humana.wd5.myworkdayjobs.com/Humana_External_Career_Site/job/Louisville-KY/Graduate-Analytics-Internship---Summer-2027_R-429772)"
         },
         {
           "id": "kz-start-howhiring",
@@ -104,7 +104,7 @@
       "title": "Open now",
       "layout": "table",
       "checkable": true,
-      "note": "Every row re-read on the employer's own system on October 14. Ranked by fit with trials, devices and health analytics, then location. This week, start with Henry Ford, Kite and Gilead Epidemiology & RWE.",
+      "note": "Every row re-read on the employer's own system on October 15; the October 15 board sweep found nothing new that fits. Ranked by fit with trials, devices and health analytics, then location. Start with Henry Ford, Kite and Gilead Epidemiology & RWE.",
       "items": [
         {
           "id": "kz-henryford-cepc",
@@ -138,10 +138,6 @@
             {
               "label": "Closes Nov 13",
               "status": "critical"
-            },
-            {
-              "label": "New",
-              "status": "good"
             }
           ],
           "detail": "J&J Innovative Medicine's statistics group, inside Global Development. Requires *pursuing an MS, PhD, or equivalent graduate degree in Statistics, Biostatistics*, Data Science or related, 3.0 GPA, 10 to 12 weeks May to August 2027; preferred *R, Python, or related tools*. Projects run from discovery through Phase 2 and 3 trials: data preparation, visualization, modeling, simulations to optimize study designs, and building software that supports statistical analyses, where your R Shiny app fits. La Jolla is one of four sites and the posting says *Virtual internships are potentially available*; hybrid, housing stipend possible, $23.50 to $52.50 an hour. Interns are evaluated for *potential for future employment*. Posted October 13. Req R-103411. [Apply](https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Raritan-New-Jersey-United-States-of-America/Statistics---Decision-Sciences-Summer-Interns-2027_R-103411)"
@@ -682,7 +678,7 @@
               "status": "warning"
             }
           ],
-          "detail": "Its board returned no open roles in the board sweep. Scientific consulting in your sense; watched, with a student-page check after October 15."
+          "detail": "Exponent's own iCIMS board returned no jobs for *intern* on October 15, and its Health Sciences postings found on the web are full-time Research Assistant and Health Scientist roles. Scientific consulting in your sense; watched. [Exponent careers](https://careers-exponent.icims.com/jobs/search?ss=1&searchKeyword=intern)"
         }
       ]
     },
@@ -714,11 +710,11 @@
         },
         {
           "title": "Orange County",
-          "detail": "**Stryker**, Irvine: Statistical Programming intern open now.\n**Edwards Lifesciences**, Irvine: Clinical & Regulatory intern open, closes Nov 1; other tracks Jan to Apr.\nJ&J MedTech (Irvine): a regulatory affairs intern posted October 7 and supply chain interns; its Electrophysiology biostatistics intern required a PhD last cycle and has not reappeared.\nInsulet (Irvine): manufacturing co-op only.\nAbbott, Masimo, Beckman Coulter, Applied Medical, Alcon (engineering interns list Lake Forest), AbbVie/Allergan (undergraduate IT interns in Irvine): no fitting seat."
+          "detail": "**Stryker**, Irvine: Statistical Programming intern open now.\n**Edwards Lifesciences**, Irvine: Clinical & Regulatory intern open, closes Nov 1; other tracks Jan to Apr.\nJ&J MedTech (Irvine): regulatory affairs interns (October 7 and 14) and supply chain interns; its Electrophysiology biostatistics intern required a PhD last cycle and has not reappeared.\nInsulet (Irvine): manufacturing co-op only.\nGlaukos (Aliso Viejo, eye-care devices): 28 roles on October 15, no internship; it does hire statistical programmers full time.\nAbbott, Masimo, Beckman Coulter, Applied Medical, Alcon (engineering interns list Lake Forest), AbbVie/Allergan (undergraduate IT interns in Irvine): no fitting seat."
         },
         {
           "title": "Bay Area",
-          "detail": "**Gilead**, Foster City: six seats open, all close Oct 16; the Biostatistics Oncology seat came down Oct 14.\n**Corcept**, Redwood City: master's-level biostatistics intern last cycle; 79 roles, not posted yet.\n**Blue Shield of California** (Oakland, Long Beach), health plan: 2027 program dated June 14 to Aug 20, graduate pay $30 an hour; only actuarial and finance seats so far, both bachelor's-level.\nRevolution Medicines (Redwood City): a large statistics group, no internship.\nGenentech (four interns, none statistics), BioMarin, Exelixis, Denali (24 roles across five Workday sites on October 11, no intern; its page says internships open October to January), Cytokinetics (81 roles, no intern), BeOne Medicines: no summer statistics seats posted.\nPenumbra (Alameda): ran a master's-eligible Statistician Intern last cycle with a February deadline; none posted yet.\nStryker (Fremont): regulatory affairs intern only. Stanford Health Care: nothing posted.\nGuardant, GRAIL, Natera: genomics, listed last; no interns."
+          "detail": "**Gilead**, Foster City: six seats open, all close Oct 16; the Biostatistics Oncology seat came down Oct 14.\n**Corcept**, Redwood City: master's-level biostatistics intern last cycle; 79 roles, not posted yet.\n**Blue Shield of California** (Oakland, Long Beach), health plan: 2027 program dated June 14 to Aug 20, graduate pay $30 an hour; only actuarial and finance seats so far, both bachelor's-level.\nRevolution Medicines (Redwood City): a large statistics group, no internship.\nGenentech (four interns, none statistics), BioMarin, Exelixis, Denali (44 roles on its careers page on October 15, two senior biostatistician jobs, no intern; its page says internships open October to January), Cytokinetics (81 roles, no intern), BeOne Medicines: no summer statistics seats posted.\nPenumbra (Alameda): ran a master's-eligible Statistician Intern last cycle with a February deadline; none posted yet.\nStryker (Fremont): regulatory affairs intern only. Stanford Health Care: nothing posted.\nGuardant, GRAIL, Natera: genomics, listed last; no interns."
         },
         {
           "title": "San Diego",
@@ -746,12 +742,12 @@
         {
           "id": "kz-nf-hfh-sustainability",
           "title": "Henry Ford Health: Sustainability Intern",
-          "detail": "Posted on Henry Ford's board as *Intern/CoOp Student*, Detroit. Environmental and operational sustainability projects; no statistics. [Posting](https://jobs.smartrecruiters.com/HenryFordHealth1/3743990016091406)"
+          "detail": "Posted on Henry Ford's board as *Intern/CoOp Student*, Detroit, and reposted October 14. Environmental and operational sustainability projects; no statistics. [Posting](https://jobs.smartrecruiters.com/HenryFordHealth1/3743990016113366)"
         },
         {
           "id": "kz-nf-jnj-idar-others",
-          "title": "J&J: other October 12 and 13 intern seats",
-          "detail": "Data Management & Central Monitoring and Global Development interns require an undergraduate program; Regulatory Medical Writing is document writing; Enabling Analytics & System Excellence is systems and process work; Immunology Medical Affairs Clinical Project Scientist (Horsham, closes October 19) is literature and Excel support. All New Jersey or Pennsylvania. The October 13 Oncology interns (CPP Scientist, Preclinical Safety, Global Medical Safety, Medical Affairs) are Spring House or Horsham, Pennsylvania; the undergraduate Global Development intern is the Statistics & Decision Sciences seat's sibling and excludes graduate students."
+          "title": "J&J: other October intern seats",
+          "detail": "Data Management & Central Monitoring and Global Development interns require an undergraduate program; Regulatory Medical Writing is document writing; Enabling Analytics & System Excellence is systems and process work; Immunology Medical Affairs Clinical Project Scientist (Horsham, closes October 19) is literature and Excel support. All New Jersey or Pennsylvania. The October 13 Oncology interns (CPP Scientist, Preclinical Safety, Global Medical Safety, Medical Affairs) are Spring House or Horsham, Pennsylvania; the undergraduate Global Development intern is the Statistics & Decision Sciences seat's sibling and excludes graduate students. Posted October 14: an Oncology Clinical Scientist intern (Spring House, discovery science), a MedTech Regulatory Affairs intern in Irvine (regulatory submissions, no statistics, closes October 21) and an AI/ML/Data Science intern in computer vision (Boston, New Jersey, Pennsylvania or Europe)."
         },
         {
           "id": "kz-nf-humana-grad-analytics",
@@ -1036,13 +1032,13 @@
           "id": "kz-blocked-browser",
           "title": "Read in the browser",
           "tags": [],
-          "detail": "Read on October 14: Pfizer's Statistics program positions list in the browser (still empty). Every Workday row in Open now was re-read at the source, plus BCBS Michigan, both Analysis Group postings and the Henry Ford form. Xencor and Children's Hospital Los Angeles are next read October 18."
+          "detail": "Read in the browser on October 15: Denali's careers page (44 roles, no intern), Xencor's Dayforce board (7 roles, no intern), Children's Hospital Los Angeles (no intern) and Glaukos' careers page, which led to its job board (no intern). Every Workday row in Open now was re-read at the source, plus BCBS Michigan, both Analysis Group postings and the Henry Ford form. Pfizer's Statistics positions list is next read October 17."
         },
         {
           "id": "kz-blocked-unread",
-          "title": "Not covered on October 14",
+          "title": "Not covered on October 15",
           "tags": [],
-          "detail": "Xencor and Children's Hospital Los Angeles are read weekly (next October 18). Denali's board was not read on October 14 (24 roles and no intern on October 11). Puma, Arcutis and Capsida are not retried nightly (403, portal error, LinkedIn only). Jazz's Workday site has not answered. Scripps Research, Salk, Sanford Burnham Prebys and La Jolla Institute run undergraduate programs. TGen is genomics and not chased."
+          "detail": "Puma, Arcutis and Capsida are not retried nightly (403, portal error, LinkedIn only). Jazz's Workday site has not answered. Scripps Research, Salk, Sanford Burnham Prebys and La Jolla Institute run undergraduate programs. TGen is genomics and not chased."
         }
       ]
     },
