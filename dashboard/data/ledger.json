@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-15",
+  "updated": "2026-10-16",
   "_comment": "Memory across nightly runs. Read-modify-write each night. postings/people/news/searches are keyed maps; runs is an append-only list of {date, ok, pushed, notes, playbook_change}.",
   "runs": [
     {
@@ -178,6 +178,17 @@
       "pushed": true,
       "playbook_change": "v17: watch night as planned; Glaukos and Exponent explored and dry; weekly phrase pass dry",
       "notes": "Single run. Sweep 496 rows, 22 new, 0 fit. All 22 open rows live at the source. Start: numbers plus the three names, Oct 16 tomorrow. Browser: Denali, Xencor, CHLA, Glaukos. fetch_posting_text stubbed AG Health Care and BCBSM; restored from backup. /api/apps still 501."
+    },
+    {
+      "date": "2026-10-16",
+      "ok": true,
+      "new_postings": 3,
+      "searches_run": 10,
+      "searches_dry": 6,
+      "boards_read_in_browser": 3,
+      "pushed": true,
+      "playbook_change": "v18: Oct 16 close day; J&J posts one-week windows (Onc Epi Oct 15 to 23); iCIMS readable by curl; Merck OR moved in",
+      "notes": "Single run. Sweep 463 rows, 29 new, 2 fit (J&J Oncology Epidemiology, out-of-metro, closes Oct 23; Gilead Oncology Biomarker AI, genomics, last). Merck Outcomes Research moved from Not a fit to Open now on the out-of-metro precedent. All 22 prior rows live. Start: numbers plus the three names, last time. Browser: Denali, Xencor, CHLA. fetch_posting_text stubbed AG HC and BCBSM; restored. AG Generalist body re-saved by curl. /api/apps still 501."
     }
   ],
   "postings": {
@@ -185,28 +196,28 @@
       "id": "kz-analysisgroup-health",
       "title": "Analysis Group: Summer Analyst, Health Care",
       "first_seen": "2026-10-01",
-      "last_seen": "2026-10-15",
+      "last_seen": "2026-10-16",
       "status": "open"
     },
     "https://gilead.wd1.myworkdayjobs.com/en-US/kitepharmacareers/job/United-States---California---El-Segundo/Intern---Kite-Development---Clinical-Development--Data-Management-_R0054782": {
       "id": "kz-kite-cdm",
       "title": "Kite: Clinical Development Data Management Intern",
       "first_seen": "2026-10-01",
-      "last_seen": "2026-10-15",
+      "last_seen": "2026-10-16",
       "status": "open"
     },
     "https://stryker.wd1.myworkdayjobs.com/en-US/StrykerCareers/job/Irvine-California/Summer-2027-Internship---Statistical-Programming---California_R572769": {
       "id": "kz-stryker-stat-programming",
       "title": "Stryker: Statistical Programming Intern",
       "first_seen": "2026-10-01",
-      "last_seen": "2026-10-15",
+      "last_seen": "2026-10-16",
       "status": "open"
     },
     "https://gilead.wd1.myworkdayjobs.com/en-US/gileadcareers/job/United-States---California---Foster-City/Intern---Development---Epidemiology---Real-World-Evidence-Virology_R0054648": {
       "id": "kz-gilead-rwe",
       "title": "Gilead: Epidemiology & Real-World Evidence Intern",
       "first_seen": "2026-10-01",
-      "last_seen": "2026-10-15",
+      "last_seen": "2026-10-16",
       "status": "open"
     },
     "https://gilead.wd1.myworkdayjobs.com/en-US/gileadcareers/job/United-States---California---Foster-City/Intern---Development---Biostatistics-Oncology_R0054464": {
@@ -221,28 +232,28 @@
       "id": "kz-gilead-dev-biostat",
       "title": "Gilead: Development Biostatistics Intern",
       "first_seen": "2026-10-01",
-      "last_seen": "2026-10-15",
+      "last_seen": "2026-10-16",
       "status": "open"
     },
     "https://thinkbrg.wd5.myworkdayjobs.com/en-US/BRG_External_Career_Site/job/Washington-DC/XMLNAME-2027-Summer-Associate--Intern-_JR100976": {
       "id": "kz-brg-summer-associate",
       "title": "BRG: 2027 Summer Associate",
       "first_seen": "2026-10-01",
-      "last_seen": "2026-10-15",
+      "last_seen": "2026-10-16",
       "status": "open"
     },
     "https://gilead.wd1.myworkdayjobs.com/en-US/gileadcareers/job/United-States---California---Foster-City/Intern---Development---Medical-Affairs-Research_R0054468": {
       "id": "kz-gilead-medaffairs-research",
       "title": "Gilead: Medical Affairs Research Intern",
       "first_seen": "2026-10-01",
-      "last_seen": "2026-10-15",
+      "last_seen": "2026-10-16",
       "status": "open"
     },
     "https://gilead.wd1.myworkdayjobs.com/en-US/gileadcareers/job/United-States---California---Foster-City/Intern---Development---Governance--Risk---Analysis_R0054743": {
       "id": "kz-gilead-gra",
       "title": "Gilead: Governance, Risk & Analysis Intern",
       "first_seen": "2026-10-01",
-      "last_seen": "2026-10-15",
+      "last_seen": "2026-10-16",
       "status": "open"
     },
     "https://centene.wd5.myworkdayjobs.com/en-US/centene_external/job/Remote-FL/Centene-2027-Graduate-Summer-Intern_1660479": {
@@ -257,21 +268,21 @@
       "id": "kz-amgen-grad-ds",
       "title": "Amgen: Grad Intern, Data Scientist",
       "first_seen": "2026-10-01",
-      "last_seen": "2026-10-15",
+      "last_seen": "2026-10-16",
       "status": "open"
     },
     "https://gilead.wd1.myworkdayjobs.com/en-US/gileadcareers/job/United-States---California---Foster-City/Intern---Commercial---Corporate-Affairs---Health-Economics-and-Outcomes-Research_R0054793": {
       "id": "kz-gilead-heor",
       "title": "Gilead: Health Economics & Outcomes Research Intern",
       "first_seen": "2026-10-01",
-      "last_seen": "2026-10-15",
+      "last_seen": "2026-10-16",
       "status": "open"
     },
     "https://gilead.wd1.myworkdayjobs.com/en-US/gileadcareers/job/United-States---California---Foster-City/Intern---Commercial---Corporate-Affairs---Marketing-Sciences--Liver-Integrated-Insights-_R0054598": {
       "id": "kz-gilead-mktsci",
       "title": "Gilead: Marketing Sciences Intern",
       "first_seen": "2026-10-01",
-      "last_seen": "2026-10-15",
+      "last_seen": "2026-10-16",
       "status": "open"
     },
     "https://gilead.wd1.myworkdayjobs.com/en-US/gileadcareers/job/United-States---California---Foster-City/Intern---Research---Data-Sciences_R0054572": {
@@ -285,28 +296,28 @@
       "id": "kz-dexcom-early",
       "title": "Dexcom: 2027 Summer Internship Early Interest",
       "first_seen": "2026-10-01",
-      "last_seen": "2026-10-15",
+      "last_seen": "2026-10-16",
       "status": "open"
     },
     "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Spring-House-Pennsylvania-United-States-of-America/Clinical-Pharmacology-and-Pharmacometrics-Intern---Summer-2027_R-098266": {
       "id": "kz-jnj-clin-pharm",
       "title": "J&J: Clinical Pharmacology & Pharmacometrics Intern",
       "first_seen": "2026-10-01",
-      "last_seen": "2026-10-15",
+      "last_seen": "2026-10-16",
       "status": "open"
     },
     "https://analystcareers-analysisgroup.icims.com/jobs/3005/summer-analyst-intern---generalist-%282027-start-date%29/job": {
       "id": "kz-analysisgroup-generalist",
       "title": "Analysis Group: Summer Analyst, Generalist",
       "first_seen": "2026-10-01",
-      "last_seen": "2026-10-15",
+      "last_seen": "2026-10-16",
       "status": "open"
     },
     "https://msd.wd5.myworkdayjobs.com/en-US/SearchJobs/job/USA---New-Jersey---Rahway/XMLNAME-2027-Future-Talent-Program---Biostatistics---Intern_R416450": {
       "id": "kz-merck-biostat",
       "title": "Merck: 2027 Biostatistics Intern",
       "first_seen": "2026-10-01",
-      "last_seen": "2026-10-15",
+      "last_seen": "2026-10-16",
       "status": "open"
     },
     "kz-nf-zs": {
@@ -510,10 +521,11 @@
       "status": "filled"
     },
     "https://msd.wd5.myworkdayjobs.com/en-US/SearchJobs/job/USA---New-Jersey---Rahway/XMLNAME-2027-Future-Talent-Program---Value---Implementation---Outcomes-Research-Intern_R413998": {
-      "title": "Merck: Outcomes Research Intern (NJ/PA, MS eligible, closes Oct 30)",
+      "title": "Merck: Outcomes Research Intern",
       "first_seen": "2026-10-01",
-      "last_seen": "2026-10-04",
-      "status": "not-a-fit"
+      "last_seen": "2026-10-16",
+      "status": "open",
+      "id": "kz-merck-outcomes"
     },
     "https://bostonscientific.eightfold.ai/careers/job/563602813667382": {
       "title": "Boston Scientific: R&D Research Data Science Intern (ECG deep learning, site not stated)",
@@ -531,7 +543,7 @@
       "id": "kz-edwards-clinical-regulatory",
       "title": "Edwards: Clinical & Regulatory Internship",
       "first_seen": "2026-10-02",
-      "last_seen": "2026-10-15",
+      "last_seen": "2026-10-16",
       "status": "open"
     },
     "https://gilead.wd1.myworkdayjobs.com/en-US/kitepharmacareers/job/United-States---California---Santa-Monica/Intern---Kite-Research---Project-Management_R0054737": {
@@ -581,7 +593,7 @@
       "title": "BCBS Michigan: Data Science / Biostatistician Intern",
       "status": "open",
       "first_seen": "2026-10-04",
-      "last_seen": "2026-10-15"
+      "last_seen": "2026-10-16"
     },
     "https://ejko.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/14840": {
       "title": "BCBS Michigan: Epidemiology / Biostatistics Intern (managed care pharmacy; sibling, named in the 14837 row)",
@@ -607,14 +619,14 @@
       "id": "kz-henryford-cepc",
       "title": "Henry Ford Health: Cancer Epidemiology (CEPC) Intern",
       "first_seen": "2026-10-05",
-      "last_seen": "2026-10-15",
+      "last_seen": "2026-10-16",
       "status": "open"
     },
     "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Spring-House-Pennsylvania-United-States-of-America/IMM-Peds-Clinical-Dev-Intern_R-103285": {
       "id": "kz-jnj-imm-peds-clindev",
       "title": "J&J: Immunology Pediatric Clinical Development Intern",
       "first_seen": "2026-10-06",
-      "last_seen": "2026-10-15",
+      "last_seen": "2026-10-16",
       "status": "open"
     },
     "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/San-Diego-California-United-States-of-America/IMM-Discovery-Intern---La-Jolla_R-103291": {
@@ -734,7 +746,7 @@
       "title": "Alcon Clinical Data Science Intern, Fort Worth (MS/PhD biostat named, closes Dec 18)",
       "first_seen": "2026-10-10",
       "status": "open",
-      "last_seen": "2026-10-15"
+      "last_seen": "2026-10-16"
     },
     "https://jobs.smartrecruiters.com/HenryFordHealth1/3743990016020536-college-intern": {
       "id": "kz-nf-hfh-actuarial",
@@ -761,7 +773,7 @@
       "id": "kz-jnj-idar-csp",
       "title": "J&J: Clinical & Statistical Programming Intern",
       "first_seen": "2026-10-13",
-      "last_seen": "2026-10-15",
+      "last_seen": "2026-10-16",
       "status": "open"
     },
     "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Raritan-New-Jersey-United-States-of-America/IDAR-Summer-Intern--EASE-_R-102328": {
@@ -817,7 +829,7 @@
       "id": "kz-jnj-sds",
       "title": "J&J: Statistics & Decision Sciences Intern",
       "first_seen": "2026-10-14",
-      "last_seen": "2026-10-15",
+      "last_seen": "2026-10-16",
       "status": "open"
     },
     "https://jobs.smartrecruiters.com/HenryFordHealth1/3743990016091406": {
@@ -873,6 +885,32 @@
       "first_seen": "2026-10-15",
       "last_seen": "2026-10-15",
       "status": "not-a-fit"
+    },
+    "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Raritan-New-Jersey-United-States-of-America/Epidemiology-Summer-Intern-2027_R-103539": {
+      "id": "kz-jnj-onc-epi",
+      "title": "J&J: Oncology Epidemiology Intern",
+      "first_seen": "2026-10-16",
+      "last_seen": "2026-10-16",
+      "status": "open"
+    },
+    "https://gilead.wd1.myworkdayjobs.com/en-US/gileadcareers/job/United-States---California---Foster-City/Intern---Research---Oncology-Biomarker_R0054587": {
+      "id": "kz-gilead-biomarker-ai",
+      "title": "Gilead: Oncology Biomarker AI Intern",
+      "first_seen": "2026-10-16",
+      "last_seen": "2026-10-16",
+      "status": "open"
+    },
+    "https://hdkk.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/20734": {
+      "title": "Cedars-Sinai Neurology Research Intern (academic credit)",
+      "first_seen": "2026-10-16",
+      "last_seen": "2026-10-16",
+      "status": "not-a-fit"
+    },
+    "https://hdkk.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/21106": {
+      "title": "Cedars-Sinai Guzman Lab Research Intern (academic credit)",
+      "first_seen": "2026-10-16",
+      "last_seen": "2026-10-16",
+      "status": "not-a-fit"
     }
   },
   "people": {
@@ -889,31 +927,31 @@
   "searches": {
     "sweep-boards-Z": {
       "status": "open",
-      "empty_runs": 1,
+      "empty_runs": 0,
       "query": "sweep_boards.py --who Z",
-      "result": "496 intern rows, 22 new by URL, 0 fit (HFH sustainability repost, J&J Irvine RA, J&J CV AI/ML)",
-      "last_run": "2026-10-15"
+      "result": "463 intern rows, 29 new by URL, 2 fit (J&J Oncology Epidemiology R-103539, Gilead Oncology Biomarker AI R0054587, genomics)",
+      "last_run": "2026-10-16"
     },
     "browser-denali": {
       "query": "Denali five Workday sites, cxs searchText intern",
-      "last_run": "2026-10-15",
-      "result": "careers page in browser: 44 roles, Principal and Senior Biostatistician, no intern",
+      "last_run": "2026-10-16",
+      "result": "careers page in browser: Principal and Senior Biostatistician, no intern",
       "status": "open",
-      "empty_runs": 9
+      "empty_runs": 10
     },
     "browser-xencor": {
       "query": "Xencor Dayforce board in browser",
-      "last_run": "2026-10-15",
+      "last_run": "2026-10-16",
       "result": "Dayforce board in browser: 7 roles, no intern",
       "status": "open",
-      "empty_runs": 5
+      "empty_runs": 6
     },
     "browser-chla": {
       "query": "CHLA careers in browser (search=intern)",
-      "last_run": "2026-10-15",
-      "result": "chla.org/careers/jobs?search=intern: 10 hits, no internship title",
+      "last_run": "2026-10-16",
+      "result": "chla.org/careers/jobs?search=intern: no internship title",
       "status": "open",
-      "empty_runs": 5
+      "empty_runs": 6
     },
     "browser-tgen": {
       "query": "TGen Helios page",
@@ -924,8 +962,8 @@
     },
     "web-summer2027-biostat-ca": {
       "query": "\"summer 2027\" biostatistics intern master's California",
-      "last_run": "2026-10-12",
-      "result": "no new fit; Stryker RWE Data Scientist Virtual page (careers.stryker.com ...5E9F5B5E) answers 404; Moderna Cambridge oncology biostat intern (MA, out of scope)",
+      "last_run": "2026-10-16",
+      "result": "only J&J SDS (known) and Moderna Cambridge onsite; Merck OR surfaced by HEOR query",
       "status": "open",
       "empty_runs": 3
     },
@@ -958,11 +996,11 @@
       "empty_runs": 0
     },
     "people-recruiter": {
-      "query": "Analysis Group HC posting for a named contact",
-      "last_run": "2026-10-03",
-      "result": "none named on any posting in 4 runs; stopped nightly, weekly at most",
+      "query": "J&J SDS intern program contact (web)",
+      "last_run": "2026-10-16",
+      "result": "no named contact on any J&J SDS posting or aggregator",
       "status": "exhausted",
-      "empty_runs": 1
+      "empty_runs": 2
     },
     "verify-standing-dates": {
       "query": "BRG body, Medtronic, Pfizer intro and list, SPH fairs, NACE, Medtronic newsroom; Later source pages by curl",
@@ -1003,8 +1041,8 @@
       "status": "open",
       "empty_runs": 0,
       "query": "cxs/Oracle/REDCap/iCIMS liveness of all apply-now rows",
-      "result": "22 of 22 live (Workday cxs, Oracle REST 14837, iCIMS 3064/3005, REDCap 200); endDates unchanged",
-      "last_run": "2026-10-15"
+      "result": "22 of 22 live (Workday cxs, Oracle REST 14837, iCIMS 3064/3005 by curl in_iframe=1, REDCap form open); endDates unchanged",
+      "last_run": "2026-10-16"
     },
     "explore-bsc-datasci": {
       "query": "Boston Scientific R&D Research Data Science Intern body",
@@ -1024,8 +1062,8 @@
       "status": "open",
       "empty_runs": 0,
       "query": "browser iCIMS 3064 and 3005",
-      "result": "3064 deadline Wed Oct 28, interviews November, rolling after (browser 10-12)",
-      "last_run": "2026-10-12"
+      "result": "curl ?in_iframe=1 returns the body: 3064 deadline Oct 28, 3005 Sept 30 then rolling; no browser needed",
+      "last_run": "2026-10-16"
     },
     "explore-edwards-clinical": {
       "query": "Edwards Workday phrase search (summer 2027, clinical, statistic)",
@@ -1320,12 +1358,33 @@
       "empty_runs": 1,
       "last_run": "2026-10-15",
       "result": "iCIMS: no jobs for intern; web shows full-time RA/Health Scientist only"
+    },
+    "sweep-diff-2026-10-16": {
+      "query": "sweep diff vs 10-15 by URL",
+      "status": "answered",
+      "empty_runs": 0,
+      "last_run": "2026-10-16",
+      "result": "29 new, 62 gone (BMS Ireland batch); J&J Onc Epi and Gilead Biomarker AI fit; Cedars academic-credit interns not a fit"
+    },
+    "explore-merck-or-recheck": {
+      "query": "Merck R413998 Outcomes Research body via cxs (web hit)",
+      "status": "answered",
+      "empty_runs": 0,
+      "last_run": "2026-10-16",
+      "result": "live, closes Oct 30, masters in public health eligible; moved to apply-now as out-of-metro"
+    },
+    "explore-rwe-data-firms": {
+      "query": "Truveta greenhouse; Evidation and Aetion on Lever/Ashby",
+      "status": "open",
+      "empty_runs": 1,
+      "last_run": "2026-10-16",
+      "result": "Truveta 37 roles, no intern; Evidation and Aetion boards not found on Lever/Ashby"
     }
   },
   "total": {
-    "postings": 104,
+    "postings": 108,
     "people": 1,
     "news": 0,
-    "searches": 62
+    "searches": 65
   }
 }
