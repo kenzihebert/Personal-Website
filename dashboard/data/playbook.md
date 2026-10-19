@@ -1,6 +1,6 @@
 # Research playbook
 
-**v19, 2026-10-18.** Rewritten every run. Hard cap 6 KB.
+**v20, 2026-10-19.** Rewritten every run. Hard cap 6 KB.
 
 ## Who this is for
 
@@ -9,10 +9,11 @@ Private sector only. Trials, devices, health analytics; genomics last.
 
 ## Governing metric
 
-Rows unsent for 7+ runs. 10-18: 0 recorded ever; 9 rows closed Oct 16 unrecorded; 16 open, 8
-of them on the page since 10-01. Diagnoses used: shape, cost, materials, recording gap, the cut,
-warm route (10-18). Next: no new diagnosis on 10-19; numbers only. If Mueller or J&J SDS shows
-as sent, lead with the next warm lead instead.
+Rows unsent for 7+ runs. 10-19: 12 of 16 (8 since 10-01, 19 runs); 0 recorded ever; 9 closed
+Oct 16 unrecorded. Diagnoses used: shape, cost, materials, recording gap, the cut, warm route
+(10-18). 10-19: numbers only, Oct 20 close named. Next: watch; after Oct 20 passes, the item is
+what that close cost (escalate once), then drop. If Mueller or J&J SDS shows as sent, lead with
+the next warm lead instead.
 
 ## Sunday review (10-18; next 10-25)
 
@@ -22,7 +23,8 @@ as sent, lead with the next warm lead instead.
   Shiny app is the direct match. Survival analysis fits J&J Onc Epi's "closely related".
 - Biggest gap: no person attached to any application. Tonight touched it (first employer-side
   name). Second gap: nothing recorded, so the page cannot tell sent from unsent.
-- Killed: nightly Xencor/CHLA/Denali browser reads (dry 8+ runs). Now Sundays only.
+- Xencor/CHLA/Denali browser reads: dry 9+ runs, but the core requires every BLOCKED board
+  nightly; reverted 10-19 (about five browser calls). Proposed core change below.
 - Three observables that change strategy: (1) any row shows as sent; (2) a CRO posts a US
   biostat intern; (3) J&J SDS closes early or extends.
 
@@ -39,7 +41,7 @@ as sent, lead with the next warm lead instead.
 
 ## What is not working
 
-- 0 applications recorded across 18 runs. `/api/apps` answers 501; done file empty since 09-16.
+- 0 applications recorded across 19 runs. `/api/apps` answers 501; done file empty since 09-16.
 - Python `urllib` fails on an expired certificate (10-18). Use curl via subprocess. `py -3 -I`
   ignores PYTHONIOENCODING; use `-X utf8`.
 - `fetch_posting_text.py` stubs AG and BCBSM every night. Back up first; re-save by curl.
@@ -66,10 +68,10 @@ as sent, lead with the next warm lead instead.
 
 ## Exploration queue (never empty)
 
-1. Other UMich biostat alumni at Gilead, Amgen, Edwards via public portfolio or department
-   pages (10-19).
-2. Evidation and Aetion real boards from their careers pages in the browser (10-20).
-3. Neurocrine San Diego board (10-21).
+1. Evidation and Aetion real boards from their careers pages in the browser (10-20).
+2. Neurocrine San Diego board (10-21).
+3. UMich biostat department student or alumni spotlight pages naming internship employers
+   (10-22). Web search for alumni portfolios at Gilead/Amgen/Edwards was dry 10-19.
 4. Takeda jobs.takeda.com/search-jobs/intern (10-26).
 5. Glaukos Oracle 11-15; Exponent iCIMS 11-01; MannKind Paycor 11-01.
 6. Weekly Workday phrase pass (next 10-22); Blue Shield Oracle weekly (next 10-21).
@@ -88,6 +90,8 @@ as sent, lead with the next warm lead instead.
   passed (row dropped 10-18); RAND excludes biostat MS students; Amgen grad DS has no deadline;
   AG Generalist deadline passed.
 - Decide out-of-metro scope: six rows sit in Open now.
+- Let the playbook move long-dry BLOCKED boards (Xencor, CHLA, Denali: 9+ dry runs) to weekly.
+  Denali's page links five `dnli.wd1` Workday sites; add them to the sweep instead.
 - `sweep_boards.py`: add Stryker, Denali, Corcept (greenhouse `corcepttherapeutics`), BCBSM,
   Blue Shield, Humana, Xencor, MannKind; `--help` should exit.
 - `fetch_posting_text.py`: skip writing on a failed fetch; use `?in_iframe=1` for iCIMS.
