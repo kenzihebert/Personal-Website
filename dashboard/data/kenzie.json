@@ -1,13 +1,8 @@
 {
   "title": "Your search",
-  "updated": "2026-10-19",
+  "updated": "2026-10-20",
   "generatedBy": "nightly research",
   "deadlines": [
-    {
-      "date": "2026-10-20",
-      "label": "J&J Immunology Pediatric Clinical Development intern closes",
-      "status": "warning"
-    },
     {
       "date": "2026-10-28",
       "label": "Analysis Group Health Care Summer Analyst deadline",
@@ -75,20 +70,20 @@
       "items": [
         {
           "id": "kz-start-diagnosis",
-          "title": "Nothing recorded yet; the first close is Oct 20",
+          "title": "Ten seats closed with nothing recorded",
           "tags": [
             {
-              "label": "Oct 20",
+              "label": "Oct 28 next",
               "status": "critical"
             }
           ],
-          "detail": "0 applications recorded in the last 7 and 14 days, and none since the search started. 16 rows are open, all re-read at the source on October 19; 9 of them close by November 13, the first on October 20 (J&J Immunology Pediatric Clinical Development).\n\nThe October 19 sweep found nothing new that fits, so this page is the whole list for now. The plan from October 18 stands: write to Mackenzie Mueller (see Contacts) and send the J&J **Statistics & Decision Sciences** application the same day. If anything already went out, say so and it moves to Completed."
+          "detail": "J&J Immunology Pediatric Clinical Development closed October 20, unsent, and left the page. With the nine seats that closed October 16, that is ten closes and 0 applications recorded since the search started. 15 rows are open, all re-read at the source on October 20; 8 close by November 13, the next on October 28 (Analysis Group Health Care), then four between October 30 and November 1.\n\nIf you have been applying and not recording it, this page cannot tell, and it keeps listing seats you already sent. One change this week: reply with each application the day it goes out, and it moves to Completed. If nothing has gone out, send J&J **Statistics & Decision Sciences** (closes November 13, one of the four seats with a San Diego or remote option) and Analysis Group Health Care (October 28) first."
         },
         {
           "id": "kz-start-this-week",
           "title": "The next two weeks",
           "tags": [],
-          "detail": "**By October 20:** J&J Immunology Pediatric Clinical Development (Spring House or La Jolla; read its location line first). It closes that day.\n\n**By October 28:** Analysis Group Health Care, the strongest consulting fit here: resume, unofficial transcripts and a cover letter naming Los Angeles.\n\n**October 30 to November 1:** Merck Outcomes Research and J&J Oncology Epidemiology (its close moved from October 23 to October 30) on the 30th, Merck Biostatistics on the 31st, Edwards Clinical & Regulatory (Irvine) on November 1.\n\n**No close date:** Stryker Statistical Programming in Irvine takes *SAS and/or R*, so your R qualifies now."
+          "detail": "**By October 28:** Analysis Group Health Care, the strongest consulting fit here: resume, unofficial transcripts and a cover letter naming Los Angeles.\n\n**October 30 to November 1:** Merck Outcomes Research and J&J Oncology Epidemiology on the 30th, Merck Biostatistics on the 31st, Edwards Clinical & Regulatory (Irvine) on November 1.\n\n**By November 13:** J&J Statistics & Decision Sciences (La Jolla or virtual). Write to Mackenzie Mueller (see Contacts) before you send it.\n\n**No close date:** Stryker Statistical Programming in Irvine takes *SAS and/or R*, so your R qualifies now."
         },
         {
           "id": "kz-start-howhiring",
@@ -103,7 +98,7 @@
       "title": "Open now",
       "layout": "table",
       "checkable": true,
-      "note": "Every row re-read on the employer's own system on October 19. The October 19 sweep found no new posting that fits. Ranked by fit with trials, devices and health analytics, then location.",
+      "note": "Every row re-read on the employer's own system on October 20. The October 20 sweep found no new posting that fits. Ranked by fit with trials, devices and health analytics, then location.",
       "items": [
         {
           "id": "kz-jnj-sds",
@@ -168,22 +163,6 @@
             }
           ],
           "detail": "Hands-on clinical or regulatory work at headquarters, applying device regulations to bring products to market. Required: *Pursuing a degree in life sciences, engineering/bio-med engineering, statistics, economics, or nursing*, master's eligible, *Graduating December 2027 or later*, 3.0 GPA. Subsidized housing; lists *Conversion Opportunities into our New Grad Programs*. California base range $54,000 to $72,000. Req 49745. [Apply](https://edwards.wd5.myworkdayjobs.com/EdwardsCareers/job/USA-IRV-1442-AltonMIC/Clinical---Regulatory-Internship--Summer-2027_Req-49745)"
-        },
-        {
-          "id": "kz-jnj-imm-peds-clindev",
-          "title": "J&J: Immunology Pediatric Clinical Development Intern",
-          "location": "Spring House, Pennsylvania, or La Jolla (San Diego)",
-          "tags": [
-            {
-              "label": "Trials",
-              "status": "serious"
-            },
-            {
-              "label": "Closes Oct 20",
-              "status": "warning"
-            }
-          ],
-          "detail": "Reviews clinical, scientific and safety data from pediatric trials alongside Biostatistics and Clinical Pharmacology, plus one research project you present. *MPH, MS, or related advanced degree* candidates are preferred, 3.0 GPA, hybrid three days on site. Location risk: the req gives Spring House May 17 to August 6, and La Jolla June 14 to September 10 *for those on the quarter system*; Michigan runs semesters, so ask about La Jolla in the application. Req R-103285. [Apply](https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Spring-House-Pennsylvania-United-States-of-America/IMM-Peds-Clinical-Dev-Intern_R-103285)"
         },
         {
           "id": "kz-jnj-clin-pharm",
@@ -417,7 +396,7 @@
               "status": "serious"
             }
           ],
-          "detail": "Kite says US graduate and undergraduate intern positions are typically posted October through January, 10 to 12 weeks. Its Workday board showed no intern reqs on October 19 (40 roles). [Kite early talent](https://www.kitepharma.com/careers/early-talent-programs-at-kite)"
+          "detail": "Kite says US graduate and undergraduate intern positions are typically posted October through January, 10 to 12 weeks. Its Workday board showed no intern reqs on October 20 (40 roles). [Kite early talent](https://www.kitepharma.com/careers/early-talent-programs-at-kite)"
         },
         {
           "id": "kz-later-corcept",
@@ -614,7 +593,7 @@
       "items": [
         {
           "title": "Los Angeles",
-          "detail": "Kite (Gilead), Santa Monica and El Segundo: no intern reqs on its board on October 19; statistics grad interns post Oct to Jan.\n**Amgen**, Thousand Oaks: remote grad Data Scientist open; R&D biostatistics not posted.\n**Kaiser Permanente Research & Evaluation**, Pasadena: graduate interns post Feb to Mar. Kaiser's main board on October 12: pharmacy interns and one bachelor's IT seat; its Pasadena master's analytics interns posted January to March last cycle.\n**Analysis Group**, downtown: Health Care Summer Analyst open until Oct 28. BRG's final review date passed Oct 16.\nCity of Hope's board is back after maintenance: no internship. Children's Hospital Los Angeles: no internship (read October 19). Cedars-Sinai: lab research interns only. Xencor (seven roles on its Dayforce board, October 19), ImmunityBio, Grifols: no intern seats. Arcutis, Capsida and Puma were not read.\nArrowhead Pharmaceuticals, Pasadena: has a Biostats & Data Management group (statistical programming roles open), no internship posted. [Arrowhead job openings](https://arrowheadpharma.com/en-us/careers/job-openings)\nMannKind, Westlake Village: posts summer internships in Q4, offers by mid-March; none posted on October 13. [MannKind internships](https://mannkindcorp.com/internships/)"
+          "detail": "Kite (Gilead), Santa Monica and El Segundo: no intern reqs on its board on October 20; statistics grad interns post Oct to Jan.\n**Amgen**, Thousand Oaks: remote grad Data Scientist open; R&D biostatistics not posted.\n**Kaiser Permanente Research & Evaluation**, Pasadena: graduate interns post Feb to Mar. Kaiser's main board on October 12: pharmacy interns and one bachelor's IT seat; its Pasadena master's analytics interns posted January to March last cycle.\n**Analysis Group**, downtown: Health Care Summer Analyst open until Oct 28. BRG's final review date passed Oct 16.\nCity of Hope's board is back after maintenance: no internship. Children's Hospital Los Angeles: no internship (read October 20). Cedars-Sinai: lab research interns only. Xencor (seven roles on its Dayforce board, October 20), ImmunityBio, Grifols: no intern seats. Arcutis, Capsida and Puma were not read.\nArrowhead Pharmaceuticals, Pasadena: has a Biostats & Data Management group (statistical programming roles open), no internship posted. [Arrowhead job openings](https://arrowheadpharma.com/en-us/careers/job-openings)\nMannKind, Westlake Village: posts summer internships in Q4, offers by mid-March; none posted on October 13. [MannKind internships](https://mannkindcorp.com/internships/)"
         },
         {
           "title": "Orange County",
@@ -622,11 +601,11 @@
         },
         {
           "title": "Bay Area",
-          "detail": "**Gilead**, Foster City: its October 16 batch closed. Still open until Oct 30: an Oncology Biomarker AI seat (multi-omic, PhD preferred) and a set of research AI seats that are omics, chemistry or lab work.\n**Corcept**, Redwood City: master's-level biostatistics intern last cycle; 79 roles, not posted yet.\n**Blue Shield of California** (Oakland, Long Beach), health plan: 2027 program dated June 14 to Aug 20, graduate pay $30 an hour; only actuarial and finance seats so far, both bachelor's-level.\nRevolution Medicines (Redwood City): a large statistics group, no internship.\nGenentech (four interns, none statistics), BioMarin, Exelixis, Denali (careers page read October 19: 45 roles, among them a Principal and a Senior Biostatistician, no intern; its page says internships open October to January), Cytokinetics (81 roles, no intern), BeOne Medicines: no summer statistics seats posted.\nPenumbra (Alameda): ran a master's-eligible Statistician Intern last cycle with a February deadline; none posted yet.\nStryker (Fremont): regulatory affairs intern only. Stanford Health Care: nothing posted.\nGuardant, GRAIL, Natera: genomics, listed last; no interns."
+          "detail": "**Gilead**, Foster City: its October 16 batch closed. Still open until Oct 30: an Oncology Biomarker AI seat (multi-omic, PhD preferred) and a set of research AI seats that are omics, chemistry or lab work.\n**Corcept**, Redwood City: master's-level biostatistics intern last cycle; 79 roles, not posted yet.\n**Blue Shield of California** (Oakland, Long Beach), health plan: 2027 program dated June 14 to Aug 20, graduate pay $30 an hour; only actuarial and finance seats so far, both bachelor's-level.\nRevolution Medicines (Redwood City): a large statistics group, no internship.\nGenentech (four interns, none statistics), BioMarin, Exelixis, Denali (careers page read October 20: about 40 roles, among them a Principal and a Senior Biostatistician, no intern; its page says internships open October to January), Cytokinetics (81 roles, no intern), BeOne Medicines: no summer statistics seats posted.\nPenumbra (Alameda): ran a master's-eligible Statistician Intern last cycle with a February deadline; none posted yet.\nStryker (Fremont): regulatory affairs intern only. Stanford Health Care: nothing posted.\nGuardant, GRAIL, Natera: genomics, listed last; no interns."
         },
         {
           "title": "San Diego",
-          "detail": "**Pfizer**, La Jolla: Statistics program, deadline Jan 31; positions list still empty.\n**Dexcom**: early-interest pool open.\n**Bristol Myers Squibb**: applications Aug to Mar; 40 intern reqs, none San Diego statistics.\n**J&J Innovative Medicine**, La Jolla: Statistics & Decision Sciences graduate intern open until Nov 13, virtual possible; Immunology pediatric clinical development intern open until Oct 20; the La Jolla dates suit quarter-system schools. A Translational Systems Toxicology intern posted October 7 is a lab seat.\nIonis (Carlsbad, window about Feb to Apr), Acadia (page still shows 2026), Vertex (last year's biostatistics intern was PhD-only, Boston), Neurocrine (biostatistics intern is PhD-only).\nResMed, Tandem, Insulet: devices; nothing that fits. Scripps, Salk, Sharp: no fitting seats. Abbott's La Jolla cancer diagnostics intern: lab and bioinformatics."
+          "detail": "**Pfizer**, La Jolla: Statistics program, deadline Jan 31; positions list still empty.\n**Dexcom**: early-interest pool open.\n**Bristol Myers Squibb**: applications Aug to Mar; 40 intern reqs, none San Diego statistics.\n**J&J Innovative Medicine**, La Jolla: Statistics & Decision Sciences graduate intern open until Nov 13, virtual possible; Clinical Pharmacology & Pharmacometrics intern open until Nov 20. The Immunology pediatric clinical development intern closed October 20. A Translational Systems Toxicology intern posted October 7 is a lab seat.\nIonis (Carlsbad, window about Feb to Apr), Acadia (page still shows 2026), Vertex (last year's biostatistics intern was PhD-only, Boston), Neurocrine (biostatistics intern is PhD-only).\nResMed, Tandem, Insulet: devices; nothing that fits. Scripps, Salk, Sharp: no fitting seats. Abbott's La Jolla cancer diagnostics intern: lab and bioinformatics."
         },
         {
           "title": "Phoenix",
@@ -895,6 +874,12 @@
           "id": "kz-nf-vertex-biostat",
           "title": "Vertex: Biostatistics & Statistical Programming Intern",
           "detail": "Last year's version required enrollment *leading to a Ph.D.* with two years of graduate study, in Boston. No 2027 version posted."
+        },
+        {
+          "id": "kz-nf-evidation-datavant",
+          "title": "Evidation and Datavant (Aetion): no internships",
+          "tags": [],
+          "detail": "Read October 20. Evidation's Rippling board lists three senior roles in Santa Barbara, no intern. Aetion's careers page now redirects to Datavant, whose open roles show no intern or student seat. [Evidation board](https://ats.rippling.com/embed/evidation/jobs) [Datavant open roles](https://www.datavant.com/about/careers/open-roles)"
         }
       ]
     },
@@ -965,13 +950,13 @@
           "id": "kz-blocked-browser",
           "title": "Read in the browser",
           "tags": [],
-          "detail": "Read on October 19: Xencor's Dayforce board (7 roles, no intern), Denali's careers page (45 roles, no intern) and Children's Hospital Los Angeles (21 matches for intern, none an internship). Every row in Open now was re-read at the source. Pfizer's Statistics positions list was last read October 18 (empty)."
+          "detail": "Read on October 20: Xencor's Dayforce board (7 roles, no intern), Denali's careers page (about 40 roles, among them a Principal and a Senior Biostatistician, no intern) and Children's Hospital Los Angeles (22 matches for intern, none an internship). TGen's Helios Scholars page now returns *page not found*. Every row in Open now was re-read at the source. Pfizer's Statistics positions list was last read October 18 (empty)."
         },
         {
           "id": "kz-blocked-unread",
-          "title": "Not covered on October 19",
+          "title": "Not covered on October 20",
           "tags": [],
-          "detail": "Puma, Arcutis and Capsida are not retried nightly (403, portal error, LinkedIn only). Jazz's Workday site has not answered. Scripps Research, Salk, Sanford Burnham Prebys and La Jolla Institute run undergraduate programs. TGen is genomics and not chased."
+          "detail": "Puma, Arcutis and Capsida are not retried nightly (403, portal error, LinkedIn only). Jazz's Workday site has not answered. Scripps Research, Salk, Sanford Burnham Prebys and La Jolla Institute run undergraduate programs. TGen is genomics and its program page is gone."
         }
       ]
     },
