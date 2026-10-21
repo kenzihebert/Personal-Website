@@ -14,7 +14,7 @@
   var MODULES = [
     { id: 'kenzie', label: 'Career', icon: 'target', src: 'data/kenzie.json', ledger: 'data/ledger.json',
       done: 'data/kenzie-done.json', reminders: 'data/reminders.json',
-      stale: { days: 2, task: 'kenzie-research' }, reader: true, apps: { kind: 'done', cycle: 'summer-2027', after: 'apply-now' }, enabled: true }
+      stale: { days: 2, task: 'kenzie-research' }, reader: true, apps: { kind: 'done', cycle: 'summer-2027', after: 'apply-now', archive: 'data/apply-archive.json' }, enabled: true }
   ];
 
   // Staleness is opt-in per module via `stale: { days, task }`. Hand-maintained tabs (Targets,
@@ -649,27 +649,81 @@
       });
     }
 
-    // Postings ticked here and not yet in the data file. The nightly task
-    // moves them into the file; the URL match below then hides this copy.
-    var ticks = localDone();
-    ((c.data && c.data.sections) || []).forEach(function (sec) {
-      if (!sec || !sec.checkable || !/postings|apply/.test(sec.id || '')) return;
+    // Ticked rows are stored records now (see persistTicks), so they stay
+    // after the listing closes and leaves the data file.
+    return out;
+  }
+
+  /* A tick on an Open now row means "applied". The first time a tick is seen
+     it is copied into the applications store as a lasting row
+     ({id: 'tick-<item id>', key, source: 'ticked', ...}), with the posting's
+     company, role, place and link taken from the page or, when the listing has
+     already closed, from data/apply-archive.json. From then on the row lives in
+     the Applications card whatever happens to the listing. */
+  function appsDateOf(ms) {
+    var d = new Date(Number(ms));
+    return isNaN(d) ? '' : d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
+  }
+  function applySections(data) {
+    return ((data && data.sections) || []).filter(function (sec) {
+      return sec && sec.checkable && /postings|apply/.test(sec.id || '');
+    });
+  }
+  function postingFor(key) {
+    var c = (currentMod && cache[currentMod.id]) || {};
+    var hit = null;
+    applySections(c.data).forEach(function (sec) {
       (sec.items || sec.rows || []).forEach(function (raw) {
-        if (!raw || typeof raw !== 'object') return;
-        var key = itemKey(raw);
-        if (!ticks[key] || remoteDone[key]) return;
-        var link = lastLink(raw.detail);
-        var when = new Date(Number(ticks[key]));
-        var parts = splitTitle(raw.title);
-        out.push({
-          id: 'tick-' + key, company: raw.company || parts.company, role: parts.role,
-          location: raw.location || '', url: link ? link.url : '',
-          applied: isNaN(when) ? '' : when.getFullYear() + '-' + String(when.getMonth() + 1).padStart(2, '0') + '-' + String(when.getDate()).padStart(2, '0'),
-          outcome: 'waiting', cycle: (mod.apps.cycle || (mod.counter && mod.counter.cycle) || ''), source: 'ticked', note: '', req: ''
-        });
+        if (!hit && raw && typeof raw === 'object' && itemKey(raw) === key) {
+          var parts = splitTitle(raw.title), link = lastLink(raw.detail);
+          hit = { company: raw.company || parts.company, role: parts.role, location: raw.location || '', url: link ? link.url : '' };
+        }
       });
     });
-    return out;
+    var a = c.archive && (c.archive.rows || c.archive)[key];
+    if (!hit && a && typeof a === 'object') hit = { company: a.company || '', role: a.role || '', location: a.location || '', url: a.url || '' };
+    return hit;
+  }
+  function persistTicks() {
+    if (!appsEnabled()) return;
+    var ticks = localDone(), s = appsStore(), changed = false, untick = false;
+    s.manual = s.manual || [];
+    var byId = {};
+    s.manual.forEach(function (x) { if (x && x.id) byId[x.id] = x; });
+    Object.keys(ticks).forEach(function (key) {
+      if (remoteDone[key]) return;
+      var id = 'tick-' + key, have = byId[id];
+      if (have) {
+        if (!have.deleted) return;
+        var tickedAt = new Date(Number(ticks[key]) || 0).toISOString();
+        // Put back (here or on another device) after this tick was made: honour it.
+        if (String(have.updated || '') > tickedAt) { delete ticks[key]; untick = true; return; }
+        // Ticked again after a put-back: the row comes back.
+        have.deleted = false; have.updated = tickedAt; have.applied = appsDateOf(ticks[key]); have.outcome = 'waiting';
+        changed = true;
+        return;
+      }
+      var p = postingFor(key);
+      if (!p) return;              // a chore tick, or a listing this page never had
+      s.manual.push({ id: id, key: key, source: 'ticked', company: p.company, role: p.role, location: p.location,
+        url: p.url, applied: appsDateOf(ticks[key]), outcome: 'waiting', cycle: appsCurrentCycle(), note: '',
+        updated: new Date(Number(ticks[key]) || Date.now()).toISOString() });
+      changed = true;
+    });
+    if (untick) saveLocalDone(ticks);
+    if (changed) { saveAppsStore(s); pushApps(); }
+  }
+  // Item ids counted as applied: ticked here, ticked on another device (synced), or in the done file.
+  function appliedKeys() {
+    var k = {}, ticks = localDone();
+    Object.keys(ticks).forEach(function (x) { k[x] = 1; });
+    var st = mergeApps(appsStore(), remoteAppsDoc && remoteAppsDoc.configured ? remoteAppsDoc : null);
+    (st.manual || []).forEach(function (m) {
+      if (!m || m.source !== 'ticked' || !m.key) return;
+      if (m.deleted) { if (!ticks[m.key]) delete k[m.key]; } else k[m.key] = 1;
+    });
+    Object.keys(remoteDone).forEach(function (x) { k[x] = 1; });
+    return k;
   }
 
   // Everything, merged: file rows, ticks and manual rows, with overrides
@@ -680,6 +734,7 @@
     var rows = appsBaseRows();
     (store.manual || []).forEach(function (m) {
       if (!m || m.deleted) return;
+      if (m.source === 'ticked' && m.key && remoteDone[m.key]) return;
       rows.push(Object.assign({ source: 'manual' }, m));
     });
     rows.forEach(function (r) {
@@ -730,6 +785,7 @@
       s.sent++;
       if (s[r.outcome] !== undefined) s[r.outcome]++;
       if (r.source === 'ticked') s.ticked++;
+      if (r.applied && (Date.now() - new Date(r.applied + 'T12:00:00')) / 86400000 <= 7) s.week = (s.week || 0) + 1;
     });
     return s;
   }
@@ -766,6 +822,7 @@
         '<textarea class="apps-note" data-id="' + escapeHtml(r.id) + '" rows="2" placeholder="Note: who you heard from, next step, anything worth remembering">' + escapeHtml(r.note || '') + '</textarea>' +
         '<div class="apps-actions"><button type="button" class="apps-btn" data-apps="save-note" data-id="' + escapeHtml(r.id) + '">Save note</button>' +
         (r.source === 'manual' ? '<button type="button" class="apps-btn danger" data-apps="remove" data-id="' + escapeHtml(r.id) + '">Remove</button>' : '') +
+        (r.source === 'ticked' ? '<button type="button" class="apps-btn" data-apps="untick" data-id="' + escapeHtml(r.id) + '">Not applied, put it back in Open now</button>' : '') +
         '</div></div></div></div></li>';
   }
 
@@ -799,7 +856,7 @@
       chips += '<button type="button" class="apps-chip' + (appsShowOlder ? ' on' : '') + '" data-apps="older">' +
         (appsShowOlder ? 'Hide earlier cycles' : 'Earlier cycles (' + older.length + ')') + '</button>';
     }
-    var summary = s.sent + ' sent' + (cyc ? ' this cycle' : '') +
+    var summary = s.sent + ' sent' + (cyc ? ' this cycle' : '') + ' · ' + (s.week || 0) + ' in the last 7 days' +
       (s.waiting ? ' · ' + s.waiting + ' waiting' : '') +
       (s.interview ? ' · ' + s.interview + ' interview' + (s.interview > 1 ? 's' : '') : '') +
       (s.offer ? ' · ' + s.offer + ' offer' + (s.offer > 1 ? 's' : '') : '') +
@@ -941,6 +998,22 @@
     flashBanner(PRAISE[Math.floor(Math.random() * PRAISE.length)], appsStats(appsList() || []).sent + ' applications in');
   }
 
+  function rerenderView() {
+    var mod = currentMod, c = mod && cache[mod.id];
+    if (!c) return;
+    var y = window.scrollY;
+    el('view').innerHTML = renderModule(mod, c.data, c.ledger, c.done);
+    restoreCollapsed();
+    window.scrollTo(0, y);
+  }
+  function untickApp(id) {
+    var s = appsStore(), key = '';
+    (s.manual || []).forEach(function (x) { if (x && x.id === id) { key = x.key || ''; x.deleted = true; x.updated = new Date().toISOString(); } });
+    saveAppsStore(s);
+    if (key) { var t = localDone(); delete t[key]; saveLocalDone(t); }
+    pushApps(); rerenderView();
+  }
+
   function removeApp(id) {
     var s = appsStore();
     (s.manual || []).forEach(function (x) { if (x && x.id === id) { x.deleted = true; x.updated = new Date().toISOString(); } });
@@ -973,6 +1046,7 @@
       if (t) touchRow(id, { note: t.value });
     }
     else if (act === 'remove') { if (confirm('Remove this application from the list?')) removeApp(id); }
+    else if (act === 'untick') { untickApp(id); }
     else if (act === 'key') {
       var k = prompt('Sync passphrase (the APPS_KEY variable on the Cloudflare Pages project):');
       if (k) { try { localStorage.setItem('dash-apps-key', k.trim()); } catch (err) {} appsSyncState = 'synced'; pushApps(); rerenderApps(); }
@@ -984,6 +1058,16 @@
   // night and has to be seen first; what is already sent is the record and
   // gets looked at far less often. With no such section the card goes last.
   function sectionsWithApps(sections) {
+    if (appsEnabled()) {
+      persistTicks();
+      var done = appliedKeys();
+      sections = (sections || []).map(function (sec) {
+        if (!sec || !sec.checkable || !/postings|apply/.test(sec.id || '')) return sec;
+        var key = sec.items ? 'items' : 'rows', copy = Object.assign({}, sec);
+        copy[key] = (sec[key] || []).filter(function (raw) { return !done[itemKey(raw)]; });
+        return copy;
+      });
+    }
     var html = (sections || []).map(renderSection);
     var card = renderAppsCard();
     if (card) {
@@ -1060,7 +1144,9 @@
       mod.applied ? getJson(mod.applied).catch(function () { return null; }) : Promise.resolve(null),
       mod.reminders ? getJson(mod.reminders).catch(function () { return null; }) : Promise.resolve(null),
       // Shared store for the Applications card. 501 until the KV binding exists.
-      mod.apps ? getJson('/api/apps').catch(function () { return null; }) : Promise.resolve(null)
+      mod.apps ? getJson('/api/apps').catch(function () { return null; }) : Promise.resolve(null),
+      // Every row ever listed in Open now, so a tick survives the listing closing.
+      (mod.apps && mod.apps.archive) ? getJson(mod.apps.archive).catch(function () { return null; }) : Promise.resolve(null)
     ]).then(function (res) {
       // Hand-set reminders ride along with the nightly task's deadlines. The task rewrites
       // career.json nightly, so anything the owner pins by hand has to live elsewhere.
@@ -1071,7 +1157,7 @@
       var map = {};
       ((doneDoc && doneDoc.done) || []).forEach(function (r) { if (r && r.id) map[r.id] = r; });
 
-      cache[mod.id] = { data: res[0], ledger: res[1], done: doneDoc, doneMap: map, applied: res[3], apps: res[5] };
+      cache[mod.id] = { data: res[0], ledger: res[1], done: doneDoc, doneMap: map, applied: res[3], apps: res[5], archive: res[6] };
       adoptRemoteApps(res[5]);
       if (active === mod.id) {
         remoteDone = map;
@@ -1281,6 +1367,7 @@
     // Application rows only: the ranked postings table on your tab and the
     // Open now table on this page's, whether ticked here or recorded in the
     // done file. Not do-this-week chores.
+    if (appsEnabled()) return appsStats(appsList() || []).sent;
     return document.querySelectorAll(
       '.card[data-sid="postings"] .item[data-done="true"], ' +
       '.card[data-sid="apply-now"] .item[data-done="true"]').length;
@@ -1352,6 +1439,15 @@
       saveLocalDone(m);
       row.setAttribute('data-done', String(now));
       chk.setAttribute('aria-pressed', String(now));
+      if (appsEnabled() && now && postingFor(k)) {
+        persistTicks();
+        rerenderApps();
+        celebrate(row);
+        row.style.transition = 'opacity .35s ease';
+        setTimeout(function () { row.style.opacity = '0'; }, 450);
+        setTimeout(function () { rerenderView(); }, 850);
+        return;
+      }
       rerenderApps();
       if (now) celebrate(row);
       chk.title = now ? 'Mark not done' : 'Mark done';
