@@ -1,6 +1,6 @@
 {
   "_what": "Every row ever listed in Open now, keyed by item id. The page uses it so a ticked row keeps its company, role and link after the listing closes and leaves kenzie.json. Append and update only; never delete a row.",
-  "updated": "2026-10-22",
+  "updated": "2026-10-23",
   "rows": {
     "kz-alcon-clinical-ds": {
       "company": "Alcon",
@@ -8,7 +8,7 @@
       "location": "Fort Worth, Texas",
       "url": "https://alcon.wd5.myworkdayjobs.com/careers_alcon/job/Fort-Worth-Texas/Clinical-Data-Science-Intern_R-2026-50204",
       "first_listed": "2026-10-10",
-      "last_listed": "2026-10-22"
+      "last_listed": "2026-10-23"
     },
     "kz-amgen-grad-ds": {
       "company": "Amgen",
@@ -16,7 +16,7 @@
       "location": "Remote",
       "url": "https://amgen.wd1.myworkdayjobs.com/en-US/Careers/job/United-States---Remote/Grad-Intern---Data-Scientist---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255722",
       "first_listed": "2026-09-28",
-      "last_listed": "2026-10-22"
+      "last_listed": "2026-10-23"
     },
     "kz-analysisgroup-generalist": {
       "company": "Analysis Group",
@@ -24,7 +24,7 @@
       "location": "Los Angeles or San Francisco",
       "url": "https://analystcareers-analysisgroup.icims.com/jobs/3005/summer-analyst-intern---generalist-%282027-start-date%29/job",
       "first_listed": "2026-09-28",
-      "last_listed": "2026-10-22"
+      "last_listed": "2026-10-23"
     },
     "kz-analysisgroup-health": {
       "company": "Analysis Group",
@@ -32,7 +32,7 @@
       "location": "Los Angeles (also SF, Boston, New York)",
       "url": "https://analystcareers-analysisgroup.icims.com/jobs/3064/job",
       "first_listed": "2026-09-28",
-      "last_listed": "2026-10-22"
+      "last_listed": "2026-10-23"
     },
     "kz-bcbsm-ds-biostat": {
       "company": "BCBS Michigan",
@@ -40,7 +40,7 @@
       "location": "Detroit, Michigan (hybrid)",
       "url": "https://ejko.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/14837",
       "first_listed": "2026-10-04",
-      "last_listed": "2026-10-22"
+      "last_listed": "2026-10-23"
     },
     "kz-brg-summer-associate": {
       "company": "BRG",
@@ -64,7 +64,7 @@
       "location": "San Diego",
       "url": "https://dexcom.wd1.myworkdayjobs.com/en-US/dexcom/job/San-Diego-California/XMLNAME-2027-US-Summer-Internship---Early-Interest_JR116511",
       "first_listed": "2026-09-28",
-      "last_listed": "2026-10-22"
+      "last_listed": "2026-10-23"
     },
     "kz-edwards-clinical-regulatory": {
       "company": "Edwards",
@@ -72,7 +72,7 @@
       "location": "Irvine (Orange County)",
       "url": "https://edwards.wd5.myworkdayjobs.com/EdwardsCareers/job/USA-IRV-1442-AltonMIC/Clinical---Regulatory-Internship--Summer-2027_Req-49745",
       "first_listed": "2026-10-02",
-      "last_listed": "2026-10-22"
+      "last_listed": "2026-10-23"
     },
     "kz-gilead-biomarker-ai": {
       "company": "Gilead",
@@ -80,7 +80,7 @@
       "location": "Foster City (Bay Area)",
       "url": "https://gilead.wd1.myworkdayjobs.com/en-US/gileadcareers/job/United-States---California---Foster-City/Intern---Research---Oncology-Biomarker_R0054587",
       "first_listed": "2026-10-16",
-      "last_listed": "2026-10-22"
+      "last_listed": "2026-10-23"
     },
     "kz-gilead-biostat-onc": {
       "company": "Gilead",
@@ -192,7 +192,7 @@
       "location": "La Jolla (San Diego) or remote",
       "url": "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Spring-House-Pennsylvania-United-States-of-America/Clinical-Pharmacology-and-Pharmacometrics-Intern---Summer-2027_R-098266",
       "first_listed": "2026-09-28",
-      "last_listed": "2026-10-22"
+      "last_listed": "2026-10-23"
     },
     "kz-jnj-idar-csp": {
       "company": "J&J",
@@ -200,7 +200,7 @@
       "location": "Raritan or Titusville, New Jersey, or Spring House, Pennsylvania",
       "url": "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Raritan-New-Jersey-United-States-of-America/IDAR-Summer-Intern--C-SP-_R-103534",
       "first_listed": "2026-10-13",
-      "last_listed": "2026-10-22"
+      "last_listed": "2026-10-23"
     },
     "kz-jnj-imm-peds-clindev": {
       "company": "J&J",
@@ -216,7 +216,7 @@
       "location": "Raritan, New Jersey, or Horsham, Pennsylvania (hybrid)",
       "url": "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Raritan-New-Jersey-United-States-of-America/Epidemiology-Summer-Intern-2027_R-103539",
       "first_listed": "2026-10-16",
-      "last_listed": "2026-10-22"
+      "last_listed": "2026-10-23"
     },
     "kz-jnj-rdldp": {
       "company": "J&J",
@@ -232,7 +232,7 @@
       "location": "La Jolla (San Diego) or virtual; also New Jersey, Pennsylvania",
       "url": "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Raritan-New-Jersey-United-States-of-America/Statistics---Decision-Sciences-Summer-Interns-2027_R-103411",
       "first_listed": "2026-10-14",
-      "last_listed": "2026-10-22"
+      "last_listed": "2026-10-23"
     },
     "kz-kite-cdm": {
       "company": "Kite",
@@ -256,7 +256,7 @@
       "location": "Rahway, New Jersey",
       "url": "https://msd.wd5.myworkdayjobs.com/en-US/SearchJobs/job/USA---New-Jersey---Rahway/XMLNAME-2027-Future-Talent-Program---Biostatistics---Intern_R416450",
       "first_listed": "2026-09-28",
-      "last_listed": "2026-10-22"
+      "last_listed": "2026-10-23"
     },
     "kz-merck-epi-rwe": {
       "company": "Merck",
@@ -272,7 +272,7 @@
       "location": "Rahway, New Jersey, or Upper Gwynedd, Pennsylvania (hybrid)",
       "url": "https://msd.wd5.myworkdayjobs.com/en-US/SearchJobs/job/USA---New-Jersey---Rahway/XMLNAME-2027-Future-Talent-Program---Value---Implementation---Outcomes-Research-Intern_R413998",
       "first_listed": "2026-10-16",
-      "last_listed": "2026-10-22"
+      "last_listed": "2026-10-23"
     },
     "kz-merck-stat-programmer": {
       "company": "Merck",
@@ -288,7 +288,7 @@
       "location": "Irvine (Orange County)",
       "url": "https://stryker.wd1.myworkdayjobs.com/en-US/StrykerCareers/job/Irvine-California/Summer-2027-Internship---Statistical-Programming---California_R572769",
       "first_listed": "2026-10-01",
-      "last_listed": "2026-10-22"
+      "last_listed": "2026-10-23"
     },
     "kz-zs-decision-analytics": {
       "company": "ZS",
@@ -304,7 +304,15 @@
       "location": "Remote (a few visits to Raritan, New Jersey)",
       "url": "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Raritan-New-Jersey-United-States-of-America/Global-Market-Access-Summer-Associate_R-101873",
       "first_listed": "2026-10-22",
-      "last_listed": "2026-10-22"
+      "last_listed": "2026-10-23"
+    },
+    "kz-bsc-clinical-insights": {
+      "company": "Boston Scientific",
+      "role": "Graduate Clinical Insights Research Intern",
+      "location": "Maple Grove, Minnesota (hybrid, 3 to 4 days in office)",
+      "url": "https://bostonscientific.eightfold.ai/careers/job/563602813700641",
+      "first_listed": "2026-10-23",
+      "last_listed": "2026-10-23"
     }
   }
 }

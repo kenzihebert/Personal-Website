@@ -1,6 +1,6 @@
 {
   "title": "Your search",
-  "updated": "2026-10-22",
+  "updated": "2026-10-23",
   "generatedBy": "nightly research",
   "deadlines": [
     {
@@ -75,20 +75,20 @@
       "items": [
         {
           "id": "kz-start-diagnosis",
-          "title": "Six days to Analysis Group Health Care",
+          "title": "This page can now see your ticks, and none are recorded",
           "tags": [
             {
               "label": "Oct 28 next",
               "status": "critical"
             }
           ],
-          "detail": "One new row fits tonight: J&J Global Market Access, fully remote, open to MS and MPH students, closes January 8. 16 rows are open, all re-read at the source on October 22 with their dates unchanged. 9 close by November 20, and six of those close between October 28 and November 1. 15 rows have been on this page for a week or more; six since September 28. This page cannot see your ticks yet, so it cannot tell sent from unsent.\n\nAnalysis Group Health Care closes October 28: resume, unofficial transcripts and a cover letter. If it is not sent yet, it is the one to finish this week."
+          "detail": "As of tonight the page's save store is live and holds no ticks and no applications you added by hand. That means 0 sent in the last 7 days and 0 in the last 14, as far as this page can see. 17 rows are open and all were re-read at the source on October 23. 9 of them close by November 20; six of those close between October 28 and November 1, and none of the 17 is recorded as sent. Six rows have been here since September 28 and ten have already closed without a record.\n\nWhy it matters: the page cannot tell sent from unsent, so it keeps ranking rows you may have finished. Small change: when you send an application, tick its box on this page that day, or use Add on the page for one that is not listed. If Analysis Group Health Care (closes Wednesday October 28) has gone out, tick it first."
         },
         {
           "id": "kz-start-this-week",
           "title": "The next two weeks",
           "tags": [],
-          "detail": "**By October 28:** Analysis Group Health Care, the strongest consulting fit here: resume, unofficial transcripts and a cover letter naming Los Angeles.\n\n**October 30 to November 1:** Merck Outcomes Research and J&J Oncology Epidemiology on the 30th, Merck Biostatistics on the 31st, Edwards Clinical & Regulatory (Irvine) on November 1.\n\n**By November 13:** J&J Statistics & Decision Sciences (La Jolla or virtual). Write to Mackenzie Mueller (see Contacts) before you send it.\n\n**New, remote, until January 8:** J&J Global Market Access. Lead with the health economics side of your work; it can wait until the October dates are done."
+          "detail": "**By October 28:** Analysis Group Health Care, the strongest consulting fit here: resume, unofficial transcripts and a cover letter naming Los Angeles.\n\n**October 30 to November 1:** Merck Outcomes Research and J&J Oncology Epidemiology on the 30th, Merck Biostatistics on the 31st, Edwards Clinical & Regulatory (Irvine) on November 1.\n\n**By November 13:** J&J Statistics & Decision Sciences (La Jolla or virtual). Write to Mackenzie Mueller (see Contacts) before you send it.\n\n**New tonight:** Boston Scientific Graduate Clinical Insights Research Intern (urology real-world evidence, Maple Grove, no close date shown). It names your degree and your May 2028 graduation window, so it is worth sending early even though it is in Minnesota.\n\n**Remote, until January 8:** J&J Global Market Access. Lead with the health economics side of your work; it can wait until the October dates are done."
         },
         {
           "id": "kz-start-howhiring",
@@ -103,7 +103,7 @@
       "title": "Open now",
       "layout": "table",
       "checkable": true,
-      "note": "Every row re-read on the employer's own system on October 22. One new row tonight: J&J Global Market Access. Ranked by fit with trials, devices and health analytics, then location.",
+      "note": "Every row re-read on the employer's own system on October 23. One new row tonight: Boston Scientific Graduate Clinical Insights Research Intern. Ranked by fit with trials, devices and health analytics, then location.",
       "items": [
         {
           "id": "kz-jnj-sds",
@@ -256,6 +256,25 @@
             }
           ],
           "detail": "The stated deadline passed September 30 and interviews began in early to mid October; the posting says applications are still reviewed on a rolling basis. Master's graduating winter 2027 or summer 2028 eligible. Send only alongside the Health Care application above. Req 3005. [Apply](https://analystcareers-analysisgroup.icims.com/jobs/3005/summer-analyst-intern---generalist-%282027-start-date%29/job)"
+        },
+        {
+          "id": "kz-bsc-clinical-insights",
+          "title": "Boston Scientific: Graduate Clinical Insights Research Intern",
+          "location": "Maple Grove, Minnesota (hybrid, 3 to 4 days in office)",
+          "tags": [
+            {
+              "label": "Devices, RWE",
+              "status": "critical"
+            },
+            {
+              "label": "Outside your metros"
+            },
+            {
+              "label": "Close date not shown",
+              "status": "warning"
+            }
+          ],
+          "detail": "Urology real-world evidence for a device maker: study design on claims and EHR data, ICD-10 and CPT code sets, programming and statistical analysis, working beside Biostatistics. Requires a bachelor's and *current enrollment in a master's or doctoral program in Clinical Informatics, Epidemiology, Data science, or Biostatistics*, graduation between Fall 2027 and Spring 2030 (May 2028 fits), proficiency in R or Python and SQL, up to a year of coursework in retrospective research on claims or EHR data. Salary range listed $43,368 to $73,736; relocation assistance may be available. The posting names no term or close date, so confirm the summer dates before you count on it. Req 635655. [Apply](https://bostonscientific.eightfold.ai/careers/job/563602813700641)"
         },
         {
           "id": "kz-alcon-clinical-ds",
@@ -833,7 +852,7 @@
         {
           "id": "kz-nf-jnj-jax",
           "title": "J&J R&D Biostatistics Intern, Jacksonville",
-          "detail": "Closes October 23 and asks for *at least 1 year of graduate school in a PhD program*, on site in Florida."
+          "detail": "Closed October 23 and asked for *at least 1 year of graduate school in a PhD program*, on site in Florida."
         },
         {
           "id": "kz-nf-merck-others",
@@ -898,7 +917,7 @@
         {
           "id": "kz-nf-device-wave",
           "title": "Boston Scientific, Alcon, Abbott 2027 interns",
-          "detail": "Minnesota, Texas, Illinois or abroad; none clinical or statistical in your metros. Boston Scientific's R&D Research Data Science intern takes master's students, but it is deep learning on ECG signals for implant engineers, on site five days a week, and the posting names no site. Boston Scientific's R&D Research Data Science Intern reappeared under a new listing: still ECG deep learning for implantable devices, on site five days a week."
+          "detail": "Minnesota, Texas, Illinois or abroad; none clinical or statistical in your metros. Boston Scientific's R&D Research Data Science intern takes master's students, but it is deep learning on ECG signals for implant engineers, on site five days a week, and the posting names no site. Boston Scientific's R&D Research Data Science Intern reappeared under a new listing: still ECG deep learning for implantable devices, on site five days a week. The one exception is the Graduate Clinical Insights Research Intern, now in Open now."
         },
         {
           "id": "kz-nf-amgen-undergrad-ds",
@@ -925,6 +944,21 @@
           "title": "Evidation and Datavant (Aetion): no internships",
           "tags": [],
           "detail": "Read October 20. Evidation's Rippling board lists three senior roles in Santa Barbara, no intern. Aetion's careers page now redirects to Datavant, whose open roles show no intern or student seat. [Evidation board](https://ats.rippling.com/embed/evidation/jobs) [Datavant open roles](https://www.datavant.com/about/careers/open-roles)"
+        },
+        {
+          "id": "kz-nf-genentech-spring-ds",
+          "title": "Genentech: 2027 Spring interns, Data Science and Business Operations",
+          "detail": "Posted October 23, South San Francisco. Both are spring-term seats, not summer. [Genentech careers](https://roche.wd3.myworkdayjobs.com/en-US/ROG-A2O-GENE/job/South-San-Francisco/XMLNAME-2027-Spring-Intern---Data-Science---Machine-Learning_202609-124657)"
+        },
+        {
+          "id": "kz-nf-parexel-sa",
+          "title": "Parexel: Statistical Programmer I (Intern), South Africa",
+          "detail": "The seat is based in South Africa, so it is not open to you from the United States. Parexel's other intern reqs are not statistics. [Parexel](https://jobs.parexel.com/en/job/south-africa/statistical-programmer-i-intern/877/102292470768)"
+        },
+        {
+          "id": "kz-nf-jnj-medaffairs-autoantibody",
+          "title": "J&J MedTech: Med Affairs Autoantibody Summer Intern",
+          "detail": "Horsham, Pennsylvania, posted October 23. Medical affairs, not statistics; title read only. [J&J](https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Horsham-Pennsylvania-United-States-of-America/Med-Affairs-Autoantibody-Summer-Intern_R-104121)"
         }
       ]
     },
@@ -995,11 +1029,11 @@
           "id": "kz-blocked-browser",
           "title": "Read in the browser",
           "tags": [],
-          "detail": "Read on October 22: Xencor's Dayforce board (6 roles, no intern), Denali's careers page (46 roles, among them a Principal and a Senior Biostatistician, no intern) and Children's Hospital Los Angeles (22 matches for intern; the ten newest include no internship). TGen's Helios Scholars page still returns *page not found*. Every row in Open now was re-read at the source. Pfizer's Statistics positions list was last read October 21 (empty)."
+          "detail": "Read on October 23: Xencor's careers page (it shows no job list in its own text; its last board read on October 22 showed 6 roles, no intern), Denali's careers and Internships pages (the Internships page lists no posted seat; Denali says applications run October to January, so it is watched), and Children's Hospital Los Angeles (its careers page shows no internship). TGen's Helios Scholars page still returns *page not found*. Every row in Open now was re-read at the source. Pfizer's Statistics positions list was last read October 21 and is next read October 24. Takeda's US intern search and Flatiron Health's board were read tonight for the first time: no US intern at either."
         },
         {
           "id": "kz-blocked-unread",
-          "title": "Not covered on October 21",
+          "title": "Not covered on October 23",
           "tags": [],
           "detail": "Puma, Arcutis and Capsida are not retried nightly (403, portal error, LinkedIn only). Jazz's Workday site has not answered. Scripps Research, Salk, Sanford Burnham Prebys and La Jolla Institute run undergraduate programs. TGen is genomics and its program page is gone."
         }
