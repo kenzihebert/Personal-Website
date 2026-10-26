@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-23",
+  "updated": "2026-10-25",
   "_comment": "Memory across nightly runs. Read-modify-write each night. postings/people/news/searches are keyed maps; runs is an append-only list of {date, ok, pushed, notes, playbook_change}.",
   "runs": [
     {
@@ -255,6 +255,17 @@
       "pushed": true,
       "playbook_change": "v24: sweep surfaced a BSC RWE seat the title filters had been ranking as engineering; /api/apps now live and empty; Takeda and Flatiron closed",
       "notes": "Single run. Sweep 400 rows, 25 new, 1 fit (BSC Graduate Clinical Insights Research Intern, Maple Grove MN, no close date). All 16 prior rows live with dates unchanged. /api/apps is live (configured, writable) and shows no manual rows and no ticks. Phrase pass 105 hits, 0 new fit. Browser: Xencor, Denali, CHLA, no intern. Exploration: Takeda, Flatiron dry. fetch_posting_text results restored from backup where stubbed."
+    },
+    {
+      "date": "2026-10-25",
+      "ok": true,
+      "new_postings": 0,
+      "searches_run": 6,
+      "searches_dry": 5,
+      "boards_read_in_browser": 3,
+      "pushed": true,
+      "playbook_change": "v25: H15 killed (two phrase passes dry); Sunday review answered",
+      "notes": "Single run. Sweep 388 rows, 20 new, 0 fit. All 17 rows live, dates unchanged. /api/apps live, no manual rows, no ticks. HEOR phrase pass 15 tenants, 0 fit. Pfizer list not re-read (Workday shows MBA only). fetch_posting_text: 3 stubs restored from backup."
     }
   ],
   "postings": {
@@ -1885,6 +1896,48 @@
       "result": "FIT: master epi/biostat/data science, RWE, devices; Maple Grove MN",
       "last_run": "2026-10-23",
       "status": "answered"
+    },
+    "sweep-diff-2026-10-25": {
+      "empty_runs": 0,
+      "query": "kdiff against 10-23 sweep",
+      "result": "20 new, 32 gone, 0 fit (new J&J MedTech Irvine R&D Intern is engineering; Merck Cambridge seats are AI and genomics)",
+      "last_run": "2026-10-25",
+      "status": "answered"
+    },
+    "liveness-2026-10-25": {
+      "empty_runs": 0,
+      "query": "Workday cxs + iCIMS + Oracle on 17 open rows",
+      "result": "all 17 live; end dates unchanged; AG HC Oct 28 re-read on iCIMS (locations LA, Boston, NY)",
+      "last_run": "2026-10-25",
+      "status": "answered"
+    },
+    "phrase-pass-heor-2026-10-25": {
+      "empty_runs": 1,
+      "query": "Workday phrases: market access, health economics, summer associate, value evidence, outcomes research, real world data, epidemiology, HEOR on 15 tenants incl. Merck, Pfizer, Vertex, AZ, Novartis",
+      "result": "103 intern-like hits, 0 fit (Pfizer MBA only; Merck PK/PD; AZ Barcelona)",
+      "last_run": "2026-10-25",
+      "status": "answered"
+    },
+    "explore-web-socal-biostat-2027": {
+      "empty_runs": 1,
+      "query": "web: summer 2027 biostatistics intern master LA/Irvine/SD",
+      "result": "nothing new; Edwards 2026 biostat intern was PhD only",
+      "last_run": "2026-10-25",
+      "status": "open"
+    },
+    "explore-web-otsuka-teva-iqvia-rwe": {
+      "empty_runs": 1,
+      "query": "web: Otsuka/Teva/IQVIA 2027 summer RWE biostat intern",
+      "result": "nothing; IQVIA RWE biostat intern is Athens/Lisbon/Sofia",
+      "last_run": "2026-10-25",
+      "status": "open"
+    },
+    "browser-xencor-denali-chla-2026-10-25": {
+      "empty_runs": 1,
+      "query": "browser read of Xencor, Denali, CHLA",
+      "result": "no intern at any; Denali lists full-time biostatisticians",
+      "last_run": "2026-10-25",
+      "status": "open"
     }
   },
   "total": {

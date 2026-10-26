@@ -1,6 +1,6 @@
 # Research playbook
 
-**v24, 2026-10-23.** Rewritten every run. Hard cap 6 KB.
+**v25, 2026-10-25.** Rewritten every run. Hard cap 6 KB.
 
 ## Who this is for
 
@@ -9,21 +9,25 @@ Private sector only. Trials, devices, health analytics; genomics last.
 
 ## Governing metric
 
-Rows on the page 7+ runs: 15 of 17 on 10-23; six since 09-28. 0 recorded ever; 10 closed
-unrecorded. Diagnoses used: shape, cost, materials, recording gap, the cut, warm route (10-18),
-cost escalation (10-20), AG HC countdown (10-21, 10-22). 10-23: `/api/apps` went live
-(`configured:true`, writable) with no manual rows and no ticks, so the lead states 0 sent and asks
-for ticks. Do not repeat it; 10-24 leads with the Oct 28 step only. If any row shows as sent,
-lead with the next warm lead instead.
+Rows on the page 7+ runs: 15 of 17 on 10-25; six since 09-28. 0 recorded ever; 10 closed
+unrecorded. `/api/apps` live since 10-23, still no rows or ticks. Diagnoses used: shape, cost,
+materials, recording gap, the cut, warm route, cost escalation, AG HC countdown (10-21, 10-22),
+tick request (10-23), AG HC 3-day (10-25). Next lead (10-26): AG HC closes in 2 days only if
+unticked; after Oct 28 lead with the Oct 30 to Nov 1 cluster. If any row shows sent, lead with
+the next warm lead.
 
-## Sunday review (10-18; next 10-25)
+## Sunday review (10-25; next 11-01)
 
 - Metro order still right. In-metro fits: Irvine (Stryker, Edwards), LA (AG HC), La Jolla or
   virtual (J&J SDS, Clin Pharm), remote (Amgen DS, J&J Market Access).
 - Underused skill: R Shiny app against J&J SDS's "building software for statistical analyses".
-- Biggest gap: nothing recorded, so sent and unsent look the same. Second: no warm contact used.
+- Biggest gap: nothing recorded; second, no warm contact used. Tonight did not touch either.
+- Nightly work that produced nothing: Xencor, CHLA, Denali browser reads (14+ dry); move to
+  Sundays only. Flatiron, Takeda closed.
+- Strategy-changing observables: a CRO US summer biostat intern (H3); an in-metro device MS
+  stats seat (H11); any tick in `/api/apps`.
 
-## What is working (last confirmed 2026-10-23)
+## What is working (last confirmed 2026-10-25)
 
 - Reading the body of every row the sweep tags a device "intern", even engineering-looking
   ones: BSC Graduate Clinical Insights Research Intern (RWE, MS epi/biostat, Maple Grove) was
@@ -50,7 +54,7 @@ lead with the next warm lead instead.
 - Oct 28 AG HC; Oct 30 Merck OR, J&J Onc Epi, Gilead Biomarker; Oct 31 Merck biostat; Nov 1
   Edwards C&R; Nov 9 J&J C&SP; Nov 13 J&J SDS; Nov 20 J&J Clin Pharm; Dec 18 Alcon; Jan 8 J&J
   Market Access. Stryker, BSC rolling.
-- Watch: Corcept biostat (by Jan), Kite grad (Oct to Jan), Pfizer list (next 10-24), Amgen R&D
+- Watch: Corcept biostat (by Jan), Kite grad (Oct to Jan), Pfizer list (Workday shows MBA only 10-25), Amgen R&D
   biostat, Kaiser R&E (Feb), MannKind (Q4), Penumbra (Feb).
 
 ## Hypotheses
@@ -64,17 +68,15 @@ lead with the next warm lead instead.
   she says none went out.
 - H14: big-pharma graduate seats outside J&J, Merck, Gilead, Amgen are MBA or undergraduate only.
   Kill: one posts an MS statistics summer seat before Dec 1.
-- H15: sweep keyword filters miss market access, HEOR and RWE titles. Kill: two more phrase
-  passes find nothing the sweep missed (10-23 pass: none, count 1 of 2).
+- H15 killed 10-25: two phrase passes (10-23, 10-25 HEOR words, 15 tenants) found nothing the sweep missed.
 
 ## Exploration queue (never empty)
 
-1. Phrase pass with HEOR words: "market access", "health economics", "summer associate",
-   "value evidence" on the 12 tenants plus Merck and Pfizer (10-26).
-2. IQVIA RWE and Otsuka (Princeton, San Diego) and Teva US intern boards (10-27).
-3. Boston Scientific eightfold search for "real world", "clinical research" (10-28).
-4. Medtronic and Abbott diabetes RWE interns; Exponent iCIMS 11-01; MannKind Paycor 11-01.
-- Done 10-23: Takeda (no US intern), Flatiron (22 roles, none). Closed.
+1. Boston Scientific eightfold search for "real world", "clinical research" (10-28).
+2. Medtronic and Abbott diabetes RWE interns; Exponent iCIMS 11-01; MannKind Paycor 11-01.
+3. Kaiser R&E and Cedars-Sinai research-institute intern boards, body read (11-02).
+4. Mayo Arizona research intern bodies (graduate-level?) (11-03).
+- Done: Takeda, Flatiron (10-23); HEOR phrase pass, Otsuka/Teva/IQVIA web, SoCal web (10-25), dry.
 
 ## Notes to self
 
