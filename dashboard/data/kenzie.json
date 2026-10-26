@@ -1,6 +1,6 @@
 {
   "title": "Your search",
-  "updated": "2026-10-25",
+  "updated": "2026-10-26",
   "generatedBy": "nightly research",
   "deadlines": [
     {
@@ -75,20 +75,20 @@
       "items": [
         {
           "id": "kz-start-diagnosis",
-          "title": "Analysis Group Health Care closes Wednesday",
+          "title": "Edwards closes Sunday, and it is the one in-metro device seat",
           "tags": [
             {
-              "label": "Oct 28",
+              "label": "Nov 1",
               "status": "critical"
             }
           ],
-          "detail": "The Analysis Group Health Care deadline is Wednesday, October 28, three days out, and it is the only consulting seat on your page that names biostatistics and epidemiology. The page still shows no ticks and no applications added by hand, so it cannot tell whether this one has gone out. If it has, tick it. If not, the application is a resume, unofficial transcripts and a cover letter naming Los Angeles. The posting says review continues on a rolling basis after the deadline, so a late send is not dead, but interviews start in November.\n\nAfter that, five more rows close between October 30 and November 1, and none of the 17 open rows is recorded as sent."
+          "detail": "Six of your 17 open rows close in the six days from Wednesday, October 28 to Sunday, November 1, and only three of them are in your metros: Analysis Group Health Care (Los Angeles, Wednesday), Gilead's Oncology Biomarker AI seat (Foster City, Friday, genomics so it ranks last) and Edwards Clinical & Regulatory (Irvine, Sunday). The page still shows no ticks and no applications added by hand, so it cannot tell whether any has gone out. Edwards is the harder one to leave: it is a device company, it lists statistics as an eligible degree, it offers conversion into new grad programs, and it closes on a weekend, so Friday is the real deadline. If a send is stuck on a cover letter, one paragraph is enough for Edwards. Tick each row on the page once it goes out."
         },
         {
           "id": "kz-start-this-week",
           "title": "The next two weeks",
           "tags": [],
-          "detail": "**By October 28:** Analysis Group Health Care, the strongest consulting fit here: resume, unofficial transcripts and a cover letter naming Los Angeles.\n\n**October 30 to November 1:** Merck Outcomes Research and J&J Oncology Epidemiology on the 30th, Merck Biostatistics on the 31st, Edwards Clinical & Regulatory (Irvine) on November 1.\n\n**By November 13:** J&J Statistics & Decision Sciences (La Jolla or virtual). Write to Mackenzie Mueller (see Contacts) before you send it.\n\n**No close date shown:** Boston Scientific Graduate Clinical Insights Research Intern (urology real-world evidence, Maple Grove). It names your degree and your May 2028 graduation window, so it is worth sending early even though it is in Minnesota.\n\n**Remote, until January 8:** J&J Global Market Access. Lead with the health economics side of your work; it can wait until the October dates are done."
+          "detail": "**By Wednesday, October 28:** Analysis Group Health Care, the strongest consulting fit here: resume, unofficial transcripts and a cover letter naming Los Angeles. The posting says review continues after the deadline, so a late send is not dead.\n\n**By Friday, October 30:** Edwards Clinical & Regulatory (Irvine; the form closes Sunday). The same day, Merck Outcomes Research and J&J Oncology Epidemiology close, both in the Northeast.\n\n**October 31:** Merck Biostatistics (Rahway, New Jersey).\n\n**By November 13:** J&J Statistics & Decision Sciences (La Jolla or virtual). Write to Mackenzie Mueller (see Contacts) before you send it.\n\n**No close date shown:** Boston Scientific Graduate Clinical Insights Research Intern (urology real-world evidence, Maple Grove). It names your degree and your May 2028 graduation window, so it is worth sending early even though it is in Minnesota.\n\n**Remote, until January 8:** J&J Global Market Access. Lead with the health economics side of your work; it can wait until the October dates are done."
         },
         {
           "id": "kz-start-howhiring",
@@ -103,7 +103,7 @@
       "title": "Open now",
       "layout": "table",
       "checkable": true,
-      "note": "Every row re-read on the employer's own system on October 25; none closed and none changed dates. Nothing new fit tonight. Ranked by fit with trials, devices and health analytics, then location.",
+      "note": "Every row re-read on the employer's own system on October 26; none closed and none changed dates. Nothing new fit tonight. Ranked by fit with trials, devices and health analytics, then location.",
       "items": [
         {
           "id": "kz-jnj-sds",
@@ -135,7 +135,7 @@
               "status": "critical"
             }
           ],
-          "detail": "Names *first year masters/MPH candidates* in biostatistics or epidemiology. Claims, EHR and trial data in R, SAS and Stata; cost-effectiveness and budget-impact models. $2,000 a week, 3.3 GPA floor, evaluated for a full-time offer in your internship office. Deadline Wednesday October 28, interviews begin in November, then rolling review; re-read October 25; the posting says rolling review continues after the deadline. Send resume, all unofficial transcripts, and a cover letter naming Los Angeles. Req 3064. [Apply](https://analystcareers-analysisgroup.icims.com/jobs/3064/job)"
+          "detail": "Names *first year masters/MPH candidates* in biostatistics or epidemiology. Claims, EHR and trial data in R, SAS and Stata; cost-effectiveness and budget-impact models. $2,000 a week, 3.3 GPA floor, evaluated for a full-time offer in your internship office. Deadline Wednesday October 28, interviews begin in November, then rolling review; re-read October 26; the posting says rolling review continues after the deadline. Send resume, all unofficial transcripts, and a cover letter naming Los Angeles. Req 3064. [Apply](https://analystcareers-analysisgroup.icims.com/jobs/3064/job)"
         },
         {
           "id": "kz-stryker-stat-programming",
@@ -1029,11 +1029,11 @@
           "id": "kz-blocked-browser",
           "title": "Read in the browser",
           "tags": [],
-          "detail": "Read on October 25: Xencor's careers page (it shows no job list in its own text), Denali's careers page (the open list shows Principal and Senior Biostatistician full-time seats and no intern; the Internships section posts no seat, and Denali says applications run October to January, so it stays watched), and Children's Hospital Los Angeles (no internship in the listings). TGen's Helios Scholars page was not retried (it returned *page not found* on October 20). Every row in Open now was re-read at the source. Pfizer's Statistics positions list was last read October 21; the Workday search shows only MBA summer associate seats from Pfizer."
+          "detail": "Read on October 26: Xencor's careers page (it shows no job list in its own text), Denali's careers page (its open list shows full-time Senior and Principal Biostatistician seats and no intern; its Workday site, searched for intern, returns no intern; Denali says applications run October to January, so it stays watched), and Children's Hospital Los Angeles (no internship in the listings). TGen's Helios Scholars page was not retried (it returned *page not found* on October 20). Every row in Open now was re-read at the source. Pfizer's Statistics positions list was last read October 21; the Workday search shows only MBA summer associate seats from Pfizer."
         },
         {
           "id": "kz-blocked-unread",
-          "title": "Not covered on October 25",
+          "title": "Not covered on October 26",
           "tags": [],
           "detail": "Puma, Arcutis and Capsida are not retried nightly (403, portal error, LinkedIn only). Jazz's Workday site has not answered. Scripps Research, Salk, Sanford Burnham Prebys and La Jolla Institute run undergraduate programs. TGen is genomics and its program page is gone."
         }

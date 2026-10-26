@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-25",
+  "updated": "2026-10-26",
   "_comment": "Memory across nightly runs. Read-modify-write each night. postings/people/news/searches are keyed maps; runs is an append-only list of {date, ok, pushed, notes, playbook_change}.",
   "runs": [
     {
@@ -266,6 +266,17 @@
       "pushed": true,
       "playbook_change": "v25: H15 killed (two phrase passes dry); Sunday review answered",
       "notes": "Single run. Sweep 388 rows, 20 new, 0 fit. All 17 rows live, dates unchanged. /api/apps live, no manual rows, no ticks. HEOR phrase pass 15 tenants, 0 fit. Pfizer list not re-read (Workday shows MBA only). fetch_posting_text: 3 stubs restored from backup."
+    },
+    {
+      "date": "2026-10-26",
+      "ok": true,
+      "new_postings": 0,
+      "searches_run": 8,
+      "searches_dry": 8,
+      "boards_read_in_browser": 3,
+      "pushed": true,
+      "playbook_change": "v26: governing metric and exploration queue updated; Stryker RWE virtual intern found closed",
+      "notes": "Single run. Sweep 386 rows, 0 new, 2 gone, 0 fit. All 17 rows live, dates unchanged. /api/apps live, no manual rows, no ticks. Phrase pass 103 hits, 0 new fit. Browser: Xencor, Denali, CHLA, no intern. fetch_posting_text: 3 stubs restored from backup."
     }
   ],
   "postings": {
@@ -1937,6 +1948,62 @@
       "query": "browser read of Xencor, Denali, CHLA",
       "result": "no intern at any; Denali lists full-time biostatisticians",
       "last_run": "2026-10-25",
+      "status": "open"
+    },
+    "sweep-diff-2026-10-26": {
+      "empty_runs": 0,
+      "query": "kdiff against 10-25 sweep",
+      "result": "386 rows, 0 new, 2 gone (J&J MedTech clinical supply chain and clinical operations co-ops); 0 fit",
+      "last_run": "2026-10-26",
+      "status": "answered"
+    },
+    "liveness-2026-10-26": {
+      "empty_runs": 0,
+      "query": "Workday cxs + iCIMS on 17 open rows",
+      "result": "all 17 live; end dates unchanged; AG HC Oct 28 re-read on iCIMS (rolling after deadline)",
+      "last_run": "2026-10-26",
+      "status": "answered"
+    },
+    "phrase-pass-2026-10-26": {
+      "empty_runs": 1,
+      "query": "Workday statistics/epidemiology/RWE/outcomes/clinical data/data science intern phrases on 12 tenants",
+      "result": "103 intern-like hits, 0 new fit (all engineering, supply chain or non-US)",
+      "last_run": "2026-10-26",
+      "status": "answered"
+    },
+    "explore-stryker-rwe-ds-virtual": {
+      "empty_runs": 1,
+      "query": "web: summer 2027 RWE Data Scientist intern Stryker virtual",
+      "result": "Stryker Summer 2027 RWE Data Scientist (virtual, master in biostat/epi/HEOR) is closed: WayUp says no longer accepting; careers.stryker.com 404. Watch for a re-post",
+      "last_run": "2026-10-26",
+      "status": "open"
+    },
+    "explore-denali-workday-intern": {
+      "empty_runs": 1,
+      "query": "Denali Workday (dnli) search intern, biostatistics",
+      "result": "no intern; senior and principal biostatistician and HEOR full-time only",
+      "last_run": "2026-10-26",
+      "status": "open"
+    },
+    "explore-medtronic-abbott-rwe-intern": {
+      "empty_runs": 1,
+      "query": "Workday search real world evidence intern at Medtronic and Abbott",
+      "result": "no intern seats; Medtronic lists a Minneapolis statistician and a remote HEOR specialist (full-time), Abbott HEOR leads (full-time)",
+      "last_run": "2026-10-26",
+      "status": "open"
+    },
+    "explore-bsc-eightfold-rwe-search": {
+      "empty_runs": 1,
+      "query": "Boston Scientific eightfold API search for real world evidence, clinical research, biostatistics",
+      "result": "the search endpoint returned no positions list; not usable",
+      "last_run": "2026-10-26",
+      "status": "blocked"
+    },
+    "browser-xencor-denali-chla-2026-10-26": {
+      "empty_runs": 1,
+      "query": "browser read of Xencor, Denali, CHLA",
+      "result": "no intern at any",
+      "last_run": "2026-10-26",
       "status": "open"
     }
   },

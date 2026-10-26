@@ -1,5 +1,5 @@
 {
- "run": "2026-10-25",
+ "run": "2026-10-26",
  "boards": {
   "Kite (own Workday site)": {
    "who": "Z",
@@ -127,7 +127,7 @@
    "system": "workday",
    "key": "jj.wd5.myworkdayjobs.com|jj|JJ|Irvine intern,biostatistics intern,clinical data intern",
    "status": "ok",
-   "total": 421,
+   "total": 405,
    "intern": [
     {
      "title": "Research & Development Intern",
@@ -354,20 +354,6 @@
      "posted": "Posted 13 Days Ago"
     },
     {
-     "title": "TDS Clinical Supply Chain Planning Co-Op",
-     "loc": "Malvern, Pennsylvania, United States of America",
-     "url": "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Malvern-Pennsylvania-United-States-of-America/TDS-Clinical-Supply-Chain-Planning-Co-Op_R-098331",
-     "req": "R-098331",
-     "posted": "Posted 16 Days Ago"
-    },
-    {
-     "title": "TDS Clinical Operations Co-Op",
-     "loc": "Malvern, Pennsylvania, United States of America",
-     "url": "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Malvern-Pennsylvania-United-States-of-America/TDS-Clinical-Operations-Co-Op_R-098557",
-     "req": "R-098557",
-     "posted": "Posted 16 Days Ago"
-    },
-    {
      "title": "Data Science Co-op",
      "loc": "Danvers, Massachusetts, United States of America",
      "url": "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Danvers-Massachusetts-United-States-of-America/Data-Science-Co-op_R-100341",
@@ -390,7 +376,7 @@
    "system": "workday",
    "key": "medtronic.wd1.myworkdayjobs.com|medtronic|MedtronicCareers|Northridge,Tempe,intern California,intern clinical,intern Arizona",
    "status": "ok",
-   "total": 126,
+   "total": 125,
    "intern": [
     {
      "title": "Engineering Intern Summer 2027 - Candidates Attending 2026 SHPE National Convention",
@@ -672,12 +658,6 @@
      "req": "631529"
     },
     {
-     "title": "Capital Equipment Intern | Costa Rica",
-     "loc": "Escazu, San José Province, CR",
-     "url": "https://bostonscientific.eightfold.ai/careers/job/563602813744226",
-     "req": "636057"
-    },
-    {
      "title": "Finance Data Science Intern",
      "loc": "Madrid, MD, ES",
      "url": "https://bostonscientific.eightfold.ai/careers/job/563602813769021",
@@ -694,6 +674,12 @@
      "loc": "Escazu, San José Province, CR",
      "url": "https://bostonscientific.eightfold.ai/careers/job/563602813697220",
      "req": "635591"
+    },
+    {
+     "title": "Capital Equipment Intern | Costa Rica",
+     "loc": "Escazu, San José Province, CR",
+     "url": "https://bostonscientific.eightfold.ai/careers/job/563602813744226",
+     "req": "636057"
     },
     {
      "title": "IT Analyst Intern",
@@ -732,16 +718,16 @@
      "req": "634549"
     },
     {
-     "title": "MBA Marketing Internship Summer 2027 (Minnesota))",
-     "loc": "Arden Hills, MN, US",
-     "url": "https://bostonscientific.eightfold.ai/careers/job/563602813832514",
-     "req": "636897"
-    },
-    {
      "title": "Finance Co-op",
      "loc": "US",
      "url": "https://bostonscientific.eightfold.ai/careers/job/563602813830828",
      "req": "636797"
+    },
+    {
+     "title": "MBA Marketing Internship Summer 2027 (Minnesota))",
+     "loc": "Arden Hills, MN, US",
+     "url": "https://bostonscientific.eightfold.ai/careers/job/563602813832514",
+     "req": "636897"
     },
     {
      "title": "Finance & Accounting Emerging Leaders Program and Summer 2029 Finance Internship",
@@ -758,7 +744,7 @@
    "system": "workday",
    "key": "elevancehealth.wd1.myworkdayjobs.com|elevancehealth|ANT|intern",
    "status": "ok",
-   "total": 103,
+   "total": 97,
    "intern": [
     {
      "title": "Marketing Workflow & AI Enablement Intern - Summer 2027",
@@ -862,7 +848,7 @@
    "system": "workday",
    "key": "msd.wd5.myworkdayjobs.com|msd|SearchJobs|2027 future talent biostatistics,2027 intern statistics",
    "status": "ok",
-   "total": 11,
+   "total": 9,
    "intern": [
     {
      "title": "2027 Future Talent Program - Biostatistics and Research and Decision Sciences - Health Economics & Data Science Intern",
@@ -1045,7 +1031,7 @@
    "system": "smartrecruiters",
    "key": "HenryFordHealth1",
    "status": "ok",
-   "total": 89,
+   "total": 88,
    "intern": [
     {
      "title": "Internship - Sustainability ",
@@ -1890,8 +1876,8 @@
    "metro": "SF",
    "system": "lever",
    "key": "grailbio",
-   "status": "FAIL JSONDecodeError",
-   "total": 0,
+   "status": "ok",
+   "total": 12,
    "intern": []
   },
   "Natera": {
@@ -1900,8 +1886,8 @@
    "metro": "SF",
    "system": "greenhouse",
    "key": "natera",
-   "status": "FAIL JSONDecodeError",
-   "total": 0,
+   "status": "ok",
+   "total": 223,
    "intern": []
   },
   "ICON": {
@@ -2612,7 +2598,7 @@
    "system": "phenom",
    "key": "jobs.danaher.com|DANAGLOBAL|page713-prod|/global/en|opco:Masimo",
    "status": "ok",
-   "total": 109,
+   "total": 103,
    "intern": [
     {
      "title": "Inside Sales Intern",
