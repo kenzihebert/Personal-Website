@@ -39,16 +39,15 @@ function merge(a, b) {
 export async function onRequestGet({ request, env }) {
   if (!env.APPS) return reply({ configured: false, reason: 'No KV binding named APPS on this Pages project.' }, 501);
   if (env.APPS_READ === 'key' && (request.headers.get('authorization') || '') !== 'Bearer ' + env.APPS_KEY) {
-    return reply({ configured: true, writable: !!env.APPS_KEY, locked: true, manual: [], overrides: {} }, 401);
+    return reply({ configured: true, writable: true, locked: true, manual: [], overrides: {} }, 401);
   }
   const doc = (await env.APPS.get('apps', 'json')) || EMPTY;
-  return reply(Object.assign({ configured: true, writable: !!env.APPS_KEY }, doc));
+  return reply(Object.assign({ configured: true, writable: true }, doc));
 }
 
 export async function onRequestPost({ request, env }) {
-  if (!env.APPS || !env.APPS_KEY) return reply({ configured: false, reason: 'Need the KV binding APPS and the variable APPS_KEY.' }, 501);
-  const auth = request.headers.get('authorization') || '';
-  if (auth !== 'Bearer ' + env.APPS_KEY) return reply({ error: 'bad passphrase' }, 401);
+  // No passphrase: low-stakes data, kept as simple as possible (2026-10-25).
+  if (!env.APPS) return reply({ configured: false, reason: 'No KV binding named APPS on this Pages project.' }, 501);
   let body;
   try { body = await request.json(); } catch (e) { return reply({ error: 'bad json' }, 400); }
   const cur = (await env.APPS.get('apps', 'json')) || EMPTY;

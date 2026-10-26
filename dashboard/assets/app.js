@@ -918,11 +918,9 @@
 
   function pushApps() {
     if (!remoteAppsDoc || !remoteAppsDoc.configured) return;
-    var key = appsKey();
-    if (!key) { appsSyncState = 'needs-key'; setSyncText(); return; }
     var s = appsStore();
     fetch('/api/apps', { method: 'POST', cache: 'no-store',
-      headers: { 'content-type': 'application/json', 'authorization': 'Bearer ' + key },
+      headers: { 'content-type': 'application/json' },
       body: JSON.stringify({ manual: s.manual || [], overrides: s.overrides || {} }) })
       .then(function (r) {
         if (r.status === 401) { appsSyncState = 'rejected'; try { localStorage.removeItem('dash-apps-key'); } catch (e) {} return null; }
@@ -950,9 +948,9 @@
       var merged = mergeApps(local, doc);
       merged.updated = String(local.updated || '') > String(doc.updated || '') ? local.updated : (doc.updated || '');
       try { localStorage.setItem('dash-apps', JSON.stringify(merged)); } catch (e) {}
-      appsSyncState = appsKey() ? 'synced' : 'needs-key';
-      // Edits made while offline or before the passphrase was entered.
-      if (appsKey() && String(local.updated || '') > String(doc.updated || '')) setTimeout(pushApps, 0);
+      appsSyncState = 'synced';
+      // Edits made on this device that the server has not seen yet.
+      if (String(local.updated || '') > String(doc.updated || '')) setTimeout(pushApps, 0);
     } else {
       appsSyncState = 'local';
     }
