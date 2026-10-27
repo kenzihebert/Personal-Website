@@ -1,6 +1,6 @@
 # Research playbook
 
-**v26, 2026-10-26.** Rewritten every run. Hard cap 6 KB.
+**v27, 2026-10-27.** Rewritten every run. Hard cap 6 KB.
 
 ## Who this is for
 
@@ -9,11 +9,11 @@ Private sector only. Trials, devices, health analytics; genomics last.
 
 ## Governing metric
 
-Rows on the page 7+ runs: 15 of 17 on 10-26; six since 09-28. 0 recorded ever; 10 closed
+Rows on the page 7+ runs: 15 of 19 on 10-27; six since 09-28. 0 recorded ever; 10 closed
 unrecorded. `/api/apps` live since 10-23, still no rows or ticks. Diagnoses used: shape, cost,
 materials, recording gap, the cut, warm route, cost escalation, AG HC countdown (10-21, 10-22),
-tick request (10-23), AG HC 3-day (10-25), Edwards Sunday close (10-26). Next lead (10-27): AG HC tomorrow
-plus Edwards Friday; after Oct 28 lead with the Oct 30 to Nov 1 cluster. If any row shows sent, lead with
+tick request (10-23), AG HC 3-day (10-25), Edwards Sunday close (10-26), Amgen biostat + AG HC tomorrow (10-27). Next lead (10-28): Edwards Friday plus
+the Oct 30 cluster; Amgen biostat is the no-clock send. If any row shows sent, lead with
 the next warm lead.
 
 ## Sunday review (10-25; next 11-01)
@@ -29,6 +29,7 @@ the next warm lead.
 
 ## What is working (last confirmed 2026-10-25)
 
+- Sweep diff caught Amgen Grad Intern Biostatistics (posted 10-26) the day after it appeared; the Workday phrase pass missed it (search text did not match).
 - Reading the body of every row the sweep tags a device "intern", even engineering-looking
   ones: BSC Graduate Clinical Insights Research Intern (RWE, MS epi/biostat, Maple Grove) was
   found 10-23 by diffing the sweep against last night and fetching the body.
@@ -42,7 +43,8 @@ the next warm lead.
 
 ## What is not working
 
-- 0 applications recorded across 23 runs; done file empty since 09-16.
+- 0 applications recorded across 24 runs; done file empty since 09-16.
+- `sweep_boards.py` stalled twice 10-27 under a pipe; run `py -3 -u` to a log in the background, poll for `^wrote`.
 - Python `urllib` fails on an expired certificate. Use curl via subprocess; `py -3 -X utf8`.
 - `fetch_posting_text.py` stubs AG x2 and BCBSM nightly. Restore from backup.
 - Bash heredocs with long Python bodies break; write scripts with the Write tool.
@@ -67,12 +69,12 @@ the next warm lead.
 - H13: she is applying but not recording. Kill: a tick or hand row appears in `/api/apps`, or
   she says none went out.
 - H14: big-pharma graduate seats outside J&J, Merck, Gilead, Amgen are MBA or undergraduate only.
-  Kill: one posts an MS statistics summer seat before Dec 1.
+  Kill: one posts an MS statistics summer seat before Dec 1. Amgen biostat (10-26) is inside the list; BMS Patient Safety (10-26) is MS-eligible but not statistics.
 - H15 killed 10-25: two phrase passes (10-23, 10-25 HEOR words, 15 tenants) found nothing the sweep missed.
 
 ## Exploration queue (never empty)
 
-1. Boston Scientific: eightfold search API returned nothing 10-26; try the careers page in the browser (10-28).
+1. Medtronic careers in the browser for clinical/biostat intern (10-29); BSC browser read done 10-27, dry.
 2. Exponent iCIMS 11-01; MannKind Paycor 11-01; Stryker RWE Data Scientist (virtual) re-post watch.
 3. Kaiser R&E and Cedars-Sinai research-institute intern boards, body read (11-02).
 4. Mayo Arizona research intern bodies (graduate-level?) (11-03).
@@ -80,7 +82,7 @@ the next warm lead.
 
 ## Notes to self
 
-- Out-of-metro rows in Open now: BSC, Alcon, Merck x2, J&J Onc Epi, J&J C&SP, BCBSM.
+- Out-of-metro rows in Open now: BSC, Alcon, Merck x2, J&J Onc Epi, J&J C&SP, BMS PS, BCBSM.
 - RAND and BRG are in not-a-fit; do not carry their dates.
 - Mueller: no pronouns on the page; name only.
 - TGen Helios URL 404 since 10-20; genomics, do not chase.
