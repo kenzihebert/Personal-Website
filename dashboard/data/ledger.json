@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-28",
+ "updated": "2026-10-29",
  "_comment": "Memory across nightly runs. Read-modify-write each night. postings/people/news/searches are keyed maps; runs is an append-only list of {date, ok, pushed, notes, playbook_change}.",
  "runs": [
   {
@@ -299,6 +299,17 @@
    "pushed": true,
    "playbook_change": "v28: /api/apps read in full (17 rows, ticks since 09-29); H13 killed; sent rows dropped from Open now; Moderna and Jefferson added",
    "notes": "Single run. Sweep 539 rows, 34 new, 0 fit; found Moderna x2 and Jefferson by Workday API and web search. Earlier runs reported no rows or ticks in /api/apps; the store holds 17 non-deleted rows dated 09-29 to 10-26, so seven sent rows had been listed as unsent. Medtronic read through its job API (browser pane loaded blank Workday). fetch_posting_text: AG Generalist missed."
+  },
+  {
+   "date": "2026-10-29",
+   "ok": true,
+   "new_postings": 2,
+   "searches_run": 5,
+   "searches_dry": 3,
+   "boards_read_in_browser": 0,
+   "pushed": true,
+   "playbook_change": "v29: Regeneron wave found by Workday cxs; Alcon closed; metric updated to 18 sent / 3 in 7 days",
+   "notes": "Single run. Sweep 533 rows, 25 new, 0 fit by the sweep; Regeneron Biostatistics and Clinical Science found by exploration (cxs). /api/apps live: 18 rows plus Stryker rejected override. Alcon gone from board. Browser not used: blocked boards unchanged in the sweep."
   }
  ],
  "postings": {
@@ -440,14 +451,14 @@
    "id": "kz-analysisgroup-generalist",
    "title": "Analysis Group: Summer Analyst, Generalist",
    "first_seen": "2026-10-01",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "open"
   },
   "https://msd.wd5.myworkdayjobs.com/en-US/SearchJobs/job/USA---New-Jersey---Rahway/XMLNAME-2027-Future-Talent-Program---Biostatistics---Intern_R416450": {
    "id": "kz-merck-biostat",
    "title": "Merck: 2027 Biostatistics Intern",
    "first_seen": "2026-10-01",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "open"
   },
   "kz-nf-zs": {
@@ -653,7 +664,7 @@
   "https://msd.wd5.myworkdayjobs.com/en-US/SearchJobs/job/USA---New-Jersey---Rahway/XMLNAME-2027-Future-Talent-Program---Value---Implementation---Outcomes-Research-Intern_R413998": {
    "title": "Merck: Outcomes Research Intern",
    "first_seen": "2026-10-01",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "open",
    "id": "kz-merck-outcomes"
   },
@@ -881,8 +892,9 @@
    "id": "kz-alcon-clinical-ds",
    "title": "Alcon: Clinical Data Science Intern",
    "first_seen": "2026-10-10",
-   "status": "open",
-   "last_seen": "2026-10-28"
+   "status": "closed",
+   "last_seen": "2026-10-28",
+   "note": "off the Alcon board 2026-10-29"
   },
   "https://jobs.smartrecruiters.com/HenryFordHealth1/3743990016020536-college-intern": {
    "id": "kz-nf-hfh-actuarial",
@@ -909,7 +921,7 @@
    "id": "kz-jnj-idar-csp",
    "title": "J&J: Clinical & Statistical Programming Intern",
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "open"
   },
   "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Raritan-New-Jersey-United-States-of-America/IDAR-Summer-Intern--EASE-_R-102328": {
@@ -1027,7 +1039,7 @@
    "id": "kz-jnj-onc-epi",
    "title": "J&J: Oncology Epidemiology Intern",
    "first_seen": "2026-10-16",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "open",
    "note": "re-posted Oct 16, close moved Oct 23 -> Oct 30"
   },
@@ -1035,7 +1047,7 @@
    "id": "kz-gilead-biomarker-ai",
    "title": "Gilead: Oncology Biomarker AI Intern",
    "first_seen": "2026-10-16",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "open"
   },
   "https://hdkk.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/20734": {
@@ -1181,10 +1193,10 @@
   "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Raritan-New-Jersey-United-States-of-America/Global-Market-Access-Summer-Associate_R-101873": {
    "id": "kz-jnj-market-access",
    "title": "J&J: Global Market Access Summer Associate",
-   "status": "apply-now",
+   "status": "open",
    "note": "remote, MS/MPH eligible, closes 2027-01-08, posted 2026-09-30; missed by sweep, found by phrase pass",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Titusville-New-Jersey-United-States-of-America/RWE---Modeling-Summer-Intern_R-103932": {
    "id": "kz-nf-jnj-oct21",
@@ -1237,10 +1249,10 @@
   "https://bostonscientific.eightfold.ai/careers/job/563602813700641": {
    "id": "kz-bsc-clinical-insights",
    "title": "Boston Scientific: Graduate Clinical Insights Research Intern",
-   "status": "apply-now",
+   "status": "open",
    "note": "Maple Grove MN hybrid, urology RWE, MS biostat/epi/data science, grad Fall 2027-Spring 2030, R/Python+SQL, req 635655, no close date, term not stated",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   "https://roche.wd3.myworkdayjobs.com/en-US/ROG-A2O-GENE/job/South-San-Francisco/XMLNAME-2027-Spring-Intern---Data-Science---Machine-Learning_202609-124657": {
    "id": "kz-nf-genentech-spring-ds",
@@ -1277,7 +1289,7 @@
    "id": "kz-bms-patient-safety",
    "title": "Bristol Myers Squibb: Patient Safety Intern",
    "first_seen": "2026-10-27",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "open"
   },
   "https://jobs.mayoclinic.org/job/rochester/intern-graduate-data-analytics-temporary/33647/102468408832": {
@@ -1305,22 +1317,38 @@
    "id": "kz-moderna-onc-biostat",
    "title": "Moderna: Intern, Oncology Biostatistics",
    "first_seen": "2026-10-28",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "open"
   },
   "https://redcap.link/jefferson_internship": {
    "id": "kz-jefferson-biostat",
    "title": "Jefferson: Biostatistics & Bioinformatics Intern",
    "first_seen": "2026-10-28",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "open"
   },
   "https://modernatx.wd1.myworkdayjobs.com/M_tx/job/Cambridge-Massachusetts/Intern--Biometrics_R19865": {
    "id": "kz-moderna-biometrics",
    "title": "Moderna: Intern, Biometrics",
    "first_seen": "2026-10-28",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "open"
+  },
+  "https://regeneron.wd1.myworkdayjobs.com/Careers/job/TARRYTOWN/XMLNAME-2027-Summer-Intern-Biostatistics---Statistical-Programming_R52558-1": {
+   "id": "kz-regeneron-biostat",
+   "title": "Regeneron: 2027 Summer Intern, Biostatistics & Statistical Programming",
+   "first_seen": "2026-10-29",
+   "last_seen": "2026-10-29",
+   "status": "open",
+   "note": "found by Workday cxs search of Regeneron, 2026-10-29"
+  },
+  "https://regeneron.wd1.myworkdayjobs.com/Careers/job/TARRYTOWN/XMLNAME-2027-Summer-Intern-Clinical-Science--Medical-Monitoring---Health-Economics_R52563-1": {
+   "id": "kz-regeneron-clinsci",
+   "title": "Regeneron: 2027 Summer Intern, Clinical Science & Health Economics",
+   "first_seen": "2026-10-29",
+   "last_seen": "2026-10-29",
+   "status": "open",
+   "note": "found by Workday cxs search of Regeneron, 2026-10-29"
   }
  },
  "people": {
@@ -2159,6 +2187,41 @@
    "query": "Jefferson biostatistics & bioinformatics summer internship pages",
    "last_run": "2026-10-28",
    "result": "open Oct 10 to Feb 15, MS welcome, Philadelphia, on site",
+   "status": "open",
+   "empty_runs": 0
+  },
+  "regeneron-workday-intern": {
+   "query": "Regeneron cxs intern/co-op/biostatistics/summer 2027",
+   "last_run": "2026-10-29",
+   "result": "2 fits (Biostatistics & Statistical Programming R52558, Clinical Science & Health Economics R52563); 23 reqs posted 10-28; genomics and data science rows not fits",
+   "status": "open",
+   "empty_runs": 0
+  },
+  "vertex-biogen-alnylam-workday": {
+   "query": "Vertex, Biogen, Alnylam, Takeda, Pfizer cxs intern/co-op/biostatistics",
+   "last_run": "2026-10-29",
+   "result": "0 fits; Vertex Boston co-ops are Spring 2027, none stats; Biogen IMPACT is MBA, Nephrology co-op Jan-Jun; Alnylam and Takeda sites returned 0 (site name likely wrong)",
+   "status": "open",
+   "empty_runs": 0
+  },
+  "molina-interns-1028": {
+   "query": "Molina Oracle HCM Intern reqs posted 10-28",
+   "last_run": "2026-10-29",
+   "result": "0 fits (7 business and operations seats)",
+   "status": "answered",
+   "empty_runs": 0
+  },
+  "web-biostat-ms-summer-2027-1029": {
+   "query": "web search summer 2027 biostatistics intern master's pharma",
+   "last_run": "2026-10-29",
+   "result": "only Moderna (known); others are 2026 or UK PhD",
+   "status": "open",
+   "empty_runs": 1
+  },
+  "sweep-1029": {
+   "query": "sweep_boards.py --who Z",
+   "last_run": "2026-10-29",
+   "result": "533 rows, 25 new to the diff, 0 fit; Alcon Clinical Data Science intern gone; Amgen TAD grad interns gone",
    "status": "open",
    "empty_runs": 0
   }

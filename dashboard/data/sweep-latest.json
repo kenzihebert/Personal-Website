@@ -1,5 +1,5 @@
 {
- "run": "2026-10-28",
+ "run": "2026-10-29",
  "boards": {
   "Kite (own Workday site)": {
    "who": "Z",
@@ -9,7 +9,7 @@
    "key": "gilead.wd1.myworkdayjobs.com|gilead|kitepharmacareers|",
    "alarms": [],
    "status": "ok",
-   "total": 54,
+   "total": 53,
    "intern": []
   },
   "Gilead": {
@@ -20,112 +20,112 @@
    "key": "gilead.wd1.myworkdayjobs.com|gilead|gileadcareers|intern,biostatistics",
    "alarms": [],
    "status": "ok",
-   "total": 405,
+   "total": 401,
    "intern": [
     {
      "title": "Intern - Research - Pathobiology - AI",
      "loc": "United States - California - Foster City",
      "url": "https://gilead.wd1.myworkdayjobs.com/en-US/gileadcareers/job/United-States---California---Foster-City/Intern---Research---Pathobiology_R0054579",
      "req": "R0054579",
-     "posted": "Posted 26 Days Ago"
+     "posted": "Posted 27 Days Ago"
     },
     {
      "title": "Intern - Research - Inflammation - AI",
      "loc": "United States - California - Foster City",
      "url": "https://gilead.wd1.myworkdayjobs.com/en-US/gileadcareers/job/United-States---California---Foster-City/Intern---Research---Inflammation_R0054741",
      "req": "R0054741",
-     "posted": "Posted 28 Days Ago"
+     "posted": "Posted 29 Days Ago"
     },
     {
      "title": "Intern - Research - Oncology Biomarker - AI",
      "loc": "United States - California - Foster City",
      "url": "https://gilead.wd1.myworkdayjobs.com/en-US/gileadcareers/job/United-States---California---Foster-City/Intern---Research---Oncology-Biomarker_R0054587",
      "req": "R0054587",
-     "posted": "Posted 29 Days Ago"
+     "posted": "Posted 30 Days Ago"
     },
     {
      "title": "Intern - Research - Data Sciences - AI",
      "loc": "United States - California - Foster City",
      "url": "https://gilead.wd1.myworkdayjobs.com/en-US/gileadcareers/job/United-States---California---Foster-City/Intern---Research---Data-Sciences_R0054572",
      "req": "R0054572",
-     "posted": "Posted 29 Days Ago"
+     "posted": "Posted 30 Days Ago"
     },
     {
      "title": "Intern - Research - Clinical Virology - AI",
      "loc": "United States - California - Foster City",
      "url": "https://gilead.wd1.myworkdayjobs.com/en-US/gileadcareers/job/United-States---California---Foster-City/Intern---Research---Clinical-Virology---AI_R0055526",
      "req": "R0055526",
-     "posted": "Posted 11 Days Ago"
+     "posted": "Posted 12 Days Ago"
     },
     {
      "title": "Intern - Research - Oncology Biomarker - AI",
      "loc": "United States - California - Foster City",
      "url": "https://gilead.wd1.myworkdayjobs.com/en-US/gileadcareers/job/United-States---California---Foster-City/Intern---Research---Oncology-Biomarker_R0054812",
      "req": "R0054812",
-     "posted": "Posted 28 Days Ago"
+     "posted": "Posted 29 Days Ago"
     },
     {
      "title": "Intern - Research - Inflammation Biology - AI",
      "loc": "United States - California - Foster City",
      "url": "https://gilead.wd1.myworkdayjobs.com/en-US/gileadcareers/job/United-States---California---Foster-City/Intern---Research---Inflammation-Biology_R0054617",
      "req": "R0054617",
-     "posted": "Posted 28 Days Ago"
+     "posted": "Posted 29 Days Ago"
     },
     {
      "title": "Intern - Research - Protein Therapeutics - AI",
      "loc": "United States - California - Foster City",
      "url": "https://gilead.wd1.myworkdayjobs.com/en-US/gileadcareers/job/United-States---California---Foster-City/Intern---Research---Protein-Therapeutics_R0054512",
      "req": "R0054512",
-     "posted": "Posted 29 Days Ago"
+     "posted": "Posted 30 Days Ago"
     },
     {
      "title": "Intern - Research - Drug Metabolism - AI",
      "loc": "United States - California - Foster City",
      "url": "https://gilead.wd1.myworkdayjobs.com/en-US/gileadcareers/job/United-States---California---Foster-City/Intern---Research---Drug-Metabolism---AI_R0055519",
      "req": "R0055519",
-     "posted": "Posted 29 Days Ago"
+     "posted": "Posted 30 Days Ago"
     },
     {
      "title": "Intern - Research - Data Sciences - AI",
      "loc": "United States - California - Foster City",
      "url": "https://gilead.wd1.myworkdayjobs.com/en-US/gileadcareers/job/United-States---California---Foster-City/Intern---Research---Data-Sciences---AI_R0055524",
      "req": "R0055524",
-     "posted": "Posted 29 Days Ago"
+     "posted": "Posted 30 Days Ago"
     },
     {
      "title": "Intern - Research - Strategy, Innovation & Portfolio - AI",
      "loc": "United States - California - Foster City",
      "url": "https://gilead.wd1.myworkdayjobs.com/en-US/gileadcareers/job/United-States---California---Foster-City/Intern---Research---Strategy--Innovation---Portfolio_R0054502",
      "req": "R0054502",
-     "posted": "Posted 29 Days Ago"
+     "posted": "Posted 30 Days Ago"
     },
     {
      "title": "Intern - Research - Discovery Sciences and Technologies - AI",
      "loc": "United States - California - Foster City",
      "url": "https://gilead.wd1.myworkdayjobs.com/en-US/gileadcareers/job/United-States---California---Foster-City/Intern---Research---Discovery-Sciences-and-Technologies---AI_R0055527",
      "req": "R0055527",
-     "posted": "Posted 29 Days Ago"
+     "posted": "Posted 30 Days Ago"
     },
     {
      "title": "Intern - Research - Protein Therapeutics, Computational Biologics Engineering - AI",
      "loc": "United States - California - Foster City",
      "url": "https://gilead.wd1.myworkdayjobs.com/en-US/gileadcareers/job/United-States---California---Foster-City/Intern---Research---Protein-Therapeutics--Computational-Biologics-Engineering_R0054739",
      "req": "R0054739",
-     "posted": "Posted 28 Days Ago"
+     "posted": "Posted 29 Days Ago"
     },
     {
      "title": "Intern - Research - Medicinal Chemistry/ Structural Biology & Chemistry - AI",
      "loc": "United States - California - Foster City",
      "url": "https://gilead.wd1.myworkdayjobs.com/en-US/gileadcareers/job/United-States---California---Foster-City/Intern---Research---Medicinal-Chemistry--Structural-Biology---Chemistry---AI_R0055565",
      "req": "R0055565",
-     "posted": "Posted 26 Days Ago"
+     "posted": "Posted 27 Days Ago"
     },
     {
      "title": "Graduate Program Associate - Manufacturing Technical Services",
      "loc": "Ireland - Cork",
      "url": "https://gilead.wd1.myworkdayjobs.com/en-US/gileadcareers/job/Ireland---Cork/Graduate-Program-Associate---Manufacturing-Technical-Services_R0046957",
      "req": "R0046957",
-     "posted": "Posted 19 Days Ago"
+     "posted": "Posted 20 Days Ago"
     }
    ]
   },
@@ -137,28 +137,28 @@
    "key": "jj.wd5.myworkdayjobs.com|jj|JJ|Irvine intern,biostatistics intern,clinical data intern",
    "alarms": [],
    "status": "ok",
-   "total": 392,
+   "total": 396,
    "intern": [
     {
      "title": "Research & Development Intern",
      "loc": "Irvine, California, United States of America",
      "url": "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Irvine-California-United-States-of-America/Research---Development-Intern_R-104120",
      "req": "R-104120",
-     "posted": "Posted 4 Days Ago"
+     "posted": "Posted 5 Days Ago"
     },
     {
      "title": "Technology 2027 Spring Co-Op",
      "loc": "New Brunswick, New Jersey, United States of America; Spring House, Pennsylvania, United States of America; Titusville, New Jersey, United States of America; Shepherdsville, Kentucky, United States of America; Irvine, California, United States of America; Horsham, Pennsylvania, United States of America; West Chester, Pennsylvania, United States of America; Fort Washington, Pennsylvania, United States of America; Santa Clara, California, United States of America; Raritan, New Jersey, United States of America",
      "url": "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/New-Brunswick-New-Jersey-United-States-of-America/Technology-2027-Spring-Co-Op_R-095605-1",
      "req": "R-095605",
-     "posted": "Posted 4 Days Ago"
+     "posted": "Posted 5 Days Ago"
     },
     {
      "title": "Associate Clinical Account Specialist (ACAS) Intern (Summer 2027)",
      "loc": "Irvine, California, United States of America; Toledo, Ohio, United States; North Dakota (Any City); Connecticut (Any City); Richmond, Virginia, United States of America; Cleveland, Ohio, United States",
      "url": "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Irvine-California-United-States-of-America/Associate-Clinical-Account-Specialist--ACAS--Intern--Summer-2027-_R-104405",
      "req": "R-104405",
-     "posted": "Posted 11 Days Ago"
+     "posted": "Posted 12 Days Ago"
     },
     {
      "title": "Summer 2027 MBA Internship- MedTech Marketing Leadership Development Program (MLDP)",
@@ -179,14 +179,14 @@
      "loc": "Titusville, New Jersey, United States of America",
      "url": "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Titusville-New-Jersey-United-States-of-America/RWE---Modeling-Summer-Intern_R-103932",
      "req": "R-103932",
-     "posted": "Posted 6 Days Ago"
+     "posted": "Posted 7 Days Ago"
     },
     {
      "title": "Statistics & Decision Sciences Summer Interns 2027",
      "loc": "Raritan, New Jersey, United States of America; La Jolla, California, United States of America; Titusville, New Jersey, United States of America; Spring House, Pennsylvania, United States of America",
      "url": "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Raritan-New-Jersey-United-States-of-America/Statistics---Decision-Sciences-Summer-Interns-2027_R-103411",
      "req": "R-103411",
-     "posted": "Posted 14 Days Ago"
+     "posted": "Posted 15 Days Ago"
     },
     {
      "title": "J&J IM North America Operations Intern",
@@ -203,186 +203,186 @@
      "posted": "Posted 30+ Days Ago"
     },
     {
+     "title": "AI/ML/Data Science Intern",
+     "loc": "Zug, Switzerland; Boston, Massachusetts, United States of America; High Wycombe, Buckinghamshire, United Kingdom; New York, New York, United States; Barcelona, Spain; Madrid, Spain; Spring House, Pennsylvania, United States of America; New Brunswick, New Jersey, United States of America; Leiden, Netherlands",
+     "url": "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Zug-Switzerland/AI-ML-Data-Science-Intern_R-104697",
+     "req": "R-104697",
+     "posted": "Posted Today"
+    },
+    {
      "title": "TDS Clinical Supply Chain Planning Co-Op",
      "loc": "Malvern, Pennsylvania, United States of America",
      "url": "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Malvern-Pennsylvania-United-States-of-America/TDS-Clinical-Supply-Chain-Planning-Co-Op_R-098331",
      "req": "R-098331",
-     "posted": "Posted Yesterday"
+     "posted": "Posted 2 Days Ago"
     },
     {
      "title": "TDS Clinical Operations Co-Op",
      "loc": "Malvern, Pennsylvania, United States of America",
      "url": "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Malvern-Pennsylvania-United-States-of-America/TDS-Clinical-Operations-Co-Op_R-098557",
      "req": "R-098557",
-     "posted": "Posted Yesterday"
+     "posted": "Posted 2 Days Ago"
     },
     {
      "title": "Immunology Medical Affairs Clinical Project Scientist Internship",
      "loc": "Horsham, Pennsylvania, United States of America",
      "url": "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Horsham-Pennsylvania-United-States-of-America/Immunology-Medical-Affairs-Clinical-Project-Scientist-Internship_R-102793",
      "req": "R-102793",
-     "posted": "Posted Yesterday"
+     "posted": "Posted 2 Days Ago"
     },
     {
      "title": "Med Affairs Autoantibody Summer Intern",
      "loc": "Horsham, Pennsylvania, United States of America",
      "url": "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Horsham-Pennsylvania-United-States-of-America/Med-Affairs-Autoantibody-Summer-Intern_R-104121",
      "req": "R-104121",
-     "posted": "Posted 5 Days Ago"
-    },
-    {
-     "title": "Quality Engineering Co-Op (Spring 2027)",
-     "loc": "Santa Clara, California, United States of America",
-     "url": "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Santa-Clara-California-United-States-of-America/Quality-Engineering-Co-Op--Spring-2027-_R-105700",
-     "req": "R-105700",
-     "posted": "Posted 7 Days Ago"
+     "posted": "Posted 6 Days Ago"
     },
     {
      "title": "Summer intern, Digital Signal/ Imaging AI",
      "loc": "Cambridge, Massachusetts, United States of America; Leiden, Netherlands; La Jolla, California, United States of America; Titusville, New Jersey, United States of America; Beerse, Antwerp, Belgium; Zug, Switzerland",
      "url": "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Cambridge-Massachusetts-United-States-of-America/Summer-intern--Digital-Signal--Imaging-AI_R-105510",
      "req": "R-105510",
-     "posted": "Posted 7 Days Ago"
+     "posted": "Posted 8 Days Ago"
     },
     {
      "title": "IMM Medical Affairs Summer Intern",
      "loc": "Horsham, Pennsylvania, United States of America",
      "url": "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Horsham-Pennsylvania-United-States-of-America/IMM-Medical-Affairs-Summer-Intern_R-104420",
      "req": "R-104420",
-     "posted": "Posted 7 Days Ago"
+     "posted": "Posted 8 Days Ago"
     },
     {
      "title": "Internship - Integrated Data Analytics and Reporting",
      "loc": "Beerse, Antwerp, Belgium",
      "url": "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Beerse-Antwerp-Belgium/Internship---Integrated-Data-Analytics-and-Reporting_R-106104",
      "req": "R-106104",
-     "posted": "Posted 7 Days Ago"
+     "posted": "Posted 8 Days Ago"
     },
     {
      "title": "TDS Lab Automation Co-Op",
      "loc": "Malvern, Pennsylvania, United States of America",
      "url": "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Malvern-Pennsylvania-United-States-of-America/TDS-Lab-Automation-Co-Op_R-098640",
      "req": "R-098640",
-     "posted": "Posted 8 Days Ago"
+     "posted": "Posted 9 Days Ago"
     },
     {
      "title": "US Medical Affairs GI Summer Intern",
      "loc": "Horsham, Pennsylvania, United States of America",
      "url": "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Horsham-Pennsylvania-United-States-of-America/US-Medical-Affairs-GI-Summer-Intern_R-104355-1",
      "req": "R-104355",
-     "posted": "Posted 11 Days Ago"
+     "posted": "Posted 12 Days Ago"
     },
     {
      "title": "Epidemiology Summer Intern 2027",
      "loc": "Raritan, New Jersey, United States of America; Horsham, Pennsylvania, United States of America",
      "url": "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Raritan-New-Jersey-United-States-of-America/Epidemiology-Summer-Intern-2027_R-103539",
      "req": "R-103539",
-     "posted": "Posted 11 Days Ago"
+     "posted": "Posted 12 Days Ago"
     },
     {
      "title": "DS Education & Marketing Summer Intern 2027",
      "loc": "Raynham, Massachusetts, United States of America; West Chester, Pennsylvania, United States of America",
      "url": "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Raynham-Massachusetts-United-States-of-America/DS-Education---Marketing-Summer-Intern-2027_R-105431",
      "req": "R-105431",
-     "posted": "Posted 12 Days Ago"
+     "posted": "Posted 13 Days Ago"
     },
     {
      "title": "Oncology Discovery Scientist Intern",
      "loc": "Spring House, Pennsylvania, United States of America",
      "url": "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Spring-House-Pennsylvania-United-States-of-America/Oncology-Discovery-Scientist-Intern_R-099898",
      "req": "R-099898",
-     "posted": "Posted 13 Days Ago"
+     "posted": "Posted 14 Days Ago"
     },
     {
      "title": "Oncology Clinical Scientist Intern",
      "loc": "Spring House, Pennsylvania, United States of America",
      "url": "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Spring-House-Pennsylvania-United-States-of-America/Oncology-Clinical-Scientist-Intern_R-099892",
      "req": "R-099892",
-     "posted": "Posted 13 Days Ago"
+     "posted": "Posted 14 Days Ago"
     },
     {
      "title": "IDAR Summer Intern (EASE)",
      "loc": "Raritan, New Jersey, United States of America; Titusville, New Jersey, United States of America; Spring House, Pennsylvania, United States of America",
      "url": "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Raritan-New-Jersey-United-States-of-America/IDAR-Summer-Intern--EASE-_R-102328",
      "req": "R-102328",
-     "posted": "Posted 14 Days Ago"
+     "posted": "Posted 15 Days Ago"
     },
     {
      "title": "Oncology TR Scientist Intern",
      "loc": "Spring House, Pennsylvania, United States of America",
      "url": "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Spring-House-Pennsylvania-United-States-of-America/Oncology-TR-Scientist-Intern_R-099901",
      "req": "R-099901",
-     "posted": "Posted 14 Days Ago"
+     "posted": "Posted 15 Days Ago"
     },
     {
      "title": "Onco Drug-Device Combo Products Intern",
      "loc": "Cambridge, Massachusetts, United States of America",
      "url": "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Cambridge-Massachusetts-United-States-of-America/Onco-Drug-Device-Combo-Products-Intern_R-102873",
      "req": "R-102873",
-     "posted": "Posted 14 Days Ago"
+     "posted": "Posted 15 Days Ago"
     },
     {
      "title": "Oncology CPP Scientist Intern",
      "loc": "Spring House, Pennsylvania, United States of America",
      "url": "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Spring-House-Pennsylvania-United-States-of-America/Oncology-CPP-Scientist-Intern_R-104472",
      "req": "R-104472",
-     "posted": "Posted 14 Days Ago"
+     "posted": "Posted 15 Days Ago"
     },
     {
      "title": "Oncology Preclinical Safety & TS Intern",
      "loc": "Spring House, Pennsylvania, United States of America",
      "url": "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Spring-House-Pennsylvania-United-States-of-America/Oncology-Preclinical-Safety---TS-Intern_R-104474",
      "req": "R-104474",
-     "posted": "Posted 14 Days Ago"
+     "posted": "Posted 15 Days Ago"
     },
     {
      "title": "Oncology Global Medical Safety Intern",
      "loc": "Horsham, Pennsylvania, United States of America; Spring House, Pennsylvania, United States of America",
      "url": "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Horsham-Pennsylvania-United-States-of-America/Oncology-Global-Medical-Safety-Intern_R-104471",
      "req": "R-104471",
-     "posted": "Posted 14 Days Ago"
+     "posted": "Posted 15 Days Ago"
     },
     {
      "title": "Oncology Medical Affairs Intern",
      "loc": "Horsham, Pennsylvania, United States of America; Spring House, Pennsylvania, United States of America",
      "url": "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Horsham-Pennsylvania-United-States-of-America/Oncology-Medical-Affairs-Intern_R-104473",
      "req": "R-104473",
-     "posted": "Posted 14 Days Ago"
+     "posted": "Posted 15 Days Ago"
     },
     {
      "title": "IDAR Summer Intern (RMW)",
      "loc": "Spring House, Pennsylvania, United States of America; Raritan, New Jersey, United States of America; Titusville, New Jersey, United States of America",
      "url": "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Spring-House-Pennsylvania-United-States-of-America/IDAR-Summer-Intern--RMW-_R-104610",
      "req": "R-104610",
-     "posted": "Posted 15 Days Ago"
+     "posted": "Posted 16 Days Ago"
     },
     {
      "title": "IDAR Summer Intern (C&SP)",
      "loc": "Raritan, New Jersey, United States of America; Titusville, New Jersey, United States of America; Spring House, Pennsylvania, United States of America",
      "url": "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Raritan-New-Jersey-United-States-of-America/IDAR-Summer-Intern--C-SP-_R-103534",
      "req": "R-103534",
-     "posted": "Posted 15 Days Ago"
+     "posted": "Posted 16 Days Ago"
     },
     {
      "title": "IDAR Summer Intern (DM CM)",
      "loc": "Spring House, Pennsylvania, United States of America; Raritan, New Jersey, United States of America; Titusville, New Jersey, United States of America",
      "url": "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Spring-House-Pennsylvania-United-States-of-America/IDAR-Summer-Intern--DM-CM-_R-102616",
      "req": "R-102616",
-     "posted": "Posted 15 Days Ago"
+     "posted": "Posted 16 Days Ago"
     },
     {
      "title": "2027 GD (U.S.) Summer Intern",
      "loc": "Titusville, New Jersey, United States of America; Raritan, New Jersey, United States of America; Spring House, Pennsylvania, United States of America",
      "url": "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Titusville-New-Jersey-United-States-of-America/XMLNAME-2027-GD--US--Summer-Intern_R-102105",
      "req": "R-102105",
-     "posted": "Posted 15 Days Ago"
+     "posted": "Posted 16 Days Ago"
     },
     {
      "title": "2027 Jax R&D Internship (STEM, Eng/Chem)",
      "loc": "Jacksonville, Florida, United States of America",
      "url": "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Jacksonville-Florida-United-States-of-America/XMLNAME-2027-Jax-R-D-Internship--STEM--Eng-Chem-_R-099052",
      "req": "R-099052",
-     "posted": "Posted 27 Days Ago"
+     "posted": "Posted 28 Days Ago"
     }
    ]
   },
@@ -394,15 +394,8 @@
    "key": "medtronic.wd1.myworkdayjobs.com|medtronic|MedtronicCareers|Northridge,Tempe,intern California,intern clinical,intern Arizona",
    "alarms": [],
    "status": "ok",
-   "total": 588,
+   "total": 598,
    "intern": [
-    {
-     "title": "Engineering Intern Summer 2027 - Candidates Attending 2026 SHPE National Convention",
-     "loc": "Minneapolis, Minnesota, United States of America; Tempe, Arizona, United States of America; Santa Rosa, California, United States of America; Lafayette, Colorado, United States of America; Boulder, Colorado, United States of America; Irvine, California, United States of America; North Haven, Connecticut, United States of America; Newton, Massachusetts, United States of America; Memphis, Tennessee, United States of America; Dexter, Michigan, United States of America; Santa Ana, California, United States of America; Fort Worth, Texas, United States of America; Santa Clara, California, United States of America; Jacksonville, Florida, United States of America; Boston, Massachusetts, United States of America",
-     "url": "https://medtronic.wd1.myworkdayjobs.com/en-US/MedtronicCareers/job/Minneapolis-Minnesota-United-States-of-America/Engineering-Intern-Summer-2027---Candidates-Attending-2026-SHPE-National-Convention_R76309",
-     "req": "R76309",
-     "posted": "Posted 30+ Days Ago"
-    },
     {
      "title": "R&D Intern: Tech",
      "loc": "Shanghai, Shanghai, China",
@@ -415,49 +408,63 @@
      "loc": "New Delhi, Delhi, India",
      "url": "https://medtronic.wd1.myworkdayjobs.com/en-US/MedtronicCareers/job/New-Delhi-Delhi-India/Co-op-Apprentice--Non-Tech-_R68685-1",
      "req": "R68685",
-     "posted": "Posted 21 Days Ago"
+     "posted": "Posted 22 Days Ago"
+    },
+    {
+     "title": "CNC Intern-5",
+     "loc": "Changzhou, Jiangsu, China",
+     "url": "https://medtronic.wd1.myworkdayjobs.com/en-US/MedtronicCareers/job/Changzhou-Jiangsu-China/CNC-Intern-5_R76949-1",
+     "req": "R76949",
+     "posted": "Posted Today"
     },
     {
      "title": "Co-op/Apprentice (Non-Tech)",
      "loc": "Gurgaon, Haryana, India",
      "url": "https://medtronic.wd1.myworkdayjobs.com/en-US/MedtronicCareers/job/Gurgaon-Haryana-India/Co-op-Apprentice--Non-Tech-_R73575-1",
      "req": "R73575",
-     "posted": "Posted 21 Days Ago"
+     "posted": "Posted 22 Days Ago"
     },
     {
      "title": "IT intern",
      "loc": "Shanghai, Shanghai, China",
      "url": "https://medtronic.wd1.myworkdayjobs.com/en-US/MedtronicCareers/job/Shanghai-Shanghai-China/IT-intern_R79379-1",
      "req": "R79379",
-     "posted": "Posted 19 Days Ago"
+     "posted": "Posted 20 Days Ago"
     },
     {
      "title": "Intern",
      "loc": "Shanghai, Shanghai, China",
      "url": "https://medtronic.wd1.myworkdayjobs.com/en-US/MedtronicCareers/job/Shanghai-Shanghai-China/Intern_R79823-1",
      "req": "R79823",
-     "posted": "Posted 11 Days Ago"
+     "posted": "Posted 12 Days Ago"
     },
     {
      "title": "MA Intern",
      "loc": "Shanghai, Shanghai, China",
      "url": "https://medtronic.wd1.myworkdayjobs.com/en-US/MedtronicCareers/job/Shanghai-Shanghai-China/MA-Intern_R80214-1",
      "req": "R80214",
-     "posted": "Posted 7 Days Ago"
+     "posted": "Posted 8 Days Ago"
     },
     {
      "title": "MTC Intern",
      "loc": "Shanghai, Shanghai, China",
      "url": "https://medtronic.wd1.myworkdayjobs.com/en-US/MedtronicCareers/job/Shanghai-Shanghai-China/MTC-Intern_R79468",
      "req": "R79468",
-     "posted": "Posted 4 Days Ago"
+     "posted": "Posted 5 Days Ago"
+    },
+    {
+     "title": "Engineering Intern Summer 2027 - Candidates Attending 2026 SHPE National Convention",
+     "loc": "Minneapolis, Minnesota, United States of America; Tempe, Arizona, United States of America; Santa Rosa, California, United States of America; Lafayette, Colorado, United States of America; Boulder, Colorado, United States of America; Irvine, California, United States of America; North Haven, Connecticut, United States of America; Newton, Massachusetts, United States of America; Memphis, Tennessee, United States of America; Dexter, Michigan, United States of America; Santa Ana, California, United States of America; Fort Worth, Texas, United States of America; Santa Clara, California, United States of America; Jacksonville, Florida, United States of America; Boston, Massachusetts, United States of America",
+     "url": "https://medtronic.wd1.myworkdayjobs.com/en-US/MedtronicCareers/job/Minneapolis-Minnesota-United-States-of-America/Engineering-Intern-Summer-2027---Candidates-Attending-2026-SHPE-National-Convention_R76309",
+     "req": "R76309",
+     "posted": "Posted 30+ Days Ago"
     },
     {
      "title": "Intern",
      "loc": "Kulim, Kedah, Malaysia",
      "url": "https://medtronic.wd1.myworkdayjobs.com/en-US/MedtronicCareers/job/Kulim-Kedah-Malaysia/Intern_R78860",
      "req": "R78860",
-     "posted": "Posted 19 Days Ago"
+     "posted": "Posted 20 Days Ago"
     },
     {
      "title": "Intern: Graduate( Non-Tech)",
@@ -478,28 +485,28 @@
      "loc": "Minneapolis, Minnesota, United States of America",
      "url": "https://medtronic.wd1.myworkdayjobs.com/en-US/MedtronicCareers/job/Minneapolis-Minnesota-United-States-of-America/MBA-Internship---Summer-2027_R78587-1",
      "req": "R78587",
-     "posted": "Posted 29 Days Ago"
+     "posted": "Posted 30 Days Ago"
     },
     {
      "title": "Associate Clinical Experience (ACE) Intern – Summer 2027",
      "loc": "State of Minnesota, United States of America; State of Washington, United States of America; State of South Dakota, United States of America; State of Oklahoma, United States of America; State of Utah, United States of America; State of Rhode Island, United States of America; State of Ohio, United States of America; State of Massachusetts, United States of America; State of Connecticut, United States of America; State of Pennsylvania, United States of America; State of Oregon, United States of America; State of North Carolina, United States of America; State of New Hampshire, United States of America; State of Montana, United States of America; State of Hawaii, United States of America; State of Georgia, United States of America; State of Colorado, United States of America; State of North Dakota, United States of America; State of New Mexico, United States of America; State of Nebraska, United States of America; State of Maryland, United States of America; State of Kentucky, United States of America; State of Kansas, United States of America; State of Iowa, United States of America; State of Indiana, United States of America; State of Florida, United States of America; State of California, United States of America; State of Wyoming, United States of America; State of Virginia, United States of America; State of Tennessee, United States of America; State of New York, United States of America; State of Mississippi, United States of America; State of Louisiana, United States of America; State of Arkansas, United States of America; State of South Carolina, United States of America; State of New Jersey, United States of America; State of Missouri, United States of America; State of Idaho, United States of America; State of Delaware, United States of America; State of Arizona, United States of America; State of Wisconsin, United States of America; State of West Virginia, United States of America; State of Vermont, United States of America; State of Texas, United States of America; State of Nevada, United States of America; State of Michigan, United States of America; State of Maine, United States of America; State of Illinois, United States of America; State of Alaska, United States of America; State of Alabama, United States of America",
      "url": "https://medtronic.wd1.myworkdayjobs.com/en-US/MedtronicCareers/job/State-of-Minnesota-United-States-of-America/Associate-Clinical-Experience--ACE--Intern---Summer-2027_R78501-1",
      "req": "R78501",
-     "posted": "Posted Today"
+     "posted": "Posted Yesterday"
     },
     {
      "title": "Summer 2027 Corporate Development Intern (MBA)",
      "loc": "Minneapolis, Minnesota, United States of America",
      "url": "https://medtronic.wd1.myworkdayjobs.com/en-US/MedtronicCareers/job/Minneapolis-Minnesota-United-States-of-America/Summer-2027-Corporate-Development-Intern--MBA-_R79679-1",
      "req": "R79679",
-     "posted": "Posted 12 Days Ago"
+     "posted": "Posted 13 Days Ago"
     },
     {
      "title": "Associate Clinical Specialist (CRM): Winter 2026 & Spring 2027 Undergraduates",
      "loc": "50 Locations",
      "url": "https://medtronic.wd1.myworkdayjobs.com/en-US/MedtronicCareers/job/State-of-Minnesota-United-States-of-America/Associate-Clinical-Specialist--CRM---Winter-2026---Spring-2027-Undergraduates_R80261-1",
      "req": "R80261",
-     "posted": "Posted 7 Days Ago"
+     "posted": "Posted 8 Days Ago"
     },
     {
      "title": "IT Intern: Undergrad (Tech)",
@@ -520,28 +527,28 @@
      "loc": "Seoul, Seoul, Korea",
      "url": "https://medtronic.wd1.myworkdayjobs.com/en-US/MedtronicCareers/job/Seoul-Seoul-Korea/Intern--Graduate--Non-Tech-_R78761-2",
      "req": "R78761",
-     "posted": "Posted 25 Days Ago"
+     "posted": "Posted 26 Days Ago"
     },
     {
      "title": "Cardiovascular_ Department Intern",
      "loc": "Taipei, Taipei, Taiwan",
      "url": "https://medtronic.wd1.myworkdayjobs.com/en-US/MedtronicCareers/job/Taipei-Taipei-Taiwan/Cardiovascular--Department-Intern_R79640",
      "req": "R79640",
-     "posted": "Posted 14 Days Ago"
+     "posted": "Posted 15 Days Ago"
     },
     {
      "title": "Intern: MBA/Graduate",
      "loc": "Mumbai, Maharashtra, India",
      "url": "https://medtronic.wd1.myworkdayjobs.com/en-US/MedtronicCareers/job/Mumbai-Maharashtra-India/Intern--MBA-Graduate_R78758-1",
      "req": "R78758",
-     "posted": "Posted 11 Days Ago"
+     "posted": "Posted 12 Days Ago"
     },
     {
      "title": "EHS Intern.",
      "loc": "Alajuela Coyol, Alajuela, Costa Rica",
      "url": "https://medtronic.wd1.myworkdayjobs.com/en-US/MedtronicCareers/job/Alajuela-Coyol-Alajuela-Costa-Rica/EHS-Intern_R79611-2",
      "req": "R79611",
-     "posted": "Posted 15 Days Ago"
+     "posted": "Posted 16 Days Ago"
     },
     {
      "title": "Medtronic Summer Internship PR 2027- Ponce and Villalba Site",
@@ -555,7 +562,7 @@
      "loc": "Humacao, Puerto Rico, United States of America; Juncos, Puerto Rico, United States of America",
      "url": "https://medtronic.wd1.myworkdayjobs.com/en-US/MedtronicCareers/job/Humacao-Puerto-Rico-United-States-of-America/Medtronic-PR-Summer-Internship-2027--Humacao-and-Juncos-Site_R77134-1",
      "req": "R77134",
-     "posted": "Posted Today"
+     "posted": "Posted Yesterday"
     },
     {
      "title": "Clinical Technologist Intern - Cardiovascular",
@@ -569,21 +576,21 @@
      "loc": "Bloemfontein, Free State, South Africa; Port Elizabeth, Eastern Cape, South Africa",
      "url": "https://medtronic.wd1.myworkdayjobs.com/en-US/MedtronicCareers/job/Bloemfontein-Free-State-South-Africa/Sales-Intern_R78059-1",
      "req": "R78059",
-     "posted": "Posted Yesterday"
+     "posted": "Posted 2 Days Ago"
     },
     {
      "title": "Sales Operations Intern",
      "loc": "Ankara, Ankara, Türkiye",
      "url": "https://medtronic.wd1.myworkdayjobs.com/en-US/MedtronicCareers/job/Ankara-Ankara-Trkiye/Sales-Operations-Intern_R78959-1",
      "req": "R78959",
-     "posted": "Posted 12 Days Ago"
+     "posted": "Posted 13 Days Ago"
     },
     {
      "title": "Intern Training Academy ACEE",
      "loc": "Warsaw, Mazowieckie, Poland",
      "url": "https://medtronic.wd1.myworkdayjobs.com/en-US/MedtronicCareers/job/Warsaw-Mazowieckie-Poland/Intern-Training-Academy-ACEE_R79519-1",
      "req": "R79519",
-     "posted": "Posted 12 Days Ago"
+     "posted": "Posted 13 Days Ago"
     },
     {
      "title": "NextGen Academy Intern: Field Support",
@@ -602,14 +609,14 @@
    "key": "honorhealth.wd12.myworkdayjobs.com|honorhealth|HonorHealth_careers|intern,research",
    "alarms": [],
    "status": "ok",
-   "total": 282,
+   "total": 285,
    "intern": [
     {
      "title": "Fellow Postgraduate Year 4",
      "loc": "",
      "url": "https://honorhealth.wd12.myworkdayjobs.com/en-US/HonorHealth_careers/job/Thompson-Peak-Medical-Center---7400-E-Thompson-Peak-Pkwy-Scottsdale-AZ-85255/Fellow-Postgraduate-Year-4_JR12172-1",
      "req": "Thompson Peak Medical Center - 7400 E Thompson Peak Pkwy Scottsdale, AZ 85255",
-     "posted": "Posted 7 Days Ago"
+     "posted": "Posted 8 Days Ago"
     },
     {
      "title": "Fellow - Postgraduate Year 4",
@@ -628,21 +635,21 @@
    "key": "bannerhealth.wd108.myworkdayjobs.com|bannerhealth|Careers|intern,biostatistics,data analyst intern",
    "alarms": [],
    "status": "ok",
-   "total": 712,
+   "total": 715,
    "intern": [
     {
      "title": "Post-Doctoral Fellow Psychology",
      "loc": "BUMG Univ Med Whole Health Clinic (535 N Wilmot Rd)",
      "url": "https://bannerhealth.wd108.myworkdayjobs.com/en-US/Careers/job/BUMG-Univ-Med-Whole-Health-Clinic-535-N-Wilmot-Rd/Post-Doctoral-Fellow-Psychology_R4454502-1",
      "req": "R4454502",
-     "posted": "Posted 21 Days Ago"
+     "posted": "Posted 22 Days Ago"
     },
     {
      "title": "Registered Nurse RN New Grad Surgical PCU",
      "loc": "BUMC Tucson (1625 N Campbell Ave)",
      "url": "https://bannerhealth.wd108.myworkdayjobs.com/en-US/Careers/job/BUMC-Tucson-1625-N-Campbell-Ave/Registered-Nurse-RN-New-Grad-Surgical-PCU_R4451977",
      "req": "R4451977",
-     "posted": "Posted Today"
+     "posted": "Posted Yesterday"
     },
     {
      "title": "Acute Radiology Technologist East Campus FT",
@@ -650,6 +657,13 @@
      "url": "https://bannerhealth.wd108.myworkdayjobs.com/en-US/Careers/job/Wyoming-Medical-Center-East-6550-E-Second-St/Acute-Radiology-Technologist-East-Campus-FT_R4447574",
      "req": "R4447574",
      "posted": "Posted 30+ Days Ago"
+    },
+    {
+     "title": "RN New Grad Resource",
+     "loc": "Banner Boswell Med Ctr (10401 W Thunderbird Blvd)",
+     "url": "https://bannerhealth.wd108.myworkdayjobs.com/en-US/Careers/job/Banner-Boswell-Med-Ctr-10401-W-Thunderbird-Blvd/RN-New-Grad-Resource_R4459246",
+     "req": "R4459246",
+     "posted": "Posted Today"
     }
    ]
   },
@@ -661,7 +675,7 @@
    "key": "bcbsaz.wd1.myworkdayjobs.com|bcbsaz|BCBSAZCareers|intern,actuarial",
    "alarms": [],
    "status": "ok",
-   "total": 26,
+   "total": 23,
    "intern": []
   },
   "Sharp HealthCare": {
@@ -672,56 +686,42 @@
    "key": "sharp.wd1.myworkdayjobs.com|sharp|External|intern,biostatistics",
    "alarms": [],
    "status": "ok",
-   "total": 302,
+   "total": 301,
    "intern": [
     {
      "title": "Lead CT Technologist - Sharp Tri-City Medical Center Main Campus - Variable Shift - Full Time - $7,500 Sign On Bonus",
      "loc": "STCMC Tri-City Medical Center Main Campus - 4002 Vista Way",
      "url": "https://sharp.wd1.myworkdayjobs.com/en-US/External/job/STCMC-Tri-City-MedicalCenter-Main-Campus---4002-Vista-Way/Lead-CT-Technologist---Sharp-Tri-City-Medical-Center-Main-Campus---Variable-Shift---Full-Time_JR208259",
      "req": "Regular",
-     "posted": "Posted 7 Days Ago"
+     "posted": "Posted 8 Days Ago"
     },
     {
      "title": "Sterile Processing Tech Intern - Sharp Tri-City - Evening Shift - Full Time",
      "loc": "STCMC Tri-City Medical Center Main Campus - 4002 Vista Way",
      "url": "https://sharp.wd1.myworkdayjobs.com/en-US/External/job/STCMC-Tri-City-MedicalCenter-Main-Campus---4002-Vista-Way/Sterile-Processing-Tech-Intern---Sharp-Tri-City---Evening-Shift---Full-Time_JR210726-1",
      "req": "Regular",
-     "posted": "Posted 8 Days Ago"
+     "posted": "Posted 9 Days Ago"
     },
     {
      "title": "Manager Sterile Processing - Sharp Metropolitan Medical Campus (SMMC)  - Variable Shift - Full Time",
      "loc": "San Diego, CA",
      "url": "https://sharp.wd1.myworkdayjobs.com/en-US/External/job/San-Diego-CA/Manager-Sterile-Processing---Sharp-Metropolitan-Medical-Campus--SMMC-----Variable-Shift---Full-Time_JR211136",
      "req": "Regular",
-     "posted": "Posted 8 Days Ago"
-    },
-    {
-     "title": "Radiology Technologist - Sharp Tri-City Medical Center Main Campus - Variable Shift - Full Time",
-     "loc": "STCMC Tri-City Medical Center Main Campus - 4002 Vista Way",
-     "url": "https://sharp.wd1.myworkdayjobs.com/en-US/External/job/STCMC-Tri-City-MedicalCenter-Main-Campus---4002-Vista-Way/Radiology-Technologist---Sharp-Tri-City-Medical-Center-Main-Campus---Variable-Shift---Full-Time_JR209214-1",
-     "req": "Regular",
-     "posted": "Posted 11 Days Ago"
+     "posted": "Posted 9 Days Ago"
     },
     {
      "title": "Trainer - Sterile Processing - Sharp Metropolitan Medical Campus -  Variable Shift - Full Time",
      "loc": "San Diego, CA",
      "url": "https://sharp.wd1.myworkdayjobs.com/en-US/External/job/San-Diego-CA/Trainer---Sterile-Processing---Sharp-Metropolitan-Medical-Campus----Variable-Shift---Full-Time_JR210852",
      "req": "Regular",
-     "posted": "Posted 11 Days Ago"
-    },
-    {
-     "title": "Mammography Technologist II - Sharp Tri-City Medical Center Main Campus - Variable Shift - Per Diem",
-     "loc": "STCMC Tri-City Medical Center Main Campus - 4002 Vista Way",
-     "url": "https://sharp.wd1.myworkdayjobs.com/en-US/External/job/STCMC-Tri-City-MedicalCenter-Main-Campus---4002-Vista-Way/Mammography-Technologist-II---Sharp-Tri-City-Medical-Center-Main-Campus---Variable-Shift---Per-Diem_JR209310-1",
-     "req": "Per Diem",
-     "posted": "Posted 15 Days Ago"
+     "posted": "Posted 12 Days Ago"
     },
     {
      "title": "Behavioral Health Therapist - Post Doctoral Fellow - COG/DBT OP - Sharp Mesa Vista Hospital - Temporary - FT - Day Shift",
      "loc": "San Diego, CA",
      "url": "https://sharp.wd1.myworkdayjobs.com/en-US/External/job/San-Diego-CA/Behavioral-Health-Therapist---Post-Doctoral-Fellow---COG-DBT-OP---Sharp-Mesa-Vista-Hospital---Temporary---FT---Day-Shift_JR203536",
      "req": "Regular",
-     "posted": "Posted 15 Days Ago"
+     "posted": "Posted 16 Days Ago"
     }
    ]
   },
@@ -746,7 +746,7 @@
    "key": "rand.wd5.myworkdayjobs.com|rand|External_Career_Site|",
    "alarms": [],
    "status": "ok",
-   "total": 22,
+   "total": 23,
    "intern": [
     {
      "title": "RAND Summer Associate Program - POLICY Research",
@@ -765,21 +765,21 @@
    "key": "danaher.wd1.myworkdayjobs.com|danaher|DanaherJobs|intern Brea,intern biostatistics",
    "alarms": [],
    "status": "ok",
-   "total": 131,
+   "total": 129,
    "intern": [
     {
      "title": "FP&A Intern",
      "loc": "Brea, California, United States",
      "url": "https://danaher.wd1.myworkdayjobs.com/en-US/DanaherJobs/job/Brea-California-United-States/FP-A-Intern_R1316429",
      "req": "R1316429",
-     "posted": "Posted 21 Days Ago"
+     "posted": "Posted 22 Days Ago"
     },
     {
      "title": "Software Engineering Intern",
      "loc": "Chaska, Minnesota, United States",
      "url": "https://danaher.wd1.myworkdayjobs.com/en-US/DanaherJobs/job/Chaska-Minnesota-United-States/Software-Engineering-Intern_R1318747",
      "req": "R1318747",
-     "posted": "Posted 29 Days Ago"
+     "posted": "Posted 30 Days Ago"
     },
     {
      "title": "IT Data Analyst Intern",
@@ -875,15 +875,8 @@
    "key": "alcon.wd5.myworkdayjobs.com|alcon|careers_alcon|intern",
    "alarms": [],
    "status": "ok",
-   "total": 365,
+   "total": 358,
    "intern": [
-    {
-     "title": "Clinical Data Science Intern",
-     "loc": "Fort Worth, Texas",
-     "url": "https://alcon.wd5.myworkdayjobs.com/en-US/careers_alcon/job/Fort-Worth-Texas/Clinical-Data-Science-Intern_R-2026-50204",
-     "req": "R-2026-50204",
-     "posted": "Posted 18 Days Ago"
-    },
     {
      "title": "2027 Electrical & Computer Engineering Intern",
      "loc": "Fort Worth, Texas; Lake Forest, California; Johns Creek, Georgia; Houston, Texas; Goleta, California",
@@ -934,46 +927,32 @@
      "posted": "Posted 30+ Days Ago"
     },
     {
-     "title": "TSE Apprentice",
-     "loc": "Delhi, India",
-     "url": "https://alcon.wd5.myworkdayjobs.com/en-US/careers_alcon/job/Delhi-India/TSE-Apprentice_R-2026-48141",
-     "req": "R-2026-48141",
-     "posted": "Posted Today"
-    },
-    {
      "title": "2027 Spring/Summer LS Engineering Co-op",
      "loc": "Johns Creek, Georgia",
      "url": "https://alcon.wd5.myworkdayjobs.com/en-US/careers_alcon/job/Johns-Creek-Georgia/XMLNAME-2027-Spring-Summer-LS-Engineering-Co-op_R-2026-50078",
      "req": "R-2026-50078",
-     "posted": "Posted 13 Days Ago"
+     "posted": "Posted 14 Days Ago"
     },
     {
      "title": "2027 Spring/Summer Injection Molding Engineering Co-op",
      "loc": "Johns Creek, Georgia",
      "url": "https://alcon.wd5.myworkdayjobs.com/en-US/careers_alcon/job/Johns-Creek-Georgia/XMLNAME-2027-Spring-Summer-Injection-Molding-Engineering-Co-op_R-2026-50263",
      "req": "R-2026-50263",
-     "posted": "Posted 13 Days Ago"
+     "posted": "Posted 14 Days Ago"
     },
     {
      "title": "Spring/Summer 2027 Manufacturing Science & Technology Co-op",
      "loc": "Fort Worth, Texas",
      "url": "https://alcon.wd5.myworkdayjobs.com/en-US/careers_alcon/job/Fort-Worth-Texas/Spring-Summer-2027-Manufacturing-Science---Technology-Co-op_R-2026-50373",
      "req": "R-2026-50373",
-     "posted": "Posted 8 Days Ago"
-    },
-    {
-     "title": "Apprentice TSE",
-     "loc": "Delhi, India",
-     "url": "https://alcon.wd5.myworkdayjobs.com/en-US/careers_alcon/job/Delhi-India/Apprentice-TSE_R-2026-50362",
-     "req": "R-2026-50362",
-     "posted": "Posted Yesterday"
+     "posted": "Posted 9 Days Ago"
     },
     {
      "title": "Spring/Summer 2027 Engineering Co-op",
      "loc": "Johns Creek, Georgia",
      "url": "https://alcon.wd5.myworkdayjobs.com/en-US/careers_alcon/job/Johns-Creek-Georgia/Spring-Summer-2027-Engineering-Co-op_R-2026-50574",
      "req": "R-2026-50574",
-     "posted": "Posted Today"
+     "posted": "Posted Yesterday"
     }
    ]
   },
@@ -985,13 +964,25 @@
    "key": "bostonscientific.eightfold.ai|bostonscientific.com|intern biostatistics,intern clinical,Valencia intern",
    "alarms": [],
    "status": "ok",
-   "total": 32,
+   "total": 36,
    "intern": [
     {
      "title": "Graduate Clinical Insights Research Intern",
      "loc": "Maple Grove, MN, US",
      "url": "https://bostonscientific.eightfold.ai/careers/job/563602813700641",
      "req": "635655"
+    },
+    {
+     "title": "R&D Software Design Intern",
+     "loc": "Arden Hills, MN, US",
+     "url": "https://bostonscientific.eightfold.ai/careers/job/563602813862687",
+     "req": "637168"
+    },
+    {
+     "title": "R&D Leads Sustaining Engineer Intern",
+     "loc": "Arden Hills, MN, US",
+     "url": "https://bostonscientific.eightfold.ai/careers/job/563602813547676",
+     "req": "634486"
     },
     {
      "title": "Data Intern- Healthcare Solutions & Partnerships (HS&P)  Netherlands (Students only)",
@@ -1006,22 +997,22 @@
      "req": "635392"
     },
     {
-     "title": "Marketing Intern | Bogotá",
-     "loc": "Bogotá, Bogota, CO",
-     "url": "https://bostonscientific.eightfold.ai/careers/job/563602813827823",
-     "req": "636750"
-    },
-    {
      "title": "Technical Communications & Project Management  Intern",
      "loc": "Arden Hills, MN, US",
      "url": "https://bostonscientific.eightfold.ai/careers/job/563602813563529",
      "req": "634772"
     },
     {
-     "title": "Process Development Intern",
-     "loc": "Maple Grove, MN, US",
-     "url": "https://bostonscientific.eightfold.ai/careers/job/563602813389355",
-     "req": "633103"
+     "title": "Marketing Intern | Bogotá",
+     "loc": "Bogotá, Bogota, CO",
+     "url": "https://bostonscientific.eightfold.ai/careers/job/563602813827823",
+     "req": "636750"
+    },
+    {
+     "title": "Software & Systems Testing Engineering Intern",
+     "loc": "Arden Hills, MN, US",
+     "url": "https://bostonscientific.eightfold.ai/careers/job/563602813862694",
+     "req": "637169"
     },
     {
      "title": "MBA Marketing Internship Summer 2027 (Minnesota))",
@@ -1030,52 +1021,10 @@
      "req": "636897"
     },
     {
-     "title": "Finance Data Science Intern",
-     "loc": "Madrid, MD, ES",
-     "url": "https://bostonscientific.eightfold.ai/careers/job/563602813769021",
-     "req": "636273"
-    },
-    {
-     "title": "Demand Planning Intern | Costa Rica",
-     "loc": "Escazu, San José Province, CR",
-     "url": "https://bostonscientific.eightfold.ai/careers/job/563602813744221",
-     "req": "636056"
-    },
-    {
-     "title": "Commercial Excellence Process & Programs Intern Neuromodulation- Milan",
-     "loc": "Milano, Lombardia, IT",
-     "url": "https://bostonscientific.eightfold.ai/careers/job/563602813846052",
-     "req": "637026"
-    },
-    {
-     "title": "Quality Intern | Bogotá",
-     "loc": "Bogotá, Bogota, CO",
-     "url": "https://bostonscientific.eightfold.ai/careers/job/563602813850769",
-     "req": "637064"
-    },
-    {
      "title": "Customer Care Representative Intern- Tamheer",
      "loc": "Riyadh, Riyadh Province, SA",
      "url": "https://bostonscientific.eightfold.ai/careers/job/563602813430931",
      "req": "633501"
-    },
-    {
-     "title": "Software Engineering Intern",
-     "loc": "Arden Hills, MN, US",
-     "url": "https://bostonscientific.eightfold.ai/careers/job/563602813600558",
-     "req": "634928"
-    },
-    {
-     "title": "Capital Equipment Intern | Costa Rica",
-     "loc": "Escazu, San José Province, CR",
-     "url": "https://bostonscientific.eightfold.ai/careers/job/563602813744226",
-     "req": "636057"
-    },
-    {
-     "title": "Marketing Intern | Costa Rica",
-     "loc": "Escazu, San José Province, CR",
-     "url": "https://bostonscientific.eightfold.ai/careers/job/563602813697220",
-     "req": "635591"
     },
     {
      "title": "Communications & Digital Marketing Intern | Bogotá 1",
@@ -1084,28 +1033,10 @@
      "req": "636753"
     },
     {
-     "title": "IT LATAM Intern: Process Optimization | Bogotá",
-     "loc": "Bogotá, Bogota, CO",
-     "url": "https://bostonscientific.eightfold.ai/careers/job/563602813827848",
-     "req": "636755"
-    },
-    {
-     "title": "Corporate & Public Affairs Intern | Bogotá",
-     "loc": "Cajicá, Cundinamarca, CO",
-     "url": "https://bostonscientific.eightfold.ai/careers/job/563602813827851",
-     "req": "636756"
-    },
-    {
      "title": "Data Analytics Intern - LATAM Learning  | Bogotá",
      "loc": "Bogotá, Bogota, CO",
      "url": "https://bostonscientific.eightfold.ai/careers/job/563602813850741",
      "req": "637063"
-    },
-    {
-     "title": "Payroll Intern",
-     "loc": "Warsaw, Masovian Voivodeship, PL",
-     "url": "https://bostonscientific.eightfold.ai/careers/job/563602813829252",
-     "req": "636789"
     },
     {
      "title": "Intern (Degree - Mass Communication / Media Technology)",
@@ -1114,10 +1045,52 @@
      "req": "630452"
     },
     {
-     "title": "IT Analyst Intern",
-     "loc": "Flores, Heredia, CR",
-     "url": "https://bostonscientific.eightfold.ai/careers/job/563602813765117",
-     "req": "636161"
+     "title": "Finance Data Science Intern",
+     "loc": "Madrid, MD, ES",
+     "url": "https://bostonscientific.eightfold.ai/careers/job/563602813769021",
+     "req": "636273"
+    },
+    {
+     "title": "Global Supply Chain Intern",
+     "loc": "US",
+     "url": "https://bostonscientific.eightfold.ai/careers/job/563602813549466",
+     "req": "634549"
+    },
+    {
+     "title": "Marketing Intern | Costa Rica",
+     "loc": "Escazu, San José Province, CR",
+     "url": "https://bostonscientific.eightfold.ai/careers/job/563602813697220",
+     "req": "635591"
+    },
+    {
+     "title": "Demand Planning Intern | Costa Rica",
+     "loc": "Escazu, San José Province, CR",
+     "url": "https://bostonscientific.eightfold.ai/careers/job/563602813744221",
+     "req": "636056"
+    },
+    {
+     "title": "IT LATAM Intern: Process Optimization | Bogotá",
+     "loc": "Bogotá, Bogota, CO",
+     "url": "https://bostonscientific.eightfold.ai/careers/job/563602813827848",
+     "req": "636755"
+    },
+    {
+     "title": "Payroll Intern",
+     "loc": "Warsaw, Masovian Voivodeship, PL",
+     "url": "https://bostonscientific.eightfold.ai/careers/job/563602813829252",
+     "req": "636789"
+    },
+    {
+     "title": "Corporate & Public Affairs Intern | Bogotá",
+     "loc": "Cajicá, Cundinamarca, CO",
+     "url": "https://bostonscientific.eightfold.ai/careers/job/563602813827851",
+     "req": "636756"
+    },
+    {
+     "title": "Software Engineering Intern",
+     "loc": "Arden Hills, MN, US",
+     "url": "https://bostonscientific.eightfold.ai/careers/job/563602813600558",
+     "req": "634928"
     },
     {
      "title": "Professional Education Intern | Bogotá",
@@ -1126,10 +1099,40 @@
      "req": "636758"
     },
     {
-     "title": "Finance Co-op",
-     "loc": "US",
-     "url": "https://bostonscientific.eightfold.ai/careers/job/563602813830828",
-     "req": "636797"
+     "title": "Quality Intern | Bogotá",
+     "loc": "Bogotá, Bogota, CO",
+     "url": "https://bostonscientific.eightfold.ai/careers/job/563602813850769",
+     "req": "637064"
+    },
+    {
+     "title": "IT Analyst Intern",
+     "loc": "Flores, Heredia, CR",
+     "url": "https://bostonscientific.eightfold.ai/careers/job/563602813765117",
+     "req": "636161"
+    },
+    {
+     "title": "Commercial Excellence Process & Programs Intern Neuromodulation- Milan",
+     "loc": "Milano, Lombardia, IT",
+     "url": "https://bostonscientific.eightfold.ai/careers/job/563602813846052",
+     "req": "637026"
+    },
+    {
+     "title": "Capital Equipment Intern | Costa Rica",
+     "loc": "Escazu, San José Province, CR",
+     "url": "https://bostonscientific.eightfold.ai/careers/job/563602813744226",
+     "req": "636057"
+    },
+    {
+     "title": "AI Solutions Engineering Intern",
+     "loc": "Arden Hills, MN, US",
+     "url": "https://bostonscientific.eightfold.ai/careers/job/563602813547675",
+     "req": "634487"
+    },
+    {
+     "title": "Industrial Engineer Intern",
+     "loc": "Maple Grove, MN, US",
+     "url": "https://bostonscientific.eightfold.ai/careers/job/563602813519130",
+     "req": "634302"
     },
     {
      "title": "Cardiac Monitoring Technician - Apprenticeship",
@@ -1138,22 +1141,22 @@
      "req": "636574"
     },
     {
-     "title": "Finance & Accounting Emerging Leaders Program and Summer 2029 Finance Internship",
-     "loc": "Maple Grove, MN, US",
-     "url": "https://bostonscientific.eightfold.ai/careers/job/563602813832238",
-     "req": "636879"
-    },
-    {
-     "title": "Finance Automation & Analytics Co-op",
-     "loc": "Marlboro, MA, US",
-     "url": "https://bostonscientific.eightfold.ai/careers/job/563602813782623",
-     "req": "636486"
+     "title": "Finance Co-op",
+     "loc": "US",
+     "url": "https://bostonscientific.eightfold.ai/careers/job/563602813830828",
+     "req": "636797"
     },
     {
      "title": "Supply Chain Interns: Projects, Capital Equipment, Planning | Bogotá",
      "loc": "Bogotá, Bogota, CO",
      "url": "https://bostonscientific.eightfold.ai/careers/job/563602813827838",
      "req": "636751"
+    },
+    {
+     "title": "Finance Automation & Analytics Co-op",
+     "loc": "Marlboro, MA, US",
+     "url": "https://bostonscientific.eightfold.ai/careers/job/563602813782623",
+     "req": "636486"
     }
    ]
   },
@@ -1165,49 +1168,49 @@
    "key": "elevancehealth.wd1.myworkdayjobs.com|elevancehealth|ANT|intern",
    "alarms": [],
    "status": "ok",
-   "total": 102,
+   "total": 100,
    "intern": [
     {
      "title": "CarelonRx Intern - Summer 2027",
      "loc": "FL-LAKE MARY, 3200 LAKE EMMA RD, STE 1000",
      "url": "https://elevancehealth.wd1.myworkdayjobs.com/en-US/ANT/job/FL-LAKE-MARY-3200-LAKE-EMMA-RD-STE-1000/CarelonRx-Intern---Summer-2027_JR211120-1",
      "req": "JR211120",
-     "posted": "Posted Yesterday"
+     "posted": "Posted 2 Days Ago"
     },
     {
      "title": "Public Policy Intern - Summer 2027",
      "loc": "DC-WASHINGTON, 1001 PENNSYLVANIA AVE NW, STE 710",
      "url": "https://elevancehealth.wd1.myworkdayjobs.com/en-US/ANT/job/DC-WASHINGTON-1001-PENNSYLVANIA-AVE-NW-STE-710/Public-Policy-Intern---Summer-2027_JR202078",
      "req": "JR202078",
-     "posted": "Posted Yesterday"
+     "posted": "Posted 2 Days Ago"
     },
     {
      "title": "Marketing Workflow & AI Enablement Intern - Summer 2027",
      "loc": "IN-INDIANAPOLIS, 220 VIRGINIA AVE",
      "url": "https://elevancehealth.wd1.myworkdayjobs.com/en-US/ANT/job/IN-INDIANAPOLIS-220-VIRGINIA-AVE/Marketing-Workflow---AI-Enablement-Intern---Summer-2027_JR207415-1",
      "req": "JR207415",
-     "posted": "Posted 6 Days Ago"
+     "posted": "Posted 7 Days Ago"
     },
     {
      "title": "Pharmacy Intern",
      "loc": "VA-RICHMOND, 2015 STAPLES MILL RD,; GA-ATLANTA, 740 W PEACHTREE ST NW; IN-INDIANAPOLIS, 220 VIRGINIA AVE; OH-MASON, 4361 IRWIN SIMPSON RD; OH-CINCINNATI, 3075 VANDERCAR WAY; MO-ST. LOUIS, 100 S 4TH ST; NC-WINSTON-SALEM, 5650 UNIVERSITY PKWY",
      "url": "https://elevancehealth.wd1.myworkdayjobs.com/en-US/ANT/job/VA-RICHMOND-2015-STAPLES-MILL-RD/Pharmacy-Intern_JR206389",
      "req": "JR206389",
-     "posted": "Posted 11 Days Ago"
+     "posted": "Posted 12 Days Ago"
     },
     {
      "title": "Internal IT Audit Intern - Summer 2027",
      "loc": "FL-TAMPA, 5411 SKYCENTER DR, STE 700 & 800",
      "url": "https://elevancehealth.wd1.myworkdayjobs.com/en-US/ANT/job/FL-TAMPA-5411-SKYCENTER-DR-STE-700--800/Intern_JR210003",
      "req": "JR210003",
-     "posted": "Posted 13 Days Ago"
+     "posted": "Posted 14 Days Ago"
     },
     {
      "title": "Risk, Controls, and Assurance Intern",
      "loc": "IN-INDIANAPOLIS, 220 VIRGINIA AVE; FL-TAMPA, 5411 SKYCENTER DR, STE 700 & 800; OH-MASON, 4361 IRWIN SIMPSON RD",
      "url": "https://elevancehealth.wd1.myworkdayjobs.com/en-US/ANT/job/IN-INDIANAPOLIS-220-VIRGINIA-AVE/Risk--Controls--and-Assurance-Intern---Summer-2027_JR209093",
      "req": "JR209093",
-     "posted": "Posted 22 Days Ago"
+     "posted": "Posted 23 Days Ago"
     },
     {
      "title": "Internal Audit Intern - Summer 2027",
@@ -1265,7 +1268,7 @@
    "key": "halozyme.wd115.myworkdayjobs.com|halozyme|halozymecareers|intern",
    "alarms": [],
    "status": "ok",
-   "total": 7,
+   "total": 5,
    "intern": []
   },
   "Worldwide Clinical Trials": {
@@ -1276,7 +1279,7 @@
    "key": "worldwide.wd1.myworkdayjobs.com|worldwide|External|intern,biostatistics",
    "alarms": [],
    "status": "ok",
-   "total": 175,
+   "total": 181,
    "intern": []
   },
   "Merck (not CA)": {
@@ -1287,7 +1290,7 @@
    "key": "msd.wd5.myworkdayjobs.com|msd|SearchJobs|2027 future talent biostatistics,2027 intern statistics",
    "alarms": [],
    "status": "ok",
-   "total": 9,
+   "total": 8,
    "intern": [
     {
      "title": "2027 Future Talent Program - Biostatistics and Research and Decision Sciences - Health Economics & Data Science Intern",
@@ -1304,13 +1307,6 @@
      "posted": "Posted 30+ Days Ago"
     },
     {
-     "title": "2027 Future Talent Program - Video Marketing - Intern",
-     "loc": "USA - Pennsylvania - North Wales (Upper Gwynedd)",
-     "url": "https://msd.wd5.myworkdayjobs.com/en-US/SearchJobs/job/USA---Pennsylvania---North-Wales-Upper-Gwynedd/XMLNAME-2027-Future-Talent-Program---Video-Marketing---Intern_R413050",
-     "req": "R413050",
-     "posted": "Posted 30+ Days Ago"
-    },
-    {
      "title": "2027 Future Talent Program - Biostatistics - Intern",
      "loc": "USA - New Jersey - Rahway; USA - Pennsylvania - Upper Gwynedd",
      "url": "https://msd.wd5.myworkdayjobs.com/en-US/SearchJobs/job/USA---New-Jersey---Rahway/XMLNAME-2027-Future-Talent-Program---Biostatistics---Intern_R416450",
@@ -1322,28 +1318,28 @@
      "loc": "USA - Massachusetts - Cambridge (320 Bent Street)",
      "url": "https://msd.wd5.myworkdayjobs.com/en-US/SearchJobs/job/USA---Massachusetts---Cambridge-320-Bent-Street/XMLNAME-2027-Future-Talent-Program---Data--AI--and-Genome-Sciences---Intern_R423333",
      "req": "R423333",
-     "posted": "Posted 4 Days Ago"
+     "posted": "Posted 5 Days Ago"
     },
     {
      "title": "2027 Future Talent Program - AI/ML Biomedical Imaging and Computational Pathology - Intern",
      "loc": "USA - Massachusetts - Cambridge (320 Bent Street)",
      "url": "https://msd.wd5.myworkdayjobs.com/en-US/SearchJobs/job/USA---Massachusetts---Cambridge-320-Bent-Street/XMLNAME-2027-Future-Talent-Program---AI-ML-Biomedical-Imaging-and-Computational-Pathology---Intern_R423515",
      "req": "R423515",
-     "posted": "Posted 4 Days Ago"
+     "posted": "Posted 5 Days Ago"
     },
     {
      "title": "2027 Future Talent Program - Data, AI, and Genome Sciences, Foundation Models - Intern",
      "loc": "USA - Massachusetts - Cambridge (320 Bent Street)",
      "url": "https://msd.wd5.myworkdayjobs.com/en-US/SearchJobs/job/USA---Massachusetts---Cambridge-320-Bent-Street/XMLNAME-2027-Future-Talent-Program---Data--AI--and-Genome-Sciences--Foundation-Models---Intern_R423438",
      "req": "R423438",
-     "posted": "Posted 4 Days Ago"
+     "posted": "Posted 5 Days Ago"
     },
     {
      "title": "Intern- Distribution, Logistics & Warehousing Quality Data Analyst",
      "loc": "SGP - Singapore - Singapore (Boulevard Towers)",
      "url": "https://msd.wd5.myworkdayjobs.com/en-US/SearchJobs/job/SGP---Singapore---Singapore-Boulevard-Towers/Intern--Distribution--Logistics---Warehousing-Quality-Data-Analyst_R421490",
      "req": "R421490",
-     "posted": "Posted 15 Days Ago"
+     "posted": "Posted 16 Days Ago"
     },
     {
      "title": "Supply Chain Analyst Intern",
@@ -1362,7 +1358,7 @@
    "key": "astrazeneca.eightfold.ai|astrazeneca.com|intern biostatistics,statistical programmer intern",
    "alarms": [],
    "status": "ok",
-   "total": 26,
+   "total": 28,
    "intern": [
     {
      "title": "Medical Writing Intern",
@@ -1386,7 +1382,7 @@
    "key": "analystcareers-analysisgroup|intern",
    "alarms": [],
    "status": "ok",
-   "total": 11,
+   "total": 10,
    "intern": [
     {
      "title": "3005 - Summer Analyst Intern - Generalist (2027 Start Date)",
@@ -1397,11 +1393,6 @@
      "title": "3021 - Summer Analyst Intern - Accounting (2027 Start Date)",
      "loc": "",
      "url": "https://analystcareers-analysisgroup.icims.com/jobs/3021/summer-analyst-intern---accounting-%282027-start-date%29/job"
-    },
-    {
-     "title": "3064 - Summer Analyst Intern - Health Care (HEOR, Epidemiology & Market Access) (2027 Start Date)",
-     "loc": "",
-     "url": "https://analystcareers-analysisgroup.icims.com/jobs/3064/summer-analyst-intern---health-care-%28heor%2c-epidemiology-%26-market-access%29-%282027-start-date%29/job"
     },
     {
      "title": "3045 - Analyst Intern - Generalist - Brussels (2027 Start Date)",
@@ -1466,7 +1457,7 @@
    "key": "chartis",
    "alarms": [],
    "status": "ok",
-   "total": 41,
+   "total": 40,
    "intern": []
   },
   "Henry Ford Health (Detroit)": {
@@ -1477,7 +1468,7 @@
    "key": "HenryFordHealth1",
    "alarms": [],
    "status": "ok",
-   "total": 85,
+   "total": 88,
    "intern": [
     {
      "title": "Internship - Sustainability ",
@@ -1517,7 +1508,7 @@
    "key": "amgen.wd1.myworkdayjobs.com|amgen|Careers|intern,biostatistics",
    "alarms": [],
    "status": "ok",
-   "total": 1059,
+   "total": 1038,
    "intern": [
     {
      "title": "Finance Intern",
@@ -1552,14 +1543,7 @@
      "loc": "Saudi Arabia - Riyadh",
      "url": "https://amgen.wd1.myworkdayjobs.com/en-US/Careers/job/Saudi-Arabia---Riyadh/Grad-Intern_R-258346",
      "req": "R-258346",
-     "posted": "Posted 14 Days Ago"
-    },
-    {
-     "title": "Grad intern",
-     "loc": "Saudi Arabia - Riyadh",
-     "url": "https://amgen.wd1.myworkdayjobs.com/en-US/Careers/job/Saudi-Arabia---Riyadh/Grad-intern_R-259942",
-     "req": "R-259942",
-     "posted": "Posted Today"
+     "posted": "Posted 15 Days Ago"
     },
     {
      "title": "Pharmaceutical Marketing Intern",
@@ -1573,7 +1557,7 @@
      "loc": "Portugal - Lisbon",
      "url": "https://amgen.wd1.myworkdayjobs.com/en-US/Careers/job/Portugal---Lisbon/Customer-Finance-Intern--French-Speaking-_R-251635",
      "req": "R-251635",
-     "posted": "Posted 11 Days Ago"
+     "posted": "Posted 12 Days Ago"
     },
     {
      "title": "SEA Medical Affairs Intern",
@@ -1594,7 +1578,7 @@
      "loc": "United States - Remote",
      "url": "https://amgen.wd1.myworkdayjobs.com/en-US/Careers/job/United-States---Remote/Grad-Intern---Biostatistics--Summer-2027-_R-259820",
      "req": "R-259820",
-     "posted": "Posted Yesterday"
+     "posted": "Posted 2 Days Ago"
     },
     {
      "title": "MBA Intern – Commercial Leadership Program (Summer 2027)",
@@ -1629,7 +1613,7 @@
      "loc": "Switzerland - Rotkreuz",
      "url": "https://amgen.wd1.myworkdayjobs.com/en-US/Careers/job/Switzerland---Rotkreuz/Internship-Marketing-Business-Unit-Oncology_R-257210",
      "req": "R-257210",
-     "posted": "Posted 28 Days Ago"
+     "posted": "Posted 29 Days Ago"
     },
     {
      "title": "MBA Intern – Finance & Strategy Leadership Development Program (Summer 2027)",
@@ -1653,62 +1637,6 @@
      "posted": "Posted 30+ Days Ago"
     },
     {
-     "title": "Undergrad Intern – Data Scientist – Technology, AI & Data (Summer 2027)",
-     "loc": "United States - Remote",
-     "url": "https://amgen.wd1.myworkdayjobs.com/en-US/Careers/job/United-States---Remote/Undergrad-Intern---Data-Scientist---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255704",
-     "req": "R-255704",
-     "posted": "Posted 30+ Days Ago"
-    },
-    {
-     "title": "Undergrad Intern – Machine Learning Engineer – Technology, AI & Data (Summer 2027)",
-     "loc": "United States - Remote",
-     "url": "https://amgen.wd1.myworkdayjobs.com/en-US/Careers/job/United-States---Remote/Undergrad-Intern---Machine-Learning-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255709",
-     "req": "R-255709",
-     "posted": "Posted 30+ Days Ago"
-    },
-    {
-     "title": "Grad Intern – Machine Learning Engineer – Technology, AI & Data (Summer 2027)",
-     "loc": "United States - Remote",
-     "url": "https://amgen.wd1.myworkdayjobs.com/en-US/Careers/job/United-States---Remote/Grad-Intern---Machine-Learning-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255743",
-     "req": "R-255743",
-     "posted": "Posted 30+ Days Ago"
-    },
-    {
-     "title": "Undergrad Intern – Digital Product – Technology, AI & Data (Summer 2027)",
-     "loc": "United States - Remote",
-     "url": "https://amgen.wd1.myworkdayjobs.com/en-US/Careers/job/United-States---Remote/Undergrad-Intern---Digital-Product---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255711",
-     "req": "R-255711",
-     "posted": "Posted 30+ Days Ago"
-    },
-    {
-     "title": "Grad Intern – Digital Product – Technology, AI & Data (Summer 2027)",
-     "loc": "United States - Remote",
-     "url": "https://amgen.wd1.myworkdayjobs.com/en-US/Careers/job/United-States---Remote/Grad-Intern---Digital-Product---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255744",
-     "req": "R-255744",
-     "posted": "Posted 30+ Days Ago"
-    },
-    {
-     "title": "Undergrad Intern – Software Engineer – Technology, AI & Data (Summer 2027)",
-     "loc": "United States - Remote",
-     "url": "https://amgen.wd1.myworkdayjobs.com/en-US/Careers/job/United-States---Remote/Undergrad-Intern---Software-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255719",
-     "req": "R-255719",
-     "posted": "Posted 30+ Days Ago"
-    },
-    {
-     "title": "Grad Intern – Data Scientist – Technology, AI & Data (Summer 2027)",
-     "loc": "United States - Remote",
-     "url": "https://amgen.wd1.myworkdayjobs.com/en-US/Careers/job/United-States---Remote/Grad-Intern---Data-Scientist---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255722",
-     "req": "R-255722",
-     "posted": "Posted 30+ Days Ago"
-    },
-    {
-     "title": "Grad Intern – Software Engineer – Technology, AI & Data (Summer 2027)",
-     "loc": "United States - Remote",
-     "url": "https://amgen.wd1.myworkdayjobs.com/en-US/Careers/job/United-States---Remote/Grad-Intern---Software-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255745",
-     "req": "R-255745",
-     "posted": "Posted 30+ Days Ago"
-    },
-    {
      "title": "Undergrad Co-op – DSTS – Chemical Engineering - (January – June 2027)",
      "loc": "US - Massachusetts - Cambridge",
      "url": "https://amgen.wd1.myworkdayjobs.com/en-US/Careers/job/US---Massachusetts---Cambridge/Undergrad-Co-op---DSTS---Chemical-Engineering----January---June-2027-_R-255684",
@@ -1727,62 +1655,69 @@
      "loc": "US - Rhode Island - West Greenwich",
      "url": "https://amgen.wd1.myworkdayjobs.com/en-US/Careers/job/US---Rhode-Island---West-Greenwich/Undergrad-Co-op---Electrical-Engineering--Jan---Mar-2027-_R-257526",
      "req": "R-257526",
-     "posted": "Posted 21 Days Ago"
+     "posted": "Posted 22 Days Ago"
     },
     {
      "title": "Undergrad Co-op - Accelerating Attribute Sciences’ Data Compilation Capabilities & Agility",
      "loc": "US - Massachusetts - Cambridge",
      "url": "https://amgen.wd1.myworkdayjobs.com/en-US/Careers/job/US---Massachusetts---Cambridge/Undergrad-Co-op---Accelerating-Attribute-Sciences--Data-Compilation-Capabilities---Agility_R-258090",
      "req": "R-258090",
-     "posted": "Posted 18 Days Ago"
+     "posted": "Posted 19 Days Ago"
     },
     {
      "title": "Undergrad Co-op – Finance/Accounting",
      "loc": "United States - Remote",
      "url": "https://amgen.wd1.myworkdayjobs.com/en-US/Careers/job/United-States---Remote/Undergrad-Co-op---Finance-Accounting_R-258006",
      "req": "R-258006",
-     "posted": "Posted 8 Days Ago"
+     "posted": "Posted 9 Days Ago"
     },
     {
      "title": "Undergrad Intern - Manufacturing and Clinical Supply - Process Development (Summer 2027)",
      "loc": "US - California - Thousand Oaks",
      "url": "https://amgen.wd1.myworkdayjobs.com/en-US/Careers/job/US---California---Thousand-Oaks/Undergrad-Intern---Manufacturing-and-Clinical-Supply---Process-Development--Summer-2027-_R-259434",
      "req": "R-259434",
-     "posted": "Posted 5 Days Ago"
+     "posted": "Posted 6 Days Ago"
     },
     {
      "title": "Grad Intern - Operations - New Albany, OH (Summer 2027)",
      "loc": "US - Ohio - New Albany",
      "url": "https://amgen.wd1.myworkdayjobs.com/en-US/Careers/job/US---Ohio---New-Albany/Grad-Intern---Operations---New-Albany--OH--Summer-2027-_R-258687",
      "req": "R-258687",
-     "posted": "Posted 4 Days Ago"
+     "posted": "Posted 5 Days Ago"
     },
     {
      "title": "Undergrad Co-op - Integrated Pest Management - Facilities & Engineering",
      "loc": "US - Puerto Rico - Juncos",
      "url": "https://amgen.wd1.myworkdayjobs.com/en-US/Careers/job/US---Puerto-Rico---Juncos/Undergrad-Co-op---Integrated-Pest-Management---Facilities---Engineering_R-259608",
      "req": "R-259608",
-     "posted": "Posted Yesterday"
+     "posted": "Posted 2 Days Ago"
     },
     {
      "title": "Grad Intern – R&D Execution, Operations & Strategy (R&D EOS) (Summer 2027)",
      "loc": "United States - Remote",
      "url": "https://amgen.wd1.myworkdayjobs.com/en-US/Careers/job/United-States---Remote/Grad-Intern---R-D-Execution--Operations---Strategy--R-D-EOS---Summer-2027-_R-259859",
      "req": "R-259859",
-     "posted": "Posted Today"
+     "posted": "Posted Yesterday"
     },
     {
      "title": "Undergrad Intern – R&D Knowledge Management (Summer 2027)",
      "loc": "United States - Remote",
      "url": "https://amgen.wd1.myworkdayjobs.com/en-US/Careers/job/United-States---Remote/Undergrad-Intern---R-D-Knowledge-Management--Summer-2027-_R-259905",
      "req": "R-259905",
-     "posted": "Posted Today"
+     "posted": "Posted Yesterday"
     },
     {
      "title": "Grad Intern – R&D Strategy & Performance Excellence (SPx) (Summer 2027)",
      "loc": "United States - Remote",
      "url": "https://amgen.wd1.myworkdayjobs.com/en-US/Careers/job/United-States---Remote/Grad-Intern---R-D-Strategy---Performance-Excellence--SPx---Summer-2027-_R-259863",
      "req": "R-259863",
+     "posted": "Posted Yesterday"
+    },
+    {
+     "title": "Grad Intern - Operations - New Albany, OH (Summer 2027)",
+     "loc": "US - Ohio - New Albany",
+     "url": "https://amgen.wd1.myworkdayjobs.com/en-US/Careers/job/US---Ohio---New-Albany/Grad-Intern---Operations---New-Albany--OH--Summer-2027-_R-256531",
+     "req": "R-256531",
      "posted": "Posted Today"
     },
     {
@@ -1816,70 +1751,63 @@
    "key": "roche.wd3.myworkdayjobs.com|roche|ROG-A2O-GENE|intern,biostatistics",
    "alarms": [],
    "status": "ok",
-   "total": 146,
+   "total": 144,
    "intern": [
     {
      "title": "2027 Summer Intern - Finance Summer Associate",
      "loc": "South San Francisco",
      "url": "https://roche.wd3.myworkdayjobs.com/en-US/ROG-A2O-GENE/job/South-San-Francisco/XMLNAME-2027-Summer-Intern---Finance-Summer-Associate_202610-126855",
      "req": "202610-126855",
-     "posted": "Posted Yesterday"
+     "posted": "Posted 2 Days Ago"
     },
     {
      "title": "2027 Spring Intern - Data Science & Machine Learning",
      "loc": "South San Francisco",
      "url": "https://roche.wd3.myworkdayjobs.com/en-US/ROG-A2O-GENE/job/South-San-Francisco/XMLNAME-2027-Spring-Intern---Data-Science---Machine-Learning_202609-124657",
      "req": "202609-124657",
-     "posted": "Posted 5 Days Ago"
+     "posted": "Posted 6 Days Ago"
     },
     {
      "title": "2027 Spring Intern - gRED Business Operations (Systems & Process)",
      "loc": "South San Francisco",
      "url": "https://roche.wd3.myworkdayjobs.com/en-US/ROG-A2O-GENE/job/South-San-Francisco/XMLNAME-2027-Spring-Intern---gRED-Business-Operations--Systems---Process-_202610-125567-1",
      "req": "202610-125567",
-     "posted": "Posted 5 Days Ago"
+     "posted": "Posted 6 Days Ago"
     },
     {
      "title": "2027 Summer Intern - Hillsboro Technical Operations",
      "loc": "Hillsboro",
      "url": "https://roche.wd3.myworkdayjobs.com/en-US/ROG-A2O-GENE/job/Hillsboro/XMLNAME-2027-Summer-Intern---Hillsboro-Technical-Operations_202610-125110",
      "req": "202610-125110",
-     "posted": "Posted 6 Days Ago"
+     "posted": "Posted 7 Days Ago"
     },
     {
      "title": "2027 Summer Intern - Product Technical Development - Digital Sciences Focus",
      "loc": "South San Francisco",
      "url": "https://roche.wd3.myworkdayjobs.com/en-US/ROG-A2O-GENE/job/South-San-Francisco/XMLNAME-2027-Summer-Intern---Product-Technical-Development---Digital-Sciences-Focus_202610-126833",
      "req": "202610-126833",
-     "posted": "Posted 7 Days Ago"
+     "posted": "Posted 8 Days Ago"
     },
     {
      "title": "2027 Summer Intern - Product Technical Development - Engineering and Manufacturing Focus",
      "loc": "South San Francisco",
      "url": "https://roche.wd3.myworkdayjobs.com/en-US/ROG-A2O-GENE/job/South-San-Francisco/XMLNAME-2027-Summer-Intern---Product-Technical-Development---Engineering-and-Manufacturing-Focus_202610-126831-1",
      "req": "202610-126831",
-     "posted": "Posted 7 Days Ago"
+     "posted": "Posted 8 Days Ago"
     },
     {
      "title": "2027 Summer Intern - Product Technical Development - Laboratory (Wet-Lab or Dry-Lab) Focus",
      "loc": "South San Francisco",
      "url": "https://roche.wd3.myworkdayjobs.com/en-US/ROG-A2O-GENE/job/South-San-Francisco/XMLNAME-2027-Summer-Intern---Product-Technical-Development---Laboratory--Wet-Lab-or-Dry-Lab--Focus_202610-126499",
      "req": "202610-126499",
-     "posted": "Posted 7 Days Ago"
-    },
-    {
-     "title": "2027 Spring Intern - Prescient Frontier Research",
-     "loc": "South San Francisco",
-     "url": "https://roche.wd3.myworkdayjobs.com/en-US/ROG-A2O-GENE/job/South-San-Francisco/XMLNAME-2027-Spring-Intern---Prescient-Frontier-Research_202610-124986",
-     "req": "202610-124986",
-     "posted": "Posted 14 Days Ago"
+     "posted": "Posted 8 Days Ago"
     },
     {
      "title": "Postdoctoral Fellow – Single-Cell Genomics & CRISPR Technology Development, Darmanis and Regev Labs",
      "loc": "South San Francisco",
      "url": "https://roche.wd3.myworkdayjobs.com/en-US/ROG-A2O-GENE/job/South-San-Francisco/Postdoctoral-Fellow---Single-Cell-Genomics---CRISPR-Technology-Development_202609-124876-1",
      "req": "202609-124876",
-     "posted": "Posted 21 Days Ago"
+     "posted": "Posted 22 Days Ago"
     },
     {
      "title": "Postdoctoral Fellow - Discovery Oncology, West Lab",
@@ -1898,7 +1826,7 @@
    "key": "dexcom.wd1.myworkdayjobs.com|dexcom|dexcom|intern,biostatistics",
    "alarms": [],
    "status": "ok",
-   "total": 138,
+   "total": 143,
    "intern": [
     {
      "title": "2027 US Summer Internship - Early Interest",
@@ -1917,7 +1845,7 @@
    "key": "illumina.wd1.myworkdayjobs.com|illumina|illumina-careers|intern,biostatistics",
    "alarms": [],
    "status": "ok",
-   "total": 130,
+   "total": 133,
    "intern": []
   },
   "Illumina (university site)": {
@@ -1941,49 +1869,49 @@
    "key": "bristolmyerssquibb.wd5.myworkdayjobs.com|bristolmyerssquibb|BMS|intern,biostatistics",
    "alarms": [],
    "status": "ok",
-   "total": 405,
+   "total": 415,
    "intern": [
     {
      "title": "Regulatory Affairs Intern",
      "loc": "Indianapolis - RayzeBio - IN",
      "url": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Indianapolis---RayzeBio---IN/Regulatory-Affairs-Intern_R1607433",
      "req": "R1607433",
-     "posted": "Posted 15 Days Ago"
+     "posted": "Posted 16 Days Ago"
     },
     {
      "title": "Commercialization Intern (Summer 2027)",
      "loc": "Princeton - NJ - US",
      "url": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Princeton---NJ---US/Commercialization-Intern--Summer-2027-_R1607618",
      "req": "R1607618",
-     "posted": "Posted 8 Days Ago"
+     "posted": "Posted 9 Days Ago"
     },
     {
      "title": "Equipment Engineering Intern – Summer 2027",
      "loc": "Indianapolis - RayzeBio - IN",
      "url": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Indianapolis---RayzeBio---IN/Equipment-Engineering-Intern---Summer-2027_R1607432",
      "req": "R1607432",
-     "posted": "Posted 15 Days Ago"
+     "posted": "Posted 16 Days Ago"
     },
     {
      "title": "Patient Safety Intern Summer 2027",
      "loc": "Princeton - NJ - US; Madison - Giralda - NJ - US",
      "url": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Princeton---NJ---US/Patient-Safety-Intern-Summer-2027_R1607761",
      "req": "R1607761",
-     "posted": "Posted Today"
+     "posted": "Posted Yesterday"
     },
     {
      "title": "Cell Therapy Analytical Development Intern",
      "loc": "Seattle 400 Dexter - WA - US",
      "url": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Seattle-400-Dexter---WA---US/Cell-Therapy-Analytical-Development-Intern_R1607864",
      "req": "R1607864",
-     "posted": "Posted Today"
+     "posted": "Posted Yesterday"
     },
     {
      "title": "2027 Summer Intern Corporate Affairs",
      "loc": "Princeton - NJ - US",
      "url": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Princeton---NJ---US/XMLNAME-2027-Summer-Intern-Corporate-Affairs_R1607887",
      "req": "R1607887",
-     "posted": "Posted Today"
+     "posted": "Posted Yesterday"
     },
     {
      "title": "2027 Summer Intern, 1Y MBA Finance Associates Program",
@@ -2011,41 +1939,48 @@
      "loc": "Princeton - NJ - US",
      "url": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Princeton---NJ---US/Intern--Commercial-MBA-Leadership-Development-Program-Internship--Summer-2027-_R1605026-1",
      "req": "R1605026",
-     "posted": "Posted 29 Days Ago"
+     "posted": "Posted 30 Days Ago"
     },
     {
      "title": "Environment, Health, Safety and Sustainability (EHSS) Intern",
      "loc": "Summit West - NJ - US",
      "url": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Summit-West---NJ---US/Environment--Health--Safety-and-Sustainability--EHSS--Intern_R1607611",
      "req": "R1607611",
-     "posted": "Posted 11 Days Ago"
+     "posted": "Posted 12 Days Ago"
     },
     {
      "title": "2027 Summer Intern PhD Student - Chemical Process Development ANALYTICAL",
      "loc": "New Brunswick - NJ - US",
      "url": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/New-Brunswick---NJ---US/XMLNAME-2027-Summer-Intern-PhD-Student---Chemical-Process-Development-ANALYTICAL_R1607727",
      "req": "R1607727",
-     "posted": "Posted 5 Days Ago"
+     "posted": "Posted 6 Days Ago"
     },
     {
      "title": "Global Regulatory Sciences Biopharmaceutical Sector Internship Summer 2027",
      "loc": "Princeton - NJ - US; Madison - Giralda - NJ - US",
      "url": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Princeton---NJ---US/Global-Regulatory-Sciences-Biopharmaceutical-Sector-Internship-Summer-2027_R1607871",
      "req": "R1607871",
-     "posted": "Posted Today"
+     "posted": "Posted Yesterday"
     },
     {
      "title": "Product and Analytical Sciences Summer Intern",
      "loc": "Warren - NJ - US",
      "url": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Warren---NJ---US/Product-and-Analytical-Sciences-Summer-Intern_R1607861",
      "req": "R1607861",
-     "posted": "Posted Today"
+     "posted": "Posted Yesterday"
     },
     {
      "title": "Autologous and Autoimmune Product Sciences Summer Intern",
      "loc": "Seattle 400 Dexter - WA - US",
      "url": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Seattle-400-Dexter---WA---US/Autologous-and-Autoimmune-Product-Sciences-Summer-Intern_R1607863",
      "req": "R1607863",
+     "posted": "Posted Yesterday"
+    },
+    {
+     "title": "Biologics Development 2027 Summer Internship Program",
+     "loc": "Devens - MA - US",
+     "url": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Devens---MA---US/Biologics-Development-2027-Summer-Internship-Program_R1607941",
+     "req": "R1607941",
      "posted": "Posted Today"
     }
    ]
@@ -2058,28 +1993,14 @@
    "key": "pfizer.wd1.myworkdayjobs.com|pfizer|PfizerCareers|intern,biostatistics",
    "alarms": [],
    "status": "ok",
-   "total": 272,
+   "total": 265,
    "intern": [
     {
      "title": "Intern",
      "loc": "India - Chennai",
      "url": "https://pfizer.wd1.myworkdayjobs.com/en-US/PfizerCareers/job/India---Chennai/Intern_4965781",
      "req": "4965781",
-     "posted": "Posted Today"
-    },
-    {
-     "title": "Medical Intern",
-     "loc": "India - Mumbai",
-     "url": "https://pfizer.wd1.myworkdayjobs.com/en-US/PfizerCareers/job/India---Mumbai/Medical-Intern_4965830",
-     "req": "4965830",
-     "posted": "Posted Today"
-    },
-    {
-     "title": "Medical Intern",
-     "loc": "India - Mumbai",
-     "url": "https://pfizer.wd1.myworkdayjobs.com/en-US/PfizerCareers/job/India---Mumbai/Medical-Intern_4965828",
-     "req": "4965828",
-     "posted": "Posted Today"
+     "posted": "Posted Yesterday"
     },
     {
      "title": "MBA Marketing Summer Associate",
@@ -2119,7 +2040,7 @@
    "key": "abbott.wd5.myworkdayjobs.com|abbott|abbottcareers|intern,biostatistics",
    "alarms": [],
    "status": "ok",
-   "total": 1962,
+   "total": 1974,
    "intern": [
     {
      "title": "IT Intern",
@@ -2133,35 +2054,42 @@
      "loc": "Morocco > Casablanca : 42 Boulevard Abdelmoumen",
      "url": "https://abbott.wd5.myworkdayjobs.com/en-US/abbottcareers/job/Morocco--Casablanca--42-Boulevard-Abdelmoumen/Finance-Intern_31163550",
      "req": "31163550",
-     "posted": "Posted 27 Days Ago"
+     "posted": "Posted 28 Days Ago"
     },
     {
      "title": "2027 IT Intern",
      "loc": "United States - Illinois - Waukegan",
      "url": "https://abbott.wd5.myworkdayjobs.com/en-US/abbottcareers/job/United-States---Illinois---Waukegan/XMLNAME-2027-IT-Intern_31159432",
      "req": "31159432",
-     "posted": "Posted 18 Days Ago"
+     "posted": "Posted 19 Days Ago"
     },
     {
      "title": "Commercial Excellence Intern",
      "loc": "Mexico - Cuidad de Mexico - Cuidad de Mexico",
      "url": "https://abbott.wd5.myworkdayjobs.com/en-US/abbottcareers/job/Mexico---Cuidad-de-Mexico---Cuidad-de-Mexico/Commercial-Excellence-Intern_31165075",
      "req": "31165075",
-     "posted": "Posted 13 Days Ago"
+     "posted": "Posted 14 Days Ago"
     },
     {
      "title": "Business Intelligence Intern",
      "loc": "Mexico - Cuidad de Mexico - Cuidad de Mexico",
      "url": "https://abbott.wd5.myworkdayjobs.com/en-US/abbottcareers/job/Mexico---Cuidad-de-Mexico---Cuidad-de-Mexico/Business-Intelligence-Intern_31165640",
      "req": "31165640",
-     "posted": "Posted 5 Days Ago"
+     "posted": "Posted 6 Days Ago"
+    },
+    {
+     "title": "E-commerce Intern",
+     "loc": "Malaysia > Selangor : Imazium, No. 8, Jalan SS 21/37",
+     "url": "https://abbott.wd5.myworkdayjobs.com/en-US/abbottcareers/job/Malaysia--Selangor--Imazium-No-8-Jalan-SS-2137/E-commerce-Intern_31165308",
+     "req": "31165308",
+     "posted": "Posted Today"
     },
     {
      "title": "Commercial Excellence Intern CRM EMEA",
      "loc": "Belgium - Flemish Brabant - Zaventem",
      "url": "https://abbott.wd5.myworkdayjobs.com/en-US/abbottcareers/job/Belgium---Flemish-Brabant---Zaventem/Commercial-Excellence-Intern-CRM-EMEA_31155653",
      "req": "31155653",
-     "posted": "Posted 21 Days Ago"
+     "posted": "Posted 22 Days Ago"
     },
     {
      "title": "2027 Operations Cancer Diagnostics Intern",
@@ -2196,21 +2124,21 @@
      "loc": "Switzerland - Basel",
      "url": "https://abbott.wd5.myworkdayjobs.com/en-US/abbottcareers/job/Switzerland---Basel/Intern-Marketing---Future-Talent-Program_31164440-1",
      "req": "31164440",
-     "posted": "Posted 14 Days Ago"
+     "posted": "Posted 15 Days Ago"
     },
     {
      "title": "Intern Strategy - Future Talent Program",
      "loc": "Switzerland - Basel",
      "url": "https://abbott.wd5.myworkdayjobs.com/en-US/abbottcareers/job/Switzerland---Basel/Intern-Strategy---Future-Talent-Program_31164358",
      "req": "31164358",
-     "posted": "Posted 13 Days Ago"
+     "posted": "Posted 14 Days Ago"
     },
     {
      "title": "Associate, HR Service Center (Intern)",
      "loc": "Malaysia > Selangor : Imazium, No. 8, Jalan SS 21/37",
      "url": "https://abbott.wd5.myworkdayjobs.com/en-US/abbottcareers/job/Malaysia--Selangor--Imazium-No-8-Jalan-SS-2137/Associate--HR-Service-Center--Intern-_31164478",
      "req": "31164478",
-     "posted": "Posted 8 Days Ago"
+     "posted": "Posted 9 Days Ago"
     },
     {
      "title": "INTERNS 2027-I",
@@ -2231,35 +2159,35 @@
      "loc": "United States - California - La Jolla; United States > Madison : 1 Exact Lane",
      "url": "https://abbott.wd5.myworkdayjobs.com/en-US/abbottcareers/job/United-States---California---La-Jolla/XMLNAME-2027-R-D-Cancer-Diagnostic-Intern_31162891",
      "req": "31162891",
-     "posted": "Posted 22 Days Ago"
+     "posted": "Posted 23 Days Ago"
     },
     {
      "title": "Intern Data Science - Future Talent Program",
      "loc": "Switzerland - Basel",
      "url": "https://abbott.wd5.myworkdayjobs.com/en-US/abbottcareers/job/Switzerland---Basel/Intern-Data-Science---Future-Talent-Program_31164223",
      "req": "31164223",
-     "posted": "Posted 15 Days Ago"
+     "posted": "Posted 16 Days Ago"
     },
     {
      "title": "Digital Process Improvement & Automation (QA) Intern",
      "loc": "Netherlands - Weesp",
      "url": "https://abbott.wd5.myworkdayjobs.com/en-US/abbottcareers/job/Netherlands---Weesp/Internship--QA-Supplier-to-Customer-at-Abbott-Olst_31164975",
      "req": "31164975",
-     "posted": "Posted 6 Days Ago"
+     "posted": "Posted 7 Days Ago"
     },
     {
      "title": "INTERNS 2027- Feria I",
      "loc": "Peru - Lima",
      "url": "https://abbott.wd5.myworkdayjobs.com/en-US/abbottcareers/job/Peru---Lima/INTERNS-2027--Feria-1_31165568",
      "req": "31165568",
-     "posted": "Posted 6 Days Ago"
+     "posted": "Posted 7 Days Ago"
     },
     {
      "title": "INTERNS 2027- Feria II",
      "loc": "Peru - Lima",
      "url": "https://abbott.wd5.myworkdayjobs.com/en-US/abbottcareers/job/Peru---Lima/INTERNS-2027--Feria-II_31165574",
      "req": "31165574",
-     "posted": "Posted 6 Days Ago"
+     "posted": "Posted 7 Days Ago"
     },
     {
      "title": "Internship",
@@ -2280,63 +2208,63 @@
      "loc": "United States > Madison : 1 Exact Lane",
      "url": "https://abbott.wd5.myworkdayjobs.com/en-US/abbottcareers/job/United-States--Madison--1-Exact-Lane/XMLNAME-2027-Science--Medical-Affairs--Cancer-Diagnostics-Intern_31162766",
      "req": "31162766",
-     "posted": "Posted 22 Days Ago"
+     "posted": "Posted 23 Days Ago"
     },
     {
      "title": "Intern Portfolio Strategy & Innovation - Future Talent Program",
      "loc": "Switzerland - Basel",
      "url": "https://abbott.wd5.myworkdayjobs.com/en-US/abbottcareers/job/Switzerland---Basel/Intern-Portfolio-Strategy---Innovation---Future-Talent-Program_31164359",
      "req": "31164359",
-     "posted": "Posted 15 Days Ago"
+     "posted": "Posted 16 Days Ago"
     },
     {
      "title": "Intern Operations & Supply Chain - Future Talent Program",
      "loc": "Switzerland - Basel",
      "url": "https://abbott.wd5.myworkdayjobs.com/en-US/abbottcareers/job/Switzerland---Basel/Intern-Operations---Supply-Chain---Future-Talent-Program_31164289",
      "req": "31164289",
-     "posted": "Posted 15 Days Ago"
+     "posted": "Posted 16 Days Ago"
     },
     {
      "title": "Internship Statistician",
      "loc": "Ireland - Donegal Town",
      "url": "https://abbott.wd5.myworkdayjobs.com/en-US/abbottcareers/job/Ireland---Donegal-Town/Internship-Statistician_31155788",
      "req": "31155788",
-     "posted": "Posted 11 Days Ago"
+     "posted": "Posted 12 Days Ago"
     },
     {
      "title": "Internship - IT",
      "loc": "Ireland - Dublin",
      "url": "https://abbott.wd5.myworkdayjobs.com/en-US/abbottcareers/job/Ireland---Dublin/Internship---IT_31155903",
      "req": "31155903",
-     "posted": "Posted 5 Days Ago"
+     "posted": "Posted 6 Days Ago"
     },
     {
      "title": "2027 Abbott MBA Internship",
      "loc": "United States - Illinois - Abbott Park; United States - California - Santa Clara; United States - California - Alameda",
      "url": "https://abbott.wd5.myworkdayjobs.com/en-US/abbottcareers/job/United-States---Illinois---Abbott-Park/XMLNAME-2027-Abbott-MBA-Internship_31160732",
      "req": "31160732",
-     "posted": "Posted 22 Days Ago"
+     "posted": "Posted 23 Days Ago"
     },
     {
      "title": "2027 Abbott Operations Internship Program",
      "loc": "United States - Illinois - Abbott Park",
      "url": "https://abbott.wd5.myworkdayjobs.com/en-US/abbottcareers/job/United-States---Illinois---Abbott-Park/XMLNAME-2027-Abbott-Operations-Internship-Program_31160134",
      "req": "31160134",
-     "posted": "Posted 20 Days Ago"
+     "posted": "Posted 21 Days Ago"
     },
     {
      "title": "Internship Operator Customs & Trade Compliance",
      "loc": "Netherlands - Zwolle",
      "url": "https://abbott.wd5.myworkdayjobs.com/en-US/abbottcareers/job/Netherlands---Zwolle/Internship-Operator-Customs---Trade-Compliance_31164514",
      "req": "31164514",
-     "posted": "Posted 4 Days Ago"
+     "posted": "Posted 5 Days Ago"
     },
     {
      "title": "2027 General Business Cancer Diagnostics Internship",
      "loc": "United States > Madison : 1 Exact Lane",
      "url": "https://abbott.wd5.myworkdayjobs.com/en-US/abbottcareers/job/United-States--Madison--1-Exact-Lane/XMLNAME-2027-General-Business-Cancer-Diagnostics-Internship_31163482",
      "req": "31163482",
-     "posted": "Posted 22 Days Ago"
+     "posted": "Posted 23 Days Ago"
     },
     {
      "title": "Abbott Nutrition Consumer Sales Internship Summer 2027",
@@ -2350,7 +2278,7 @@
      "loc": "Netherlands - Zwolle",
      "url": "https://abbott.wd5.myworkdayjobs.com/en-US/abbottcareers/job/Netherlands---Zwolle/Qualification-and-Validation-Internship--Simplifying-Packaging-Materials_31164501",
      "req": "31164501",
-     "posted": "Posted 11 Days Ago"
+     "posted": "Posted 12 Days Ago"
     },
     {
      "title": "Nutrition Brand Management Intern - Infant and Adult - Summer 2027",
@@ -2364,14 +2292,14 @@
      "loc": "Netherlands - Zwolle",
      "url": "https://abbott.wd5.myworkdayjobs.com/en-US/abbottcareers/job/Netherlands---Zwolle/Internship-Operator-Customs---Trade-Compliance-at-Abbott-Zwolle_31164513",
      "req": "31164513",
-     "posted": "Posted 6 Days Ago"
+     "posted": "Posted 7 Days Ago"
     },
     {
      "title": "Corporate Internship - Global Marketing and External Affairs - Summer 2027",
      "loc": "United States - Illinois - Abbott Park",
      "url": "https://abbott.wd5.myworkdayjobs.com/en-US/abbottcareers/job/United-States---Illinois---Abbott-Park/Corporate-Internship---Global-Marketing-and-External-Affairs---Summer-2027_31163473",
      "req": "31163473",
-     "posted": "Posted 29 Days Ago"
+     "posted": "Posted 30 Days Ago"
     },
     {
      "title": "Abbott Nutrition Inside Sales Internship Health Care Professionals (HCP) Summer 2027",
@@ -2385,7 +2313,7 @@
      "loc": "Puerto Rico - Barceloneta",
      "url": "https://abbott.wd5.myworkdayjobs.com/en-US/abbottcareers/job/Puerto-Rico---Barceloneta/COOP-Student---Engineering_31094887",
      "req": "31094887",
-     "posted": "Posted 22 Days Ago"
+     "posted": "Posted 23 Days Ago"
     },
     {
      "title": "Apprentice Production Support Specialist A",
@@ -2406,7 +2334,7 @@
      "loc": "United States - Minnesota - St. Paul",
      "url": "https://abbott.wd5.myworkdayjobs.com/en-US/abbottcareers/job/United-States---Minnesota---St-Paul/XMLNAME-2027-Winter-PhD-Co-op---Clinical-Affairs-AI-ML_31163025",
      "req": "31163025",
-     "posted": "Posted 27 Days Ago"
+     "posted": "Posted 28 Days Ago"
     }
    ]
   },
@@ -2418,21 +2346,21 @@
    "key": "resmed.wd3.myworkdayjobs.com|resmed|ResMed_External_Careers|intern",
    "alarms": [],
    "status": "ok",
-   "total": 108,
+   "total": 113,
    "intern": [
     {
      "title": "Labelling Intern",
      "loc": "Sydney, NSW, Australia",
      "url": "https://resmed.wd3.myworkdayjobs.com/en-US/ResMed_External_Careers/job/Sydney-NSW-Australia/Labelling-Intern_JR_054295-2",
      "req": "JR_054295",
-     "posted": "Posted 8 Days Ago"
+     "posted": "Posted 9 Days Ago"
     },
     {
      "title": "Regulatory Affairs Intern",
      "loc": "Brooklin, Sao Paulo, BR",
      "url": "https://resmed.wd3.myworkdayjobs.com/en-US/ResMed_External_Careers/job/Brooklin-Sao-Paulo-BR/Regulatory-Affairs-Intern_JR_054245",
      "req": "JR_054245",
-     "posted": "Posted 27 Days Ago"
+     "posted": "Posted 28 Days Ago"
     },
     {
      "title": "Technical Service & Support Intern LATAM",
@@ -2446,7 +2374,14 @@
      "loc": "Amsterdam, Netherlands",
      "url": "https://resmed.wd3.myworkdayjobs.com/en-US/ResMed_External_Careers/job/Amsterdam-Netherlands/Supply-Chain-Planning-Internship--6-months-_JR_054198",
      "req": "JR_054198",
-     "posted": "Posted 29 Days Ago"
+     "posted": "Posted 30 Days Ago"
+    },
+    {
+     "title": "People Shared Service Intern (November Intake - Preferably 6-Month Duration)",
+     "loc": "Kuala Lumpur, Malaysia",
+     "url": "https://resmed.wd3.myworkdayjobs.com/en-US/ResMed_External_Careers/job/Kuala-Lumpur-Malaysia/People-Shared-Service-Intern_JR_053502",
+     "req": "JR_053502",
+     "posted": "Posted Today"
     }
    ]
   },
@@ -2480,7 +2415,7 @@
    "key": "natera",
    "alarms": [],
    "status": "ok",
-   "total": 231,
+   "total": 230,
    "intern": []
   },
   "ICON": {
@@ -2528,32 +2463,25 @@
      "posted": "Posted 30+ Days Ago"
     },
     {
-     "title": "Intern",
-     "loc": "Bangalore, India; Gurugram, India",
-     "url": "https://iqvia.wd1.myworkdayjobs.com/en-US/IQVIA/job/Bangalore-India/Intern_R1567860",
-     "req": "R1567860",
-     "posted": "Posted Yesterday"
-    },
-    {
      "title": "China Clinical Intern",
      "loc": "Shanghai, China",
      "url": "https://iqvia.wd1.myworkdayjobs.com/en-US/IQVIA/job/Shanghai-China/China-Clinical-Intern_R1509980",
      "req": "R1509980",
-     "posted": "Posted 15 Days Ago"
+     "posted": "Posted 16 Days Ago"
     },
     {
      "title": "Intern - Clinical Coding",
      "loc": "Madrid, Spain; Madrid, Spain",
      "url": "https://iqvia.wd1.myworkdayjobs.com/en-US/IQVIA/job/Madrid-Spain/Intern---Clinical-Coding_R1550143",
      "req": "R1550143",
-     "posted": "Posted 7 Days Ago"
+     "posted": "Posted 8 Days Ago"
     },
     {
      "title": "CRC Intern-Avacare",
      "loc": "Beijing, China; Shangcheng District, Hangzhou, China",
      "url": "https://iqvia.wd1.myworkdayjobs.com/en-US/IQVIA/job/Beijing-China/CRC-Intern-_R1554392",
      "req": "R1554392",
-     "posted": "Posted 19 Days Ago"
+     "posted": "Posted 20 Days Ago"
     },
     {
      "title": "Business Operation Intern",
@@ -2567,7 +2495,7 @@
      "loc": "Shanghai, China",
      "url": "https://iqvia.wd1.myworkdayjobs.com/en-US/IQVIA/job/Shanghai-China/Contracts-Intern-KunTuo_R1554603",
      "req": "R1554603",
-     "posted": "Posted 6 Days Ago"
+     "posted": "Posted 7 Days Ago"
     },
     {
      "title": "BI Intern, EMEA Tech",
@@ -2588,7 +2516,7 @@
      "loc": "Shanghai, China",
      "url": "https://iqvia.wd1.myworkdayjobs.com/en-US/IQVIA/job/Shanghai-China/APAC-Strategic-Planning-Intern_R1566929",
      "req": "R1566929",
-     "posted": "Posted 19 Days Ago"
+     "posted": "Posted 20 Days Ago"
     },
     {
      "title": "Intern in the Accounting Department",
@@ -2609,7 +2537,7 @@
      "loc": "Dalian, Liaoning, China",
      "url": "https://iqvia.wd1.myworkdayjobs.com/en-US/IQVIA/job/Dalian-Liaoning-China/Safety-Operations-Intern-DL-2027_R1538929",
      "req": "R1538929",
-     "posted": "Posted 19 Days Ago"
+     "posted": "Posted 20 Days Ago"
     },
     {
      "title": "Safety Operations Intern-DL 2027",
@@ -2630,7 +2558,7 @@
      "loc": "Bucuresti, Romania",
      "url": "https://iqvia.wd1.myworkdayjobs.com/en-US/IQVIA/job/Bucuresti-Romania/Clinical-Operations-Intern--Site-Management---Romania_R1573755-1",
      "req": "R1573755",
-     "posted": "Posted 14 Days Ago"
+     "posted": "Posted 15 Days Ago"
     },
     {
      "title": "商务实习生 BD Intern",
@@ -2644,7 +2572,14 @@
      "loc": "Shanghai, China",
      "url": "https://iqvia.wd1.myworkdayjobs.com/en-US/IQVIA/job/Shanghai-China/China-Clinical-Intern-_R1498115",
      "req": "R1498115",
-     "posted": "Posted 15 Days Ago"
+     "posted": "Posted 16 Days Ago"
+    },
+    {
+     "title": "Health Economics internship",
+     "loc": "Milan, Italy",
+     "url": "https://iqvia.wd1.myworkdayjobs.com/en-US/IQVIA/job/Milan-Italy/Health-Economics-internship_R1572642",
+     "req": "R1572642",
+     "posted": "Posted Today"
     },
     {
      "title": "市场洞察实习生 Medtech Intern",
@@ -2658,35 +2593,35 @@
      "loc": "Shanghai, China",
      "url": "https://iqvia.wd1.myworkdayjobs.com/en-US/IQVIA/job/Shanghai-China/-Management-Consulting-Intern_R1522136",
      "req": "R1522136",
-     "posted": "Posted 19 Days Ago"
+     "posted": "Posted 20 Days Ago"
     },
     {
      "title": "Graduate Analyst Internship Programme (12 Months) - Life Sciences Consulting",
      "loc": "Centurion, South Africa",
      "url": "https://iqvia.wd1.myworkdayjobs.com/en-US/IQVIA/job/Centurion-South-Africa/Graduate-Analyst-Internship-Programme--12-Months----Life-Sciences-Consulting_R1572220",
      "req": "R1572220",
-     "posted": "Posted Yesterday"
+     "posted": "Posted 2 Days Ago"
     },
     {
      "title": "上海 - 市场洞察实习生 SH - Primary Intelligence Intern",
      "loc": "Shanghai, China",
      "url": "https://iqvia.wd1.myworkdayjobs.com/en-US/IQVIA/job/Shanghai-China/-Primary-Intelligence-Intern_R1522152",
      "req": "R1522152",
-     "posted": "Posted 18 Days Ago"
+     "posted": "Posted 19 Days Ago"
     },
     {
      "title": "北京 - 市场洞察实习生 BJ - Primary Intelligence Intern",
      "loc": "Beijing, China",
      "url": "https://iqvia.wd1.myworkdayjobs.com/en-US/IQVIA/job/Beijing-China/----BJ---Primary-Intelligence-Intern_R1567455-1",
      "req": "R1567455",
-     "posted": "Posted 29 Days Ago"
+     "posted": "Posted 30 Days Ago"
     },
     {
      "title": "真实世界证据实习生 Real World Evidence Intern",
      "loc": "Shanghai, China; Beijing, China; Taipei , Taipei City, Taiwan",
      "url": "https://iqvia.wd1.myworkdayjobs.com/en-US/IQVIA/job/Shanghai-China/-Real-World-Evidence-Intern_R1535888",
      "req": "R1535888",
-     "posted": "Posted 12 Days Ago"
+     "posted": "Posted 13 Days Ago"
     },
     {
      "title": "医学事务解决方案实习生 Medical Affairs Solutions Intern",
@@ -2700,7 +2635,7 @@
      "loc": "Shanghai, China; Beijing, China",
      "url": "https://iqvia.wd1.myworkdayjobs.com/en-US/IQVIA/job/Shanghai-China/-Health-Economics---Real-World-Insights-Intern_R1535897",
      "req": "R1535897",
-     "posted": "Posted 12 Days Ago"
+     "posted": "Posted 13 Days Ago"
     },
     {
      "title": "2023 Campus Hiring--BIOS (GZ/DL/SH)",
@@ -2719,7 +2654,7 @@
    "key": "neurocrine.wd5.myworkdayjobs.com|neurocrine|Neurocrinecareers|intern,internship,biostatistics",
    "alarms": [],
    "status": "ok",
-   "total": 132,
+   "total": 130,
    "intern": []
   },
   "Ionis": {
@@ -2730,7 +2665,7 @@
    "key": "recruiting.ultipro.com|ISI1000ISIS|14a66400-68fa-4847-8593-af776328cfd2",
    "alarms": [],
    "status": "ok",
-   "total": 18,
+   "total": 16,
    "intern": [
     {
      "title": "Postdoctoral Fellow - Neurology Research",
@@ -2749,21 +2684,21 @@
    "key": "edwards.wd5.myworkdayjobs.com|edwards|EdwardsCareers|intern,biostatistics",
    "alarms": [],
    "status": "ok",
-   "total": 191,
+   "total": 188,
    "intern": [
     {
      "title": "Intern, JAPAC Indirect Sourcing",
      "loc": "Malaysia-Kuala Lumpur BSC",
      "url": "https://edwards.wd5.myworkdayjobs.com/en-US/EdwardsCareers/job/Malaysia-Kuala-Lumpur-BSC/Intern--JAPAC-Indirect-Sourcing_Req-51834",
      "req": "Req-51834",
-     "posted": "Posted Today"
+     "posted": "Posted Yesterday"
     },
     {
      "title": "Clinical Graduate Program",
      "loc": "Germany-Field",
      "url": "https://edwards.wd5.myworkdayjobs.com/en-US/EdwardsCareers/job/Germany-Field/Clinical-Graduate-Program_Req-51322",
      "req": "Req-51322",
-     "posted": "Posted Yesterday"
+     "posted": "Posted 2 Days Ago"
     },
     {
      "title": "Business Operations Governance & Portfolio Management Intern",
@@ -2988,6 +2923,13 @@
      "posted": ""
     },
     {
+     "title": "Spring 2027 Co-op, Scientific Writing and Disease Area Communications",
+     "loc": "Boston, MA",
+     "url": "https://vrtx.wd501.myworkdayjobs.com/en-US/vertex_careers/job/Boston-MA/Vertex-Spring-2027-Co-op--Scientific-Writing-and-Disease-Area-Communications_REQ-30514-1",
+     "req": "REQ-30514",
+     "posted": ""
+    },
+    {
      "title": "Spring Co-Op 2027, Process Chemistry",
      "loc": "Boston, MA",
      "url": "https://vrtx.wd501.myworkdayjobs.com/en-US/vertex_careers/job/Boston-MA/Vertex-Spring-Co-Op-2027--Process-Chemistry_REQ-31002-1",
@@ -3020,13 +2962,6 @@
      "loc": "Boston, MA",
      "url": "https://vrtx.wd501.myworkdayjobs.com/en-US/vertex_careers/job/Boston-MA/Vertex-Spring-Co-Op-2027--Process-Development_REQ-30508-1",
      "req": "REQ-30508",
-     "posted": ""
-    },
-    {
-     "title": "Vertex Spring 2027 Co-op, Scientific Writing and Disease Area Communications",
-     "loc": "Boston, MA",
-     "url": "https://vrtx.wd501.myworkdayjobs.com/en-US/vertex_careers/job/Boston-MA/Vertex-Spring-2027-Co-op--Scientific-Writing-and-Disease-Area-Communications_REQ-30514-1",
-     "req": "REQ-30514",
      "posted": ""
     },
     {
@@ -3174,7 +3109,7 @@
    "key": "careers.abbvie.com|/en/jobs|q",
    "alarms": [],
    "status": "ok",
-   "total": 33,
+   "total": 32,
    "intern": [
     {
      "title": "Marketing Intern",
@@ -3213,28 +3148,22 @@
      "req": "34948"
     },
     {
-     "title": "2027 Injection Device Development Intern (Undergraduate)",
-     "loc": "North Chicago, IL",
-     "url": "https://careers.abbvie.com/en/job/2027-injection-device-development-intern-undergraduate-in-north-chicago-il-jid-34908",
-     "req": "34908"
-    },
-    {
      "title": "2027 Technical Development Program Intern (Undergraduate)",
      "loc": "Worcester, MA",
      "url": "https://careers.abbvie.com/en/job/2027-technical-development-program-intern-undergraduate-in-worcester-ma-jid-34945",
      "req": "34945"
     },
     {
-     "title": "2027 Commercial Leader Program Intern - Therapeutics (MBA)",
-     "loc": "Mettawa, IL",
-     "url": "https://careers.abbvie.com/en/job/2027-commercial-leader-program-intern-therapeutics-mba-in-mettawa-il-jid-32317",
-     "req": "32317"
-    },
-    {
      "title": "Veteran SkillBridge Program Intern",
      "loc": "North Chicago, IL",
      "url": "https://careers.abbvie.com/en/job/veteran-skillbridge-program-intern-in-north-chicago-il-jid-2680",
      "req": "2680"
+    },
+    {
+     "title": "2027 Commercial Leader Program Intern - Therapeutics (MBA)",
+     "loc": "Mettawa, IL",
+     "url": "https://careers.abbvie.com/en/job/2027-commercial-leader-program-intern-therapeutics-mba-in-mettawa-il-jid-32317",
+     "req": "32317"
     },
     {
      "title": "2027 Commercial Leader Program Intern - Aesthetics (MBA)",
@@ -3261,16 +3190,16 @@
      "req": "34784"
     },
     {
-     "title": "2027 Product Development, Science, and Technology Intern (Undergraduate)",
-     "loc": "North Chicago, IL",
-     "url": "https://careers.abbvie.com/en/job/2027-product-development-science-and-technology-intern-undergraduate-in-north-chicago-il-jid-34909",
-     "req": "34909"
-    },
-    {
      "title": "Engineering Intern (6 months internship)",
      "loc": "Campoverde, Lazio",
      "url": "https://careers.abbvie.com/en/job/engineering-intern-6-months-internship-in-campoverde-lazio-jid-7175",
      "req": "7175"
+    },
+    {
+     "title": "2027 Product Development, Science, and Technology Intern (Undergraduate)",
+     "loc": "North Chicago, IL",
+     "url": "https://careers.abbvie.com/en/job/2027-product-development-science-and-technology-intern-undergraduate-in-north-chicago-il-jid-34909",
+     "req": "34909"
     },
     {
      "title": "2027 Business Technology Solutions Intern - Cloud Engineering (Undergraduate)",
@@ -3366,7 +3295,7 @@
    "key": "www.kaiserpermanentejobs.org",
    "alarms": [],
    "status": "ok",
-   "total": 103,
+   "total": 101,
    "intern": [
     {
      "title": "Pharmacy Intern",
@@ -3441,7 +3370,7 @@
    "key": "jobs.danaher.com|DANAGLOBAL|page713-prod|/global/en|opco:Masimo",
    "alarms": [],
    "status": "ok",
-   "total": 105,
+   "total": 103,
    "intern": [
     {
      "title": "Inside Sales Intern",
@@ -3480,8 +3409,58 @@
    "key": "hckd.fa.us2.oraclecloud.com|CX_1|intern",
    "alarms": [],
    "status": "ok",
-   "total": 381,
-   "intern": []
+   "total": 409,
+   "intern": [
+    {
+     "title": "Intern",
+     "loc": "United States",
+     "url": "https://hckd.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2040174",
+     "req": "2040174",
+     "posted": "2026-10-28"
+    },
+    {
+     "title": "Intern",
+     "loc": "NE, United States",
+     "url": "https://hckd.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2040150",
+     "req": "2040150",
+     "posted": "2026-10-28"
+    },
+    {
+     "title": "Intern",
+     "loc": "United States",
+     "url": "https://hckd.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2040154",
+     "req": "2040154",
+     "posted": "2026-10-28"
+    },
+    {
+     "title": "Intern",
+     "loc": "United States",
+     "url": "https://hckd.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2040163",
+     "req": "2040163",
+     "posted": "2026-10-28"
+    },
+    {
+     "title": "Intern",
+     "loc": "SC, United States",
+     "url": "https://hckd.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2040151",
+     "req": "2040151",
+     "posted": "2026-10-28"
+    },
+    {
+     "title": "Intern",
+     "loc": "OH, United States",
+     "url": "https://hckd.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2040149",
+     "req": "2040149",
+     "posted": "2026-10-28"
+    },
+    {
+     "title": "Intern",
+     "loc": "United States",
+     "url": "https://hckd.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2040152",
+     "req": "2040152",
+     "posted": "2026-10-28"
+    }
+   ]
   },
   "Cedars-Sinai": {
    "who": "Z",
@@ -3491,7 +3470,7 @@
    "key": "hdkk.fa.us6.oraclecloud.com|CX_1|intern,biostatistics",
    "alarms": [],
    "status": "ok",
-   "total": 156,
+   "total": 158,
    "intern": [
     {
      "title": "Research Intern, Ramin Lab",
@@ -3499,6 +3478,13 @@
      "url": "https://hdkk.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/21590",
      "req": "21590",
      "posted": "2026-10-26"
+    },
+    {
+     "title": "Research Intern (Academic Credit) - Simpkins Lab - Department of Neurology - Per Diem (On-site)",
+     "loc": "Los Angeles, CA, United States",
+     "url": "https://hdkk.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/21589",
+     "req": "21589",
+     "posted": "2026-10-28"
     },
     {
      "title": "Research Intern (Academic Credit) - Department of Neurology - Per Diem (On-site)",
@@ -3739,17 +3725,24 @@
      "posted": ""
     },
     {
-     "title": "Bioinformatics Intern - PhD in progress",
+     "title": "RTP - Research Fellow",
      "loc": "Rochester, Minnesota",
-     "url": "https://jobs.mayoclinic.org/job/rochester/bioinformatics-intern-phd-in-progress/33647/100363223888",
-     "req": "100363223888",
+     "url": "https://jobs.mayoclinic.org/job/rochester/rtp-research-fellow/33647/102554403792",
+     "req": "102554403792",
      "posted": ""
     },
     {
-     "title": "RTP - Research Fellow",
-     "loc": "Scottsdale, Arizona",
-     "url": "https://jobs.mayoclinic.org/job/scottsdale/rtp-research-fellow/33647/102525661856",
-     "req": "102525661856",
+     "title": "Research Fellow - PC - Orthopedic Surgery - Sierra lab",
+     "loc": "Rochester, Minnesota",
+     "url": "https://jobs.mayoclinic.org/job/rochester/research-fellow-pc-orthopedic-surgery-sierra-lab/33647/102568129840",
+     "req": "102568129840",
+     "posted": ""
+    },
+    {
+     "title": "Research Fellow - PC Orthopedic Surgery - Sierra lab",
+     "loc": "Rochester, Minnesota",
+     "url": "https://jobs.mayoclinic.org/job/rochester/research-fellow-pc-orthopedic-surgery-sierra-lab/33647/102568129760",
+     "req": "102568129760",
      "posted": ""
     },
     {
@@ -3956,7 +3949,7 @@
    "key": "www.commonspirit.careers",
    "alarms": [],
    "status": "ok",
-   "total": 119,
+   "total": 117,
    "intern": [
     {
      "title": "Intern",
@@ -3999,13 +3992,6 @@
      "url": "https://www.commonspirit.careers/job/lake-jackson/student-nurse-intern/35300/100397592768",
      "req": "100397592768",
      "posted": "09/09/2026"
-    },
-    {
-     "title": "Surgical Tech Intern",
-     "loc": "Omaha, NE",
-     "url": "https://www.commonspirit.careers/job/omaha/surgical-tech-intern/35300/99498114544",
-     "req": "99498114544",
-     "posted": "08/20/2026"
     }
    ]
   },
@@ -4039,7 +4025,7 @@
    "key": "careers.medpace.com",
    "alarms": [],
    "status": "ok",
-   "total": 31,
+   "total": 30,
    "intern": [
     {
      "title": "AI Engineering Intern (12 months)",
@@ -4161,13 +4147,6 @@
      "posted": "2026-10-26"
     },
     {
-     "title": "Vendor Management Internship - Summer 2027",
-     "loc": "Cincinnati, Ohio",
-     "url": "https://careers.medpace.com/jobs/12959",
-     "req": "12959",
-     "posted": "2026-10-02"
-    },
-    {
      "title": "Clinical Intelligence Internship - Spring 2027",
      "loc": "Cincinnati, Ohio",
      "url": "https://careers.medpace.com/jobs/12845",
@@ -4261,7 +4240,7 @@
    "key": "iblyjb.fa.ocs.oraclecloud.com|CX_1|intern",
    "alarms": [],
    "status": "ok",
-   "total": 29,
+   "total": 30,
    "intern": []
   },
   "Certara": {
@@ -4331,14 +4310,14 @@
    "key": "syneoshealth.wd12.myworkdayjobs.com|syneoshealth|Syneos_Health_External_Site|intern,biostatistics",
    "alarms": [],
    "status": "ok",
-   "total": 370,
+   "total": 371,
    "intern": [
     {
      "title": "Partnership office analyst intern",
      "loc": "ESP-Barcelona; ESP-Madrid",
      "url": "https://syneoshealth.wd12.myworkdayjobs.com/en-US/Syneos_Health_External_Site/job/ESP-Barcelona/Partnership-office-analyst-intern_25111096",
      "req": "25111096",
-     "posted": "Posted 7 Days Ago"
+     "posted": "Posted 8 Days Ago"
     },
     {
      "title": "Site Identification Intern, 12 month contract, Hybrid- or Office based",
@@ -4357,15 +4336,8 @@
    "key": "careers.fortrea.com|FOMFORUS|page18|/us/en",
    "alarms": [],
    "status": "ok",
-   "total": 20,
+   "total": 17,
    "intern": [
-    {
-     "title": "Intern",
-     "loc": "Warsaw, Poland",
-     "url": "https://careers.fortrea.com/us/en/job/FOMFORUS266361EXTERNALENUS",
-     "req": "266361",
-     "posted": "2026-10-26"
-    },
     {
      "title": "University Student Internship – Global Proposals",
      "loc": "Leeds, United Kingdom",
@@ -4388,6 +4360,13 @@
      "posted": "2026-10-14"
     },
     {
+     "title": "Site Navigator Intern",
+     "loc": "Warsaw, Poland",
+     "url": "https://careers.fortrea.com/us/en/job/FOMFORUS266361EXTERNALENUS",
+     "req": "266361",
+     "posted": "2026-10-28"
+    },
+    {
      "title": "Clinical Network Intern",
      "loc": "Miguel Hidalgo, Ciudad de Mexico, Mexico",
      "url": "https://careers.fortrea.com/us/en/job/FOMFORUS265099EXTERNALENUS",
@@ -4407,13 +4386,6 @@
      "url": "https://careers.fortrea.com/us/en/job/FOMFORUS266170EXTERNALENUS",
      "req": "266170",
      "posted": "2026-10-20"
-    },
-    {
-     "title": "Supply Chain Intern",
-     "loc": "Leeds, United Kingdom",
-     "url": "https://careers.fortrea.com/us/en/job/FOMFORUS266093EXTERNALENUS",
-     "req": "266093",
-     "posted": "2026-10-22"
     },
     {
      "title": "Clinical Intern - Romania",
@@ -4456,20 +4428,6 @@
      "url": "https://careers.fortrea.com/us/en/job/FOMFORUS265818EXTERNALENUS",
      "req": "265818",
      "posted": "2026-10-20"
-    },
-    {
-     "title": "Apprentice - Employer Branding",
-     "loc": "BANGALORE, Karnātaka, India",
-     "url": "https://careers.fortrea.com/us/en/job/FOMFORUS264572EXTERNALENUS",
-     "req": "264572",
-     "posted": "2026-10-09"
-    },
-    {
-     "title": "2027 University Student Placement - Clinical Research Technician",
-     "loc": "Leeds, United Kingdom",
-     "url": "https://careers.fortrea.com/us/en/job/FOMFORUS266204EXTERNALENUS",
-     "req": "266204",
-     "posted": "2026-10-21"
     }
    ]
   }

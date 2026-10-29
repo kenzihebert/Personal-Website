@@ -1,6 +1,6 @@
 # Research playbook
 
-**v28, 2026-10-28.** Rewritten every run. Hard cap 6 KB.
+**v29, 2026-10-29.** Rewritten every run. Hard cap 6 KB.
 
 ## Who this is for
 
@@ -9,14 +9,12 @@ Private sector only. Trials, devices, health analytics; genomics last.
 
 ## Governing metric
 
-Old metric (rows unsent 7+ runs) was wrong: 10-28 the full `/api/apps` read showed 17 sent
-applications (09-29 to 10-26; 14 waiting, 3 rejected) while runs through 10-27 reported "no rows,
-no ticks". Seven sent rows sat in Open now. New metric: unsent rows in Open now (14 on 10-28, 4 in
-her metros or remote) and sends in the last 7 days (2 on 10-28). Read the store with
-`curl -s https://mckenziehebert.com/api/apps` and print every `manual` row, not just the head.
-Diagnoses used: stale list of sent rows (10-28). Next lead (10-29): Merck/J&J/Gilead Oct 30 cluster
-if still unsent, else Moderna and Amgen biostat as the no-clock sends. If a send count rises, lead
-with the next warm lead.
+Unsent rows in Open now (14 on 10-29, 3 in her metros or remote) and sends in the last 7 days
+(3 on 10-29; store holds 18 sent, 14 waiting, 4 rejected). Read the store with
+`curl -s https://mckenziehebert.com/api/apps` and print every `manual` row plus `overrides`
+(Stryker is rejected by override). Diagnosis 10-29: four dated seats close by Oct 31, none sent.
+Next lead (10-30): if Oct 30/31 passed, drop them and lead with Regeneron Biostatistics and
+Moderna Oncology Biostatistics (no close date); if sent, lead with the next employer wave.
 
 ## Sunday review (10-25; next 11-01)
 
@@ -27,7 +25,10 @@ with the next warm lead.
 - Strategy-changing observables: a CRO US summer biostat intern (H3); an in-metro device MS
   stats seat (H11); sends per week falling below 2.
 
-## What is working (last confirmed 2026-10-28)
+## What is working (last confirmed 2026-10-29)
+
+- Workday `cxs` search by tenant, again: Regeneron (`regeneron`, site `Careers`) showed a 23-req 2027
+  summer wave posted 10-28 that the sweep lacks; two fits. Use `MSYS_NO_PATHCONV=1` for path args in Git Bash.
 
 - Workday `cxs` search by tenant finds employers the sweep lacks: Moderna (`modernatx`, site
   `M_tx`) gave Oncology Biostatistics and Biometrics on 10-28. Try other biotechs the same way.
@@ -47,7 +48,6 @@ with the next warm lead.
 - `fetch_posting_text.py` stubs AG x2 and BCBSM; restore from backup if overwritten.
 - Long bash heredocs break; write scripts with the Write tool.
 - Carried text goes stale. Grep kenzie.json for last night's date before writing.
-- Denali Internships page is JS accordions; do not chase.
 
 ## Targets
 
@@ -66,20 +66,19 @@ with the next warm lead.
 - H14: big-pharma graduate seats outside J&J, Merck, Gilead, Amgen, Moderna are MBA or undergrad only.
   Kill: one posts an MS statistics summer seat before Dec 1.
 - H16: mid-size east-coast biotechs (Moderna pattern) post MS biostat summer interns in Sept to Oct.
-  Kill: Vertex, Biogen, Regeneron, Alnylam boards show none by Nov 10.
+  Confirmed by Regeneron 10-28 (Biostatistics). Vertex and Biogen show none. Kill: Alnylam, Lilly show none by Nov 10.
 
 ## Exploration queue (never empty)
 
-1. Workday cxs for Vertex, Biogen, Alnylam, Regeneron intern/biostat (10-29).
+1. Done 10-29: Vertex, Biogen, Regeneron, Pfizer cxs. Next: other Workday tenants (Bayer, Sanofi, Lilly, GSK, AbbVie, Novartis US, Vir, Incyte, Ultragenyx) by `cxs`.
 2. Exponent iCIMS 11-01; MannKind Paycor 11-01; Stryker RWE Data Scientist (virtual) re-post watch.
 3. Kaiser R&E and Cedars-Sinai research-institute intern boards, body read (11-02).
 4. Mayo Arizona research intern bodies (graduate-level?) (11-03).
-- Done: Medtronic cxs, Moderna cxs, Jefferson, web biostat search (10-28); Medtronic/Abbott RWE,
-  Denali, BSC eightfold (10-26); Takeda, Flatiron (10-23); HEOR phrase pass (10-25).
+- Done: Regeneron/Vertex/Biogen cxs, Molina (10-29); Medtronic, Moderna, Jefferson (10-28).
 
 ## Notes to self
 
-- Out-of-metro rows in Open now: Moderna x2, Merck x2, J&J x2, BMS PS, Jefferson, BSC, Alcon.
+- Out-of-metro rows in Open now (11): Moderna x2, Merck x2, J&J x2, BMS PS, Jefferson, BSC, Regeneron x2. Alcon closed 10-29.
 - RAND and BRG are in not-a-fit; do not carry their dates.
 - Mueller: no pronouns on the page; name only.
 - `/api/apps` is live: state counts as fact; ticks and manual rows count as sent; drop those rows

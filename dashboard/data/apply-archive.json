@@ -1,6 +1,6 @@
 {
  "_what": "Every row ever listed in Open now, keyed by item id. The page uses it so a ticked row keeps its company, role and link after the listing closes and leaves kenzie.json. Append and update only; never delete a row.",
- "updated": "2026-10-28",
+ "updated": "2026-10-29",
  "rows": {
   "kz-alcon-clinical-ds": {
    "company": "Alcon",
@@ -24,7 +24,7 @@
    "location": "Los Angeles or San Francisco",
    "url": "https://analystcareers-analysisgroup.icims.com/jobs/3005/summer-analyst-intern---generalist-%282027-start-date%29/job",
    "first_listed": "2026-09-28",
-   "last_listed": "2026-10-28"
+   "last_listed": "2026-10-29"
   },
   "kz-analysisgroup-health": {
    "company": "Analysis Group",
@@ -80,7 +80,7 @@
    "location": "Foster City (Bay Area)",
    "url": "https://gilead.wd1.myworkdayjobs.com/en-US/gileadcareers/job/United-States---California---Foster-City/Intern---Research---Oncology-Biomarker_R0054587",
    "first_listed": "2026-10-16",
-   "last_listed": "2026-10-28"
+   "last_listed": "2026-10-29"
   },
   "kz-gilead-biostat-onc": {
    "company": "Gilead",
@@ -200,7 +200,7 @@
    "location": "Raritan or Titusville, New Jersey, or Spring House, Pennsylvania",
    "url": "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Raritan-New-Jersey-United-States-of-America/IDAR-Summer-Intern--C-SP-_R-103534",
    "first_listed": "2026-10-13",
-   "last_listed": "2026-10-28"
+   "last_listed": "2026-10-29"
   },
   "kz-jnj-imm-peds-clindev": {
    "company": "J&J",
@@ -216,7 +216,7 @@
    "location": "Raritan, New Jersey, or Horsham, Pennsylvania (hybrid)",
    "url": "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Raritan-New-Jersey-United-States-of-America/Epidemiology-Summer-Intern-2027_R-103539",
    "first_listed": "2026-10-16",
-   "last_listed": "2026-10-28"
+   "last_listed": "2026-10-29"
   },
   "kz-jnj-rdldp": {
    "company": "J&J",
@@ -256,7 +256,7 @@
    "location": "Rahway, New Jersey",
    "url": "https://msd.wd5.myworkdayjobs.com/en-US/SearchJobs/job/USA---New-Jersey---Rahway/XMLNAME-2027-Future-Talent-Program---Biostatistics---Intern_R416450",
    "first_listed": "2026-09-28",
-   "last_listed": "2026-10-28"
+   "last_listed": "2026-10-29"
   },
   "kz-merck-epi-rwe": {
    "company": "Merck",
@@ -272,7 +272,7 @@
    "location": "Rahway, New Jersey, or Upper Gwynedd, Pennsylvania (hybrid)",
    "url": "https://msd.wd5.myworkdayjobs.com/en-US/SearchJobs/job/USA---New-Jersey---Rahway/XMLNAME-2027-Future-Talent-Program---Value---Implementation---Outcomes-Research-Intern_R413998",
    "first_listed": "2026-10-16",
-   "last_listed": "2026-10-28"
+   "last_listed": "2026-10-29"
   },
   "kz-merck-stat-programmer": {
    "company": "Merck",
@@ -304,7 +304,7 @@
    "location": "Remote (a few visits to Raritan, New Jersey)",
    "url": "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Raritan-New-Jersey-United-States-of-America/Global-Market-Access-Summer-Associate_R-101873",
    "first_listed": "2026-10-22",
-   "last_listed": "2026-10-28"
+   "last_listed": "2026-10-29"
   },
   "kz-bsc-clinical-insights": {
    "company": "Boston Scientific",
@@ -312,7 +312,7 @@
    "location": "Maple Grove, Minnesota (hybrid, 3 to 4 days in office)",
    "url": "https://bostonscientific.eightfold.ai/careers/job/563602813700641",
    "first_listed": "2026-10-23",
-   "last_listed": "2026-10-28"
+   "last_listed": "2026-10-29"
   },
   "kz-amgen-grad-biostat": {
    "company": "Amgen",
@@ -328,7 +328,7 @@
    "location": "Princeton, New Jersey",
    "url": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Princeton---NJ---US/Patient-Safety-Intern-Summer-2027_R1607761",
    "first_listed": "2026-10-27",
-   "last_listed": "2026-10-28"
+   "last_listed": "2026-10-29"
   },
   "kz-moderna-onc-biostat": {
    "company": "Moderna",
@@ -336,7 +336,7 @@
    "location": "Cambridge, Massachusetts (70% in office)",
    "url": "https://modernatx.wd1.myworkdayjobs.com/M_tx/job/Cambridge-Massachusetts/Intern--Oncology-Biostatistics_R19867-1",
    "first_listed": "2026-10-28",
-   "last_listed": "2026-10-28"
+   "last_listed": "2026-10-29"
   },
   "kz-jefferson-biostat": {
    "company": "Jefferson",
@@ -344,7 +344,7 @@
    "location": "Philadelphia, Pennsylvania (on site 3 to 4 days)",
    "url": "https://redcap.link/jefferson_internship",
    "first_listed": "2026-10-28",
-   "last_listed": "2026-10-28"
+   "last_listed": "2026-10-29"
   },
   "kz-moderna-biometrics": {
    "company": "Moderna",
@@ -352,7 +352,23 @@
    "location": "Cambridge, Massachusetts (70% in office)",
    "url": "https://modernatx.wd1.myworkdayjobs.com/M_tx/job/Cambridge-Massachusetts/Intern--Biometrics_R19865",
    "first_listed": "2026-10-28",
-   "last_listed": "2026-10-28"
+   "last_listed": "2026-10-29"
+  },
+  "kz-regeneron-biostat": {
+   "company": "Regeneron",
+   "role": "2027 Summer Intern, Biostatistics & Statistical Programming",
+   "location": "Warren, New Jersey, or Tarrytown, New York (on site)",
+   "url": "https://regeneron.wd1.myworkdayjobs.com/Careers/job/TARRYTOWN/XMLNAME-2027-Summer-Intern-Biostatistics---Statistical-Programming_R52558-1",
+   "first_listed": "2026-10-29",
+   "last_listed": "2026-10-29"
+  },
+  "kz-regeneron-clinsci": {
+   "company": "Regeneron",
+   "role": "2027 Summer Intern, Clinical Science & Health Economics",
+   "location": "Tarrytown or Sleepy Hollow, New York, or Warren, New Jersey (on site)",
+   "url": "https://regeneron.wd1.myworkdayjobs.com/Careers/job/TARRYTOWN/XMLNAME-2027-Summer-Intern-Clinical-Science--Medical-Monitoring---Health-Economics_R52563-1",
+   "first_listed": "2026-10-29",
+   "last_listed": "2026-10-29"
   }
  }
 }
