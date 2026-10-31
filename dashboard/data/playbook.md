@@ -1,6 +1,6 @@
 # Research playbook
 
-**v30, 2026-10-30.** Rewritten every run. Hard cap 6 KB.
+**v31, 2026-10-31.** Rewritten every run. Hard cap 6 KB.
 
 ## Who this is for
 
@@ -9,12 +9,12 @@ Private sector only. Trials, devices, health analytics; genomics last.
 
 ## Governing metric
 
-Unsent rows in Open now (12 on 10-30, 3 in her metros or remote) and sends in the last 7 days
-(2 on 10-30; store holds 18 sent, 14 waiting, 4 rejected, nothing new since 10-28). Read the store with
-`curl -s https://mckenziehebert.com/api/apps` (Stryker is rejected by override). Diagnosis 10-30:
-J&J Onc Epi and Merck OR came off the boards unsent; Merck Biostat closes 10-31. Next lead (10-31):
-if Merck Biostat passed, drop it and lead with Regeneron Biostatistics and Moderna Oncology
-Biostatistics (no close date, the longest-waiting rows); do not repeat the dated-seat diagnosis a third night.
+Unsent rows in Open now (11 on 10-31, 3 in her metros or remote) and sends in the last 7 days
+(2 on 10-31; store holds 18 sent, 14 waiting, 4 rejected, nothing new since 10-28). Read the store with
+`curl -s https://mckenziehebert.com/api/apps`. Diagnosis 10-31: Merck Biostatistics (only big-pharma
+MS biostat seat) came down unsent a day early. Lead is Moderna Oncology Biostatistics (listed since 10-05, oldest).
+Hypothesis: the three no-clock biostat rows are on-site Northeast, so they slip. Asked her to say if location is the reason.
+Do not repeat this on 11-01; watch for a send or a reply.
 
 ## Sunday review (10-25; next 11-01)
 
@@ -34,7 +34,7 @@ Biostatistics (no close date, the longest-waiting rows); do not repeat the dated
   `ledger.json`, `apply-archive.json` first. Helpers (`live.py`, `kdiff.py`, `expl.py`, `body2.py`, `up<date>.py`)
   live in recent scratchpads.
 - Liveness via Workday `cxs` with curl (`live.py`). A 403 on a job page plus absence from search means taken down.
-- Web search "summer 2027 biostatistics intern master's" (Moderna, Amgen); thin otherwise.
+- Web search "summer 2027 biostatistics intern master's" (Moderna, Amgen); aggregators (compbiojobs.com) list seats before the employer board does (Bayer 10-31), so confirm on the employer page.
 
 ## What is not working
 
@@ -47,7 +47,7 @@ Biostatistics (no close date, the longest-waiting rows); do not repeat the dated
 
 ## Targets
 
-- Oct 31 Merck biostat, Gilead Biomarker; Nov 5 Sanofi (rejected, commercial); Nov 9 J&J C&SP;
+- Oct 31 Gilead Biomarker; Nov 9 J&J C&SP;
   Nov 26 BMS PS; Jan 8 J&J Market Access; Feb 15 Jefferson. Moderna, Regeneron, BSC rolling.
 - Watch: Corcept biostat (by Jan), Kite grad, Pfizer list, Kaiser R&E (Feb), MannKind (Q4),
   Penumbra (Feb), Stryker RWE virtual re-post (404 on 10-30), J&J MedTech RWE & Modeling re-post.
@@ -61,15 +61,15 @@ Biostatistics (no close date, the longest-waiting rows); do not repeat the dated
 - H14: big-pharma graduate seats beyond J&J, Merck, Gilead, Amgen, Moderna, Regeneron are MBA, commercial or undergrad only.
   Sanofi, GSK, AstraZeneca supported it 10-30. Kill: one posts an MS statistics seat before Dec 1.
 - H16: mid-size east-coast biotechs post MS biostat summer interns in Sept to Oct. Kill: Alnylam, Lilly show none by Nov 10.
-- H17: dated seats vanish before the close date (J&J, Merck OR 10-30). Kill: next dated seat lasts to its date.
+- H17: dated seats vanish before the close date (J&J, Merck x3; 10-30, 10-31). Supported 3 times. Kill: next dated seat lasts to its date (J&J C&SP Nov 9).
 
 ## Exploration queue (never empty)
 
 1. Other Workday tenants with exact names: find via a job URL from web search (Lilly, Bayer, Takeda, Incyte, Vir, Ultragenyx).
-2. Exponent iCIMS 11-01; MannKind Paycor 11-01; Bayer statistician intern (undated, web search).
-3. Kaiser R&E and Cedars-Sinai research-institute intern boards, body read (11-02).
+2. MannKind Paycor 11-01; Bayer re-post watch on jobs.bayer.com (11-03); compbiojobs.com pharma stats listings.
+3. Kaiser Pasadena master's intern seats, Cedars-Sinai board body read (11-02). City of Hope not searched yet.
 4. Mayo Arizona research intern bodies (graduate-level?) (11-03).
-- Done: Sanofi/GSK/AZ/Thermo/Labcorp/Abbott cxs (10-30); Regeneron/Vertex/Biogen (10-29); Medtronic, Moderna, Jefferson (10-28).
+- Done: Exponent iCIMS, Weill Cornell (undergrad), Bayer web search (10-31); Sanofi/GSK/AZ/Thermo/Labcorp/Abbott cxs (10-30); Regeneron/Vertex/Biogen (10-29); Medtronic, Moderna, Jefferson (10-28).
 
 ## Notes to self
 
