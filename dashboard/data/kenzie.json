@@ -1,6 +1,6 @@
 {
   "title": "Your search",
-  "updated": "2026-11-01",
+  "updated": "2026-11-02",
   "generatedBy": "nightly research",
   "deadlines": [
     {
@@ -41,20 +41,20 @@
       "items": [
         {
           "id": "kz-start-diagnosis",
-          "title": "Gilead closed yesterday unsent; J&J closes in 8 days",
-          "detail": "Your applications store holds 18 sent applications, September 29 to October 28: 14 waiting and 4 closed as rejections (Centene, BCBS Michigan, Highmark, Stryker). Sent in the last 7 days: 2 (Dexcom October 26, Amgen biostatistics October 28). Last 14 days: 3. Nothing has been recorded for four days. Open now holds 10 rows you have not sent, 8 of them outside your metros. Gilead Oncology Biomarker AI closed yesterday unsent, the second seat to go without a send in three days after Merck. Two of the 10 close inside 30 days: J&J Clinical & Statistical Programming on November 9 (8 days) and BMS Patient Safety on November 26. Dated seats have come down before their date three times this month (J&J, Merck x3), so November 9 is not safe to wait on. The change: send J&J Clinical & Statistical Programming by Wednesday November 4. It is a statistical programming seat; check the req for its SAS wording first. Moderna Oncology Biostatistics (listed since October 5) is still the best fit among the rows with no close date. If the Northeast location is why you hold back from these rows, say so and they move below the metro seats. If you sent anything since October 28, record it on the page."
+          "title": "14 applications waiting; 8 are over four weeks old",
+          "detail": "Your applications store holds 18 sent applications, September 29 to October 28: 14 waiting and 4 closed as rejections (Centene, BCBS Michigan, Highmark, Stryker). Sent in the last 7 days: 2 (Dexcom October 26, Amgen biostatistics October 28). Last 14 days: 3. Nothing new has been recorded for five days. Eight of the 14 waiting went out by October 5: Kite Clinical Data Management, Gilead Development Biostatistics, Gilead Epidemiology & RWE, Amgen Data Scientist, Dexcom early interest, J&J Clinical Pharmacology, Edwards Clinical & Regulatory and Abbott. Gilead and Kite closed their reqs October 16 and Edwards came down October 31, so those decisions are being made now. The likely reason the page shows no news: replies land in employer portals and email, and none of them has been recorded here. The change: tonight, open the Workday candidate home for Gilead, Kite, Amgen, J&J and Edwards, and set the outcome on each row (waiting, interview, rejected, closed). Then this page can tell a live lead from a dead one and rank the next sends against it. Open now still holds 10 rows you have not sent; J&J Clinical & Statistical Programming closes November 9."
         },
         {
           "id": "kz-start-this-week",
           "title": "The next two weeks",
           "tags": [],
-          "detail": "**By Wednesday, November 4:** J&J Clinical & Statistical Programming (New Jersey or Pennsylvania; closes November 9).\n\n**This week:** Moderna Oncology Biostatistics (Cambridge; the req names master's students), then Regeneron Biostatistics & Statistical Programming (Warren or Tarrytown; graduate students eligible, some projects lean PhD).\n\n**No close date shown:** Boston Scientific Graduate Clinical Insights Research Intern (Maple Grove, real-world evidence), Moderna Biometrics (Python required), Regeneron Clinical Science & Health Economics.\n\n**November 26:** BMS Patient Safety (Princeton).\n\n**Remote, until January 8:** J&J Global Market Access.\n\n**Until February 15:** Jefferson Biostatistics & Bioinformatics (Philadelphia, rolling review, so earlier is read sooner).\n\n**Watch:** Bayer's remote Statistician Intern (master's accepted) is listed on a job aggregator but Bayer's own page refuses to open; see Coming soon.\n\n**Records:** your 18 sent applications live in this page's store, not in the done file; have them recorded there."
+          "detail": "**Tonight:** record outcomes for the eight applications sent by October 5 (see above).\n\n**By Friday, November 6, if not sent yet:** J&J Clinical & Statistical Programming (New Jersey or Pennsylvania; closes November 9).\n\n**This week, if not sent yet:** Moderna Oncology Biostatistics (Cambridge; the req names master's students), then Regeneron Biostatistics & Statistical Programming (Warren or Tarrytown).\n\n**No close date shown:** Boston Scientific Graduate Clinical Insights Research Intern (Maple Grove, real-world evidence), Moderna Biometrics (Python required), Regeneron Clinical Science & Health Economics.\n\n**November 26:** BMS Patient Safety (Princeton).\n\n**Remote, until January 8:** J&J Global Market Access.\n\n**Until February 15:** Jefferson Biostatistics & Bioinformatics (Philadelphia, rolling review).\n\n**Records:** your 18 sent applications live in this page's store, not in the done file; have them recorded there."
         },
         {
           "id": "kz-start-howhiring",
           "title": "How this field hires a master's student",
           "tags": [],
-          "detail": "Big pharma opens structured summer programs between September and November and often prefers or requires a PhD for biostatistics seats; read the qualification line before the title. Amgen runs a separate master's internship inside its statistics group (posted October 26), next to PhD-preferred wording. Moderna's biostatistics intern names master's students outright, while its epidemiology and biomarker statistics seats are PhD only. Regeneron posted its whole 2027 summer wave on October 28 and says some biostatistics projects suit PhD students better, without excluding a master's student. Gilead's October 16 batch listed PhD as *preferred* on most statistics reqs and still took master's students; its research AI seats (omics, chemistry, lab work) closed October 31. Contract research organizations hire master's statisticians at volume, but later and more rolling, and mostly in SAS. Southern California device companies run their own calendars: Stryker and Edwards' clinical track are open now; Medtronic's master's window closed October 13. Health plans posted a wave at the end of September, mostly undergraduate, MBA or pharmacy seats. J&J posts batches with short windows and sometimes moves them: its Oncology Epidemiology seat was re-posted October 16 with the close pushed a week to October 30. Merck's whole 2027 Future Talent wave (biostatistics, outcomes research, epidemiology) came down October 30 to 31, before its dates."
+          "detail": "Big pharma opens structured summer programs between September and November and often prefers or requires a PhD for biostatistics seats; read the qualification line before the title. Amgen runs a separate master's internship inside its statistics group (posted October 26), next to PhD-preferred wording. Moderna's biostatistics intern names master's students outright, while its epidemiology and biomarker statistics seats are PhD only. Regeneron posted its whole 2027 summer wave on October 28 and says some biostatistics projects suit PhD students better, without excluding a master's student. Gilead's October 16 batch listed PhD as *preferred* on most statistics reqs and still took master's students; its research AI seats (omics, chemistry, lab work) closed October 31. Contract research organizations hire master's statisticians at volume, but later and more rolling, and mostly in SAS. Southern California device companies run their own calendars: Edwards' clinical track came down October 31 and its other tracks open January to April; Medtronic's master's window closed October 13. Health plans posted a wave at the end of September, mostly undergraduate, MBA or pharmacy seats. J&J posts batches with short windows and sometimes moves them: its Oncology Epidemiology seat was re-posted October 16 with the close pushed a week to October 30. Merck's whole 2027 Future Talent wave (biostatistics, outcomes research, epidemiology) came down October 30 to 31, before its dates."
         }
       ]
     },
@@ -63,7 +63,7 @@
       "title": "Open now",
       "layout": "table",
       "checkable": true,
-      "note": "Rows you have already sent (ticked or added by hand on this page) are no longer listed. Every row with a Workday or Oracle address was re-read on the employer's own system on October 29; none closed. Alcon's Clinical Data Science intern came off its board tonight and is gone. Two new rows: Regeneron's biostatistics and clinical science summer interns. Ranked by fit with trials, devices and health analytics, then location.",
+      "note": "Rows you have already sent (ticked or added by hand on this page) are no longer listed. Every row was re-read on the employer's own system on November 2; none closed. No new rows tonight. Ranked by fit with trials, devices and health analytics, then location.",
       "items": [
         {
           "id": "kz-regeneron-biostat",
@@ -295,25 +295,6 @@
           "detail": "Kite says US graduate and undergraduate intern positions are typically posted October through January, 10 to 12 weeks. Its Workday board showed no intern reqs on October 22 (40 roles). [Kite early talent](https://www.kitepharma.com/careers/early-talent-programs-at-kite)"
         },
         {
-          "id": "kz-later-bayer",
-          "title": "Bayer: Statistician Intern, remote",
-          "tags": [
-            {
-              "label": "Posting down",
-              "status": "warning"
-            },
-            {
-              "label": "Biostatistics, trials",
-              "status": "critical"
-            },
-            {
-              "label": "Remote",
-              "status": "good"
-            }
-          ],
-          "detail": "Pharmaceuticals Statistics US. An aggregator lists it as posted September 24 and open until at least March 19, 2027: clinical trial data analysis and programming beside trial statisticians, *Pursuing a Master's or PhD degree in Statistics, Biostatistics, or related fields*, SAS, R and/or Python, up to three months from mid-May to mid-August 2027, with hybrid or home-based work considered (Whippany, New Jersey is the default site). Bayer's own job page refuses to open on October 31 and its board search shows no statistician intern, so there is nothing to submit yet. Check jobs.bayer.com for a re-post. [Aggregator listing](https://www.compbiojobs.com/jobs/7161/statistician-intern), [Bayer job page](https://jobs.bayer.com/job/Residence-Based-Statistician-Intern-Resi/1431241433/)"
-        },
-        {
           "id": "kz-later-corcept",
           "title": "Corcept: Biostatistics Intern, Redwood City",
           "tags": [
@@ -497,11 +478,11 @@
       "items": [
         {
           "title": "Los Angeles",
-          "detail": "Kite (Gilead), Santa Monica and El Segundo: no intern reqs on its board on October 22; statistics grad interns post Oct to Jan.\n**Amgen**, Thousand Oaks: remote grad Biostatistics intern (posted October 26) and remote grad Data Scientist both open.\n**Kaiser Permanente Research & Evaluation**, Pasadena: graduate interns post Feb to Mar. Kaiser's main board on October 12: pharmacy interns and one bachelor's IT seat; its Pasadena master's analytics interns posted January to March last cycle.\n**Analysis Group**, downtown: Health Care Summer Analyst open until Oct 28. BRG's final review date passed Oct 16.\nCity of Hope's board is back after maintenance: no internship. Children's Hospital Los Angeles: no internship (read October 22). Cedars-Sinai: lab research interns only. Xencor (six roles on its Dayforce board, October 22), ImmunityBio, Grifols: no intern seats. Arcutis, Capsida and Puma were not read.\nArrowhead Pharmaceuticals, Pasadena: has a Biostats & Data Management group (statistical programming roles open), no internship posted. [Arrowhead job openings](https://arrowheadpharma.com/en-us/careers/job-openings)\nMannKind, Westlake Village: posts summer internships in Q4, offers by mid-March; none posted on October 13. [MannKind internships](https://mannkindcorp.com/internships/)"
+          "detail": "Kite (Gilead), Santa Monica and El Segundo: no intern reqs on its board on October 22; statistics grad interns post Oct to Jan.\n**Amgen**, Thousand Oaks: remote grad Biostatistics intern (posted October 26) and remote grad Data Scientist both open.\n**Kaiser Permanente Research & Evaluation**, Pasadena: graduate interns post Feb to Mar. Kaiser's main board on October 12: pharmacy interns and one bachelor's IT seat; its Pasadena master's analytics interns posted January to March last cycle.\nAnalysis Group, downtown: Health Care Summer Analyst deadline passed Oct 28 (you sent it October 8); the Generalist req still reviews on a rolling basis. BRG's final review date passed Oct 16.\nCity of Hope's board is back after maintenance: no internship. Children's Hospital Los Angeles: no internship (read October 22). Cedars-Sinai: lab research interns only. Xencor (six roles on its Dayforce board, October 22), ImmunityBio, Grifols: no intern seats. Arcutis, Capsida and Puma were not read.\nArrowhead Pharmaceuticals, Pasadena: has a Biostats & Data Management group (statistical programming roles open), no internship posted. [Arrowhead job openings](https://arrowheadpharma.com/en-us/careers/job-openings)\nMannKind, Westlake Village: posts summer internships in Q4, offers by mid-March; none posted on October 13. [MannKind internships](https://mannkindcorp.com/internships/)"
         },
         {
           "title": "Orange County",
-          "detail": "**Stryker**, Irvine: Statistical Programming intern open now.\n**Edwards Lifesciences**, Irvine: Clinical & Regulatory intern (sent October 2) came off the board October 31; other tracks Jan to Apr.\nJ&J MedTech (Irvine): regulatory affairs interns (October 7 and 14) and supply chain interns; its Electrophysiology biostatistics intern required a PhD last cycle and has not reappeared.\nInsulet (Irvine): manufacturing co-op only.\nGlaukos (Aliso Viejo, eye-care devices): 28 roles on October 15, no internship; it does hire statistical programmers full time.\nAbbott, Masimo, Beckman Coulter, Applied Medical, Alcon (engineering interns list Lake Forest), AbbVie/Allergan (undergraduate IT interns in Irvine): no fitting seat."
+          "detail": "Stryker, Irvine: Statistical Programming intern (sent; marked rejected).\n**Edwards Lifesciences**, Irvine: Clinical & Regulatory intern (sent October 2) came off the board October 31; other tracks Jan to Apr.\nJ&J MedTech (Irvine): regulatory affairs interns (October 7 and 14) and supply chain interns; its Electrophysiology biostatistics intern required a PhD last cycle and has not reappeared.\nInsulet (Irvine): manufacturing co-op only (re-read November 2).\nGlaukos (Aliso Viejo, eye-care devices): 28 roles on October 15, no internship; it does hire statistical programmers full time.\nAbbott, Masimo, Beckman Coulter, Applied Medical, Alcon (engineering interns list Lake Forest), AbbVie/Allergan (undergraduate IT interns in Irvine): no fitting seat."
         },
         {
           "title": "Bay Area",
@@ -509,7 +490,7 @@
         },
         {
           "title": "San Diego",
-          "detail": "**Pfizer**, La Jolla: Statistics program, deadline Jan 31; positions list still empty.\n**Dexcom**: early-interest pool open.\n**Bristol Myers Squibb**: applications Aug to Mar; 40 intern reqs, none San Diego statistics.\n**J&J Innovative Medicine**, La Jolla: Statistics & Decision Sciences graduate intern open until Nov 13, virtual possible; Clinical Pharmacology & Pharmacometrics intern open until Nov 20. The Immunology pediatric clinical development intern closed October 20. A Translational Systems Toxicology intern posted October 7 is a lab seat.\nIonis (Carlsbad, window about Feb to Apr), Acadia (page still shows 2026), Vertex (last year's biostatistics intern was PhD-only, Boston), Neurocrine (biostatistics intern is PhD-only).\nResMed, Tandem, Insulet: devices; nothing that fits. Scripps, Salk, Sharp: no fitting seats. Abbott's La Jolla cancer diagnostics intern: lab and bioinformatics."
+          "detail": "**Pfizer**, La Jolla: Statistics program, deadline Jan 31; positions list still empty.\n**Dexcom**: early-interest pool open.\n**Bristol Myers Squibb**: applications Aug to Mar; 40 intern reqs, none San Diego statistics.\n**J&J Innovative Medicine**, La Jolla: Statistics & Decision Sciences (sent October 14) and Clinical Pharmacology & Pharmacometrics (sent September 29) graduate interns. The Immunology pediatric clinical development intern closed October 20. A Translational Systems Toxicology intern posted October 7 is a lab seat.\nIonis (Carlsbad, window about Feb to Apr), Acadia (page still shows 2026), Vertex (last year's biostatistics intern was PhD-only, Boston), Neurocrine (biostatistics intern is PhD-only).\nResMed, Tandem, Insulet: devices; nothing that fits. Scripps, Salk, Sharp: no fitting seats. Abbott's La Jolla cancer diagnostics intern: lab and bioinformatics."
         },
         {
           "title": "Phoenix",
@@ -525,6 +506,16 @@
       "id": "not-a-fit",
       "title": "Checked and not a fit",
       "items": [
+        {
+          "id": "kz-nf-bayer-statintern",
+          "title": "Bayer: Statistician Intern, remote",
+          "detail": "Closed. Bayer's own job page opened on November 2 and says *This job cannot be viewed at this time. It has either been deleted or is no longer available for application.* Its board search for intern and statistics shows no replacement. [Bayer job page](https://jobs.bayer.com/job/Residence-Based-Statistician-Intern-Resi/1431241433/)"
+        },
+        {
+          "id": "kz-nf-insulet-beone-baxter",
+          "title": "Insulet, BeOne and Baxter: 2027 interns",
+          "detail": "Read on their Workday boards November 2. Insulet's 2027 seats are treasury, audit and DevOps interns (the DevOps one in San Diego) and January to June engineering co-ops in Acton and Irvine. BeOne lists Brazil and year-round regulatory interns; its biostatistics openings are senior full-time roles. Baxter's intern listings are overseas or spring engineering co-ops. No statistics intern at any of the three. [Insulet board](https://insulet.wd5.myworkdayjobs.com/insuletcareers) [BeOne board](https://beigene.wd5.myworkdayjobs.com/BeiGene) [Baxter board](https://baxter.wd1.myworkdayjobs.com/baxter)"
+        },
         {
           "id": "kz-nf-gone-oct30",
           "title": "J&J Oncology Epidemiology, Merck Outcomes Research, Merck Biostatistics",
@@ -959,7 +950,7 @@
           "id": "kz-blocked-browser",
           "title": "Read in the browser",
           "tags": [],
-          "detail": "Not retried on October 31 (the sweep still shows no intern at Xencor, Denali or CHLA). Read on October 28 (Medtronic through its job API, 588 rows, no data or statistics intern; the others were not retried tonight, last read October 27): Xencor's careers page (it shows no job list in its own text), Children's Hospital Los Angeles (its careers page shows filters and no internship content), Denali's careers page (it has an Internships section but its text gives no seat; last read October 26 with only full-time Senior and Principal Biostatistician seats and no intern in Workday; Denali says applications run October to January, so it stays watched), and Boston Scientific's careers search for *clinical research intern* (78 jobs; the only intern or graduate seat is the Maple Grove one already in Open now). TGen's Helios Scholars page was not retried (it returned *page not found* on October 20). Every row in Open now was re-read at the source. Pfizer's Statistics positions list was last read October 21; the Workday search shows only MBA summer associate seats from Pfizer."
+          "detail": "Read in the browser on November 2. Denali's careers page lists a Principal Biostatistician, a Senior Biostatistician and two clinical data management leads, no intern; its Internships section names no seat. Xencor's careers page shows no intern or statistics role. Children's Hospital Los Angeles shows no internship. TGen's Helios Scholars page still returns *page not found*. Boston Scientific's Maple Grove seat was re-read at its own page tonight. Pfizer's Statistics positions list was last read October 21."
         },
         {
           "id": "kz-blocked-unread",
@@ -1002,7 +993,7 @@
         {
           "id": "kz-pf-geo",
           "title": "LA, Orange County, Bay Area, San Diego, Phoenix, remote",
-          "detail": "Nine rows outside these metros sit in Open now (New Jersey, New York, Pennsylvania, Massachusetts, Minnesota); say if they should come off. Humana's Graduate Analytics Internship fits your degree but is on-site in Louisville or five hubs outside your metros, so it sits in Not a fit until you say otherwise. Actuarial is on your title list; the first actuarial seats this cycle wanted a passed exam or an undergraduate, so say if you plan to sit an exam."
+          "detail": "Eight rows outside these metros sit in Open now (New Jersey, New York, Pennsylvania, Massachusetts, Minnesota); say if they should come off. Humana's Graduate Analytics Internship fits your degree but is on-site in Louisville or five hubs outside your metros, so it sits in Not a fit until you say otherwise. Actuarial is on your title list; the first actuarial seats this cycle wanted a passed exam or an undergraduate, so say if you plan to sit an exam."
         },
         {
           "id": "kz-pf-goal",

@@ -1,6 +1,6 @@
 # Research playbook
 
-**v32, 2026-11-01.** Rewritten every run. Hard cap 6 KB.
+**v33, 2026-11-02.** Rewritten every run. Hard cap 6 KB.
 
 ## Who this is for
 
@@ -9,46 +9,47 @@ Private sector only. Trials, devices, health analytics; genomics last.
 
 ## Governing metric
 
-Unsent rows in Open now (10 on 11-01, 2 in her metros or remote) and sends in the last 7 days
-(2 on 11-01; store holds 18 sent, 14 waiting, 4 rejected, nothing new since 10-28). Read the store with
-`curl -s https://mckenziehebert.com/api/apps`. Diagnosis 11-01: Gilead Biomarker closed 10-31 unsent
-(Merck went 10-30). Lead is J&J C&SP (closes Nov 9); dated seats vanish early. Asked again whether the
-Northeast location is why she holds back. Do not repeat on 11-02; watch for a send or a reply.
+Rows unsent 7+ runs in Open now: 4 on 11-02 (AG Generalist 35 runs, J&J C&SP 20, J&J Market Access 11,
+BSC 10). Sends in the last 7 days: 2 (store: 18 sent, 14 waiting, 4 rejected, nothing new since 10-28).
+Read the store with `curl -s https://mckenziehebert.com/api/apps`.
+Diagnosis 11-02: eight applications sent by 10-05 have no outcome; asked her to check portals and set
+outcomes. Do not repeat on 11-03; escalate once on 11-04 only if still unchanged, then watch.
+Diagnoses already used and dropped: unsent seats vanishing (10-30 to 11-01), Northeast location question.
 
 ## Sunday review (11-01; next 11-08)
 
 - Metro order still right; the thin spot is in-metro MS statistics seats (2 of 10 unsent rows, 0 biostat).
 - Underused skill: R Shiny app against Regeneron and J&J SDS "software for statistical analyses".
-- Biggest gap: no sends since 10-28 and eight of ten open rows are out of metro; tonight touched it by naming one dated seat and a day to send.
-- Produced nothing for 16+ runs: Xencor, Denali, CHLA browser reads. Move to every other Sunday.
-- Strategy-changing observables: a US CRO biostat intern (H3); an in-metro device MS stats seat (H11); sends per week below 2.
+- Strategy-changing observables: a US CRO biostat intern (H3); an in-metro device MS stats seat (H11); an interview recorded in the store.
 
-## What is working (last confirmed 2026-11-01)
+## What is working (last confirmed 2026-11-02)
 
 - Workday `cxs` search by tenant finds employers the sweep lacks: Regeneron (10-29), Moderna (10-28).
-  Tenant/site names must be exact; guessed names for Lilly, Takeda, Bayer, Incyte, BMS, Alnylam return nothing.
-  Sanofi (`sanofi`/wd3/`SanofiCareers`), GSK, AstraZeneca, Abbott, Thermo, IQVIA, Parexel, Fortrea, Labcorp answer.
-  Use `MSYS_NO_PATHCONV=1` for path args in Git Bash.
-- Sweep diff by URL against the backup (`kdiff.py`). Back up `sweep-latest.json`, `kenzie.json`,
-  `ledger.json`, `apply-archive.json` first. Helpers (`live.py`, `kdiff.py`) are in recent scratchpads; copy to /tmp/kb.
-- Liveness via Workday `cxs` with curl (`live.py <kenzie.json>`). Gone rows show GONE or a 403.
-- Web search finds seats before the board: compbiojobs.com lists Bayer (10-31), Moderna, Amgen.
+  Tenant/site names must be exact. Answer: Sanofi, GSK, AZ, Abbott, Thermo, IQVIA, Parexel, Fortrea,
+  Labcorp, Insulet (`insulet`/wd5/`insuletcareers`), BeOne (`beigene`/wd5/`BeiGene`), Baxter (`baxter`/wd1/`baxter`).
+  Guessed names that return nothing: Lilly, Takeda, Bayer, Incyte, BMS-alt, Alnylam, BioMarin, Intuitive,
+  Masimo, Jazz, Glaukos, BD, Zimmer, Hologic. `probe.py` (scratchpad) takes `tenant|wd|site|query` args.
+- Sweep diff by URL against the backup (`kdiff.py`); liveness via `live.py <kenzie.json>`. Back up the
+  four data files first; helpers are in recent scratchpads.
+- Re-checking a "down" page finds closures: Bayer statistician intern confirmed closed 11-02.
 
 ## What is not working
 
-- `sweep_boards.py` takes about 25 min; run `py -3 -u` to a log in the background, wait for `^wrote`.
+- `sweep_boards.py` takes about 25 min. In Git Bash pass `--out` with forward slashes
+  (`C:/Users/...`); backslashes were eaten on 11-02 and the file landed in the dashboard repo root.
 - Python `urllib` fails on an expired certificate. Use curl via subprocess; `py -3 -X utf8`.
-- Browser pane returns blank for Workday search pages; use the `cxs` API instead.
-- `fetch_posting_text.py` stubs AG x2 and BCBSM; skip it unless a new ranked row needs a body.
-- Long bash heredocs break; write scripts with the Write tool. Git Bash `/tmp` is not the Windows temp for `py`: use relative paths from /tmp/kb.
-- Carried text goes stale. Grep kenzie.json for last night's date before writing.
-- Web searches for LA/SD seats: 4 dry runs in a row. Stop repeating it; try employer boards by name.
+- Browser pane is blank for Workday search pages; use `cxs`.
+- `fetch_posting_text.py` stubs AG x2 and BCBSM; skip unless a new ranked row needs a body.
+- Long bash heredocs break; write scripts with the Write tool.
+- Carried text goes stale: grep kenzie.json for "open now", passed dates and sent reqs before writing.
+- Web searches for LA/SD seats: dry 4 runs running. Stopped.
+- Blocked boards (Denali, Xencor, CHLA, TGen): 17 dry runs. Read anyway per core; takes 2 minutes.
 
 ## Targets
 
-- Nov 9 J&J C&SP; Nov 26 BMS PS; Jan 8 J&J Market Access; Feb 15 Jefferson. Moderna, Regeneron, BSC rolling.
-- Watch: Corcept biostat (by Jan), Kite grad, Pfizer list (Jan 31), Kaiser R&E (Feb), MannKind (Q4),
-  Penumbra (Feb), Stryker RWE virtual re-post, J&J MedTech RWE & Modeling re-post, Bayer re-post.
+- Nov 9 J&J C&SP; Nov 26 BMS PS; Jan 8 J&J Market Access; Jan 31 Pfizer Stats; Feb 15 Jefferson.
+- Watch: Corcept biostat (by Jan), Kite grad, Pfizer list, Kaiser R&E (Feb), MannKind (Q4),
+  Penumbra (Feb), Stryker RWE virtual re-post, J&J MedTech RWE re-post.
 
 ## Hypotheses
 
@@ -57,27 +58,28 @@ Northeast location is why she holds back. Do not repeat on 11-02; watch for a se
 - H11: device makers post MS clinical-data seats outside her metros first. Kill: none in-metro by Dec 1.
 - H12: small LA biotechs (MannKind, Arrowhead) post Q4 to January. Kill: none by Jan 31.
 - H14: big-pharma graduate seats beyond J&J, Merck, Gilead, Amgen, Moderna, Regeneron are MBA, commercial or undergrad only. Kill: one posts an MS statistics seat before Dec 1.
-- H16: east-coast biotechs post MS biostat interns Sept to Oct. Kill: Alnylam, Lilly show none by Nov 10 (Lilly web search 11-01: 2026 only).
-- H17: dated seats vanish before the close date (J&J, Merck x3; Gilead closed on time 10-31). Kill: J&J C&SP lasts to Nov 9.
+- H17: dated seats vanish before the close date. Kill: J&J C&SP lasts to Nov 9.
+- H18: early September applications get decisions in November. Kill: no outcome change in the store by Nov 20.
 
 ## Exploration queue (never empty)
 
-1. Other Workday tenants with exact names: find via a job URL from web search (Lilly, Bayer, Takeda, Incyte, Vir, Ultragenyx).
-2. MannKind Paycor; Bayer re-post watch on jobs.bayer.com; compbiojobs.com pharma stats listings.
-3. Kaiser Pasadena master's intern seats, Cedars-Sinai board body read, City of Hope.
+1. Exact Workday names via a job URL from web search: Takeda, Incyte, Vir, Ultragenyx, Intuitive, Masimo.
+2. MannKind Paycor; compbiojobs.com pharma stats listings for new seats.
+3. Kaiser Pasadena master's intern seats; Cedars-Sinai and City of Hope boards.
 4. Mayo Arizona research intern bodies (graduate-level?).
-- Done: Denali, Xencor browser (11-01); Exponent iCIMS, Weill Cornell, Bayer web (10-31); Sanofi/GSK/AZ/Thermo/Labcorp/Abbott cxs (10-30).
+- Done: Insulet/BeOne/Baxter cxs, Bayer page (11-02); Denali, Xencor (11-01); Exponent, Weill Cornell (10-31).
 
 ## Notes to self
 
 - Out-of-metro rows in Open now (8): Moderna x2, J&J CSP, BMS PS, Jefferson, BSC, Regeneron x2.
 - RAND and BRG are in not-a-fit; do not carry their dates.
 - Mueller: no pronouns on the page; name only.
-- `/api/apps` is live: state counts as fact; ticks and manual rows count as sent; drop those rows from Open now.
+- `/api/apps` is live: counts are fact; ticks and manual rows count as sent.
 
 ## Proposed core changes
 
 - Standing dates in the task file are stale (Gilead/Kite and Henry Ford Oct 16 passed; AG Generalist passed).
 - Decide out-of-metro scope: eight rows sit in Open now.
-- Let long-dry BLOCKED boards (Xencor, CHLA, Denali) move to every other Sunday.
-- `sweep_boards.py`: add Moderna (`modernatx`/`M_tx`), Regeneron, Sanofi, Vertex, Biogen, Alnylam.
+- Let long-dry BLOCKED boards move to Sundays.
+- Task file sweep command: use forward slashes in `--out` for Git Bash.
+- `sweep_boards.py`: add Moderna, Regeneron, Sanofi, Vertex, Biogen, Alnylam, Insulet, BeOne.

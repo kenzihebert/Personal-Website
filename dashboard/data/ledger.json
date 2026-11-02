@@ -1,19 +1,8 @@
 {
   "version": 1,
-  "updated": "2026-11-01",
+  "updated": "2026-11-02",
   "_comment": "Memory across nightly runs. Read-modify-write each night. postings/people/news/searches are keyed maps; runs is an append-only list of {date, ok, pushed, notes, playbook_change}.",
   "runs": [
-    {
-      "date": "2026-10-01",
-      "ok": true,
-      "new_postings": 0,
-      "searches_run": 6,
-      "searches_dry": 3,
-      "boards_read_in_browser": 2,
-      "pushed": true,
-      "playbook_change": "v3: phrase search across all Workday boards recorded as working; Gilead Data Sciences lesson",
-      "notes": "Second firing on the same date; the first run pushed at 11:46 and this one started at 11:47. Sweep identical (399 intern rows, none new or gone). Delta only: Gilead Research Data Sciences moved to not-a-fit after body read (genomics, PhD preferred; req id is now R0055524); Merck Outcomes Research R413998 and Boston Scientific R&D data science noted under not-a-fit; Michigan placement list added to Start. If the schedule keeps double-firing, check the scheduler."
-    },
     {
       "date": "2026-10-02",
       "ok": true,
@@ -332,6 +321,17 @@
       "pushed": true,
       "playbook_change": "v32: Sunday review; Gilead Biomarker closed unsent; diagnosis moves to J&J C&SP Nov 9",
       "notes": "Single run. Sweep 512 rows, 0 new, 0 fit. /api/apps unchanged: 18 sent, nothing new since 10-28. Gilead Biomarker AI gone (closed unsent). Denali and Xencor read in browser, dry. fetch_posting_text skipped (no new ranked rows)."
+    },
+    {
+      "date": "2026-11-02",
+      "ok": true,
+      "new_postings": 0,
+      "searches_run": 5,
+      "searches_dry": 3,
+      "boards_read_in_browser": 4,
+      "pushed": true,
+      "playbook_change": "v33: diagnosis moves to recording outcomes on 8 aging applications; Bayer closed; three new Workday tenants dry",
+      "notes": "Single run. Sweep 508 rows, 7 new (all overseas), 0 fit. /api/apps unchanged: 18 sent, nothing new since 10-28. All 10 Open now rows live. Bayer statistician intern confirmed closed. Sweep --out path lost its backslashes in Git Bash and wrote to an odd filename in the dashboard repo; moved to her data folder, his repo left clean. fetch_posting_text skipped (no new ranked rows)."
     }
   ],
   "postings": {
@@ -473,7 +473,7 @@
       "id": "kz-analysisgroup-generalist",
       "title": "Analysis Group: Summer Analyst, Generalist",
       "first_seen": "2026-10-01",
-      "last_seen": "2026-11-01",
+      "last_seen": "2026-11-02",
       "status": "open"
     },
     "https://msd.wd5.myworkdayjobs.com/en-US/SearchJobs/job/USA---New-Jersey---Rahway/XMLNAME-2027-Future-Talent-Program---Biostatistics---Intern_R416450": {
@@ -945,7 +945,7 @@
       "id": "kz-jnj-idar-csp",
       "title": "J&J: Clinical & Statistical Programming Intern",
       "first_seen": "2026-10-13",
-      "last_seen": "2026-11-01",
+      "last_seen": "2026-11-02",
       "status": "open"
     },
     "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Raritan-New-Jersey-United-States-of-America/IDAR-Summer-Intern--EASE-_R-102328": {
@@ -1221,7 +1221,7 @@
       "status": "open",
       "note": "remote, MS/MPH eligible, closes 2027-01-08, posted 2026-09-30; missed by sweep, found by phrase pass",
       "first_seen": "2026-10-22",
-      "last_seen": "2026-11-01"
+      "last_seen": "2026-11-02"
     },
     "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Titusville-New-Jersey-United-States-of-America/RWE---Modeling-Summer-Intern_R-103932": {
       "id": "kz-nf-jnj-oct21",
@@ -1277,7 +1277,7 @@
       "status": "open",
       "note": "Maple Grove MN hybrid, urology RWE, MS biostat/epi/data science, grad Fall 2027-Spring 2030, R/Python+SQL, req 635655, no close date, term not stated",
       "first_seen": "2026-10-23",
-      "last_seen": "2026-11-01"
+      "last_seen": "2026-11-02"
     },
     "https://roche.wd3.myworkdayjobs.com/en-US/ROG-A2O-GENE/job/South-San-Francisco/XMLNAME-2027-Spring-Intern---Data-Science---Machine-Learning_202609-124657": {
       "id": "kz-nf-genentech-spring-ds",
@@ -1314,7 +1314,7 @@
       "id": "kz-bms-patient-safety",
       "title": "Bristol Myers Squibb: Patient Safety Intern",
       "first_seen": "2026-10-27",
-      "last_seen": "2026-11-01",
+      "last_seen": "2026-11-02",
       "status": "open"
     },
     "https://jobs.mayoclinic.org/job/rochester/intern-graduate-data-analytics-temporary/33647/102468408832": {
@@ -1342,28 +1342,28 @@
       "id": "kz-moderna-onc-biostat",
       "title": "Moderna: Intern, Oncology Biostatistics",
       "first_seen": "2026-10-28",
-      "last_seen": "2026-11-01",
+      "last_seen": "2026-11-02",
       "status": "open"
     },
     "https://redcap.link/jefferson_internship": {
       "id": "kz-jefferson-biostat",
       "title": "Jefferson: Biostatistics & Bioinformatics Intern",
       "first_seen": "2026-10-28",
-      "last_seen": "2026-11-01",
+      "last_seen": "2026-11-02",
       "status": "open"
     },
     "https://modernatx.wd1.myworkdayjobs.com/M_tx/job/Cambridge-Massachusetts/Intern--Biometrics_R19865": {
       "id": "kz-moderna-biometrics",
       "title": "Moderna: Intern, Biometrics",
       "first_seen": "2026-10-28",
-      "last_seen": "2026-11-01",
+      "last_seen": "2026-11-02",
       "status": "open"
     },
     "https://regeneron.wd1.myworkdayjobs.com/Careers/job/TARRYTOWN/XMLNAME-2027-Summer-Intern-Biostatistics---Statistical-Programming_R52558-1": {
       "id": "kz-regeneron-biostat",
       "title": "Regeneron: 2027 Summer Intern, Biostatistics & Statistical Programming",
       "first_seen": "2026-10-29",
-      "last_seen": "2026-11-01",
+      "last_seen": "2026-11-02",
       "status": "open",
       "note": "found by Workday cxs search of Regeneron, 2026-10-29"
     },
@@ -1371,17 +1371,17 @@
       "id": "kz-regeneron-clinsci",
       "title": "Regeneron: 2027 Summer Intern, Clinical Science & Health Economics",
       "first_seen": "2026-10-29",
-      "last_seen": "2026-11-01",
+      "last_seen": "2026-11-02",
       "status": "open",
       "note": "found by Workday cxs search of Regeneron, 2026-10-29"
     },
     "https://jobs.bayer.com/job/Residence-Based-Statistician-Intern-Resi/1431241433/": {
-      "id": "kz-later-bayer",
+      "id": "kz-nf-bayer-statintern",
       "title": "Bayer: Statistician Intern, remote",
       "first_seen": "2026-10-31",
-      "last_seen": "2026-10-31",
-      "status": "down",
-      "note": "listed on compbiojobs.com since 2026-09-24; Bayer's own page refuses to open 2026-10-31"
+      "last_seen": "2026-11-02",
+      "status": "closed",
+      "note": "listed on compbiojobs.com since 2026-09-24; Bayer's own page refuses to open 2026-10-31; Bayer page opened 2026-11-02 and says the job was deleted or is no longer available"
     }
   },
   "people": {
@@ -2302,9 +2302,9 @@
     },
     "bayer-stat-intern-1031": {
       "query": "Bayer 2027 summer statistician intern; jobs.bayer.com search",
-      "last_run": "2026-10-31",
-      "result": "Aggregator lists a remote Statistician Intern (MS ok, posted 09-24); Bayer's own page refuses to open and board search shows none",
-      "status": "open",
+      "last_run": "2026-11-02",
+      "result": "Closed: Bayer page says deleted or no longer available (2026-11-02)",
+      "status": "answered",
       "empty_runs": 0
     },
     "kaiser-cedars-coh-1031": {
@@ -2362,6 +2362,34 @@
       "result": "Lilly shows only the 2026 program (MS and PhD tracks); nothing for Takeda or Incyte",
       "status": "open",
       "empty_runs": 1
+    },
+    "sweep-1102": {
+      "query": "sweep_boards.py --who Z",
+      "last_run": "2026-11-02",
+      "result": "508 rows, 7 new (IQVIA China/Korea, Medpace Australia, Syneos Singapore), 0 fit; 11 gone, none on the page",
+      "status": "open",
+      "empty_runs": 0
+    },
+    "liveness-1102": {
+      "query": "Workday cxs liveness on Open now rows",
+      "last_run": "2026-11-02",
+      "result": "All 10 rows live; J&J C&SP end date 2026-11-09, BMS 2026-11-26",
+      "status": "open",
+      "empty_runs": 0
+    },
+    "cxs-insulet-beone-baxter-1102": {
+      "query": "Workday cxs intern search: insulet/insuletcareers, beigene/BeiGene, baxter/baxter (new tenants); biomarin, intuitive, masimo, takeda, jazz, glaukos, bd, zimmerbiomet, hologic guessed names returned nothing",
+      "last_run": "2026-11-02",
+      "result": "No statistics intern at Insulet, BeOne or Baxter",
+      "status": "open",
+      "empty_runs": 1
+    },
+    "browser-blocked-1102": {
+      "query": "Browser read of Denali, Xencor, CHLA, TGen Helios",
+      "last_run": "2026-11-02",
+      "result": "All dry; TGen page still not found",
+      "status": "open",
+      "empty_runs": 17
     }
   },
   "total": {
