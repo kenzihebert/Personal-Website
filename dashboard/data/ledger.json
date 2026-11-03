@@ -1,19 +1,8 @@
 {
   "version": 1,
-  "updated": "2026-11-02",
+  "updated": "2026-11-03",
   "_comment": "Memory across nightly runs. Read-modify-write each night. postings/people/news/searches are keyed maps; runs is an append-only list of {date, ok, pushed, notes, playbook_change}.",
   "runs": [
-    {
-      "date": "2026-10-02",
-      "ok": true,
-      "new_postings": 1,
-      "searches_run": 14,
-      "searches_dry": 5,
-      "boards_read_in_browser": 6,
-      "pushed": true,
-      "playbook_change": "v4: Edwards window correction; standing dates are not safe; phrase search pays on device boards",
-      "notes": "Single run. New: Edwards Clinical & Regulatory (Irvine, Nov 1), missed by the sweep's intern filter and by the core's Jan to Apr assumption. First named contact (SPH employer engagement coordinator). Diagnosis escalated once with the cost; drop it next run. fetch_posting_text overwrote the two Analysis Group files with stubs again; Health Care body restored by hand from the browser."
-    },
     {
       "date": "2026-10-03",
       "ok": true,
@@ -332,6 +321,17 @@
       "pushed": true,
       "playbook_change": "v33: diagnosis moves to recording outcomes on 8 aging applications; Bayer closed; three new Workday tenants dry",
       "notes": "Single run. Sweep 508 rows, 7 new (all overseas), 0 fit. /api/apps unchanged: 18 sent, nothing new since 10-28. All 10 Open now rows live. Bayer statistician intern confirmed closed. Sweep --out path lost its backslashes in Git Bash and wrote to an odd filename in the dashboard repo; moved to her data folder, his repo left clean. fetch_posting_text skipped (no new ranked rows)."
+    },
+    {
+      "date": "2026-11-03",
+      "ok": true,
+      "new_postings": 0,
+      "searches_run": 6,
+      "searches_dry": 4,
+      "boards_read_in_browser": 5,
+      "pushed": true,
+      "playbook_change": "v34: diagnosis moves to send rate (1 in 7 days, 8 of 10 rows out of metro); Ultragenyx Jan to Mar window added; H19",
+      "notes": "Single run. Sweep 507 rows, 38 new, 0 fit. /api/apps unchanged: 18 sent, nothing new since 10-28. All 10 Open now rows live. Ultragenyx program page read in browser (Cloudflare blocks curl). fetch_posting_text skipped (no new ranked rows)."
     }
   ],
   "postings": {
@@ -473,7 +473,7 @@
       "id": "kz-analysisgroup-generalist",
       "title": "Analysis Group: Summer Analyst, Generalist",
       "first_seen": "2026-10-01",
-      "last_seen": "2026-11-02",
+      "last_seen": "2026-11-03",
       "status": "open"
     },
     "https://msd.wd5.myworkdayjobs.com/en-US/SearchJobs/job/USA---New-Jersey---Rahway/XMLNAME-2027-Future-Talent-Program---Biostatistics---Intern_R416450": {
@@ -945,7 +945,7 @@
       "id": "kz-jnj-idar-csp",
       "title": "J&J: Clinical & Statistical Programming Intern",
       "first_seen": "2026-10-13",
-      "last_seen": "2026-11-02",
+      "last_seen": "2026-11-03",
       "status": "open"
     },
     "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Raritan-New-Jersey-United-States-of-America/IDAR-Summer-Intern--EASE-_R-102328": {
@@ -1221,7 +1221,7 @@
       "status": "open",
       "note": "remote, MS/MPH eligible, closes 2027-01-08, posted 2026-09-30; missed by sweep, found by phrase pass",
       "first_seen": "2026-10-22",
-      "last_seen": "2026-11-02"
+      "last_seen": "2026-11-03"
     },
     "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Titusville-New-Jersey-United-States-of-America/RWE---Modeling-Summer-Intern_R-103932": {
       "id": "kz-nf-jnj-oct21",
@@ -1277,7 +1277,7 @@
       "status": "open",
       "note": "Maple Grove MN hybrid, urology RWE, MS biostat/epi/data science, grad Fall 2027-Spring 2030, R/Python+SQL, req 635655, no close date, term not stated",
       "first_seen": "2026-10-23",
-      "last_seen": "2026-11-02"
+      "last_seen": "2026-11-03"
     },
     "https://roche.wd3.myworkdayjobs.com/en-US/ROG-A2O-GENE/job/South-San-Francisco/XMLNAME-2027-Spring-Intern---Data-Science---Machine-Learning_202609-124657": {
       "id": "kz-nf-genentech-spring-ds",
@@ -1314,7 +1314,7 @@
       "id": "kz-bms-patient-safety",
       "title": "Bristol Myers Squibb: Patient Safety Intern",
       "first_seen": "2026-10-27",
-      "last_seen": "2026-11-02",
+      "last_seen": "2026-11-03",
       "status": "open"
     },
     "https://jobs.mayoclinic.org/job/rochester/intern-graduate-data-analytics-temporary/33647/102468408832": {
@@ -1342,28 +1342,28 @@
       "id": "kz-moderna-onc-biostat",
       "title": "Moderna: Intern, Oncology Biostatistics",
       "first_seen": "2026-10-28",
-      "last_seen": "2026-11-02",
+      "last_seen": "2026-11-03",
       "status": "open"
     },
     "https://redcap.link/jefferson_internship": {
       "id": "kz-jefferson-biostat",
       "title": "Jefferson: Biostatistics & Bioinformatics Intern",
       "first_seen": "2026-10-28",
-      "last_seen": "2026-11-02",
+      "last_seen": "2026-11-03",
       "status": "open"
     },
     "https://modernatx.wd1.myworkdayjobs.com/M_tx/job/Cambridge-Massachusetts/Intern--Biometrics_R19865": {
       "id": "kz-moderna-biometrics",
       "title": "Moderna: Intern, Biometrics",
       "first_seen": "2026-10-28",
-      "last_seen": "2026-11-02",
+      "last_seen": "2026-11-03",
       "status": "open"
     },
     "https://regeneron.wd1.myworkdayjobs.com/Careers/job/TARRYTOWN/XMLNAME-2027-Summer-Intern-Biostatistics---Statistical-Programming_R52558-1": {
       "id": "kz-regeneron-biostat",
       "title": "Regeneron: 2027 Summer Intern, Biostatistics & Statistical Programming",
       "first_seen": "2026-10-29",
-      "last_seen": "2026-11-02",
+      "last_seen": "2026-11-03",
       "status": "open",
       "note": "found by Workday cxs search of Regeneron, 2026-10-29"
     },
@@ -1371,7 +1371,7 @@
       "id": "kz-regeneron-clinsci",
       "title": "Regeneron: 2027 Summer Intern, Clinical Science & Health Economics",
       "first_seen": "2026-10-29",
-      "last_seen": "2026-11-02",
+      "last_seen": "2026-11-03",
       "status": "open",
       "note": "found by Workday cxs search of Regeneron, 2026-10-29"
     },
@@ -1382,6 +1382,22 @@
       "last_seen": "2026-11-02",
       "status": "closed",
       "note": "listed on compbiojobs.com since 2026-09-24; Bayer's own page refuses to open 2026-10-31; Bayer page opened 2026-11-02 and says the job was deleted or is no longer available"
+    },
+    "https://msd.wd5.myworkdayjobs.com/en-US/SearchJobs/job/USA---Massachusetts---Cambridge-320-Bent-Street/XMLNAME-2027-Future-Talent-Program---Patient-Data-Learning---Co-op_R424526": {
+      "id": "kz-nf-nov03",
+      "title": "Merck: Patient Data Learning co-op",
+      "first_seen": "2026-11-03",
+      "last_seen": "2026-11-03",
+      "status": "not-a-fit",
+      "note": "six-month LLM agent co-op, PhD encouraged"
+    },
+    "https://jobs.mayoclinic.org/job/rochester/intern-data-science-ai-i-phd-level/33647/102775184016": {
+      "id": "kz-nf-nov03",
+      "title": "Mayo: Intern Data Science AI-I (PhD level)",
+      "first_seen": "2026-11-03",
+      "last_seen": "2026-11-03",
+      "status": "not-a-fit",
+      "note": "PhD level in title"
     }
   },
   "people": {
@@ -2390,12 +2406,54 @@
       "result": "All dry; TGen page still not found",
       "status": "open",
       "empty_runs": 17
+    },
+    "sweep-1103": {
+      "query": "sweep_boards.py --who Z",
+      "last_run": "2026-11-03",
+      "result": "507 rows, 38 new vs last sweep, 0 fit (Merck co-op and Mayo PhD DS rejected)",
+      "status": "open",
+      "empty_runs": 0
+    },
+    "liveness-1103": {
+      "query": "Workday cxs and page liveness on Open now rows",
+      "last_run": "2026-11-03",
+      "result": "All 10 live; BSC re-read in browser, AG icims still takes applications",
+      "status": "open",
+      "empty_runs": 0
+    },
+    "ultragenyx-1103": {
+      "query": "Ultragenyx internships: Greenhouse board and program page (browser)",
+      "last_run": "2026-11-03",
+      "result": "Greenhouse 3 roles, no intern; program page: summer interns posted January to March, Bay Area HQ, Boston or remote",
+      "status": "answered",
+      "empty_runs": 0
+    },
+    "cityofhope-1103": {
+      "query": "City of Hope internships category and old intern pages",
+      "last_run": "2026-11-03",
+      "result": "No intern seat; old research data intern page 410",
+      "status": "open",
+      "empty_runs": 1
+    },
+    "websearch-takeda-intuitive-1103": {
+      "query": "Web search: Takeda, Intuitive, Ultragenyx/Masimo/Incyte 2027 interns on Workday",
+      "last_run": "2026-11-03",
+      "result": "Takeda uses jobs.takeda.com (2026 seats only); Intuitive careers.intuitive.com; no 2027 stats seats",
+      "status": "open",
+      "empty_runs": 1
+    },
+    "browser-blocked-1103": {
+      "query": "Browser read of Denali, Xencor, CHLA, TGen Helios",
+      "last_run": "2026-11-03",
+      "result": "All dry; TGen page still not found",
+      "status": "open",
+      "empty_runs": 18
     }
   },
   "total": {
-    "postings": 146,
+    "postings": 148,
     "people": 2,
     "news": 0,
-    "searches": 137
+    "searches": 147
   }
 }

@@ -1,6 +1,6 @@
 {
   "title": "Your search",
-  "updated": "2026-11-02",
+  "updated": "2026-11-03",
   "generatedBy": "nightly research",
   "deadlines": [
     {
@@ -41,14 +41,14 @@
       "items": [
         {
           "id": "kz-start-diagnosis",
-          "title": "14 applications waiting; 8 are over four weeks old",
-          "detail": "Your applications store holds 18 sent applications, September 29 to October 28: 14 waiting and 4 closed as rejections (Centene, BCBS Michigan, Highmark, Stryker). Sent in the last 7 days: 2 (Dexcom October 26, Amgen biostatistics October 28). Last 14 days: 3. Nothing new has been recorded for five days. Eight of the 14 waiting went out by October 5: Kite Clinical Data Management, Gilead Development Biostatistics, Gilead Epidemiology & RWE, Amgen Data Scientist, Dexcom early interest, J&J Clinical Pharmacology, Edwards Clinical & Regulatory and Abbott. Gilead and Kite closed their reqs October 16 and Edwards came down October 31, so those decisions are being made now. The likely reason the page shows no news: replies land in employer portals and email, and none of them has been recorded here. The change: tonight, open the Workday candidate home for Gilead, Kite, Amgen, J&J and Edwards, and set the outcome on each row (waiting, interview, rejected, closed). Then this page can tell a live lead from a dead one and rank the next sends against it. Open now still holds 10 rows you have not sent; J&J Clinical & Statistical Programming closes November 9."
+          "title": "1 application sent in 7 days; most open seats are far away",
+          "detail": "Your applications store shows 18 sent, September 29 to October 28: 14 waiting, 4 rejected. Sent in the last 7 days: 1 (Amgen biostatistics, October 28). Last 14 days: 3. Nothing new for six days. Open now holds 10 rows; 8 of them are in New Jersey, New York, Massachusetts, Pennsylvania or Minnesota, one is remote (J&J Market Access) and one is in Los Angeles or San Francisco (Analysis Group Generalist, open since September 30). The likely reason sends slowed: the seats left are mostly outside your metros, and the California ones closed in October. Your metros reopen in January: Ultragenyx (Bay Area or remote) posts January to March, Edwards January to April, Ionis about February 9, Kaiser Research & Evaluation February to March, Pfizer Statistics (San Diego site) closes January 31. The change: decide once this week whether you would spend a summer on the East Coast. If yes, send the two strongest far-away rows (J&J Clinical & Statistical Programming before November 9, then Moderna Oncology Biostatistics). If no, skip them and use November to get one piece ready for January: a public link to your R Shiny recurrence app on your resume."
         },
         {
           "id": "kz-start-this-week",
           "title": "The next two weeks",
           "tags": [],
-          "detail": "**Tonight:** record outcomes for the eight applications sent by October 5 (see above).\n\n**By Friday, November 6, if not sent yet:** J&J Clinical & Statistical Programming (New Jersey or Pennsylvania; closes November 9).\n\n**This week, if not sent yet:** Moderna Oncology Biostatistics (Cambridge; the req names master's students), then Regeneron Biostatistics & Statistical Programming (Warren or Tarrytown).\n\n**No close date shown:** Boston Scientific Graduate Clinical Insights Research Intern (Maple Grove, real-world evidence), Moderna Biometrics (Python required), Regeneron Clinical Science & Health Economics.\n\n**November 26:** BMS Patient Safety (Princeton).\n\n**Remote, until January 8:** J&J Global Market Access.\n\n**Until February 15:** Jefferson Biostatistics & Bioinformatics (Philadelphia, rolling review).\n\n**Records:** your 18 sent applications live in this page's store, not in the done file; have them recorded there."
+          "detail": "**By Friday, November 6, if not sent yet:** J&J Clinical & Statistical Programming (New Jersey or Pennsylvania; closes November 9).\n\n**This week, if not sent yet:** Moderna Oncology Biostatistics (Cambridge; the req names master's students), then Regeneron Biostatistics & Statistical Programming (Warren or Tarrytown).\n\n**No close date shown:** Boston Scientific Graduate Clinical Insights Research Intern (Maple Grove, real-world evidence), Moderna Biometrics (Python required), Regeneron Clinical Science & Health Economics.\n\n**November 26:** BMS Patient Safety (Princeton).\n\n**Remote, until January 8:** J&J Global Market Access.\n\n**Until February 15:** Jefferson Biostatistics & Bioinformatics (Philadelphia, rolling review).\n\n**Outcomes:** if Gilead, Kite, Amgen, J&J or Edwards has written, set that row's outcome on this page.\n\n**Records:** your 18 sent applications live in this page's store, not in the done file; have them recorded there."
         },
         {
           "id": "kz-start-howhiring",
@@ -308,6 +308,21 @@
           "detail": "Bay Area. Last cycle's posting took students *pursuing a master's degree or PhD in statistics, mathematics, data science or a related field*, with R, SAS or Python, at $26 to $32 an hour, on site, and came down January 6, 2026. Corcept's Greenhouse board lists 79 roles and no internship, so expect it before the new year. [Corcept openings](https://corcept.com/careers/current-opportunities/), [last cycle's posting](https://www.builtinsf.com/job/biostatistics-intern/7974432)"
         },
         {
+          "id": "kz-later-ultragenyx",
+          "title": "Ultragenyx: summer internships, Bay Area or remote",
+          "tags": [
+            {
+              "label": "Posts Jan to Mar",
+              "status": "good"
+            },
+            {
+              "label": "Rare-disease biotech",
+              "status": "serious"
+            }
+          ],
+          "detail": "Rare-disease biotech headquartered in the Bay Area. Its program page says summer internships are *posted January through March*, run 10 to 12 weeks, take undergraduate or graduate students, and can sit at the Bay Area headquarters, the Boston area or remote. A 2024 intern there describes working alongside its Data Management and Biostatistics teams. Nothing posted on November 3. [Emerging talent programs](https://www.ultragenyx.com/join-our-team/current-opportunities/emerging-talent-programs/)"
+        },
+        {
           "id": "kz-later-penumbra",
           "title": "Penumbra: Statistician Intern, Alameda",
           "tags": [
@@ -478,7 +493,7 @@
       "items": [
         {
           "title": "Los Angeles",
-          "detail": "Kite (Gilead), Santa Monica and El Segundo: no intern reqs on its board on October 22; statistics grad interns post Oct to Jan.\n**Amgen**, Thousand Oaks: remote grad Biostatistics intern (posted October 26) and remote grad Data Scientist both open.\n**Kaiser Permanente Research & Evaluation**, Pasadena: graduate interns post Feb to Mar. Kaiser's main board on October 12: pharmacy interns and one bachelor's IT seat; its Pasadena master's analytics interns posted January to March last cycle.\nAnalysis Group, downtown: Health Care Summer Analyst deadline passed Oct 28 (you sent it October 8); the Generalist req still reviews on a rolling basis. BRG's final review date passed Oct 16.\nCity of Hope's board is back after maintenance: no internship. Children's Hospital Los Angeles: no internship (read October 22). Cedars-Sinai: lab research interns only. Xencor (six roles on its Dayforce board, October 22), ImmunityBio, Grifols: no intern seats. Arcutis, Capsida and Puma were not read.\nArrowhead Pharmaceuticals, Pasadena: has a Biostats & Data Management group (statistical programming roles open), no internship posted. [Arrowhead job openings](https://arrowheadpharma.com/en-us/careers/job-openings)\nMannKind, Westlake Village: posts summer internships in Q4, offers by mid-March; none posted on October 13. [MannKind internships](https://mannkindcorp.com/internships/)"
+          "detail": "Kite (Gilead), Santa Monica and El Segundo: no intern reqs on its board on October 22; statistics grad interns post Oct to Jan.\n**Amgen**, Thousand Oaks: remote grad Biostatistics intern (posted October 26) and remote grad Data Scientist both open.\n**Kaiser Permanente Research & Evaluation**, Pasadena: graduate interns post Feb to Mar. Kaiser's main board on October 12: pharmacy interns and one bachelor's IT seat; its Pasadena master's analytics interns posted January to March last cycle.\nAnalysis Group, downtown: Health Care Summer Analyst deadline passed Oct 28 (you sent it October 8); the Generalist req still reviews on a rolling basis. BRG's final review date passed Oct 16.\nCity of Hope (Duarte): its internships category lists no intern seat on November 3, and last cycle's research data intern page is gone. Children's Hospital Los Angeles: no internship (read October 22). Cedars-Sinai: lab research interns only. Xencor (six roles on its Dayforce board, October 22), ImmunityBio, Grifols: no intern seats. Arcutis, Capsida and Puma were not read.\nArrowhead Pharmaceuticals, Pasadena: has a Biostats & Data Management group (statistical programming roles open), no internship posted. [Arrowhead job openings](https://arrowheadpharma.com/en-us/careers/job-openings)\nMannKind, Westlake Village: posts summer internships in Q4, offers by mid-March; none posted on October 13. [MannKind internships](https://mannkindcorp.com/internships/)"
         },
         {
           "title": "Orange County",
@@ -486,7 +501,7 @@
         },
         {
           "title": "Bay Area",
-          "detail": "**Gilead**, Foster City: its October 16 batch closed. Its Oncology Biomarker AI seat (multi-omic, PhD preferred) and the research AI seats (omics, chemistry, lab work) closed October 31 and came off the board.\n**Corcept**, Redwood City: master's-level biostatistics intern last cycle; 79 roles, not posted yet.\n**Blue Shield of California** (Oakland, Long Beach), health plan: 2027 program dated June 14 to Aug 20, graduate pay $30 an hour; only actuarial and finance seats so far, both bachelor's-level.\nRevolution Medicines (Redwood City): a large statistics group, no internship.\nGenentech (five interns, none statistics; its new Digital Sciences seat is undergraduate only), BioMarin, Exelixis, Denali (careers page read October 22: 46 roles, among them a Principal and a Senior Biostatistician, no intern; its page says internships open October to January), Cytokinetics (81 roles, no intern), BeOne Medicines: no summer statistics seats posted.\nPenumbra (Alameda): ran a master's-eligible Statistician Intern last cycle with a February deadline; none posted yet.\nStryker (Fremont): regulatory affairs intern only. Stanford Health Care: nothing posted.\nGuardant, GRAIL, Natera: genomics, listed last; no interns."
+          "detail": "**Gilead**, Foster City: its October 16 batch closed. Its Oncology Biomarker AI seat (multi-omic, PhD preferred) and the research AI seats (omics, chemistry, lab work) closed October 31 and came off the board.\n**Corcept**, Redwood City: master's-level biostatistics intern last cycle; 79 roles, not posted yet.\n**Blue Shield of California** (Oakland, Long Beach), health plan: 2027 program dated June 14 to Aug 20, graduate pay $30 an hour; only actuarial and finance seats so far, both bachelor's-level.\n**Ultragenyx** (Bay Area headquarters, remote seats too): summer interns post January to March.\nRevolution Medicines (Redwood City): a large statistics group, no internship.\nGenentech (five interns, none statistics; its new Digital Sciences seat is undergraduate only), BioMarin, Exelixis, Denali (careers page read October 22: 46 roles, among them a Principal and a Senior Biostatistician, no intern; its page says internships open October to January), Cytokinetics (81 roles, no intern), BeOne Medicines: no summer statistics seats posted.\nPenumbra (Alameda): ran a master's-eligible Statistician Intern last cycle with a February deadline; none posted yet.\nStryker (Fremont): regulatory affairs intern only. Stanford Health Care: nothing posted.\nGuardant, GRAIL, Natera: genomics, listed last; no interns."
         },
         {
           "title": "San Diego",
@@ -506,6 +521,11 @@
       "id": "not-a-fit",
       "title": "Checked and not a fit",
       "items": [
+        {
+          "id": "kz-nf-nov03",
+          "title": "Merck Patient Data Learning co-op; Mayo PhD data science",
+          "detail": "Merck's 2027 Patient Data Learning co-op (Cambridge, posted November 2, closes December 4) is a *six months* co-op building local language-model agents on health records, with PhD students *highly encouraged*: a software seat, not a summer internship. [Merck posting](https://msd.wd5.myworkdayjobs.com/en-US/SearchJobs/job/USA---Massachusetts---Cambridge-320-Bent-Street/XMLNAME-2027-Future-Talent-Program---Patient-Data-Learning---Co-op_R424526) Mayo Clinic's new Intern, Data Science AI-I in Rochester is titled PhD level. [Mayo posting](https://jobs.mayoclinic.org/job/rochester/intern-data-science-ai-i-phd-level/33647/102775184016) The rest of tonight's 38 new board rows were overseas, undergraduate, MBA, sales, lab or nursing seats."
+        },
         {
           "id": "kz-nf-bayer-statintern",
           "title": "Bayer: Statistician Intern, remote",
@@ -950,7 +970,7 @@
           "id": "kz-blocked-browser",
           "title": "Read in the browser",
           "tags": [],
-          "detail": "Read in the browser on November 2. Denali's careers page lists a Principal Biostatistician, a Senior Biostatistician and two clinical data management leads, no intern; its Internships section names no seat. Xencor's careers page shows no intern or statistics role. Children's Hospital Los Angeles shows no internship. TGen's Helios Scholars page still returns *page not found*. Boston Scientific's Maple Grove seat was re-read at its own page tonight. Pfizer's Statistics positions list was last read October 21."
+          "detail": "Read in the browser on November 3. Denali's careers and internships pages name no intern seat. Xencor's careers page shows no intern or statistics role. Children's Hospital Los Angeles lists no internship. TGen's Helios Scholars page still returns *page not found*. Ultragenyx's site refuses scripted reads, so its program page was read here. Boston Scientific's Maple Grove seat was re-read at its own page tonight and still takes applications."
         },
         {
           "id": "kz-blocked-unread",
