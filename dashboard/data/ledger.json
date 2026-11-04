@@ -1,19 +1,8 @@
 {
   "version": 1,
-  "updated": "2026-11-03",
+  "updated": "2026-11-04",
   "_comment": "Memory across nightly runs. Read-modify-write each night. postings/people/news/searches are keyed maps; runs is an append-only list of {date, ok, pushed, notes, playbook_change}.",
   "runs": [
-    {
-      "date": "2026-10-03",
-      "ok": true,
-      "new_postings": 0,
-      "searches_run": 10,
-      "searches_dry": 6,
-      "boards_read_in_browser": 6,
-      "pushed": true,
-      "playbook_change": "v5: H2 killed (device boards beyond Edwards/Stryker dry); device phrase pass to weekly; diagnosis dropped as planned",
-      "notes": "Single run. No new fitting posting from 441 sweep rows plus an 18-board phrase pass. All 18 open rows verified live. Diagnosis not repeated; first Start item reframed on supply (nothing new is coming before Oct 16). fetch_posting_text stubbed the two Analysis Group files again; restored from backup taken before the run. /api/apps still 501 (no KV binding)."
-    },
     {
       "date": "2026-10-04",
       "ok": true,
@@ -332,6 +321,17 @@
       "pushed": true,
       "playbook_change": "v34: diagnosis moves to send rate (1 in 7 days, 8 of 10 rows out of metro); Ultragenyx Jan to Mar window added; H19",
       "notes": "Single run. Sweep 507 rows, 38 new, 0 fit. /api/apps unchanged: 18 sent, nothing new since 10-28. All 10 Open now rows live. Ultragenyx program page read in browser (Cloudflare blocks curl). fetch_posting_text skipped (no new ranked rows)."
+    },
+    {
+      "date": "2026-11-04",
+      "ok": true,
+      "new_postings": 3,
+      "searches_run": 6,
+      "searches_dry": 4,
+      "boards_read_in_browser": 5,
+      "pushed": true,
+      "playbook_change": "v35: diagnosis moves to four dated East Coast seats closing by Nov 19; cxs endDate check added; Takeda, Intuitive, Kaiser explored dry",
+      "notes": "Single run. Sweep 521 rows, 31 new, 3 fit (AZ Epidemiology, AZ Lung Cancer Evidence, Amgen Target Safety). /api/apps unchanged: 18 sent, nothing new since 10-28. BMS Patient Safety re-posted with close moved to Nov 16. Three long apply-now titles shortened (ids kept). fetch_posting_text: 12 saved, AG stub."
     }
   ],
   "postings": {
@@ -473,7 +473,7 @@
       "id": "kz-analysisgroup-generalist",
       "title": "Analysis Group: Summer Analyst, Generalist",
       "first_seen": "2026-10-01",
-      "last_seen": "2026-11-03",
+      "last_seen": "2026-11-04",
       "status": "open"
     },
     "https://msd.wd5.myworkdayjobs.com/en-US/SearchJobs/job/USA---New-Jersey---Rahway/XMLNAME-2027-Future-Talent-Program---Biostatistics---Intern_R416450": {
@@ -945,7 +945,7 @@
       "id": "kz-jnj-idar-csp",
       "title": "J&J: Clinical & Statistical Programming Intern",
       "first_seen": "2026-10-13",
-      "last_seen": "2026-11-03",
+      "last_seen": "2026-11-04",
       "status": "open"
     },
     "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Raritan-New-Jersey-United-States-of-America/IDAR-Summer-Intern--EASE-_R-102328": {
@@ -1221,7 +1221,7 @@
       "status": "open",
       "note": "remote, MS/MPH eligible, closes 2027-01-08, posted 2026-09-30; missed by sweep, found by phrase pass",
       "first_seen": "2026-10-22",
-      "last_seen": "2026-11-03"
+      "last_seen": "2026-11-04"
     },
     "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Titusville-New-Jersey-United-States-of-America/RWE---Modeling-Summer-Intern_R-103932": {
       "id": "kz-nf-jnj-oct21",
@@ -1277,7 +1277,7 @@
       "status": "open",
       "note": "Maple Grove MN hybrid, urology RWE, MS biostat/epi/data science, grad Fall 2027-Spring 2030, R/Python+SQL, req 635655, no close date, term not stated",
       "first_seen": "2026-10-23",
-      "last_seen": "2026-11-03"
+      "last_seen": "2026-11-04"
     },
     "https://roche.wd3.myworkdayjobs.com/en-US/ROG-A2O-GENE/job/South-San-Francisco/XMLNAME-2027-Spring-Intern---Data-Science---Machine-Learning_202609-124657": {
       "id": "kz-nf-genentech-spring-ds",
@@ -1314,7 +1314,7 @@
       "id": "kz-bms-patient-safety",
       "title": "Bristol Myers Squibb: Patient Safety Intern",
       "first_seen": "2026-10-27",
-      "last_seen": "2026-11-03",
+      "last_seen": "2026-11-04",
       "status": "open"
     },
     "https://jobs.mayoclinic.org/job/rochester/intern-graduate-data-analytics-temporary/33647/102468408832": {
@@ -1342,28 +1342,28 @@
       "id": "kz-moderna-onc-biostat",
       "title": "Moderna: Intern, Oncology Biostatistics",
       "first_seen": "2026-10-28",
-      "last_seen": "2026-11-03",
+      "last_seen": "2026-11-04",
       "status": "open"
     },
     "https://redcap.link/jefferson_internship": {
       "id": "kz-jefferson-biostat",
       "title": "Jefferson: Biostatistics & Bioinformatics Intern",
       "first_seen": "2026-10-28",
-      "last_seen": "2026-11-03",
+      "last_seen": "2026-11-04",
       "status": "open"
     },
     "https://modernatx.wd1.myworkdayjobs.com/M_tx/job/Cambridge-Massachusetts/Intern--Biometrics_R19865": {
       "id": "kz-moderna-biometrics",
       "title": "Moderna: Intern, Biometrics",
       "first_seen": "2026-10-28",
-      "last_seen": "2026-11-03",
+      "last_seen": "2026-11-04",
       "status": "open"
     },
     "https://regeneron.wd1.myworkdayjobs.com/Careers/job/TARRYTOWN/XMLNAME-2027-Summer-Intern-Biostatistics---Statistical-Programming_R52558-1": {
       "id": "kz-regeneron-biostat",
       "title": "Regeneron: 2027 Summer Intern, Biostatistics & Statistical Programming",
       "first_seen": "2026-10-29",
-      "last_seen": "2026-11-03",
+      "last_seen": "2026-11-04",
       "status": "open",
       "note": "found by Workday cxs search of Regeneron, 2026-10-29"
     },
@@ -1371,7 +1371,7 @@
       "id": "kz-regeneron-clinsci",
       "title": "Regeneron: 2027 Summer Intern, Clinical Science & Health Economics",
       "first_seen": "2026-10-29",
-      "last_seen": "2026-11-03",
+      "last_seen": "2026-11-04",
       "status": "open",
       "note": "found by Workday cxs search of Regeneron, 2026-10-29"
     },
@@ -1398,6 +1398,54 @@
       "last_seen": "2026-11-03",
       "status": "not-a-fit",
       "note": "PhD level in title"
+    },
+    "https://astrazeneca.eightfold.ai/careers/job/563877691802953": {
+      "id": "kz-astrazeneca-epi",
+      "title": "AstraZeneca (Alexion): Epidemiology Intern",
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-04",
+      "status": "apply-now",
+      "note": "Boston, master's named, closes 2026-11-19"
+    },
+    "https://astrazeneca.eightfold.ai/careers/job/563877691801908": {
+      "id": "kz-astrazeneca-lung-evidence",
+      "title": "AstraZeneca: Lung Cancer Evidence & Strategy Intern",
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-04",
+      "status": "apply-now",
+      "note": "Gaithersburg, master's named, closes 2026-11-16"
+    },
+    "https://amgen.wd1.myworkdayjobs.com/en-US/Careers/job/United-States---Remote/Grad-Intern---Target-Safety-Risk-Weighting-and-Evaluation-Strategies--Summer-2027-_R-259961": {
+      "id": "kz-amgen-target-safety",
+      "title": "Amgen: Grad Intern, Target Safety Risk Weighting",
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-04",
+      "status": "apply-now",
+      "note": "remote, omics-heavy, genomics tag"
+    },
+    "https://amgen.wd1.myworkdayjobs.com/en-US/Careers/job/Canada---Mississauga/Medical-Operations-Intern---PHMI-Graduate-Diploma_R-260743": {
+      "id": "kz-nf-nov04",
+      "title": "Amgen: Medical Operations Intern (Canada)",
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-04",
+      "status": "not-a-fit",
+      "note": "Canadian diploma seat"
+    },
+    "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Spring-House-Pennsylvania-United-States-of-America/Oncology-Discovery-Scientist-Intern_R-099898": {
+      "id": "kz-nf-nov04",
+      "title": "J&J: Oncology Discovery Scientist Intern",
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-04",
+      "status": "not-a-fit",
+      "note": "lab"
+    },
+    "https://pfizer.wd1.myworkdayjobs.com/en-US/PfizerCareers/job/Colombia---Bogota---Suba/Data-Analytics---AI-Innovation-Intern_4966876": {
+      "id": "kz-nf-nov04",
+      "title": "Pfizer: Data Analytics & AI Innovation Intern (Bogota)",
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-04",
+      "status": "not-a-fit",
+      "note": "overseas"
     }
   },
   "people": {
@@ -2448,12 +2496,54 @@
       "result": "All dry; TGen page still not found",
       "status": "open",
       "empty_runs": 18
+    },
+    "sweep-1104": {
+      "query": "sweep_boards.py --who Z",
+      "last_run": "2026-11-04",
+      "result": "521 rows, 31 new, 17 gone; 3 fit (AZ Epidemiology, AZ Lung Cancer Evidence, Amgen Target Safety)",
+      "status": "open",
+      "empty_runs": 0
+    },
+    "liveness-1104": {
+      "query": "Workday cxs and page liveness on Open now rows",
+      "last_run": "2026-11-04",
+      "result": "All 10 live; BMS re-posted 11-03, end moved 11-26 to 11-16",
+      "status": "open",
+      "empty_runs": 0
+    },
+    "browser-blocked-1104": {
+      "query": "Browser read of Denali, Xencor, CHLA, TGen Helios",
+      "last_run": "2026-11-04",
+      "result": "All dry; TGen page still not found",
+      "status": "open",
+      "empty_runs": 19
+    },
+    "takeda-1104": {
+      "query": "jobs.takeda.com intern search (Radancy results endpoint)",
+      "last_run": "2026-11-04",
+      "result": "27 results: overseas interns and Boston finance/facilities/procurement co-ops; no statistics seat",
+      "status": "answered",
+      "empty_runs": 1
+    },
+    "intuitive-1104": {
+      "query": "careers.intuitive.com all 38 pages via browser JS, intern/co-op/student",
+      "last_run": "2026-11-04",
+      "result": "One engineering intern (Durham, NC); no clinical or data seat",
+      "status": "open",
+      "empty_runs": 1
+    },
+    "kaiser-intern-1104": {
+      "query": "kaiserpermanentejobs.org search intern (Radancy results endpoint)",
+      "last_run": "2026-11-04",
+      "result": "Pharmacy and clinical fellowship interns only",
+      "status": "open",
+      "empty_runs": 1
     }
   },
   "total": {
-    "postings": 148,
+    "postings": 154,
     "people": 2,
     "news": 0,
-    "searches": 147
+    "searches": 153
   }
 }
