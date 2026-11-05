@@ -19,6 +19,11 @@
       "status": "warning"
     },
     {
+      "date": "2026-11-16",
+      "label": "Henry Ford Health summer internship opens (Detroit)",
+      "status": "warning"
+    },
+    {
       "date": "2026-11-19",
       "label": "AstraZeneca (Alexion) Epidemiology intern closes (Boston)",
       "status": "warning"
@@ -36,6 +41,11 @@
     {
       "date": "2027-01-31",
       "label": "Pfizer Statistics summer program deadline (San Diego site)",
+      "status": "warning"
+    },
+    {
+      "date": "2027-01-31",
+      "label": "Ferguson RISE summer fellowship applications close (Olive View-UCLA, LA)",
       "status": "warning"
     },
     {
@@ -75,6 +85,22 @@
       "checkable": true,
       "note": "Rows you have already sent (ticked or added by hand on this page) are no longer listed. Every row was re-read on the employer's own system on November 5; all 13 are open and no close date moved. No new rows tonight. Ranked by fit with trials, devices and health analytics, then location.",
       "items": [
+        {
+          "id": "kz-ferguson-rise-summer",
+          "title": "Ferguson RISE: Summer Graduate Fellowship (Olive View-UCLA, Los Angeles)",
+          "location": "Los Angeles (Olive View-UCLA), one of several placement sites",
+          "tags": [
+            {
+              "label": "Infectious disease research",
+              "status": "good"
+            },
+            {
+              "label": "Closes Jan 31",
+              "status": "warning"
+            }
+          ],
+          "detail": "A mentored summer research fellowship in infectious disease and public health, run by Kennedy Krieger and funded by the CDC. Fellows are placed at partner sites, and *Olive View-UCLA Education & Research Institute* in Los Angeles is one of them, so say that is the site you want. Research areas include wastewater surveillance and advanced molecular detection.\n\n**Eligible:** full-time graduate student in public health or a related program, US citizen, national or permanent resident, 3.0 GPA or higher.\n\n**To apply:** resume, unofficial undergraduate and graduate transcripts (PDFs named *last name_first name_resume*, *_ugtranscript*, *_gradtranscript*), and name, email and phone for at least two faculty references. Line those references up before you start.\n\n**Dates:** applications for the summer program run November 2 to January 31; decisions in March. Orientation is in person the last week of May and the program runs about nine weeks, to late July. Stipend at federal rates; orientation housing is covered. [Program page](https://www.kennedykrieger.org/training/programs/center-for-excellence-in-public-health-leadership/ferguson-rise) [Apply](https://discover.kennedykrieger.org/jfe/form/SV_0GJKQJ1rt0mvjZY)"
+        },
         {
           "id": "kz-regeneron-biostat",
           "title": "Regeneron: Biostatistics & Statistical Programming Intern",
@@ -331,6 +357,20 @@
       "id": "later",
       "title": "Coming up",
       "items": [
+        {
+          "id": "kz-later-henryford-nov16",
+          "title": "Henry Ford Health: summer internship opens November 16",
+          "tags": [
+            {
+              "label": "Opens Nov 16",
+              "status": "warning"
+            },
+            {
+              "label": "Detroit"
+            }
+          ],
+          "detail": "You heard it opens November 16. It was not on Henry Ford's job board yet on November 5. Last month's Cancer Epidemiology application ran through the Public Health Sciences department's own form, not the job board, so check both on the 16th. The CEPC application asked for a cover letter on your research background, a resume, unofficial transcripts and an optional recommendation letter; expect the same. [Last month's form](https://redcap.hfhs.org/redcap/surveys/?s=AX83M7JKYHH7A8TJ) [Job board](https://jobs.smartrecruiters.com/HenryFordHealth1)"
+        },
         {
           "id": "kz-later-pfizer-stats",
           "title": "Pfizer: Statistics Summer Internship Program",
