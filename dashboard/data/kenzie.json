@@ -1,6 +1,6 @@
 {
   "title": "Your search",
-  "updated": "2026-11-06",
+  "updated": "2026-11-07",
   "generatedBy": "nightly research",
   "deadlines": [
     {
@@ -29,6 +29,11 @@
       "status": "warning"
     },
     {
+      "date": "2026-12-01",
+      "label": "Highmark Clinical and Population Health graduate intern closes (remote)",
+      "status": "warning"
+    },
+    {
       "date": "2027-01-08",
       "label": "J&J Global Market Access summer associate closes (remote)",
       "status": "warning"
@@ -36,11 +41,6 @@
     {
       "date": "2027-01-29",
       "label": "Michigan Public Health winter career fair",
-      "status": "warning"
-    },
-    {
-      "date": "2027-01-31",
-      "label": "Pfizer Statistics summer internship closes (San Diego site; rolling, open now)",
       "status": "warning"
     },
     {
@@ -61,20 +61,20 @@
       "items": [
         {
           "id": "kz-start-diagnosis",
-          "title": "Pfizer Statistics is open; San Diego is a listed site",
-          "detail": "Pfizer's 2027 Statistics Summer Internship was posted October 26. This page last saw an empty list on October 21 and did not re-read it until tonight, so it reached you 11 days late. It is now the first row in Open now: statistics work, biostatistics students preferred, $40 an hour, and San Diego among eight sites. The January 31 date is the outer limit. Pfizer calls recruitment *highly selective* and rolling, and says interviews run November to March.\n\nYour applications store shows 18 sent, the last on October 28: 14 waiting, 4 rejected. Sent in the last 7 days: 0. Last 14 days: 2. Likely reason: what was left sat outside your metros. Of 18 open rows, 13 do. This seat tests that. One change: send Pfizer this weekend, ahead of anything on the East Coast."
+          "title": "Pfizer went out the same day; three seats are new",
+          "detail": "You sent Pfizer Statistics and its AI/ML track on November 6, the day Pfizer topped this page. Before that, your store showed no send for 9 days. Totals: 20 sent, 16 waiting, 4 rejected, no interview recorded. Sent in the last 7 days: 2. Last 14 days: 4.\n\nLikely reason for the gap: you move fast on seats you want, and what sat here was mostly East Coast. 8 of the 10 rows unsent for a week or more are outside your metros. That puts the limit on what this page finds. Tonight it read a second tracker and found three seats it had missed: two remote at Highmark, posted October 20 and 29, and one in New York at CVS Health, posted October 22.\n\nOne change: send Highmark Clinical and Population Health next. It is remote from California, Arizona or Michigan and closes December 1."
         },
         {
           "id": "kz-start-this-week",
           "title": "The next two weeks",
           "tags": [],
-          "detail": "**This weekend:** Pfizer Statistics (San Diego site; rolling).\n\n**By Sunday, November 8, if you want it:** J&J Clinical & Statistical Programming (New Jersey or Pennsylvania; closes Monday, November 9).\n\n**By November 15, if you want them:** AstraZeneca (Alexion) Epidemiology (Boston; closes November 19), Bristol Myers Squibb Patient Safety (Princeton; closes November 16), AstraZeneca Lung Cancer Evidence (Gaithersburg; closes November 16).\n\n**On November 16:** check Henry Ford Health for its summer internship (Detroit).\n\n**Start now, send by January:** Ferguson RISE (Los Angeles site; closes January 31). It needs two faculty references and both transcripts, so ask your references this month.\n\n**No close date shown:** Genmab Clinical & Statistical Programming (Princeton; asks for master's students), Regeneron Biostatistics & Statistical Programming (Warren or Tarrytown), Moderna Oncology Biostatistics (Cambridge; names master's students), Genmab Biostatistics (Princeton), Boston Scientific Graduate Clinical Insights Research Intern (Maple Grove).\n\n**Remote:** J&J Global Market Access (until January 8); Amgen Target Safety (no date; omics-heavy).\n\n**Until February 15:** Jefferson Biostatistics & Bioinformatics (Philadelphia, rolling review).\n\n**For January:** a public link to your R Shiny recurrence app on your resume, ready for the Bay Area and Orange County windows. Genmab's programming seat names R Shiny as preferred, so the link helps there now."
+          "detail": "**This weekend:** Highmark Clinical and Population Health and Highmark Evaluation Analytics (both remote).\n\n**By Sunday, November 8, if you want it:** J&J Clinical & Statistical Programming (New Jersey or Pennsylvania; closes Monday, November 9).\n\n**This week, if New York works:** CVS Health Data Science (Master's graduating December 2027 to June 2028, Biostatistics named, $51.60 an hour, relocation help).\n\n**By November 15, if you want them:** AstraZeneca (Alexion) Epidemiology (Boston; closes November 19), Bristol Myers Squibb Patient Safety (Princeton; closes November 16), AstraZeneca Lung Cancer Evidence (Gaithersburg; closes November 16).\n\n**On November 16:** check Henry Ford Health for its summer internship (Detroit).\n\n**Start now, send by January:** Ferguson RISE (Los Angeles site; closes January 31). It needs two faculty references and both transcripts, so ask your references this month.\n\n**No close date shown:** Genmab Clinical & Statistical Programming (Princeton; asks for master's students), Regeneron Biostatistics & Statistical Programming (Warren or Tarrytown), Moderna Oncology Biostatistics (Cambridge; names master's students), Genmab Biostatistics (Princeton), Boston Scientific Graduate Clinical Insights Research Intern (Maple Grove).\n\n**Remote, later:** J&J Global Market Access (until January 8); Amgen Target Safety (no date; omics-heavy).\n\n**Until February 15:** Jefferson Biostatistics & Bioinformatics (Philadelphia, rolling review).\n\n**For January:** a public link to your R Shiny recurrence app on your resume, ready for the Bay Area and Orange County windows. Genmab's programming seat names R Shiny as preferred, so the link helps there now.\n\n**Record:** your page's store shows 20 sent and the hand-kept record shows none. Have them recorded if you want that file to match."
         },
         {
           "id": "kz-start-howhiring",
           "title": "How this field hires a master's student",
           "tags": [],
-          "detail": "Big pharma opens structured summer programs between September and November and often prefers or requires a PhD for biostatistics seats; read the qualification line before the title. Amgen runs a separate master's internship inside its statistics group (posted October 26), next to PhD-preferred wording. Moderna's biostatistics intern names master's students outright, while its epidemiology and biomarker statistics seats are PhD only. Mid-size biotechs split the same way: Genmab's Clinical & Statistical Programming intern asks for master's students, while Insmed's biostatistics intern asks for a PhD candidate. Regeneron posted its whole 2027 summer wave on October 28 and says some biostatistics projects suit PhD students better, without excluding a master's student. Gilead's October 16 batch listed PhD as *preferred* on most statistics reqs and still took master's students; its research AI seats (omics, chemistry, lab work) closed October 31. Contract research organizations hire master's statisticians at volume, but later and more rolling, and mostly in SAS. Southern California device companies run their own calendars: Edwards' clinical track came down October 31 and its other tracks open January to April; Medtronic's master's window closed October 13. Health plans posted a wave at the end of September, mostly undergraduate, MBA or pharmacy seats. Posted close dates move, usually earlier: BMS re-posted its Patient Safety seat on November 3 with the close cut from November 26 to November 16. J&J posts batches with short windows and sometimes moves them: its Oncology Epidemiology seat was re-posted October 16 with the close pushed a week to October 30. Merck's whole 2027 Future Talent wave (biostatistics, outcomes research, epidemiology) came down October 30 to 31, before its dates."
+          "detail": "Big pharma opens structured summer programs between September and November and often prefers or requires a PhD for biostatistics seats; read the qualification line before the title. Amgen runs a separate master's internship inside its statistics group (posted October 26), next to PhD-preferred wording. Moderna's biostatistics intern names master's students outright, while its epidemiology and biomarker statistics seats are PhD only. Mid-size biotechs split the same way: Genmab's Clinical & Statistical Programming intern asks for master's students, while Insmed's biostatistics intern asks for a PhD candidate. Regeneron posted its whole 2027 summer wave on October 28 and says some biostatistics projects suit PhD students better, without excluding a master's student. Gilead's October 16 batch listed PhD as *preferred* on most statistics reqs and still took master's students; its research AI seats (omics, chemistry, lab work) closed October 31. Contract research organizations hire master's statisticians at volume, but later and more rolling, and mostly in SAS. Southern California device companies run their own calendars: Edwards' clinical track came down October 31 and its other tracks open January to April; Medtronic's master's window closed October 13. Health plans posted a wave at the end of September, mostly undergraduate, MBA or pharmacy seats; the graduate analytics seats came later, with Highmark's remote seats and CVS Health's Data Science seat posted in the second half of October. Posted close dates move, usually earlier: BMS re-posted its Patient Safety seat on November 3 with the close cut from November 26 to November 16. J&J posts batches with short windows and sometimes moves them: its Oncology Epidemiology seat was re-posted October 16 with the close pushed a week to October 30. Merck's whole 2027 Future Talent wave (biostatistics, outcomes research, epidemiology) came down October 30 to 31, before its dates."
         }
       ]
     },
@@ -83,23 +83,46 @@
       "title": "Open now",
       "layout": "table",
       "checkable": true,
-      "note": "Rows you have already sent (ticked or added by hand on this page) are no longer listed. Every row was re-read on the employer's own system on November 6; all are open and no close date moved. Four new rows tonight: Pfizer Statistics and three at Genmab. Ranked by fit with trials, devices and health analytics, then location.",
+      "note": "Rows you have already sent (ticked or added by hand on this page) are no longer listed. Open rows on employer job systems were re-read on November 7; no close date moved. Three new rows tonight: two remote at Highmark and one at CVS Health. Ranked by fit with trials, devices and health analytics, then location.",
       "items": [
         {
-          "id": "kz-pfizer-stats",
-          "title": "Pfizer: Statistics Summer Internship",
-          "location": "San Diego (one of eight sites; others include New York, Cambridge and Groton)",
+          "id": "kz-highmark-clin-pophealth",
+          "title": "Highmark Health: Clinical & Population Health Grad Intern",
+          "location": "Remote (any US state, including California, Arizona and Michigan)",
           "tags": [
             {
-              "label": "Biostatistics, trials",
+              "label": "Health analytics",
               "status": "critical"
             },
             {
-              "label": "Rolling; closes Jan 31",
+              "label": "Remote",
+              "status": "good"
+            },
+            {
+              "label": "Closes Dec 1",
               "status": "warning"
             }
           ],
-          "detail": "Statistics work across drug development with one-on-one supervision by senior statisticians, using *SAS, R, or other statistical software*, ending in a written report and a presentation. Prefers *Graduate students in Statistics, Biostatistics, or related fields*. Requires a year of graduate study completed by June 2027, which your Fall 2026 start reaches, and full-time enrollment during the internship. 12 weeks between May and September, on site, $40 an hour, no relocation help; you are employed by Atrium and placed at Pfizer. The posting does not say how sites are assigned, so state San Diego wherever the application lets you. You can also apply to its [AI/ML track](https://pfizerstatistics-internprogram-atriumworks.icims.com/jobs/11212/pfizer-ai-ml-summer-internship---2027/job), which says statistics students are welcome. Posted October 26, job ID 2026-11114. [Program page](https://pfizerstatistics-internprogram-atriumworks.icims.com/jobs/intro) [Apply](https://pfizerstatistics-internprogram-atriumworks.icims.com/jobs/11114/pfizer-statistics-summer-internship---2027/job)"
+          "detail": "Population health and clinical quality analytics on clinical, member and financial data, with metrics and reports for clinical teams. Requires a bachelor's and a graduate degree in progress; preferred fields name *Public Health, Economics, Health Sciences, Health Informatics, Biostatistics, Statistics, Epidemiology*. No software is named and no pay is listed. Your Population Health Analytics application at Highmark was marked rejected on October 26. That req is no longer listed and this one was posted October 29, so it may be the same group; it is a separate req and worth one more application. Req J288011. [Apply](https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/PA-Working-at-Home---Pennsylvania/Summer-2027-Clinical-and-Population-Health-Graduate-Intern_J288011)"
+        },
+        {
+          "id": "kz-highmark-eval-analytics",
+          "title": "Highmark Health: Evaluation Analytics Graduate Intern",
+          "location": "Remote (any US state, including California, Arizona and Michigan)",
+          "tags": [
+            {
+              "label": "Health analytics, evaluation",
+              "status": "critical"
+            },
+            {
+              "label": "Remote",
+              "status": "good"
+            },
+            {
+              "label": "Close date not shown"
+            }
+          ],
+          "detail": "Evaluates healthcare programs: research design, evaluation studies and *statistical analyses using tools such as SAS and R*, with exposure to *health services research, epidemiology, biostatistics*. The preferred-degree line reads *Finance, Accounting, Business Management, Marketing, Legal Studies*, which conflicts with the rest of the posting, so go by the body. Requires a bachelor's and a graduate degree in progress. No pay is listed. Posted October 20, req J288013. [Apply](https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/PA-Working-at-Home---Pennsylvania/Summer-2027-Evaluation-Analytics-Graduate-Intern_J288013)"
         },
         {
           "id": "kz-ferguson-rise-summer",
@@ -115,7 +138,25 @@
               "status": "warning"
             }
           ],
-          "detail": "A mentored summer research fellowship in infectious disease and public health, run by Kennedy Krieger and funded by the CDC. Fellows are placed at partner sites, and *Olive View-UCLA Education & Research Institute* in Los Angeles is one of them, so say that is the site you want. Research areas include wastewater surveillance and advanced molecular detection.\n\n**Eligible:** full-time graduate student in public health or a related program, US citizen, national or permanent resident, 3.0 GPA or higher.\n\n**To apply:** resume, unofficial undergraduate and graduate transcripts (PDFs named *last name_first name_resume*, *_ugtranscript*, *_gradtranscript*), and name, email and phone for at least two faculty references. Line those references up before you start.\n\n**Dates:** applications for the summer program run November 2 to January 31; decisions in March. Orientation is in person the last week of May and the program runs about nine weeks, to late July. Stipend at federal rates; orientation housing is covered. [Program page](https://www.kennedykrieger.org/training/programs/center-for-excellence-in-public-health-leadership/ferguson-rise) [Apply](https://discover.kennedykrieger.org/jfe/form/SV_0GJKQJ1rt0mvjZY)"
+          "detail": "A mentored summer research fellowship in infectious disease and public health, run by Kennedy Krieger and funded by the CDC. Fellows are placed at partner sites, and *Olive View-UCLA Education & Research Institute* in Los Angeles is one of them, so say that is the site you want. Research areas include wastewater surveillance and advanced molecular detection.\n\n**Eligible:** full-time graduate student in public health or a related program, US citizen, national or permanent resident, 3.0 GPA or higher.\n\n**To apply:** resume, unofficial undergraduate and graduate transcripts (PDFs named *last name_first name_resume*, *_ugtranscript*, *_gradtranscript*), and name, email and phone for at least two faculty references. Line those references up before you start. This is the one open, dated seat in Los Angeles on this page.\n\n**Dates:** applications for the summer program run November 2 to January 31; decisions in March. Orientation is in person the last week of May and the program runs about nine weeks, to late July. Stipend at federal rates; orientation housing is covered. [Program page](https://www.kennedykrieger.org/training/programs/center-for-excellence-in-public-health-leadership/ferguson-rise) [Apply](https://discover.kennedykrieger.org/jfe/form/SV_0GJKQJ1rt0mvjZY)"
+        },
+        {
+          "id": "kz-cvs-grad-ds",
+          "title": "CVS Health: Data Science Graduate Intern",
+          "location": "New York, New York (hybrid, 3 days in office)",
+          "tags": [
+            {
+              "label": "Health analytics",
+              "status": "critical"
+            },
+            {
+              "label": "Outside your metros"
+            },
+            {
+              "label": "Close date not shown"
+            }
+          ],
+          "detail": "Predictive models, machine learning and experiments on health care data; focus areas include patient safety and clinical insights, and care management. Requires *Currently pursuing a Master's degree with an expected graduation date between December 2027 and June 2028*, so May 2028 fits, with Biostatistics named as a preferred field. Requires Python or R, SQL, and exposure to A/B testing or causal analysis; scikit-learn is preferred, which you have. May 24 to August 4, 2027, $51.60 an hour, relocation help beyond 50 miles. Posted October 22, req R1081038. [Apply](https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/NY---New-York/Innovation---Technology-Internship---Data-Science---Summer-2027--Graduate-_R1081038)"
         },
         {
           "id": "kz-genmab-csp",
@@ -439,7 +480,7 @@
               "label": "Detroit"
             }
           ],
-          "detail": "You heard it opens November 16. It was not on Henry Ford's job board on November 6. Last month's Cancer Epidemiology application ran through the Public Health Sciences department's own form, not the job board, so check both on the 16th. The CEPC application asked for a cover letter on your research background, a resume, unofficial transcripts and an optional recommendation letter; expect the same. [Last month's form](https://redcap.hfhs.org/redcap/surveys/?s=AX83M7JKYHH7A8TJ) [Job board](https://jobs.smartrecruiters.com/HenryFordHealth1)"
+          "detail": "You heard it opens November 16. It was not on Henry Ford's job board on November 7. Last month's Cancer Epidemiology application ran through the Public Health Sciences department's own form, not the job board, so check both on the 16th. The CEPC application asked for a cover letter on your research background, a resume, unofficial transcripts and an optional recommendation letter; expect the same. [Last month's form](https://redcap.hfhs.org/redcap/surveys/?s=AX83M7JKYHH7A8TJ) [Job board](https://jobs.smartrecruiters.com/HenryFordHealth1)"
         },
         {
           "id": "kz-later-kite-grad",
@@ -454,7 +495,7 @@
               "status": "serious"
             }
           ],
-          "detail": "Kite says US graduate and undergraduate intern positions are typically posted October through January, 10 to 12 weeks. Its Workday board showed no intern reqs on November 6 (52 roles). [Kite early talent](https://www.kitepharma.com/careers/early-talent-programs-at-kite)"
+          "detail": "Kite says US graduate and undergraduate intern positions are typically posted October through January, 10 to 12 weeks. Its Workday board showed no intern reqs on November 7 (53 roles). [Kite early talent](https://www.kitepharma.com/careers/early-talent-programs-at-kite)"
         },
         {
           "id": "kz-later-corcept",
@@ -467,7 +508,7 @@
               "label": "Biostatistics"
             }
           ],
-          "detail": "Bay Area. Last cycle's posting took students *pursuing a master's degree or PhD in statistics, mathematics, data science or a related field*, with R, SAS or Python, at $26 to $32 an hour, on site, and came down January 6, 2026. Corcept's Greenhouse board listed 61 roles and no internship on November 6, so expect it before the new year. [Corcept openings](https://corcept.com/careers/current-opportunities/), [last cycle's posting](https://www.builtinsf.com/job/biostatistics-intern/7974432)"
+          "detail": "Bay Area. Last cycle's posting took students *pursuing a master's degree or PhD in statistics, mathematics, data science or a related field*, with R, SAS or Python, at $26 to $32 an hour, on site, and came down January 6, 2026. Corcept's Greenhouse board listed 61 roles and no internship on November 7, so expect it before the new year. [Corcept openings](https://corcept.com/careers/current-opportunities/), [last cycle's posting](https://www.builtinsf.com/job/biostatistics-intern/7974432)"
         },
         {
           "id": "kz-later-ultragenyx",
@@ -482,7 +523,7 @@
               "status": "serious"
             }
           ],
-          "detail": "Rare-disease biotech headquartered in the Bay Area. Its program page says summer internships are *posted January through March*, run 10 to 12 weeks, take undergraduate or graduate students, and can sit at the Bay Area headquarters, the Boston area or remote. A 2024 intern there describes working alongside its Data Management and Biostatistics teams. Nothing posted on November 3. [Emerging talent programs](https://www.ultragenyx.com/join-our-team/current-opportunities/emerging-talent-programs/)"
+          "detail": "Rare-disease biotech headquartered in the Bay Area. Its program page says summer internships are *posted January through March*, run 10 to 12 weeks, take undergraduate or graduate students, and can sit at the Bay Area headquarters, the Boston area or remote. A 2024 intern there describes working alongside its Data Management and Biostatistics teams. Its program page says the same on November 7. [Emerging talent programs](https://www.ultragenyx.com/join-our-team/current-opportunities/emerging-talent-programs/)"
         },
         {
           "id": "kz-later-penumbra",
@@ -497,7 +538,7 @@
               "status": "serious"
             }
           ],
-          "detail": "Bay Area device company. Last cycle's Statistician Intern took a master's in statistics, mathematics or a related field, with a PhD highly preferred and SAS strongly preferred; the work was tables and figures for clinical study reports. Resumes closed February 20, offers by the end of March, $30 to $50 an hour. Penumbra's own board on October 14 lists 76 roles and no US internship. [Penumbra openings](https://jobs.lever.co/penumbrainc), [last cycle's posting](https://www.workingnomads.com/jobs/statistician-intern-summer-2026-penumbra)"
+          "detail": "Bay Area device company. Last cycle's Statistician Intern took a master's in statistics, mathematics or a related field, with a PhD highly preferred and SAS strongly preferred; the work was tables and figures for clinical study reports. Resumes closed February 20, offers by the end of March, $30 to $50 an hour. Penumbra's own board on November 7 lists 69 roles and no US internship. [Penumbra openings](https://jobs.lever.co/penumbrainc), [last cycle's posting](https://www.workingnomads.com/jobs/statistician-intern-summer-2026-penumbra)"
         },
         {
           "id": "kz-later-bms",
@@ -554,7 +595,7 @@
               "label": "Offers by mid-March"
             }
           ],
-          "detail": "MannKind's internship page: openings go on its careers board with locations announced in Q4, applications run from Q4 into the new year, interviews January and February, offers by mid-March. Master's candidates are considered *based on their past experience in biotech*; in person, 8 to 12 weeks. Its Paycor board on November 5 still lists only two Spring 2027 co-ops (Analytical Development, Formulation Development) and no summer seat. [MannKind internships](https://mannkindcorp.com/internships/)"
+          "detail": "MannKind's internship page: openings go on its careers board with locations announced in Q4, applications run from Q4 into the new year, interviews January and February, offers by mid-March. Master's candidates are considered *based on their past experience in biotech*; in person, 8 to 12 weeks. Its Paycor board on November 7 still lists only two Spring 2027 co-ops (Analytical Development, Formulation Development) and no summer seat. [MannKind internships](https://mannkindcorp.com/internships/)"
         },
         {
           "id": "kz-later-blueshield",
@@ -655,7 +696,7 @@
       "items": [
         {
           "title": "Los Angeles",
-          "detail": "Kite (Gilead), Santa Monica and El Segundo: no intern reqs on its board on October 22; statistics grad interns post Oct to Jan.\n**Amgen**, Thousand Oaks: remote grad Biostatistics intern (posted October 26) and remote grad Data Scientist both open.\n**Kaiser Permanente Research & Evaluation**, Pasadena: graduate interns post Feb to Mar. Kaiser's main board on October 12: pharmacy interns and one bachelor's IT seat; its Pasadena master's analytics interns posted January to March last cycle.\nAnalysis Group, downtown: Health Care Summer Analyst deadline passed Oct 28 (you sent it October 8); the Generalist req still reviews on a rolling basis. BRG's final review date passed Oct 16.\nCity of Hope (Duarte): its internships category lists no intern seat on November 3, and last cycle's research data intern page is gone. Children's Hospital Los Angeles: no internship (read October 22). Cedars-Sinai: academic-credit lab research interns only (its board on November 5). Xencor (six roles on its Dayforce board, October 22), ImmunityBio, Grifols: no intern seats. Arcutis, Capsida and Puma were not read.\nArrowhead Pharmaceuticals, Pasadena: has a Biostats & Data Management group (statistical programming roles open), no internship posted. [Arrowhead job openings](https://arrowheadpharma.com/en-us/careers/job-openings)\nMannKind, Westlake Village: posts summer internships in Q4, offers by mid-March; none posted on November 5. [MannKind internships](https://mannkindcorp.com/internships/)"
+          "detail": "Kite (Gilead), Santa Monica and El Segundo: no intern reqs on its board on November 7; statistics grad interns post Oct to Jan.\n**Amgen**, Thousand Oaks: remote grad Biostatistics intern (posted October 26) and remote grad Data Scientist both open.\n**Kaiser Permanente Research & Evaluation**, Pasadena: graduate interns post Feb to Mar. Kaiser's main board on October 12: pharmacy interns and one bachelor's IT seat; its Pasadena master's analytics interns posted January to March last cycle.\nAnalysis Group, downtown: Health Care Summer Analyst deadline passed Oct 28 (you sent it October 8); the Generalist req still reviews on a rolling basis. BRG's final review date passed Oct 16.\nCity of Hope (Duarte): its internships category lists no intern seat on November 3, and last cycle's research data intern page is gone. Children's Hospital Los Angeles: no internship (read October 22). Cedars-Sinai: academic-credit lab research interns only (its board on November 5). Xencor (six roles on its Dayforce board, October 22), ImmunityBio, Grifols: no intern seats. Arcutis, Capsida and Puma were not read.\nArrowhead Pharmaceuticals, Pasadena: has a Biostats & Data Management group (statistical programming roles open), no internship posted. [Arrowhead job openings](https://arrowheadpharma.com/en-us/careers/job-openings)\nMannKind, Westlake Village: posts summer internships in Q4, offers by mid-March; none posted on November 7. [MannKind internships](https://mannkindcorp.com/internships/)"
         },
         {
           "title": "Orange County",
@@ -663,11 +704,11 @@
         },
         {
           "title": "Bay Area",
-          "detail": "**Gilead**, Foster City: its October 16 batch closed. Its Oncology Biomarker AI seat (multi-omic, PhD preferred) and the research AI seats (omics, chemistry, lab work) closed October 31 and came off the board.\n**Corcept**, Redwood City: master's-level biostatistics intern last cycle; 79 roles, not posted yet.\n**Blue Shield of California** (Oakland, Long Beach), health plan: 2027 program dated June 14 to Aug 20, graduate pay $30 an hour; only actuarial and finance seats so far, both bachelor's-level.\n**Ultragenyx** (Bay Area headquarters, remote seats too): summer interns post January to March.\nRevolution Medicines (Redwood City): a large statistics group, no internship.\nGenentech (five interns, none statistics; its new Digital Sciences seat is undergraduate only), BioMarin, Exelixis, Denali (careers page read October 22: 46 roles, among them a Principal and a Senior Biostatistician, no intern; its page says internships open October to January), Cytokinetics (81 roles, no intern), BeOne Medicines: no summer statistics seats posted.\nPenumbra (Alameda): ran a master's-eligible Statistician Intern last cycle with a February deadline; none posted yet.\nIntuitive (Sunnyvale): one engineering intern on its board on November 4, in North Carolina; no clinical or data seat. Stryker (Fremont): regulatory affairs intern only. Stanford Health Care: nothing posted.\nGuardant, GRAIL, Natera: genomics, listed last; no interns."
+          "detail": "**Gilead**, Foster City: its October 16 batch closed. Its Oncology Biomarker AI seat (multi-omic, PhD preferred) and the research AI seats (omics, chemistry, lab work) closed October 31 and came off the board.\n**Corcept**, Redwood City: master's-level biostatistics intern last cycle; 61 roles, not posted yet.\n**Blue Shield of California** (Oakland, Long Beach), health plan: 2027 program dated June 14 to Aug 20, graduate pay $30 an hour; only actuarial and finance seats so far, both bachelor's-level.\n**Ultragenyx** (Bay Area headquarters, remote seats too): summer interns post January to March.\nRevolution Medicines (Redwood City): a large statistics group, no internship.\nGenentech (five interns, none statistics; its new Digital Sciences seat is undergraduate only), BioMarin, Exelixis, Denali (careers page read October 22: 46 roles, among them a Principal and a Senior Biostatistician, no intern; its page says internships open October to January), Cytokinetics (81 roles, no intern), BeOne Medicines: no summer statistics seats posted.\nPenumbra (Alameda): ran a master's-eligible Statistician Intern last cycle with a February deadline; none posted yet.\nIntuitive (Sunnyvale): one engineering intern on its board on November 4, in North Carolina; no clinical or data seat. Stryker (Fremont): regulatory affairs intern only. Stanford Health Care: nothing posted.\nGuardant, GRAIL, Natera: genomics, listed last; no interns."
         },
         {
           "title": "San Diego",
-          "detail": "**Pfizer**, La Jolla: Statistics program posted October 26, in Open now; closes Jan 31, rolling.\n**Dexcom**: early-interest pool open.\n**Bristol Myers Squibb**: applications Aug to Mar; 40 intern reqs, none San Diego statistics.\n**J&J Innovative Medicine**, La Jolla: Statistics & Decision Sciences (sent October 14) and Clinical Pharmacology & Pharmacometrics (sent September 29) graduate interns. The Immunology pediatric clinical development intern closed October 20. A Translational Systems Toxicology intern posted October 7 is a lab seat.\nIonis (Carlsbad, window about Feb to Apr), Acadia (page still shows 2026), Vertex (last year's biostatistics intern was PhD-only, Boston), Neurocrine (biostatistics intern is PhD-only).\nResMed, Tandem, Insulet: devices; nothing that fits. Scripps, Salk, Sharp: no fitting seats. Abbott's La Jolla cancer diagnostics intern: lab and bioinformatics."
+          "detail": "**Pfizer**, La Jolla: Statistics and AI/ML tracks posted October 26; you sent both on November 6.\n**Dexcom**: early-interest pool open.\n**Bristol Myers Squibb**: applications Aug to Mar; 40 intern reqs, none San Diego statistics.\n**J&J Innovative Medicine**, La Jolla: Statistics & Decision Sciences (sent October 14) and Clinical Pharmacology & Pharmacometrics (sent September 29) graduate interns. The Immunology pediatric clinical development intern closed October 20. A Translational Systems Toxicology intern posted October 7 is a lab seat.\nIonis (Carlsbad, window about Feb to Apr), Acadia (page still shows 2026), Vertex (last year's biostatistics intern was PhD-only, Boston), Neurocrine (biostatistics intern is PhD-only).\nResMed, Tandem, Insulet: devices; nothing that fits. Scripps, Salk, Sharp: no fitting seats. Abbott's La Jolla cancer diagnostics intern: lab and bioinformatics."
         },
         {
           "title": "Phoenix",
@@ -675,7 +716,7 @@
         },
         {
           "title": "Remote and CROs",
-          "detail": "**Amgen**: remote grad Biostatistics intern (master's, posted October 26) and remote grad Data Scientist open now. **J&J Innovative Medicine**: remote Global Market Access summer associate open until Jan 8. Amgen also posted a remote grad Target Safety seat on November 3 (omics-heavy). Centene's remote graduate analytics seat came down; its new wave (Medical Economics, Actuarial, Public Health) is undergraduate, MBA or pharmacy.\nOutside your metros, **Genmab** (Princeton): Clinical & Statistical Programming, Biostatistics and Clinical Development Data Science interns, found November 6. **AstraZeneca** (Boston and Gaithersburg): Epidemiology intern (master's named, closes November 19) and Lung Cancer Evidence & Strategy intern (closes November 16), both posted November 3. **Moderna** (Cambridge, Massachusetts): Oncology Biostatistics and Biometrics summer interns open; its epidemiology and biomarker biostatistics seats are PhD only. **Jefferson** (Philadelphia): biostatistics and bioinformatics summer internship open until February 15.\nTakeda (Boston): its own board on November 4 lists only finance, facilities and procurement co-ops and overseas interns. IQVIA, Parexel, ICON, Syneos, Medpace, Fortrea, Precision for Medicine, Cytel, Certara: all read, no US biostatistics or programming intern. Labcorp (read November 5): two Durham engineering co-ops, no statistics intern. Fortrea's new seats are inside sales and UK; IQVIA's are China and South Africa.\nOutside your metros: **Regeneron** (Warren, New Jersey, and Tarrytown, New York): Biostatistics & Statistical Programming and Clinical Science & Health Economics summer interns opened October 28; **Alcon** (Fort Worth): its Clinical Data Science intern came off the board October 29; **Merck** (New Jersey), MS biostatistics intern came off the board October 31 before its date, and so did its Outcomes Research intern; Blue Cross Blue Shield of Michigan (Detroit), Data Science / Biostatistician intern (you sent it; marked rejected); **J&J** (New Jersey or Pennsylvania), Clinical & Statistical Programming intern open until Nov 9; the Oncology Epidemiology intern is no longer on the board. UnitedHealth Group's board, read October 8, has no master's-level remote analytics intern posted for 2027. [UnitedHealth intern search](https://careers.unitedhealthgroup.com/search-jobs/intern%202027/)\nHumana: its Graduate Analytics Internship takes biostatistics master's students but is on-site in Louisville or five hubs outside your metros; see Not a fit.\nCVS Health / Aetna and Elevance Health: every 2027 internship on their boards is undergraduate or finance, audit and actuarial, in Hartford, Rhode Island, Indianapolis or Tampa; no graduate analytics seat.\nMolina Healthcare: 403 roles on its board on October 11, no intern or graduate seat."
+          "detail": "**Highmark Health**: remote Clinical & Population Health and Evaluation Analytics graduate interns, in Open now. **Amgen**: remote grad Biostatistics intern (master's, posted October 26) and remote grad Data Scientist open now. **J&J Innovative Medicine**: remote Global Market Access summer associate open until Jan 8. Amgen also posted a remote grad Target Safety seat on November 3 (omics-heavy) and a remote Global Medical Affairs Oncology seat on November 7 (see Not a fit). Centene's remote graduate analytics seat came down; its new wave (Medical Economics, Actuarial, Public Health) is undergraduate, MBA or pharmacy.\nOutside your metros, **Genmab** (Princeton): Clinical & Statistical Programming, Biostatistics and Clinical Development Data Science interns, found November 6. **AstraZeneca** (Boston and Gaithersburg): Epidemiology intern (master's named, closes November 19) and Lung Cancer Evidence & Strategy intern (closes November 16), both posted November 3. **Moderna** (Cambridge, Massachusetts): Oncology Biostatistics and Biometrics summer interns open; its epidemiology and biomarker biostatistics seats are PhD only. **Jefferson** (Philadelphia): biostatistics and bioinformatics summer internship open until February 15.\nTakeda (Boston): its own board on November 4 lists only finance, facilities and procurement co-ops and overseas interns. IQVIA, Parexel, ICON, Syneos, Medpace, Fortrea, Precision for Medicine, Cytel, Certara: all read, no US biostatistics or programming intern. Labcorp (read November 5): two Durham engineering co-ops, no statistics intern. Fortrea's new seats are inside sales and UK; IQVIA's are China and South Africa.\nOutside your metros: **Regeneron** (Warren, New Jersey, and Tarrytown, New York): Biostatistics & Statistical Programming and Clinical Science & Health Economics summer interns opened October 28; **Alcon** (Fort Worth): its Clinical Data Science intern came off the board October 29; **Merck** (New Jersey), MS biostatistics intern came off the board October 31 before its date, and so did its Outcomes Research intern; Blue Cross Blue Shield of Michigan (Detroit), Data Science / Biostatistician intern (you sent it; marked rejected); **J&J** (New Jersey or Pennsylvania), Clinical & Statistical Programming intern open until Nov 9; the Oncology Epidemiology intern is no longer on the board. UnitedHealth Group's board, read October 8, has no master's-level remote analytics intern posted for 2027. [UnitedHealth intern search](https://careers.unitedhealthgroup.com/search-jobs/intern%202027/)\nHumana: its Graduate Analytics Internship takes biostatistics master's students but is on-site in Louisville or five hubs outside your metros; see Not a fit.\n**CVS Health** (New York): graduate Data Science intern, in Open now; its other 2027 seats found are undergraduate. Elevance Health: its finance, tax, risk and actuarial seats came off the board by November 7, and its new listings are pharmacy.\nMolina Healthcare: 403 roles on its board on October 11, no intern or graduate seat."
         }
       ]
     },
@@ -683,6 +724,11 @@
       "id": "not-a-fit",
       "title": "Checked and not a fit",
       "items": [
+        {
+          "id": "kz-nf-nov07",
+          "title": "November 7: Highmark, Mayo, Amgen, Cigna, ParetoHealth",
+          "detail": "Highmark's Market Analytics Graduate Intern is in Pittsburgh and emphasizes *business analysis, storytelling with data, and presentation development rather than technical programming*; its Customer Experience Analyst seat is web and journey analytics. [Market Analytics posting](https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/Pittsburgh-PA-15222-FAP-5th-Avenue-Place/Summer-2027-Market-Analytics-Graduate-Intern_J285906) Mayo's remote Graduate Intern, Neurology Research is part time, $20.50 an hour, expires tonight, ends in June 2027, and requires an internship or credit option in your degree. [Posting](https://jobs.mayoclinic.org/job/rochester/graduate-intern-neurology-research/33647/102957449152) Mayo's Biomedical Ethics Intern in Phoenix is described as an undergraduate internship. [Posting](https://jobs.mayoclinic.org/job/phoenix/biomedical-ethics-intern-arizona/33647/101881978144) Amgen's remote Global Medical Affairs Oncology grad intern is scientific communication on prostate cancer with no statistics. [Posting](https://amgen.wd1.myworkdayjobs.com/en-US/Careers/job/United-States---Remote/Grad-Intern---Global-Medical-Affairs-Oncology--Summer-2027-_R-260873) Cigna's Business Analytics Intern (Bloomfield, Connecticut, closes November 13) builds call-center business cases. [Posting](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Bloomfield-CT/Business-Analytics-Intern_26012472) ParetoHealth's Analytics Summer Intern is in Philadelphia at an employer-benefits firm; only its opening was read. [Posting](https://job-boards.greenhouse.io/paretocaptiveservicesllc/jobs/4725326006) The rest of tonight's 18 new board rows were overseas, lab, pharmacy, nursing or research-fellow seats."
+        },
         {
           "id": "kz-nf-nov06",
           "title": "November 6: Insmed, Genmab operations, Legend",
@@ -796,7 +842,7 @@
         {
           "id": "kz-nf-ag-london",
           "title": "Analysis Group: Health Care Analyst Intern, London",
-          "detail": "Same HEOR and epidemiology work as the Los Angeles row in Open now, but based in London (req 3079)."
+          "detail": "Same HEOR and epidemiology work as the Health Care seat you sent, but based in London (req 3079)."
         },
         {
           "id": "kz-nf-jnj-medaffairs-gi",
@@ -836,7 +882,7 @@
         {
           "id": "kz-nf-cvs-elevance",
           "title": "CVS Health / Aetna and Elevance: 2027 interns",
-          "detail": "CVS's Medicare Business Analytics intern asks for *Currently pursuing a Bachelor's degree*, hybrid in Hartford; every CVS 2027 corporate internship is labelled undergraduate. Elevance's 2027 seats are finance, tax, audit, security and actuarial in Indianapolis or Tampa; the Actuarial Intern closes November 7 and favours a passed exam. [CVS posting](https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/CT---Hartford/Medicare-Business-Analytics-Corporate-Internship---Summer-2027--Undergraduate-_R1052378), [Elevance posting](https://elevancehealth.wd1.myworkdayjobs.com/ANT/job/IN-INDIANAPOLIS-220-VIRGINIA-AVE/Actuarial-Intern---Summer-2027_JR204425)"
+          "detail": "CVS's Medicare Business Analytics intern asks for *Currently pursuing a Bachelor's degree*, hybrid in Hartford; the graduate Data Science seat is the exception and sits in Open now. Elevance's 2027 finance, tax, audit, security and actuarial seats came off its board by November 7. [CVS posting](https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/CT---Hartford/Medicare-Business-Analytics-Corporate-Internship---Summer-2027--Undergraduate-_R1052378), [Elevance posting](https://elevancehealth.wd1.myworkdayjobs.com/ANT/job/IN-INDIANAPOLIS-220-VIRGINIA-AVE/Actuarial-Intern---Summer-2027_JR204425)"
         },
         {
           "id": "kz-nf-jnj-medtech-clinaffairs",
@@ -885,7 +931,7 @@
         {
           "id": "kz-nf-bcbsm-analytics",
           "title": "BCBS Michigan: HEDIS and Program Performance interns",
-          "detail": "Detroit, hybrid. Excel, SQL Server and claims reporting, lighter on statistics than the Data Science / Biostatistician row in Open now."
+          "detail": "Detroit, hybrid. Excel, SQL Server and claims reporting, lighter on statistics than the Data Science / Biostatistician seat you sent."
         },
         {
           "id": "kz-nf-stryker-regulatory",
@@ -906,11 +952,6 @@
           "id": "kz-nf-gilead-virology-ai",
           "title": "Gilead: Clinical Virology AI Intern",
           "detail": "Foster City. *Preferred degree level: Undergraduate*, AI tools for HIV lab research."
-        },
-        {
-          "id": "kz-nf-medtronic-ace",
-          "title": "Medtronic: Clinical Experience (ACE) Intern",
-          "detail": "Hospital field support for cardiac procedures; requires *working toward a bachelor's degree*."
         },
         {
           "id": "kz-nf-regeneron",
@@ -1020,7 +1061,7 @@
         {
           "id": "kz-nf-amgen-undergrad-ds",
           "title": "Amgen Undergrad Data Scientist",
-          "detail": "Undergraduate version of the grad seat in Open now."
+          "detail": "Undergraduate version of the grad seat you sent."
         },
         {
           "id": "kz-nf-gilead-misc",
@@ -1119,7 +1160,7 @@
               "status": "good"
             }
           ],
-          "detail": "Analysis Group: evaluated *for a full-time analyst offer in the office that their internship takes place*. Edwards: *Conversion Opportunities into our New Grad Programs*. J&J Statistics & Decision Sciences and Clinical Pharmacology: interns are assessed for *potential for future employment*. No published rate for any of them."
+          "detail": "Analysis Group: evaluated *for a full-time analyst offer in the office that their internship takes place*. Edwards: *Conversion Opportunities into our New Grad Programs*. J&J Statistics & Decision Sciences and Clinical Pharmacology: interns are assessed for *potential for future employment*. CVS Health: corporate interns *have an increased likelihood to receive an offer for a future role*. No published rate for any of them."
         },
         {
           "id": "kz-ro-estimates",
@@ -1147,7 +1188,7 @@
           "id": "kz-blocked-browser",
           "title": "Read in the browser",
           "tags": [],
-          "detail": "Read in the browser on November 6. Denali's careers page names no intern seat. Xencor's careers page shows no intern or statistics role. Children's Hospital Los Angeles lists no internship. TGen's Helios Scholars page still returns *page not found*."
+          "detail": "Read in the browser on November 7. Denali's careers page names no intern seat. Xencor's careers page shows no intern or statistics role. Children's Hospital Los Angeles names no internship on its careers page. TGen's Helios Scholars page still returns *page not found*. MannKind's board lists two Spring 2027 co-ops and no summer seat."
         },
         {
           "id": "kz-blocked-unread",
@@ -1190,7 +1231,7 @@
         {
           "id": "kz-pf-geo",
           "title": "LA, Orange County, Bay Area, San Diego, Phoenix, remote",
-          "detail": "Thirteen rows outside these metros sit in Open now (New Jersey, New York, Pennsylvania, Massachusetts, Maryland, Minnesota); say if they should come off. Humana's Graduate Analytics Internship fits your degree but is on-site in Louisville or five hubs outside your metros, so it sits in Not a fit until you say otherwise. Actuarial is on your title list; the first actuarial seats this cycle wanted a passed exam or an undergraduate, so say if you plan to sit an exam."
+          "detail": "Fourteen rows outside these metros sit in Open now (New Jersey, New York, Pennsylvania, Massachusetts, Maryland, Minnesota); say if they should come off. Humana's Graduate Analytics Internship fits your degree but is on-site in Louisville or five hubs outside your metros, so it sits in Not a fit until you say otherwise. Actuarial is on your title list; the first actuarial seats this cycle wanted a passed exam or an undergraduate, so say if you plan to sit an exam."
         },
         {
           "id": "kz-pf-goal",
