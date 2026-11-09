@@ -1,6 +1,6 @@
 {
   "_what": "Every row ever listed in Open now, keyed by item id. The page uses it so a ticked row keeps its company, role and link after the listing closes and leaves kenzie.json. Append and update only; never delete a row.",
-  "updated": "2026-11-08",
+  "updated": "2026-11-09",
   "rows": {
     "kz-alcon-clinical-ds": {
       "company": "Alcon",
@@ -24,7 +24,7 @@
       "location": "Los Angeles or San Francisco",
       "url": "https://analystcareers-analysisgroup.icims.com/jobs/3005/summer-analyst-intern---generalist-%282027-start-date%29/job",
       "first_listed": "2026-09-28",
-      "last_listed": "2026-11-08"
+      "last_listed": "2026-11-09"
     },
     "kz-analysisgroup-health": {
       "company": "Analysis Group",
@@ -304,7 +304,7 @@
       "location": "Remote (a few visits to Raritan, New Jersey)",
       "url": "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Raritan-New-Jersey-United-States-of-America/Global-Market-Access-Summer-Associate_R-101873",
       "first_listed": "2026-10-22",
-      "last_listed": "2026-11-08"
+      "last_listed": "2026-11-09"
     },
     "kz-bsc-clinical-insights": {
       "company": "Boston Scientific",
@@ -312,7 +312,7 @@
       "location": "Maple Grove, Minnesota (hybrid, 3 to 4 days in office)",
       "url": "https://bostonscientific.eightfold.ai/careers/job/563602813700641",
       "first_listed": "2026-10-23",
-      "last_listed": "2026-11-08"
+      "last_listed": "2026-11-09"
     },
     "kz-amgen-grad-biostat": {
       "company": "Amgen",
@@ -328,7 +328,7 @@
       "location": "Princeton, New Jersey",
       "url": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Princeton---NJ---US/Patient-Safety-Intern-Summer-2027_R1607761",
       "first_listed": "2026-10-27",
-      "last_listed": "2026-11-08"
+      "last_listed": "2026-11-09"
     },
     "kz-moderna-onc-biostat": {
       "company": "Moderna",
@@ -336,7 +336,7 @@
       "location": "Cambridge, Massachusetts (70% in office)",
       "url": "https://modernatx.wd1.myworkdayjobs.com/M_tx/job/Cambridge-Massachusetts/Intern--Oncology-Biostatistics_R19867-1",
       "first_listed": "2026-10-28",
-      "last_listed": "2026-11-08"
+      "last_listed": "2026-11-09"
     },
     "kz-jefferson-biostat": {
       "company": "Jefferson",
@@ -344,7 +344,7 @@
       "location": "Philadelphia, Pennsylvania (on site 3 to 4 days)",
       "url": "https://redcap.link/jefferson_internship",
       "first_listed": "2026-10-28",
-      "last_listed": "2026-11-08"
+      "last_listed": "2026-11-09"
     },
     "kz-moderna-biometrics": {
       "company": "Moderna",
@@ -352,7 +352,7 @@
       "location": "Cambridge, Massachusetts (70% in office)",
       "url": "https://modernatx.wd1.myworkdayjobs.com/M_tx/job/Cambridge-Massachusetts/Intern--Biometrics_R19865",
       "first_listed": "2026-10-28",
-      "last_listed": "2026-11-08"
+      "last_listed": "2026-11-09"
     },
     "kz-regeneron-biostat": {
       "company": "Regeneron",
@@ -360,7 +360,7 @@
       "location": "Warren, New Jersey, or Tarrytown, New York (on site)",
       "url": "https://regeneron.wd1.myworkdayjobs.com/Careers/job/TARRYTOWN/XMLNAME-2027-Summer-Intern-Biostatistics---Statistical-Programming_R52558-1",
       "first_listed": "2026-10-29",
-      "last_listed": "2026-11-08"
+      "last_listed": "2026-11-09"
     },
     "kz-regeneron-clinsci": {
       "company": "Regeneron",
@@ -368,7 +368,7 @@
       "location": "Tarrytown or Sleepy Hollow, New York, or Warren, New Jersey (on site)",
       "url": "https://regeneron.wd1.myworkdayjobs.com/Careers/job/TARRYTOWN/XMLNAME-2027-Summer-Intern-Clinical-Science--Medical-Monitoring---Health-Economics_R52563-1",
       "first_listed": "2026-10-29",
-      "last_listed": "2026-11-08"
+      "last_listed": "2026-11-09"
     },
     "kz-astrazeneca-epi": {
       "first_listed": "2026-11-04",
@@ -376,7 +376,7 @@
       "role": "Epidemiology Intern",
       "location": "Boston, Massachusetts (on site 3 days a week)",
       "url": "https://astrazeneca.eightfold.ai/careers/job/563877691802953",
-      "last_listed": "2026-11-08"
+      "last_listed": "2026-11-09"
     },
     "kz-astrazeneca-lung-evidence": {
       "first_listed": "2026-11-04",
@@ -384,7 +384,7 @@
       "role": "Lung Cancer Evidence & Strategy Intern",
       "location": "Gaithersburg, Maryland (on site 3 days a week)",
       "url": "https://astrazeneca.eightfold.ai/careers/job/563877691801908",
-      "last_listed": "2026-11-08"
+      "last_listed": "2026-11-09"
     },
     "kz-amgen-target-safety": {
       "first_listed": "2026-11-04",
@@ -392,7 +392,7 @@
       "role": "Grad Intern, Target Safety Risk Weighting",
       "location": "Remote (United States)",
       "url": "https://amgen.wd1.myworkdayjobs.com/en-US/Careers/job/United-States---Remote/Grad-Intern---Target-Safety-Risk-Weighting-and-Evaluation-Strategies--Summer-2027-_R-259961",
-      "last_listed": "2026-11-08"
+      "last_listed": "2026-11-09"
     },
     "kz-ferguson-rise-summer": {
       "company": "Ferguson RISE",
@@ -400,7 +400,7 @@
       "location": "Los Angeles (Olive View-UCLA), one of several placement sites",
       "url": "https://discover.kennedykrieger.org/jfe/form/SV_0GJKQJ1rt0mvjZY",
       "first_listed": "2026-11-05",
-      "last_listed": "2026-11-08"
+      "last_listed": "2026-11-09"
     },
     "kz-pfizer-stats": {
       "first_listed": "2026-11-06",
@@ -416,7 +416,7 @@
       "role": "Clinical & Statistical Programming Intern",
       "location": "Princeton, New Jersey (hybrid, 3 days in office)",
       "url": "https://genmab.wd3.myworkdayjobs.com/Genmab_Careers_Site/job/Princeton-NJ/Clinical---Statistical-Programming-Intern_R18173",
-      "last_listed": "2026-11-08"
+      "last_listed": "2026-11-09"
     },
     "kz-genmab-biostat": {
       "first_listed": "2026-11-06",
@@ -424,7 +424,7 @@
       "role": "Biostatistics Intern",
       "location": "Princeton, New Jersey (hybrid, 3 days in office)",
       "url": "https://genmab.wd3.myworkdayjobs.com/Genmab_Careers_Site/job/Princeton-NJ/Biostatistics-Intern_R18257",
-      "last_listed": "2026-11-08"
+      "last_listed": "2026-11-09"
     },
     "kz-genmab-cdds": {
       "first_listed": "2026-11-06",
@@ -432,7 +432,7 @@
       "role": "Clinical Development Data Science Intern",
       "location": "Princeton, New Jersey (hybrid, 3 days in office)",
       "url": "https://genmab.wd3.myworkdayjobs.com/Genmab_Careers_Site/job/Princeton-NJ/Clinical-Development-Data-Science-Intern_R18165",
-      "last_listed": "2026-11-08"
+      "last_listed": "2026-11-09"
     },
     "kz-highmark-clin-pophealth": {
       "first_listed": "2026-11-07",
@@ -440,7 +440,7 @@
       "role": "Clinical & Population Health Grad Intern",
       "location": "Remote (any US state, including California, Arizona and Michigan)",
       "url": "https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/PA-Working-at-Home---Pennsylvania/Summer-2027-Clinical-and-Population-Health-Graduate-Intern_J288011",
-      "last_listed": "2026-11-08"
+      "last_listed": "2026-11-09"
     },
     "kz-highmark-eval-analytics": {
       "first_listed": "2026-11-07",
@@ -448,7 +448,7 @@
       "role": "Evaluation Analytics Graduate Intern",
       "location": "Remote (any US state, including California, Arizona and Michigan)",
       "url": "https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/PA-Working-at-Home---Pennsylvania/Summer-2027-Evaluation-Analytics-Graduate-Intern_J288013",
-      "last_listed": "2026-11-08"
+      "last_listed": "2026-11-09"
     },
     "kz-cvs-grad-ds": {
       "first_listed": "2026-11-07",
@@ -456,7 +456,15 @@
       "role": "Data Science Graduate Intern",
       "location": "New York, New York (hybrid, 3 days in office)",
       "url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/NY---New-York/Innovation---Technology-Internship---Data-Science---Summer-2027--Graduate-_R1081038",
-      "last_listed": "2026-11-08"
+      "last_listed": "2026-11-09"
+    },
+    "kz-stjude-biostat-ds": {
+      "first_listed": "2026-11-09",
+      "company": "St. Jude",
+      "role": "Biostatistics and Data Science Intern",
+      "location": "Memphis, Tennessee (on site)",
+      "url": "https://www.applyweb.com/forms/STJUDEBI",
+      "last_listed": "2026-11-09"
     }
   }
 }
