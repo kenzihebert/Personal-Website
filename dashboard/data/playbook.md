@@ -75,7 +75,7 @@ St. Jude faculty route (11-09).
 ## Proposed core changes
 
 - Standing dates in the task file are stale (Gilead/Kite Oct 16, Henry Ford Oct 16, AG Generalist passed).
-- Decide out-of-metro scope: 16 of 22 rows.
+- Out-of-metro scope decided 2026-11-10: no location limit at all.
 - Let long-dry BLOCKED boards move to Sundays (25 dry runs).
 - `sweep_boards.py`: add Highmark, CVS grad, Genmab, Moderna, Regeneron, Sanofi, Biogen, Insulet, BeOne, Ultragenyx, Labcorp, Pfizer iCIMS, SCAN, Philips.
 - `kenzie-done.json` is empty while the store holds 20; decide whether the hand file still matters.

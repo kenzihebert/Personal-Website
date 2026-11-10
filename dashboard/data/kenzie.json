@@ -165,9 +165,6 @@
               "status": "critical"
             },
             {
-              "label": "Outside your metros"
-            },
-            {
               "label": "Apply by Dec 18",
               "status": "warning"
             }
@@ -182,9 +179,6 @@
             {
               "label": "Health analytics",
               "status": "critical"
-            },
-            {
-              "label": "Outside your metros"
             },
             {
               "label": "Close date not shown"
@@ -202,9 +196,6 @@
               "status": "critical"
             },
             {
-              "label": "Outside your metros"
-            },
-            {
               "label": "Close date not shown"
             }
           ],
@@ -220,9 +211,6 @@
               "status": "critical"
             },
             {
-              "label": "Outside your metros"
-            },
-            {
               "label": "Close date not shown"
             }
           ],
@@ -236,9 +224,6 @@
             {
               "label": "Biostatistics, trials",
               "status": "critical"
-            },
-            {
-              "label": "Outside your metros"
             },
             {
               "label": "Posted Oct 5",
@@ -258,9 +243,6 @@
             {
               "label": "Biostatistics, trials",
               "status": "critical"
-            },
-            {
-              "label": "Outside your metros"
             },
             {
               "label": "Close date not shown"
@@ -298,9 +280,6 @@
               "status": "critical"
             },
             {
-              "label": "Outside your metros"
-            },
-            {
               "label": "Close date not shown",
               "status": "warning"
             }
@@ -315,9 +294,6 @@
             {
               "label": "Epidemiology, RWE",
               "status": "critical"
-            },
-            {
-              "label": "Outside your metros"
             },
             {
               "label": "Closes Nov 19",
@@ -336,9 +312,6 @@
               "status": "serious"
             },
             {
-              "label": "Outside your metros"
-            },
-            {
               "label": "Closes Feb 15",
               "status": "good"
             }
@@ -355,9 +328,6 @@
               "status": "serious"
             },
             {
-              "label": "Outside your metros"
-            },
-            {
               "label": "Close date not shown"
             }
           ],
@@ -371,9 +341,6 @@
             {
               "label": "Clinical data science",
               "status": "serious"
-            },
-            {
-              "label": "Outside your metros"
             },
             {
               "label": "Posted Sep 29",
@@ -393,9 +360,6 @@
             {
               "label": "Clinical data science",
               "status": "serious"
-            },
-            {
-              "label": "Outside your metros"
             },
             {
               "label": "Close date not shown"
@@ -429,9 +393,6 @@
               "status": "warning"
             },
             {
-              "label": "Outside your metros"
-            },
-            {
               "label": "Closes Nov 16",
               "status": "critical"
             }
@@ -445,10 +406,6 @@
           "tags": [
             {
               "label": "Pharma, safety data",
-              "status": "warning"
-            },
-            {
-              "label": "Outside your metros",
               "status": "warning"
             },
             {
@@ -466,9 +423,6 @@
             {
               "label": "Trials evidence",
               "status": "warning"
-            },
-            {
-              "label": "Outside your metros"
             },
             {
               "label": "Closes Nov 16",
@@ -504,9 +458,6 @@
             {
               "label": "Biostatistics, genomics",
               "status": "warning"
-            },
-            {
-              "label": "Outside your metros"
             },
             {
               "label": "Closes Jan 25",
@@ -1329,8 +1280,8 @@
         },
         {
           "id": "kz-pf-geo",
-          "title": "LA, Orange County, Bay Area, San Diego, Phoenix, remote",
-          "detail": "Fourteen rows outside these metros sit in Open now (New Jersey, New York, Pennsylvania, Massachusetts, Maryland, Minnesota, Tennessee); say if they should come off. Humana's Graduate Analytics Internship fits your degree but is on-site in Louisville or five hubs outside your metros, so it sits in Not a fit until you say otherwise. Actuarial is on your title list; the first actuarial seats this cycle wanted a passed exam or an undergraduate, so say if you plan to sit an exam."
+          "title": "Anywhere in the US, or remote",
+          "detail": "No location limit. Rows are ranked by fit, then close date; where a seat is shows in its Location column."
         },
         {
           "id": "kz-pf-goal",
