@@ -4,17 +4,6 @@
   "_comment": "Memory across nightly runs. Read-modify-write each night. postings/people/news/searches are keyed maps; runs is an append-only list of {date, ok, pushed, notes, playbook_change}.",
   "runs": [
     {
-      "date": "2026-10-10",
-      "ok": true,
-      "new_postings": 1,
-      "searches_run": 7,
-      "searches_dry": 4,
-      "boards_read_in_browser": 2,
-      "pushed": true,
-      "playbook_change": "v12: watch night as planned; CVS and Elevance explored (H10 two of three dead); Alcon out-of-metro row added on the Merck precedent",
-      "notes": "Single run. Sweep 466 rows, 15 new, 1 fit: Alcon Clinical Data Science Intern (Fort Worth, MS biostat named, closes Dec 18) added to apply-now near the end as out-of-metro. All 20 prior rows live. Start: numbers only, shortlist kept. Fixed three garbled phrases left by the 10-09 'tonight' strip. fetch_posting_text stubbed AG Health Care and BCBSM again; restored from backup. /api/apps still 501."
-    },
-    {
       "date": "2026-10-11",
       "ok": true,
       "new_postings": 0,
@@ -332,6 +321,17 @@
       "pushed": true,
       "playbook_change": "v41: H22 supported (MSK GEMS, master-only); diagnosis moves to references for graduate programs; research-hospital search kept in queue",
       "notes": "Single run. Sweep 499 rows, 23 new, 1 fit (J&J IDAR EASE, closes Nov 16). /api/apps unchanged since 11-06: 20 sent, 16 waiting, 4 rejected. All 20 prior Open now rows live, no date moved. MSK GEMS found by web search (genomics, ranked last). Browser: Denali, Xencor, CHLA, MannKind, St. Jude, Jefferson form, AG Generalist."
+    },
+    {
+      "date": "2026-11-10",
+      "ok": true,
+      "new_postings": 2,
+      "searches_run": 10,
+      "searches_dry": 8,
+      "boards_read_in_browser": 9,
+      "pushed": true,
+      "playbook_change": "v42: location dropped from ranking; employers card regrouped by type; Sanofi found (Biostatistics AD Shiny intern, Cambridge pool); H23 dated seats vanish early",
+      "notes": "Second run of the day, after the no-location rule (2026-11-10). Sweep 495 rows, 30 new, 0 fit. /api/apps: AZ Epidemiology ticked today; 21 sent, 17 waiting, 4 rejected. J&J EASE and Humana graduate analytics gone. Sanofi swept at the request of her page session for a Nov 13 mentor call; a fourth start item (Sanofi call prep) added, one more than the three the task file names. National boards: Lilly, Novartis (dry). Browser: Denali, Xencor, CHLA, St. Jude, Lilly, Novartis x3, Vanderbilt."
     }
   ],
   "postings": {
@@ -909,8 +909,9 @@
       "id": "kz-nf-humana-grad-analytics",
       "title": "Humana Graduate Analytics Internship, Summer 2027 (MS biostat named; on-site Louisville + 5 hubs, not remote)",
       "first_seen": "2026-10-09",
-      "status": "not-a-fit",
-      "last_seen": "2026-10-11"
+      "status": "closed",
+      "last_seen": "2026-11-10",
+      "note": "gone 2026-11-10; was location-only reject"
     },
     "https://alcon.wd5.myworkdayjobs.com/careers_alcon/job/Fort-Worth-Texas/Clinical-Data-Science-Intern_R-2026-50204": {
       "id": "kz-alcon-clinical-ds",
@@ -953,8 +954,8 @@
       "title": "J&J: IDAR Summer Intern (EASE)",
       "first_seen": "2026-11-10",
       "last_seen": "2026-11-10",
-      "status": "apply-now",
-      "note": "closes 2026-11-16"
+      "status": "closed",
+      "note": "came down 2026-11-10, six days before its Nov 16 close"
     },
     "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Spring-House-Pennsylvania-United-States-of-America/IDAR-Summer-Intern--DM-CM-_R-102616": {
       "id": "kz-nf-jnj-idar-others",
@@ -1405,8 +1406,8 @@
       "title": "AstraZeneca (Alexion): Epidemiology Intern",
       "first_seen": "2026-11-04",
       "last_seen": "2026-11-10",
-      "status": "apply-now",
-      "note": "Boston, master's named, closes 2026-11-19"
+      "status": "sent",
+      "note": "ticked 2026-11-10"
     },
     "https://astrazeneca.eightfold.ai/careers/job/563877691801908": {
       "id": "kz-astrazeneca-lung-evidence",
@@ -1641,6 +1642,38 @@
       "last_seen": "2026-11-10",
       "status": "not-a-fit",
       "note": "undergraduate only"
+    },
+    "https://sanofi.wd3.myworkdayjobs.com/SanofiCareers/job/Cambridge-MA/XMLNAME-2027-Summer-Intern-Biostatistics-Interactive-Benchmarking-Platform--Cambridge-MA_R2865024": {
+      "id": "kz-sanofi-biostat-ad-placebo",
+      "title": "Sanofi: Biostatistics Intern, AD Placebo Benchmarking",
+      "first_seen": "2026-11-10",
+      "last_seen": "2026-11-10",
+      "status": "apply-now",
+      "note": "closes 2026-11-17"
+    },
+    "https://sanofi.wd3.myworkdayjobs.com/SanofiCareers/job/Cambridge-MA/XMLNAME-2027-Summer-Internship-Opportunities-Cambridge-MA_R2871289": {
+      "id": "kz-sanofi-cambridge-pool",
+      "title": "Sanofi: 2027 Summer Internships, Cambridge (pool)",
+      "first_seen": "2026-11-10",
+      "last_seen": "2026-11-10",
+      "status": "apply-now",
+      "note": "closes 2026-12-11"
+    },
+    "https://sanofi.wd3.myworkdayjobs.com/SanofiCareers/job/Morristown-NJ/XMLNAME-2027-Summer-Intern-EGDS-Morristown-NJ_R2870002": {
+      "id": "kz-nf-sanofi-nov10",
+      "title": "Sanofi: 2027 Summer Intern EGDS",
+      "first_seen": "2026-11-10",
+      "last_seen": "2026-11-10",
+      "status": "not-a-fit",
+      "note": "PhD dissertation stage; closes 2026-12-01"
+    },
+    "https://sanofi.wd3.myworkdayjobs.com/SanofiCareers/job/Morristown-NJ/XMLNAME-2027-Summer-Intern-Opportunities--Morristown--NJ_R2871001": {
+      "id": "kz-nf-sanofi-nov10",
+      "title": "Sanofi: 2027 Morristown pool",
+      "first_seen": "2026-11-10",
+      "last_seen": "2026-11-10",
+      "status": "not-a-fit",
+      "note": "bachelor's, PharmD or PhD only"
     }
   },
   "people": {
@@ -3021,12 +3054,66 @@
       "last_run": "2026-11-10",
       "result": "dry; St. Jude unchanged; TGen not retried",
       "status": "open"
+    },
+    "sanofi-1110": {
+      "query": "Sanofi Workday cxs: 2027 summer intern, intern biostatistics, statistical programming, epidemiology, RWE, health economics, data science, clinical data, co-op 2027, summer associate; bodies of R2865024, R2870002, R2871001, R2871289, R2871180, R2871175, R2871183",
+      "last_run": "2026-11-10",
+      "result": "FOUND Biostatistics AD placebo Shiny intern (MS ok, closes Nov 17) and Cambridge pool (MS biostat ok, Dec 11); EGDS PhD only; other pools not a fit",
+      "status": "open"
+    },
+    "sweep-1110b": {
+      "query": "sweep_boards.py --who Z (second run)",
+      "last_run": "2026-11-10",
+      "result": "495 rows, 30 new vs morning, 0 fit; EASE gone confirmed",
+      "status": "open"
+    },
+    "liveness-1110b": {
+      "query": "Workday, eightfold and source pages re-read of Open now (second run)",
+      "last_run": "2026-11-10",
+      "result": "20 live; J&J EASE gone (R-102328 not found)",
+      "status": "open"
+    },
+    "humana-recheck-1110": {
+      "query": "Humana board: R-429772 and graduate analytics intern",
+      "last_run": "2026-11-10",
+      "result": "gone; only MBA 2027 interns",
+      "status": "answered"
+    },
+    "national-lilly-1110": {
+      "query": "browser: careers.lilly.com intern, 2027 summer intern, statistics intern, TDA, Lilly Research Laboratories 2027",
+      "last_run": "2026-11-10",
+      "result": "no 2027 statistics or research intern; finance, maintenance, ethics, MBA",
+      "status": "open"
+    },
+    "national-novartis-1110": {
+      "query": "browser: novartis.com career search intern (US), students page, Magnit agency board",
+      "last_run": "2026-11-10",
+      "result": "no US 2027 intern; Biostatistics Program not on the live students page; Basel NGS 2027 not a fit",
+      "status": "open"
+    },
+    "national-moffitt-mgb-cc-1110": {
+      "query": "web: Moffitt, Mass General Brigham, Cleveland Clinic graduate biostatistics summer 2027",
+      "last_run": "2026-11-10",
+      "result": "Moffitt SPARK and ODYSSEY undergraduate; MGB and Cleveland Clinic none found",
+      "status": "open"
+    },
+    "explore-vanderbilt-1110": {
+      "query": "Vanderbilt biostatistics internships2026 page",
+      "last_run": "2026-11-10",
+      "result": "undergraduate only",
+      "status": "answered"
+    },
+    "blocked-boards-1110b": {
+      "query": "browser: Denali, Xencor, CHLA, St. Jude page",
+      "last_run": "2026-11-10",
+      "result": "dry; St. Jude unchanged",
+      "status": "open"
     }
   },
   "total": {
-    "postings": 179,
+    "postings": 183,
     "people": 4,
     "news": 0,
-    "searches": 194
+    "searches": 203
   }
 }
