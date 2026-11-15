@@ -1,6 +1,6 @@
 {
   "title": "Your search",
-  "updated": "2026-11-14",
+  "updated": "2026-11-15",
   "generatedBy": "nightly research",
   "deadlines": [
     {
@@ -16,6 +16,11 @@
     {
       "date": "2026-11-19",
       "label": "Genentech Product Development Data Sciences (Boston) and Digital/COA (South San Francisco) interns close",
+      "status": "warning"
+    },
+    {
+      "date": "2026-11-25",
+      "label": "Bristol Myers Squibb Statistical Programming intern closes (remote or seven sites)",
       "status": "warning"
     },
     {
@@ -81,14 +86,14 @@
       "items": [
         {
           "id": "kz-start-diagnosis",
-          "title": "Your fastest week yet: 4 sent in 7 days",
-          "detail": "Sent in the last 7 days: 4 (AstraZeneca Epidemiology and Moderna Oncology Biostatistics November 10, Genentech Biostatistics & Analytical Data Sciences November 12, Sanofi Biostatistics November 13). Last 14 days: 6. Your store: 24 sent, 18 waiting, 1 interview (Analysis Group Health Care), 5 rejected. Open rows not yet sent: 22. Closing within 30 days and not sent: 6 (AstraZeneca Lung Cancer Evidence November 16, Genentech Boston and Digital/COA November 19, Bristol Myers Squibb November 27, Highmark Clinical and Population Health December 1, Sanofi Cambridge pool December 11). Oldest unsent row: J&J Global Market Access, listed since October 22 (open to January 8).\n\nWhat it means: you sent Sanofi the day of your call with someone who works there. That is the one application this cycle with a person inside behind it, and an inside word is the thing most likely to get a cold application read. Your only interview so far came from a firm you wrote a tailored letter for; the pattern is the same: the more personal the route, the faster the answer.\n\nOne small change: send your Sanofi contact a short thank-you that names the requisition you applied to (**R2865024**, Biostatistics Intern, Interactive Benchmarking Platform, Cambridge) and asks whether they would be willing to pass your name to the team before it closes Tuesday, November 17. Mention the Cambridge pool (**R2871289**, closes December 11) in the same note. [Sanofi posting](https://sanofi.wd3.myworkdayjobs.com/SanofiCareers/job/Cambridge-MA/XMLNAME-2027-Summer-Intern-Biostatistics-Interactive-Benchmarking-Platform--Cambridge-MA_R2865024)"
+          "title": "Genentech Boston closes Thursday, not sent",
+          "detail": "Sent in the last 7 days: 4 (AstraZeneca Epidemiology and Moderna Oncology Biostatistics November 10, Genentech Biostatistics & Analytical Data Sciences November 12, Sanofi Biostatistics November 13). Last 14 days: 6. Your store: 24 sent, 18 waiting, 1 interview (Analysis Group Health Care), 5 rejected. Open rows not yet sent: 24. Closing within 30 days and not sent: 7 (AstraZeneca Lung Cancer Evidence November 16, Genentech Boston and Digital/COA November 19, Bristol Myers Squibb Statistical Programming November 25 and Data & Quantitative Sciences November 27, Highmark Clinical and Population Health December 1, Sanofi Cambridge pool December 11). Oldest unsent row: J&J Global Market Access, listed since October 22 (open to January 8). 14 of the 24 open rows have been on this page for a week or more.\n\nWhat it means: Genentech's Product Development Data Sciences seat in Boston is the best-fit dated row left. It is trial statistics, it names *R Programming*, and it is open to master's students. It is the same program as the South San Francisco seat you sent November 12, so most of that application carries over. Close dates on this page have been ceilings: Bristol Myers Squibb cut one seat's close by ten days, and J&J took down a seat one day after posting it.\n\nOne small change: send the Boston seat by Wednesday, November 18, a day before it closes. [Genentech Boston](https://roche.wd3.myworkdayjobs.com/en-US/ROG-A2O-GENE/job/Boston/XMLNAME-2027-Summer-Intern---Product-Development-Data-Sciences_202611-128802)"
         },
         {
           "id": "kz-start-this-week",
           "title": "The next two weeks",
           "tags": [],
-          "detail": "**Analysis Group:** prepare the two project stories (breast-cancer recurrence model with the R Shiny app; influenza SARIMA capstone) before the first-round call; it is *behavior based and conducted virtually*. When you have the date, write it in the note on that row. [Analysis Group FAQ](https://www.analysisgroup.com/careers/faqs/)\n\n**Today or tomorrow:** the Sanofi thank-you note above.\n\n**Optional by Monday, November 16:** AstraZeneca Lung Cancer Evidence (Gaithersburg). **On November 16:** check Henry Ford Health for its summer internship (Detroit).\n\n**By Thursday, November 19:** Genentech Product Development Data Sciences (Boston; R required). Digital, AI & Clinical Outcome Assessments (South San Francisco) is the second, if you want it.\n\n**By November 27:** Bristol Myers Squibb Data & Quantitative Sciences (seven sites; R is enough).\n\n**No close date shown, so treat them as due now:** Daiichi Sankyo R Innovation Initiatives (Basking Ridge; R Shiny and R Markdown on trial data), Genmab Clinical & Statistical Programming and Genmab Biostatistics (Princeton), CVS Health Data Science (New York), Highmark Evaluation Analytics (remote), Moderna Biometrics (Cambridge), Boston Scientific Graduate Clinical Insights (Maple Grove).\n\n**By December 1:** Highmark Clinical and Population Health (remote). **By December 11:** Sanofi Cambridge pool. **By December 18:** St. Jude Biostatistics and Data Science (Memphis).\n\n**Later:** J&J Global Market Access (remote, until January 8); GEMS (New York, until January 25); Ferguson RISE (Los Angeles site, until January 31; also needs both transcripts); Jefferson Biostatistics & Bioinformatics (Philadelphia, until February 15). St. Jude, Ferguson RISE and GEMS each want reference letters.\n\nSeven rows (Bristol Myers Squibb, both Highmark seats, J&J, CVS Health, Moderna, Amgen) sit on Workday sites that were down when checked tonight. If a link will not load, try again later in the day."
+          "detail": "**Analysis Group:** prepare the two project stories (breast-cancer recurrence model with the R Shiny app; influenza SARIMA capstone) before the first-round call; it is *behavior based and conducted virtually*. When you have the date, write it in the note on that row. [Analysis Group FAQ](https://www.analysisgroup.com/careers/faqs/)\n\n**Before Tuesday, November 17:** if you have not yet sent your Sanofi contact a thank-you, name the seat you applied to (**R2865024**, closes November 17) and the Cambridge pool (**R2871289**, closes December 11).\n\n**Optional by Monday, November 16:** AstraZeneca Lung Cancer Evidence (Gaithersburg). **On November 16:** check Henry Ford Health for its summer internship (Detroit); it was not posted as of tonight.\n\n**By Wednesday, November 18:** Genentech Product Development Data Sciences (Boston; R required). Digital, AI & Clinical Outcome Assessments (South San Francisco) also closes November 19, if you want it.\n\n**By Monday, November 23:** Bristol Myers Squibb Statistical Programming (new tonight; remote or seven sites; written for master's students; R or Python is enough; closes November 25). **By November 27:** Bristol Myers Squibb Data & Quantitative Sciences (seven sites; R is enough). You can send both.\n\n**No close date shown, so treat them as due now:** Daiichi Sankyo R Innovation Initiatives (Basking Ridge; R Shiny and R Markdown on trial data), Genmab Clinical & Statistical Programming and Genmab Biostatistics (Princeton), CVS Health Data Science (New York), Highmark Evaluation Analytics (remote), Moderna Biometrics (Cambridge), Boston Scientific Graduate Clinical Insights (Maple Grove), Amgen Knowledge Graph Applications (remote; new tonight).\n\n**By December 1:** Highmark Clinical and Population Health (remote). **By December 11:** Sanofi Cambridge pool. **By December 18:** St. Jude Biostatistics and Data Science (Memphis).\n\n**Later:** J&J Global Market Access (remote, until January 8); GEMS (New York, until January 25); Ferguson RISE (Los Angeles site, until January 31; also needs both transcripts); Jefferson Biostatistics & Bioinformatics (Philadelphia, until February 15). St. Jude, Ferguson RISE and GEMS each want reference letters."
         },
         {
           "id": "kz-start-howhiring",
@@ -103,7 +108,7 @@
       "title": "Open now",
       "layout": "table",
       "checkable": true,
-      "note": "Rows you have already sent (ticked or added by hand on this page) are no longer listed. Tonight: Sanofi Biostatistics (atopic dermatitis placebo app) left the list because you sent it November 13. No new seat that fits tonight. Fifteen rows were re-checked and are open; seven sit on Workday sites that were down tonight and stay listed from the November 13 check. Ranked by fit with trials, devices and health analytics, then by close date. Location does not affect the order; it shows in its own column. Genomics rows sit last.",
+      "note": "Rows you have already sent (ticked or added by hand on this page) are no longer listed. New tonight: Bristol Myers Squibb Statistical Programming (written for master's students, remote option, closes November 25) and Amgen Knowledge Graph Applications (remote, real-world evidence). All 22 earlier rows were re-checked tonight and are open; Workday is answering again. Ranked by fit with trials, devices and health analytics, then by close date. Location does not affect the order; it shows in its own column. Genomics rows sit last.",
       "items": [
         {
           "id": "kz-manatt-summer-consultant",
@@ -138,6 +143,26 @@
           "detail": "Product Development Data Sciences, Boston site (you sent the South San Francisco seat November 12): trial statistics in cardiovascular, renal and metabolism, real-world data analysis, R packages, plus some model and AI work on clinical data and images. Required skills name *R Programming*. Open to students *pursuing a Master's Degree* or a PhD in statistics, biostatistics, data science or related; 12 weeks full time from May or June, plus a stipend. $29 to $52 an hour. Posted November 11, closes November 19, req 202611-128802. [Apply](https://roche.wd3.myworkdayjobs.com/en-US/ROG-A2O-GENE/job/Boston/XMLNAME-2027-Summer-Intern---Product-Development-Data-Sciences_202611-128802)"
         },
         {
+          "id": "kz-bms-stat-programming",
+          "title": "Bristol Myers Squibb: Statistical Programming Intern",
+          "location": "Remote (United States), or Princeton or Madison, New Jersey; Cambridge, Massachusetts; Brisbane or San Diego, California; Seattle",
+          "tags": [
+            {
+              "label": "Statistical programming, trials",
+              "status": "critical"
+            },
+            {
+              "label": "Remote option",
+              "status": "good"
+            },
+            {
+              "label": "Closes Nov 25",
+              "status": "critical"
+            }
+          ],
+          "detail": "New tonight, and written for you: it gives *a master's-level student* a project on clinical trial data and statistical programming in the Data & Quantitative Sciences group. You need one of *SAS, R, or Python*, so your R and Python are enough; CDISC (SDTM, ADaM), Git and clinical trial data are preferred. You must be *continuing in the Master's degree program following completion of the internship*, which you are. Lead with your R Shiny app and GitHub repositories. $32 to $55 an hour. Posted November 13, closes November 25, req R1608542. This is a separate seat from the Data & Quantitative Sciences intern below. [Apply](https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Princeton---NJ---US/Data---Quantitative-Sciences-Statistical-Programming-Intern---Summer-2027_R1608542)"
+        },
+        {
           "id": "kz-bms-data-quant-sciences",
           "title": "Bristol Myers Squibb: Data & Quantitative Sciences Intern",
           "location": "Princeton or Madison, New Jersey; Cambridge or Devens, Massachusetts; Brisbane or San Diego, California; Seattle",
@@ -151,7 +176,7 @@
               "status": "critical"
             }
           ],
-          "detail": "Work beside senior statisticians on methods and analysis for clinical trial design and nonclinical research: literature review, new methods or computational tools, simulations, a final report. Core skills listed: survival analysis, Bayesian methods, trial design, machine learning, and *Good working knowledge of SAS and/or R*, so R is enough. Open to master's or doctoral students in statistics, biostatistics, applied math or data science who *Must have completed at least one year of course work*; you finish your first year in May, before the internship starts, and the posting adds that it encourages applicants who do not match every line. 10 to 12 weeks, $30 to $45 an hour, no visa sponsorship. Posted November 11, closes November 27, req R1608215. Its Workday site was down when checked tonight (November 14); last confirmed open November 13. [Apply](https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Princeton---NJ---US/Data---Quantitative-Sciences-Intern-Summer-2027_R1608215)"
+          "detail": "Work beside senior statisticians on methods and analysis for clinical trial design and nonclinical research: literature review, new methods or computational tools, simulations, a final report. Core skills listed: survival analysis, Bayesian methods, trial design, machine learning, and *Good working knowledge of SAS and/or R*, so R is enough. Open to master's or doctoral students in statistics, biostatistics, applied math or data science who *Must have completed at least one year of course work*; you finish your first year in May, before the internship starts, and the posting adds that it encourages applicants who do not match every line. 10 to 12 weeks, $30 to $45 an hour, no visa sponsorship. Posted November 11, closes November 27, req R1608215. [Apply](https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Princeton---NJ---US/Data---Quantitative-Sciences-Intern-Summer-2027_R1608215)"
         },
         {
           "id": "kz-highmark-clin-pophealth",
@@ -171,7 +196,7 @@
               "status": "warning"
             }
           ],
-          "detail": "Population health and clinical quality analytics on clinical, member and financial data, with metrics and reports for clinical teams. Requires a bachelor's and a graduate degree in progress; preferred fields name *Public Health, Economics, Health Sciences, Health Informatics, Biostatistics, Statistics, Epidemiology*. No software is named and no pay is listed. Your Population Health Analytics application at Highmark was marked rejected on October 26. That req is no longer listed and this one was posted October 29, so it may be the same group; it is a separate req and worth one more application. Req J288011. Its Workday site was down when checked tonight (November 14); last confirmed open November 13. [Apply](https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/PA-Working-at-Home---Pennsylvania/Summer-2027-Clinical-and-Population-Health-Graduate-Intern_J288011)"
+          "detail": "Population health and clinical quality analytics on clinical, member and financial data, with metrics and reports for clinical teams. Requires a bachelor's and a graduate degree in progress; preferred fields name *Public Health, Economics, Health Sciences, Health Informatics, Biostatistics, Statistics, Epidemiology*. No software is named and no pay is listed. Your Population Health Analytics application at Highmark was marked rejected on October 26. That req is no longer listed and this one was posted October 29, so it may be the same group; it is a separate req and worth one more application. Req J288011. [Apply](https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/PA-Working-at-Home---Pennsylvania/Summer-2027-Clinical-and-Population-Health-Graduate-Intern_J288011)"
         },
         {
           "id": "kz-stjude-biostat-ds",
@@ -207,7 +232,7 @@
               "status": "good"
             }
           ],
-          "detail": "Health economics, pricing and patient-reported outcomes work in J&J Innovative Medicine, 12 weeks May to August. Takes an *MBA, MA, MS, MPH, PharmD, PhD in Economics, Epidemiology, Psychology, Public Health* or similar, so your public health MS qualifies. $34 to $52.50 an hour. Posted September 30. Req R-101873. Its Workday site was down when checked tonight (November 14); last confirmed open November 13. [Apply](https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Raritan-New-Jersey-United-States-of-America/Global-Market-Access-Summer-Associate_R-101873)"
+          "detail": "Health economics, pricing and patient-reported outcomes work in J&J Innovative Medicine, 12 weeks May to August. Takes an *MBA, MA, MS, MPH, PharmD, PhD in Economics, Epidemiology, Psychology, Public Health* or similar, so your public health MS qualifies. $34 to $52.50 an hour. Posted September 30. Req R-101873. [Apply](https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Raritan-New-Jersey-United-States-of-America/Global-Market-Access-Summer-Associate_R-101873)"
         },
         {
           "id": "kz-ferguson-rise-summer",
@@ -257,7 +282,7 @@
               "label": "Close date not shown"
             }
           ],
-          "detail": "Evaluates healthcare programs: research design, evaluation studies and *statistical analyses using tools such as SAS and R*, with exposure to *health services research, epidemiology, biostatistics*. The preferred-degree line reads *Finance, Accounting, Business Management, Marketing, Legal Studies*, which conflicts with the rest of the posting, so go by the body. Requires a bachelor's and a graduate degree in progress. No pay is listed. Posted October 20, req J288013. Its Workday site was down when checked tonight (November 14); last confirmed open November 13. [Apply](https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/PA-Working-at-Home---Pennsylvania/Summer-2027-Evaluation-Analytics-Graduate-Intern_J288013)"
+          "detail": "Evaluates healthcare programs: research design, evaluation studies and *statistical analyses using tools such as SAS and R*, with exposure to *health services research, epidemiology, biostatistics*. The preferred-degree line reads *Finance, Accounting, Business Management, Marketing, Legal Studies*, which conflicts with the rest of the posting, so go by the body. Requires a bachelor's and a graduate degree in progress. No pay is listed. Posted October 20, req J288013. [Apply](https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/PA-Working-at-Home---Pennsylvania/Summer-2027-Evaluation-Analytics-Graduate-Intern_J288013)"
         },
         {
           "id": "kz-cvs-grad-ds",
@@ -272,7 +297,7 @@
               "label": "Close date not shown"
             }
           ],
-          "detail": "Predictive models, machine learning and experiments on health care data; focus areas include patient safety and clinical insights, and care management. Requires *Currently pursuing a Master's degree with an expected graduation date between December 2027 and June 2028*, so May 2028 fits, with Biostatistics named as a preferred field. Requires Python or R, SQL, and exposure to A/B testing or causal analysis; scikit-learn is preferred, which you have. May 24 to August 4, 2027, $51.60 an hour, relocation help beyond 50 miles. Posted October 22, req R1081038. Its Workday site was down when checked tonight (November 14); last confirmed open November 13. [Apply](https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/NY---New-York/Innovation---Technology-Internship---Data-Science---Summer-2027--Graduate-_R1081038)"
+          "detail": "Predictive models, machine learning and experiments on health care data; focus areas include patient safety and clinical insights, and care management. Requires *Currently pursuing a Master's degree with an expected graduation date between December 2027 and June 2028*, so May 2028 fits, with Biostatistics named as a preferred field. Requires Python or R, SQL, and exposure to A/B testing or causal analysis; scikit-learn is preferred, which you have. May 24 to August 4, 2027, $51.60 an hour, relocation help beyond 50 miles. Posted October 22, req R1081038. [Apply](https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/NY---New-York/Innovation---Technology-Internship---Data-Science---Summer-2027--Graduate-_R1081038)"
         },
         {
           "id": "kz-genmab-csp",
@@ -400,7 +425,7 @@
               "label": "Close date not shown"
             }
           ],
-          "detail": "Statistical Innovation & Data Analytics team. The preferred line is *Master, doctoral or advanced undergraduate Student in statistics, biostatistics, computational biology, health informatics*. Work covers clinical data (EDC, SDTM, ADaM), applied statistical modeling and AI-agent development; Python is required and R preferred, so it leans engineering more than the oncology seat. Full-time, June 7 to August 20, 2027. Posted September 29, req R19865. Its Workday site was down when checked tonight (November 14); last confirmed open November 13. [Apply](https://modernatx.wd1.myworkdayjobs.com/M_tx/job/Cambridge-Massachusetts/Intern--Biometrics_R19865)"
+          "detail": "Statistical Innovation & Data Analytics team. The preferred line is *Master, doctoral or advanced undergraduate Student in statistics, biostatistics, computational biology, health informatics*. Work covers clinical data (EDC, SDTM, ADaM), applied statistical modeling and AI-agent development; Python is required and R preferred, so it leans engineering more than the oncology seat. Full-time, June 7 to August 20, 2027. Posted September 29, req R19865. [Apply](https://modernatx.wd1.myworkdayjobs.com/M_tx/job/Cambridge-Massachusetts/Intern--Biometrics_R19865)"
         },
         {
           "id": "kz-genmab-cdds",
@@ -416,6 +441,25 @@
             }
           ],
           "detail": "Machine learning and language processing on trial protocols, safety data and regulatory documents, including survival analysis. It is written for a PhD student, then adds *Master's students with strong applied experience may also be considered*, and it asks for strong Python with PyTorch or TensorFlow. Your XGBoost project is the applied experience to lead with. Lower odds than the other two Genmab seats. Posted October 19, req R18165. [Apply](https://genmab.wd3.myworkdayjobs.com/Genmab_Careers_Site/job/Princeton-NJ/Clinical-Development-Data-Science-Intern_R18165)"
+        },
+        {
+          "id": "kz-amgen-knowledge-graph",
+          "title": "Amgen: Grad Intern, Knowledge Graph Applications",
+          "location": "Remote (United States)",
+          "tags": [
+            {
+              "label": "Epidemiology, real-world evidence",
+              "status": "serious"
+            },
+            {
+              "label": "Remote",
+              "status": "good"
+            },
+            {
+              "label": "Close date not shown"
+            }
+          ],
+          "detail": "New tonight. You would build a knowledge graph of longitudinal patient journeys (treatments, clinical events, outcomes) and use graph methods on *epidemiology and real-world evidence questions*, working with data scientists and epidemiologists. Open to students in a *Master's or PhD program* in biostatistics, epidemiology or data science with *Python, R, or a comparable programming language*; claims or EHR data and graph tools (Neo4j, PyTorch Geometric) are preferred, so expect to be stretched on the graph side. $35.34 to $41.20 an hour. Posted November 13, req R-260625. [Apply](https://amgen.wd1.myworkdayjobs.com/en-US/Careers/job/United-States---Remote/Grad-Intern---Knowledge-Graph-Applications--Summer-2027-_R-260625)"
         },
         {
           "id": "kz-astrazeneca-lung-evidence",
@@ -466,7 +510,7 @@
               "label": "Close date not shown"
             }
           ],
-          "detail": "Safety-science tooling that combines *omics* data, clinical adverse-event data and real-world evidence into risk scores. Master's internships are open; preferred fields are *Toxicology, Computational Biology, Bioinformatics, Computer/Data Science*, with Python and R, and Shiny dashboards named as a plus. Listed last because the work leans genomic. Posted November 3, req R-259961. Its Workday site was down when checked tonight (November 14); last confirmed open November 13. [Apply](https://amgen.wd1.myworkdayjobs.com/en-US/Careers/job/United-States---Remote/Grad-Intern---Target-Safety-Risk-Weighting-and-Evaluation-Strategies--Summer-2027-_R-259961)"
+          "detail": "Safety-science tooling that combines *omics* data, clinical adverse-event data and real-world evidence into risk scores. Master's internships are open; preferred fields are *Toxicology, Computational Biology, Bioinformatics, Computer/Data Science*, with Python and R, and Shiny dashboards named as a plus. Listed last because the work leans genomic. Posted November 3, req R-259961. [Apply](https://amgen.wd1.myworkdayjobs.com/en-US/Careers/job/United-States---Remote/Grad-Intern---Target-Safety-Risk-Weighting-and-Evaluation-Strategies--Summer-2027-_R-259961)"
         }
       ]
     },
@@ -486,7 +530,7 @@
               "label": "Detroit"
             }
           ],
-          "detail": "You heard it opens November 16. It was not on Henry Ford's job board on November 10 (91 roles; sustainability and pharmacy interns only). Last month's Cancer Epidemiology application ran through the Public Health Sciences department's own form, not the job board, so check both on the 16th. The CEPC application asked for a cover letter on your research background, a resume, unofficial transcripts and an optional recommendation letter; expect the same. [Last month's form](https://redcap.hfhs.org/redcap/surveys/?s=AX83M7JKYHH7A8TJ) [Job board](https://jobs.smartrecruiters.com/HenryFordHealth1)"
+          "detail": "You heard it opens November 16. It was not on Henry Ford's job board on November 15 (88 roles; sustainability and pharmacy interns only). [Henry Ford board](https://careers.smartrecruiters.com/HenryFordHealth1) Last month's Cancer Epidemiology application ran through the Public Health Sciences department's own form, not the job board, so check both on the 16th. The CEPC application asked for a cover letter on your research background, a resume, unofficial transcripts and an optional recommendation letter; expect the same. [Last month's form](https://redcap.hfhs.org/redcap/surveys/?s=AX83M7JKYHH7A8TJ) [Job board](https://jobs.smartrecruiters.com/HenryFordHealth1)"
         },
         {
           "id": "kz-later-kite-grad",
@@ -780,7 +824,7 @@
         {
           "id": "kz-emp-pharma",
           "title": "Pharma",
-          "detail": "**Amgen** (Thousand Oaks, remote seats): grad Biostatistics and grad Data Scientist interns, both sent; a remote Target Safety seat is open but omics-heavy. **J&J Innovative Medicine** (Raritan, Spring House, La Jolla): Statistics & Decision Sciences and Clinical Pharmacology seats sent; remote Global Market Access summer associate open until January 8; the IDAR Analytics & Systems seat came down November 10, six days early. **Pfizer** (La Jolla): Statistics and AI/ML tracks, both sent November 6. Regeneron (Tarrytown, New York; Warren, New Jersey): its Biostatistics & Statistical Programming and Clinical Science interns came down by November 12. **Moderna** (Cambridge, Massachusetts): Oncology Biostatistics sent November 10; Biometrics intern open; its epidemiology and biomarker seats are PhD only. **AstraZeneca** (Boston, Gaithersburg): Epidemiology sent November 10; Lung Cancer Evidence & Strategy closes November 16. **Bristol Myers Squibb** (Princeton and six other sites): Data & Quantitative Sciences intern takes master's students, closes November 27; Patient Safety came down early. **Sanofi** (Cambridge, Morristown): Biostatistics intern on an atopic dermatitis placebo Shiny app sent November 13; the Cambridge pool (Biostatistics, Medical Evidence Generation, Data Science; closes December 11) takes master's students; its EGDS, Clinical Statistical Modeling and Statistical Methodology interns are PhD only. **Daiichi Sankyo** (Basking Ridge, New Jersey): R Innovation Initiatives and AI/ML Automation Pipelines interns take master's students; its Biostatistics and Data Management intern is PhD only. **Gilead and Kite** (Foster City, El Segundo): the October batch closed (three sent); Kite's graduate seats post October to January. Merck (New Jersey) took its whole statistics wave down October 30 and 31. Eli Lilly (Indianapolis) ran a master's-only statistics intern last cycle, due January 4; no 2027 version on November 13. Novartis (East Hanover) lists no 2027 statistics intern on November 10. Novo Nordisk (Plainsboro) lists no US intern and Boehringer Ingelheim (Ridgefield) no statistics intern on November 11. Otsuka (Princeton), Astellas (Northbrook) and Eisai (Nutley) list no 2027 intern seat on November 12. Takeda (Cambridge) took master's statistics interns last cycle, due February 28; nothing posted yet. Merck's remaining 2027 seats (Medical Affairs, Data, AI & Genome Sciences) are PhD only. Vertex and Ipsen list no summer statistics intern. Teva (Parsippany, New Jersey; Davie, Florida) lists 16 US summer 2027 interns on November 14, all commercial, manufacturing or undergraduate; none in statistics. GSK, AbbVie and Bayer: nothing that fits."
+          "detail": "**Amgen** (Thousand Oaks, remote seats): grad Biostatistics and grad Data Scientist interns, both sent; a remote Target Safety seat is open but omics-heavy. **J&J Innovative Medicine** (Raritan, Spring House, La Jolla): Statistics & Decision Sciences and Clinical Pharmacology seats sent; remote Global Market Access summer associate open until January 8; the IDAR Analytics & Systems seat came down November 10, six days early. **Pfizer** (La Jolla): Statistics and AI/ML tracks, both sent November 6. Regeneron (Tarrytown, New York; Warren, New Jersey): its Biostatistics & Statistical Programming and Clinical Science interns came down by November 12. **Moderna** (Cambridge, Massachusetts): Oncology Biostatistics sent November 10; Biometrics intern open; its epidemiology and biomarker seats are PhD only. **AstraZeneca** (Boston, Gaithersburg): Epidemiology sent November 10; Lung Cancer Evidence & Strategy closes November 16. **Bristol Myers Squibb** (Princeton and six other sites): Data & Quantitative Sciences intern takes master's students, closes November 27; Patient Safety came down early. **Sanofi** (Cambridge, Morristown): Biostatistics intern on an atopic dermatitis placebo Shiny app sent November 13; the Cambridge pool (Biostatistics, Medical Evidence Generation, Data Science; closes December 11) takes master's students; its EGDS, Clinical Statistical Modeling and Statistical Methodology interns are PhD only. **Daiichi Sankyo** (Basking Ridge, New Jersey): R Innovation Initiatives and AI/ML Automation Pipelines interns take master's students; its Biostatistics and Data Management intern is PhD only. **Gilead and Kite** (Foster City, El Segundo): the October batch closed (three sent); Kite's graduate seats post October to January. Merck (New Jersey) took its whole statistics wave down October 30 and 31. Eli Lilly (Indianapolis) ran a master's-only statistics intern last cycle, due January 4; no 2027 version on November 13. Novartis (East Hanover) lists no 2027 statistics intern on November 10. Novo Nordisk (Plainsboro) lists no US intern and Boehringer Ingelheim (Ridgefield) no statistics intern on November 11. Otsuka (Princeton), Astellas (Northbrook) and Eisai (Nutley) list no 2027 intern seat on November 12. Takeda (Cambridge) took master's statistics interns last cycle, due February 28; nothing posted yet. Merck's remaining 2027 seats (Medical Affairs, Data, AI & Genome Sciences) are PhD only. Vertex and Ipsen list no summer statistics intern. Teva (Parsippany, New Jersey; Davie, Florida) lists 16 US summer 2027 interns on November 14, all commercial, manufacturing or undergraduate; none in statistics. Organon (Jersey City), Incyte (Wilmington, Delaware) and UCB (Smyrna, Georgia) list no US intern on November 15; Incyte's eleven intern seats are all in Europe. GSK, AbbVie and Bayer: nothing that fits."
         },
         {
           "id": "kz-emp-biotech",
@@ -800,7 +844,7 @@
         {
           "id": "kz-emp-hospitals",
           "title": "Hospital systems and research institutes",
-          "detail": "**St. Jude** (Memphis): graduate biostatistics and data science internship, December 18 for full consideration. **Memorial Sloan Kettering** (New York): GEMS, for master's students only, due January 25 (genomics). **Jefferson** (Philadelphia): biostatistics and bioinformatics internship until February 15. **Ferguson RISE** (placement in Los Angeles): until January 31. **Henry Ford Health** (Detroit): Cancer Epidemiology seat sent; a summer internship opens November 16. **Kaiser Permanente Research & Evaluation** (Pasadena): graduate interns post February to March. Cedars-Sinai (academic-credit lab interns), City of Hope, Children's Hospital Los Angeles, Mayo (Rochester and Arizona), Stanford Health Care, Fred Hutch, Weill Cornell, Vanderbilt and Moffitt (undergraduate programs), Banner, HonorHealth, Sharp, Scripps: nothing that fits."
+          "detail": "**St. Jude** (Memphis): graduate biostatistics and data science internship, December 18 for full consideration. **Memorial Sloan Kettering** (New York): GEMS, for master's students only, due January 25 (genomics). **Jefferson** (Philadelphia): biostatistics and bioinformatics internship until February 15. **Ferguson RISE** (placement in Los Angeles): until January 31. **Henry Ford Health** (Detroit): Cancer Epidemiology seat sent; a summer internship opens November 16. **Kaiser Permanente Research & Evaluation** (Pasadena): graduate interns post February to March. Cedars-Sinai (academic-credit lab interns), City of Hope, Children's Hospital Los Angeles, Mayo (Rochester and Arizona), Stanford Health Care, Fred Hutch, Weill Cornell, Vanderbilt and Moffitt (undergraduate programs), Banner, HonorHealth, Sharp, Scripps: nothing that fits. Brigham and Women's TIMI Study Group (Boston) runs a biostatistics internship on its cardiology trials, but for PhD students and postdocs only. Cleveland Clinic's summer internships are for undergraduates."
         },
         {
           "id": "kz-emp-plans",
@@ -818,6 +862,11 @@
       "id": "not-a-fit",
       "title": "Checked and not a fit",
       "items": [
+        {
+          "id": "kz-nf-nov15",
+          "title": "November 15: TIMI, Cleveland Clinic, Organon, Incyte, UCB",
+          "detail": "Brigham and Women's TIMI Study Group biostatistics internship (2026-2027) invites *current PhD students and postdoctoral fellows*. [TIMI](https://timi.org/biostatistics-internship/) Cleveland Clinic's Discovery Accelerator summer internship (applications from November 2) is for undergraduates. [Cleveland Clinic](https://www.lerner.ccf.org/education/undergraduate-high-school-programs/application/) Organon's intern search shows Belgium and Netherlands seats only; Incyte's intern seats are in Europe; UCB's one intern seat is in Ontario. [Organon](https://jobs.organon.com/us/en/search-results?keywords=intern) [Incyte](https://careers.incyte.com/jobs?keywords=intern) [UCB](https://careers.ucb.com/global/en/search-results?keywords=intern) From tonight's sweep: Bristol Myers Squibb's Clinical Flow Cytometry intern is lab work; Elevance's new LPAC intern is legal and compliance; IQVIA's seven new intern seats, a biostatistician among them, are in Beijing, Shanghai and Chengdu. [IQVIA Biostatistician Intern](https://iqvia.wd1.myworkdayjobs.com/en-US/IQVIA/job/Beijing-China/Biostatistician-Intern-KunTuo_R1554599)"
+        },
         {
           "id": "kz-nf-nov14",
           "title": "November 14: Teva, Thermo Fisher, Kaiser LAUNCH",
@@ -1322,7 +1371,7 @@
           "id": "kz-blocked-browser",
           "title": "Read in the browser",
           "tags": [],
-          "detail": "Read in the browser on November 14. Workday's wd1 and wd5 hosts answered with a server error all night (Bristol Myers Squibb, J&J, Amgen, Moderna, CVS Health, Highmark, Denali), so those boards could not be re-read; their rows stay listed from the November 13 check. Denali's internships page points to that same Workday board. [Denali internships](https://www.denalitherapeutics.com/careers/internships/) Xencor's Dayforce board lists one role, no intern. [Xencor](https://jobs.dayforcehcm.com/en-US/xencor/EXTERNALCANDIDATEPORTAL) Children's Hospital Los Angeles lists no internship. [CHLA](https://www.chla.org/careers) Teva's careers site now runs on Eightfold; read tonight, no statistics intern. Jefferson's application form is open. TGen was not retried after its bot check."
+          "detail": "Read in the browser on November 15. Workday is answering again, so every Workday row was re-read tonight and all are open. Denali's internships page lists no openings and links to no job board tonight. [Denali internships](https://www.denalitherapeutics.com/careers/internships/) Xencor's Dayforce board lists one role, no intern. [Xencor](https://jobs.dayforcehcm.com/en-US/xencor/EXTERNALCANDIDATEPORTAL) Children's Hospital Los Angeles lists no internship. [CHLA](https://www.chla.org/careers) Organon, Incyte and UCB were read in the browser for the first time: no US intern. Jefferson's application form is open. TGen was not retried after its bot check."
         },
         {
           "id": "kz-blocked-unread",
