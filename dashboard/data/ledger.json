@@ -1,19 +1,8 @@
 {
   "version": 1,
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "_comment": "Memory across nightly runs. Read-modify-write each night. postings/people/news/searches are keyed maps; runs is an append-only list of {date, ok, pushed, notes, playbook_change}.",
   "runs": [
-    {
-      "date": "2026-10-19",
-      "ok": true,
-      "new_postings": 0,
-      "searches_run": 6,
-      "searches_dry": 5,
-      "boards_read_in_browser": 3,
-      "pushed": true,
-      "playbook_change": "v20: watch night; alumni exploration dry; browser trio read nightly again per core rule",
-      "notes": "Single run. Sweep 417 rows, 4 new, 0 fit. All 16 open rows live at the source, end dates unchanged. Start: numbers only, Oct 20 close named, warm-route plan carried. Browser: Xencor, Denali, CHLA (no intern). fetch_posting_text: 13 saved, 3 MISS (AG x2, BCBSM) restored from backup. /api/apps still 501."
-    },
     {
       "date": "2026-10-20",
       "ok": true,
@@ -332,6 +321,17 @@
       "pushed": true,
       "playbook_change": "v49: diagnosis = BMS D&QS taken down 10 days early, treat posted dates as one week earlier; AstraZeneca Statistics Summer Intern (MS, R, Jan 14) added; Henry Ford biostat dated Dec 31; Denali and Corewell board keys",
       "notes": "Single run. /api/apps unchanged since 11-13: 24 sent, 18 waiting, 1 interview, 5 rejected. Sweep 468 rows, 63/67 ok, 22 new, 1 fit (AZ Statistics R-264440). Liveness 24/26: AZ Lung closed, BMS D&QS removed early. National: Corewell, Verily, Alkermes (dry). Explore: Weill Cornell epi (not a fit). Browser: Denali, Alkermes, TGen (bot check, not read), Henry Ford form. fetch_posting_text 23/25 (St. Jude, Ferguson stubs as before)."
+    },
+    {
+      "date": "2026-11-18",
+      "ok": true,
+      "new_postings": 2,
+      "searches_run": 9,
+      "searches_dry": 6,
+      "boards_read_in_browser": 5,
+      "pushed": true,
+      "playbook_change": "v50: escalation diagnosis (five days with nothing recorded, Genentech closes 11-19), then drop and watch; Genentech Clinical Pharmacology and Amgen CMC Statistician found; Alnylam Greenhouse, Regeneron and GSK Workday keys",
+      "notes": "Single run. /api/apps unchanged since 11-13: 24 sent, 18 waiting, 1 interview, 5 rejected. Sweep 487 rows, 63/67 ok, 38 new, 2 fit. Liveness 25/25. National: AbbVie, Takeda, Alnylam, GSK, Regeneron (dry). Explore: AZ US intern list (no new fit). Browser: AbbVie x3, Alnylam, AZ x5, St. Jude, Michigan SPH. fetch_posting_text 23/25 (St. Jude, Ferguson stubs). Sanofi: no fit."
     }
   ],
   "postings": {
@@ -786,7 +786,7 @@
       "id": "kz-henryford-biostat",
       "title": "Henry Ford Health: Division of Biostatistics Intern (Public Health Sciences form)",
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-17",
+      "last_seen": "2026-11-18",
       "status": "open",
       "note": "same form previously carried CEPC (first_seen 2026-10-05, closed 2026-10-16, sent 10-14); on 11-16 the program list reads Division of Biostatistics / Other. No close date."
     },
@@ -1222,7 +1222,7 @@
       "status": "open",
       "note": "remote, MS/MPH eligible, closes 2027-01-08, posted 2026-09-30; missed by sweep, found by phrase pass",
       "first_seen": "2026-10-22",
-      "last_seen": "2026-11-17"
+      "last_seen": "2026-11-18"
     },
     "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Titusville-New-Jersey-United-States-of-America/RWE---Modeling-Summer-Intern_R-103932": {
       "id": "kz-nf-jnj-oct21",
@@ -1278,7 +1278,7 @@
       "status": "open",
       "note": "Maple Grove MN hybrid, urology RWE, MS biostat/epi/data science, grad Fall 2027-Spring 2030, R/Python+SQL, req 635655, no close date, term not stated",
       "first_seen": "2026-10-23",
-      "last_seen": "2026-11-17"
+      "last_seen": "2026-11-18"
     },
     "https://roche.wd3.myworkdayjobs.com/en-US/ROG-A2O-GENE/job/South-San-Francisco/XMLNAME-2027-Spring-Intern---Data-Science---Machine-Learning_202609-124657": {
       "id": "kz-nf-genentech-spring-ds",
@@ -1352,14 +1352,14 @@
       "id": "kz-jefferson-biostat",
       "title": "Jefferson: Biostatistics & Bioinformatics Intern",
       "first_seen": "2026-10-28",
-      "last_seen": "2026-11-17",
+      "last_seen": "2026-11-18",
       "status": "open"
     },
     "https://modernatx.wd1.myworkdayjobs.com/M_tx/job/Cambridge-Massachusetts/Intern--Biometrics_R19865": {
       "id": "kz-moderna-biometrics",
       "title": "Moderna: Intern, Biometrics",
       "first_seen": "2026-10-28",
-      "last_seen": "2026-11-17",
+      "last_seen": "2026-11-18",
       "status": "open"
     },
     "https://regeneron.wd1.myworkdayjobs.com/Careers/job/TARRYTOWN/XMLNAME-2027-Summer-Intern-Biostatistics---Statistical-Programming_R52558-1": {
@@ -1422,7 +1422,7 @@
       "id": "kz-amgen-target-safety",
       "title": "Amgen: Grad Intern, Target Safety Risk Weighting",
       "first_seen": "2026-11-04",
-      "last_seen": "2026-11-17",
+      "last_seen": "2026-11-18",
       "status": "apply-now",
       "note": "remote, omics-heavy, genomics tag"
     },
@@ -1470,28 +1470,28 @@
       "id": "kz-ferguson-rise-summer",
       "title": "Ferguson RISE: Summer Graduate Fellowship",
       "first_seen": "2026-11-06",
-      "last_seen": "2026-11-17",
+      "last_seen": "2026-11-18",
       "status": "open"
     },
     "https://genmab.wd3.myworkdayjobs.com/Genmab_Careers_Site/job/Princeton-NJ/Clinical---Statistical-Programming-Intern_R18173": {
       "id": "kz-genmab-csp",
       "title": "Genmab: Clinical & Statistical Programming Intern",
       "first_seen": "2026-11-06",
-      "last_seen": "2026-11-17",
+      "last_seen": "2026-11-18",
       "status": "open"
     },
     "https://genmab.wd3.myworkdayjobs.com/Genmab_Careers_Site/job/Princeton-NJ/Biostatistics-Intern_R18257": {
       "id": "kz-genmab-biostat",
       "title": "Genmab: Biostatistics Intern",
       "first_seen": "2026-11-06",
-      "last_seen": "2026-11-17",
+      "last_seen": "2026-11-18",
       "status": "open"
     },
     "https://genmab.wd3.myworkdayjobs.com/Genmab_Careers_Site/job/Princeton-NJ/Clinical-Development-Data-Science-Intern_R18165": {
       "id": "kz-genmab-cdds",
       "title": "Genmab: Clinical Development Data Science Intern",
       "first_seen": "2026-11-06",
-      "last_seen": "2026-11-17",
+      "last_seen": "2026-11-18",
       "status": "open"
     },
     "https://insmed.wd504.myworkdayjobs.com/EXTERNAL/job/NJ-Corporate-Headquarters/Summer-Intern---Biostatistics_R3881": {
@@ -1530,7 +1530,7 @@
       "id": "kz-highmark-clin-pophealth",
       "title": "Highmark Health: Clinical & Population Health Grad Intern",
       "first_seen": "2026-11-07",
-      "last_seen": "2026-11-17",
+      "last_seen": "2026-11-18",
       "status": "open",
       "note": "found through Simplify tracker; body read on employer board"
     },
@@ -1538,7 +1538,7 @@
       "id": "kz-highmark-eval-analytics",
       "title": "Highmark Health: Evaluation Analytics Graduate Intern",
       "first_seen": "2026-11-07",
-      "last_seen": "2026-11-17",
+      "last_seen": "2026-11-18",
       "status": "open",
       "note": "found through Simplify tracker; body read on employer board"
     },
@@ -1546,7 +1546,7 @@
       "id": "kz-cvs-grad-ds",
       "title": "CVS Health: Data Science Graduate Intern",
       "first_seen": "2026-11-07",
-      "last_seen": "2026-11-17",
+      "last_seen": "2026-11-18",
       "status": "open",
       "note": "found through Simplify tracker; body read on employer board"
     },
@@ -1624,7 +1624,7 @@
       "id": "kz-msk-gems",
       "title": "Memorial Sloan Kettering: GEMS Master's Program",
       "first_seen": "2026-11-10",
-      "last_seen": "2026-11-17",
+      "last_seen": "2026-11-18",
       "status": "apply-now",
       "note": "genomics; due 2027-01-25"
     },
@@ -1656,7 +1656,7 @@
       "id": "kz-sanofi-cambridge-pool",
       "title": "Sanofi: 2027 Summer Internships, Cambridge (pool)",
       "first_seen": "2026-11-10",
-      "last_seen": "2026-11-17",
+      "last_seen": "2026-11-18",
       "status": "apply-now",
       "note": "closes 2026-12-11"
     },
@@ -1680,7 +1680,7 @@
       "id": "kz-daiichi-r-innovation",
       "title": "Daiichi Sankyo: R Innovation Initiatives Intern",
       "first_seen": "2026-11-11",
-      "last_seen": "2026-11-17",
+      "last_seen": "2026-11-18",
       "status": "apply-now",
       "note": "no close date; req 2501"
     },
@@ -1688,7 +1688,7 @@
       "id": "kz-daiichi-aiml-pipelines",
       "title": "Daiichi Sankyo: AI/ML Automation Pipelines Intern",
       "first_seen": "2026-11-11",
-      "last_seen": "2026-11-17",
+      "last_seen": "2026-11-18",
       "status": "apply-now",
       "note": "no close date; req 2502"
     },
@@ -1744,7 +1744,7 @@
       "id": "kz-genentech-pd-data-sciences",
       "title": "Genentech: Product Development Data Sciences Intern",
       "first_seen": "2026-11-12",
-      "last_seen": "2026-11-17",
+      "last_seen": "2026-11-18",
       "status": "open",
       "note": "new 11-12"
     },
@@ -1760,7 +1760,7 @@
       "id": "kz-stjude-biostat-ds",
       "title": "St. Jude: Biostatistics and Data Science Intern",
       "first_seen": "2026-11-12",
-      "last_seen": "2026-11-17",
+      "last_seen": "2026-11-18",
       "status": "open",
       "note": "new 11-12"
     },
@@ -1768,7 +1768,7 @@
       "id": "kz-genentech-digital-coa",
       "title": "Genentech: Digital, AI & Outcome Assessments Intern",
       "first_seen": "2026-11-12",
-      "last_seen": "2026-11-17",
+      "last_seen": "2026-11-18",
       "status": "open",
       "note": "new 11-12"
     },
@@ -1898,7 +1898,7 @@
       "first_seen": "2026-11-15",
       "status": "apply-now",
       "note": "master's-level; SAS/R/Python; remote option; closes 11-25",
-      "last_seen": "2026-11-17"
+      "last_seen": "2026-11-18"
     },
     "https://amgen.wd1.myworkdayjobs.com/en-US/Careers/job/United-States---Remote/Grad-Intern---Knowledge-Graph-Applications--Summer-2027-_R-260625": {
       "id": "kz-amgen-knowledge-graph",
@@ -1906,7 +1906,7 @@
       "first_seen": "2026-11-15",
       "status": "apply-now",
       "note": "MS or PhD; epi/RWE; remote; no close date",
-      "last_seen": "2026-11-17"
+      "last_seen": "2026-11-18"
     },
     "https://timi.org/biostatistics-internship/": {
       "id": "nf",
@@ -1936,7 +1936,7 @@
       "id": "kz-nm-is-analytics",
       "title": "Northwestern Medicine: Information Services Intern (analytics track)",
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-17",
+      "last_seen": "2026-11-18",
       "status": "open",
       "note": "closes 2026-12-31, REF91169Z, low fit (IT)"
     },
@@ -1983,7 +1983,7 @@
     "https://astrazeneca.eightfold.ai/careers/job/563877691872138": {
       "title": "AstraZeneca Statistics Summer Intern R-264440",
       "first_seen": "2026-11-17",
-      "last_seen": "2026-11-17",
+      "last_seen": "2026-11-18",
       "note": "fit; MS ok, R required; closes 2027-01-14; apply-now"
     },
     "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Waltham-MA/XMLNAME-2027-Summer-Co-op-Scientific-Data-Support-Analyst-Vaccines-Waltham-MA_R2865210": {
@@ -2003,6 +2003,246 @@
       "first_seen": "2026-11-17",
       "last_seen": "2026-11-17",
       "note": "not a fit: underwriting"
+    },
+    "https://medtronic.wd1.myworkdayjobs.com/en-US/MedtronicCareers/job/Madrid-Madrid-Spain/Intern-Remote-Monitoring-Support_R79845": {
+      "title": "Medtronic Intern Remote Monitoring Support",
+      "note": "not a fit (overseas, undergraduate, lab, PhD modeling, ops, or grad-date gate)",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18"
+    },
+    "https://alcon.wd5.myworkdayjobs.com/en-US/careers_alcon/job/Tuas-Singapore/Intern--Automation---Control-Engineering_R-2026-50863-2": {
+      "title": "Alcon Intern, Automation & Control Engineering",
+      "note": "not a fit (overseas, undergraduate, lab, PhD modeling, ops, or grad-date gate)",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18"
+    },
+    "https://bostonscientific.eightfold.ai/careers/job/563602813968810": {
+      "title": "Boston Scientific R&D Research Data Science Intern",
+      "note": "not a fit (overseas, undergraduate, lab, PhD modeling, ops, or grad-date gate)",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18"
+    },
+    "https://msd.wd5.myworkdayjobs.com/en-US/SearchJobs/job/IND---Maharashtra---Pune-Wework/Digital-Human-Health-Intern_R427217-1": {
+      "title": "Merck (not CA) Digital Human Health Intern",
+      "note": "not a fit (overseas, undergraduate, lab, PhD modeling, ops, or grad-date gate)",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18"
+    },
+    "https://msd.wd5.myworkdayjobs.com/en-US/SearchJobs/job/IND---Telangana---Hyderabad-Hitec-City-Raidurg/Digital-Human-Health-Intern_R427220-1": {
+      "title": "Merck (not CA) Digital Human Health Intern",
+      "note": "not a fit (overseas, undergraduate, lab, PhD modeling, ops, or grad-date gate)",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18"
+    },
+    "https://msd.wd5.myworkdayjobs.com/en-US/SearchJobs/job/IND---Maharashtra---Pune-Wework/Digital-Human-Health-Intern_R428109-1": {
+      "title": "Merck (not CA) Digital Human Health Intern",
+      "note": "not a fit (overseas, undergraduate, lab, PhD modeling, ops, or grad-date gate)",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18"
+    },
+    "https://analystcareers-analysisgroup.icims.com/jobs/3064/summer-analyst-intern---health-care-%28heor%2c-epidemiology-%26-market-access%29-%282027-start-date%29/job": {
+      "title": "Analysis Group 3064 - Summer Analyst Intern - Health Care (HEOR, Epidemiology & Market Access) (2027 Start Date)",
+      "note": "not a fit (overseas, undergraduate, lab, PhD modeling, ops, or grad-date gate)",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18"
+    },
+    "https://jobs.smartrecruiters.com/HenryFordHealth1/3743990016902456": {
+      "title": "Henry Ford Health (Detroit) Social Worker Intern",
+      "note": "not a fit (overseas, undergraduate, lab, PhD modeling, ops, or grad-date gate)",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18"
+    },
+    "https://amgen.wd1.myworkdayjobs.com/en-US/Careers/job/US---California---South-San-Francisco/Grad-Intern---Inflammation--Summer-2027-_R-261878": {
+      "title": "Amgen Grad Intern - Inflammation (Summer 2027)",
+      "note": "not a fit (overseas, undergraduate, lab, PhD modeling, ops, or grad-date gate)",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18"
+    },
+    "https://amgen.wd1.myworkdayjobs.com/en-US/Careers/job/US---California---Thousand-Oaks/Grad-Intern---Protein-Engineering--Summer-2027-_R-261826": {
+      "title": "Amgen Grad Intern – Protein Engineering (Summer 2027)",
+      "note": "not a fit (overseas, undergraduate, lab, PhD modeling, ops, or grad-date gate)",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18"
+    },
+    "https://amgen.wd1.myworkdayjobs.com/en-US/Careers/job/US---California---South-San-Francisco/Grad-Intern---Quantitative-Pharmacology--Summer-2027-_R-261804": {
+      "title": "Amgen Grad Intern - Quantitative Pharmacology (Summer 2027)",
+      "note": "not a fit (overseas, undergraduate, lab, PhD modeling, ops, or grad-date gate)",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18"
+    },
+    "https://amgen.wd1.myworkdayjobs.com/en-US/Careers/job/US---California---Thousand-Oaks/Grad-Intern---Mass-Spectrometry--Summer-2027-_R-261946": {
+      "title": "Amgen Grad Intern – Mass Spectrometry (Summer 2027)",
+      "note": "not a fit (overseas, undergraduate, lab, PhD modeling, ops, or grad-date gate)",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18"
+    },
+    "https://amgen.wd1.myworkdayjobs.com/en-US/Careers/job/US---California---South-San-Francisco/Grad-Intern---Lead-Discovery-Lab--Summer-2027-_R-261941": {
+      "title": "Amgen Grad Intern – Lead Discovery Lab (Summer 2027)",
+      "note": "not a fit (overseas, undergraduate, lab, PhD modeling, ops, or grad-date gate)",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18"
+    },
+    "https://amgen.wd1.myworkdayjobs.com/en-US/Careers/job/US---California---South-San-Francisco/Grad-Intern---Inflammation-R-D--Summer-2027-_R-261887": {
+      "title": "Amgen Grad Intern - Inflammation R&D (Summer 2027)",
+      "note": "not a fit (overseas, undergraduate, lab, PhD modeling, ops, or grad-date gate)",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18"
+    },
+    "https://amgen.wd1.myworkdayjobs.com/en-US/Careers/job/United-States---Remote/Undergrad-Intern---R-D-EOS---Global-Program-Management--Summer-2027-_R-260924": {
+      "title": "Amgen Undergrad Intern – R&D EOS | Global Program Management (Summer 2027)",
+      "note": "not a fit (overseas, undergraduate, lab, PhD modeling, ops, or grad-date gate)",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18"
+    },
+    "https://amgen.wd1.myworkdayjobs.com/en-US/Careers/job/United-States---Remote/Undergrad-Intern---Change-Readiness-and-Organization-Effectiveness--Summer-2027-_R-261940": {
+      "title": "Amgen Undergrad Intern - Change Readiness and Organization Effectiveness (Summer 2027)",
+      "note": "not a fit (overseas, undergraduate, lab, PhD modeling, ops, or grad-date gate)",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18"
+    },
+    "https://amgen.wd1.myworkdayjobs.com/en-US/Careers/job/United-States---Remote/Grad-Intern---Product-Quality---Global-Chemistry-Manufacturing---Controls-Statistician--Summer-2027-_R-261900": {
+      "title": "Amgen Grad Intern - Product Quality / Global Chemistry Manufacturing & Controls Statistician (Summer 2027)",
+      "note": "FIT: listed kz-amgen-cmc-statistician, no close date",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18"
+    },
+    "https://roche.wd3.myworkdayjobs.com/en-US/ROG-A2O-GENE/job/South-San-Francisco/XMLNAME-2027-Summer-Intern---Translational-Safety--Bioinformatics-_202611-129409": {
+      "title": "Genentech 2027 Summer Intern – Translational Safety (Bioinformatics)",
+      "note": "not a fit (overseas, undergraduate, lab, PhD modeling, ops, or grad-date gate)",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18"
+    },
+    "https://roche.wd3.myworkdayjobs.com/en-US/ROG-A2O-GENE/job/South-San-Francisco/XMLNAME-2027-Summer-Intern---Translational-Pharmacokinetics-and-Pharmacodynamics--Modeling-and-Simulation_202611-129384": {
+      "title": "Genentech 2027 Summer Intern - Translational Pharmacokinetics and Pharmacodynamics, Modeling and Simulation",
+      "note": "not a fit (overseas, undergraduate, lab, PhD modeling, ops, or grad-date gate)",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18"
+    },
+    "https://roche.wd3.myworkdayjobs.com/en-US/ROG-A2O-GENE/job/South-San-Francisco/Intern_202611-129404": {
+      "title": "Genentech 2027 Summer Intern - Clinical Pharmacology Department",
+      "note": "FIT: listed kz-genentech-clin-pharm, closes Dec 2",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18"
+    },
+    "https://roche.wd3.myworkdayjobs.com/en-US/ROG-A2O-GENE/job/South-San-Francisco/XMLNAME-2027-Summer-Intern---Translational-Safety--Complex-In-Vitro-Systems-_202611-129214": {
+      "title": "Genentech 2027 Summer Intern - Translational Safety (Complex In Vitro Systems)",
+      "note": "not a fit (overseas, undergraduate, lab, PhD modeling, ops, or grad-date gate)",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18"
+    },
+    "https://roche.wd3.myworkdayjobs.com/en-US/ROG-A2O-GENE/job/South-San-Francisco/XMLNAME-2027-Summer-Intern---Global-Pharma-Strategy-_202611-128885": {
+      "title": "Genentech 2027 Summer Intern - Global Pharma Strategy ",
+      "note": "not a fit (overseas, undergraduate, lab, PhD modeling, ops, or grad-date gate)",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18"
+    },
+    "https://roche.wd3.myworkdayjobs.com/en-US/ROG-A2O-GENE/job/South-San-Francisco/XMLNAME-2027-Summer-Intern---Translational-Medicine-Oncology_202611-129226": {
+      "title": "Genentech 2027 Summer Intern - Translational Medicine Oncology",
+      "note": "not a fit (overseas, undergraduate, lab, PhD modeling, ops, or grad-date gate)",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18"
+    },
+    "https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Bogot---CO/Legal-Support-for-Patient-and-Diagnostic-Programs-Intern_R1608619": {
+      "title": "Bristol Myers Squibb Legal Support for Patient and Diagnostic Programs Intern",
+      "note": "not a fit (overseas, undergraduate, lab, PhD modeling, ops, or grad-date gate)",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18"
+    },
+    "https://abbott.wd5.myworkdayjobs.com/en-US/abbottcareers/job/Italy---Milan/Administrative-Support-Intern---Electrophysiology_31167872": {
+      "title": "Abbott Administrative Support Intern – Electrophysiology",
+      "note": "not a fit (overseas, undergraduate, lab, PhD modeling, ops, or grad-date gate)",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18"
+    },
+    "https://abbott.wd5.myworkdayjobs.com/en-US/abbottcareers/job/Italy---Milan/Marketing---Education-Intern---Electrophysiology_31167873": {
+      "title": "Abbott Marketing & Education Intern – Electrophysiology",
+      "note": "not a fit (overseas, undergraduate, lab, PhD modeling, ops, or grad-date gate)",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18"
+    },
+    "https://abbott.wd5.myworkdayjobs.com/en-US/abbottcareers/job/Italy---Milan/Marketing---Therapy-Development-Intern---LAAO_31167875": {
+      "title": "Abbott Marketing & Therapy Development Intern – LAAO",
+      "note": "not a fit (overseas, undergraduate, lab, PhD modeling, ops, or grad-date gate)",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18"
+    },
+    "https://vrtx.wd501.myworkdayjobs.com/en-US/vertex_careers/job/Boston-MA/Vertex-Spring-2027-Co-op--Community-Affairs_REQ-31302": {
+      "title": "Vertex Vertex Spring 2027 Co-op, Community Affairs",
+      "note": "not a fit (overseas, undergraduate, lab, PhD modeling, ops, or grad-date gate)",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18"
+    },
+    "https://vrtx.wd501.myworkdayjobs.com/en-US/vertex_careers/job/Boston-MA/Spring-2027-Co-op--Performance-Excellence-and-Business-Transformation_REQ-31100-1": {
+      "title": "Vertex Spring 2027 Co-op, Performance Excellence and Business Transformation",
+      "note": "not a fit (overseas, undergraduate, lab, PhD modeling, ops, or grad-date gate)",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18"
+    },
+    "https://vrtx.wd501.myworkdayjobs.com/en-US/vertex_careers/job/Boston-MA/Spring-2027-Co-op--Human-AI-Work-and-Organization-Design_REQ-31108-1": {
+      "title": "Vertex Spring 2027 Co-op, Human-AI Work and Organization Design",
+      "note": "not a fit (overseas, undergraduate, lab, PhD modeling, ops, or grad-date gate)",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18"
+    },
+    "https://www.kaiserpermanentejobs.org/job/pleasanton/consulting-master-s-intern/641/103448377008": {
+      "title": "Kaiser Permanente R&E Consulting Master's Intern",
+      "note": "not a fit (overseas, undergraduate, lab, PhD modeling, ops, or grad-date gate)",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18"
+    },
+    "https://www.kaiserpermanentejobs.org/job/seattle/inpatient-pharmacy-intern-capitol-hill-seattle/641/103441713264": {
+      "title": "Kaiser Permanente R&E Inpatient Pharmacy Intern - Capitol Hill/Seattle",
+      "note": "not a fit (overseas, undergraduate, lab, PhD modeling, ops, or grad-date gate)",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18"
+    },
+    "https://hckd.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2040174": {
+      "title": "Molina Legal & Compliance Internship (Remote) – Summer 2027 (Undergraduate)",
+      "note": "not a fit (overseas, undergraduate, lab, PhD modeling, ops, or grad-date gate)",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18"
+    },
+    "https://hckd.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2040164": {
+      "title": "Molina Clincal Operations Internship (Remote) – Summer 2027 (Undergraduate)",
+      "note": "not a fit (overseas, undergraduate, lab, PhD modeling, ops, or grad-date gate)",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18"
+    },
+    "https://hckd.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2040149": {
+      "title": "Molina Healthcare Services Internship (Ohio Health Plan) – Summer 2027 (Undergraduate)",
+      "note": "not a fit (overseas, undergraduate, lab, PhD modeling, ops, or grad-date gate)",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18"
+    },
+    "https://hckd.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2040147": {
+      "title": "Molina Healthcare Growth & Community Engagement Internship (Wisconsin Health Plan) – Summer 2027 (Undergraduate)",
+      "note": "not a fit (overseas, undergraduate, lab, PhD modeling, ops, or grad-date gate)",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18"
+    },
+    "https://www.commonspirit.careers/job/chattanooga/surgical-technician-intern/35300/102897602048": {
+      "title": "Dignity Health / CommonSpirit Surgical Technician Intern",
+      "note": "not a fit (overseas, undergraduate, lab, PhD modeling, ops, or grad-date gate)",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18"
+    },
+    "https://careers.fortrea.com/us/en/job/FOMFORUS266567EXTERNALENUS": {
+      "title": "Fortrea Internal Audit - Apprentice",
+      "note": "not a fit (overseas, undergraduate, lab, PhD modeling, ops, or grad-date gate)",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18"
+    },
+    "https://sanofi.wd3.myworkdayjobs.com/SanofiCareers/job/Morristown-NJ/XMLNAME-2027-Summer-Intern-Patient-Driven-Medicines-Development--Morristown--NJ_R2852481": {
+      "title": "Sanofi PDMD Summer Intern R2852481",
+      "note": "not a fit: bachelor's only; closes Nov 24",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18"
+    },
+    "https://astrazeneca.eightfold.ai/careers?query=US+Medical+Affairs+Real-World+Evidence+Hematology+Intern": {
+      "title": "AstraZeneca US Medical Affairs RWE Hematology Intern",
+      "note": "not a fit: rising sophomores/juniors; closes Nov 22",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18"
     }
   },
   "people": {
@@ -3814,12 +4054,66 @@
       "result": "Division of Biostatistics: apps through 2026-12-31, interviews Jan, select by 2027-02-13, May-Aug, $18/hr",
       "status": "open",
       "empty_runs": 0
+    },
+    "sweep-1118": {
+      "query": "sweep_boards.py --who Z",
+      "result": "487 rows, 63 of 67 ok, 38 new, 2 fit (Genentech Clinical Pharmacology, Amgen CMC Statistician)",
+      "status": "open",
+      "last_run": "2026-11-18"
+    },
+    "liveness-1118": {
+      "query": "live.py on 25 Open now rows",
+      "result": "25 of 25 live, no date moved",
+      "status": "open",
+      "last_run": "2026-11-18"
+    },
+    "sanofi-1118": {
+      "query": "Sanofi Workday intern, statistics, biostatistics, epidemiology, RWE, HEOR, data science",
+      "result": "new PDMD Morristown intern is bachelor's only; no US statistics seat",
+      "status": "open",
+      "last_run": "2026-11-18"
+    },
+    "national-abbvie-1118": {
+      "query": "browser careers.abbvie.com/en/jobs q=intern, 2027, statistics intern",
+      "result": "PhD, undergraduate, MBA only; statistics search empty",
+      "status": "open",
+      "last_run": "2026-11-18"
+    },
+    "national-takeda-1118": {
+      "query": "jobs.takeda.com intern United States",
+      "result": "3 results, none intern",
+      "status": "open",
+      "last_run": "2026-11-18"
+    },
+    "national-alnylam-1118": {
+      "query": "alnylam careers page -> Greenhouse alnylampharmaceuticals",
+      "result": "110 jobs, no US intern; board key found",
+      "status": "open",
+      "last_run": "2026-11-18"
+    },
+    "national-gsk-regeneron-1118": {
+      "query": "wd.py gsk.wd5 GSKCareers, regeneron.wd1 Careers intern",
+      "result": "GSK UK/overseas placements; Regeneron workplace/EHS analytics and MBA; no stats",
+      "status": "open",
+      "last_run": "2026-11-18"
+    },
+    "explore-az-us-interns-1118": {
+      "query": "browser AZ eightfold summer intern 2027 United States (41) + RWE intern",
+      "result": "Statistics already listed; Biostat/Quant PhD; medical affairs RWE Hematology undergraduate; rest ops",
+      "status": "open",
+      "last_run": "2026-11-18"
+    },
+    "sources-1118": {
+      "query": "return-offer and people sources (NACE, Medtronic, St. Jude, MSK, SPH fair)",
+      "result": "all fetched; St. Jude and SPH via browser",
+      "status": "open",
+      "last_run": "2026-11-18"
     }
   },
   "total": {
-    "postings": 221,
+    "postings": 265,
     "people": 4,
     "news": 0,
-    "searches": 249
+    "searches": 267
   }
 }
