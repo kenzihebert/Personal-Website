@@ -1,16 +1,16 @@
 {
   "title": "Your search",
-  "updated": "2026-11-18",
+  "updated": "2026-11-19",
   "generatedBy": "nightly research",
   "deadlines": [
     {
       "date": "2026-11-19",
-      "label": "Genentech Product Development Data Sciences (Boston) and Digital/COA (South San Francisco) interns close",
+      "label": "Genentech Digital, AI & Outcome Assessments intern closes (South San Francisco)",
       "status": "critical"
     },
     {
       "date": "2026-11-25",
-      "label": "Bristol Myers Squibb Statistical Programming intern closes (remote or seven sites)",
+      "label": "Bristol Myers Squibb Statistical Programming (remote or seven sites) and Data Science MS/PhD (remote) interns close",
       "status": "critical"
     },
     {
@@ -25,7 +25,7 @@
     },
     {
       "date": "2026-12-11",
-      "label": "Sanofi 2027 Cambridge summer internship pool closes",
+      "label": "Sanofi 2027 summer internship pools close (Cambridge and Swiftwater)",
       "status": "warning"
     },
     {
@@ -91,20 +91,21 @@
       "items": [
         {
           "id": "kz-start-diagnosis",
-          "title": "Five days with nothing recorded",
-          "detail": "Your page's record has not changed since November 13: 24 sent, 18 waiting, 1 interview (Analysis Group Health Care), 5 rejected. Sent in the last 7 days: 2 (Genentech Biostatistics & Analytical Data Sciences November 12, Sanofi Biostatistics November 13). Last 14 days: 6. Open rows not yet sent: 27 (2 new tonight). Closing within 30 days and not sent: 7 (Genentech Boston and Digital/COA November 19, Bristol Myers Squibb Statistical Programming November 25, Highmark Clinical and Population Health December 1, Genentech Clinical Pharmacology December 2, Sanofi Cambridge pool December 11, St. Jude December 18). Oldest unsent row: J&J Global Market Access, listed since October 22. 19 of the open rows have been on this page for a week or more.\n\nWhat it costs: tomorrow, November 19, both Genentech seats close. Genentech Product Development Data Sciences (Boston) asks for R and takes master's students; after tomorrow it is gone for this cycle. The Bristol Myers Squibb Statistical Programming seat passed its one-week-early target today, and its sibling seat came down ten days before its date.\n\nIf you sent any of these and did not tick them, tick them now so the page stops listing them. If not: send Genentech Boston tonight, and BMS Statistical Programming next. [Genentech Boston](https://roche.wd3.myworkdayjobs.com/en-US/ROG-A2O-GENE/job/Boston/XMLNAME-2027-Summer-Intern---Product-Development-Data-Sciences_202611-128802) [BMS Statistical Programming](https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Princeton---NJ---US/Data---Quantitative-Sciences-Statistical-Programming-Intern---Summer-2027_R1608542)"
+          "title": "Your sends follow dates; 13 rows have none",
+          "tags": [],
+          "detail": "Your page shows Genentech Product Development Data Sciences sent on November 18, the day before it closed. That makes 25 sent: 19 waiting, 1 interview (Analysis Group Health Care), 5 rejected. Sent in the last 7 days: 2 (Sanofi Biostatistics November 13, Genentech Boston November 18). Last 14 days: 7. Open rows not yet sent: 29 (3 new tonight). Closing within 30 days and not sent: 8. Oldest unsent row: J&J Global Market Access, listed since October 22.\n\nThe pattern: almost every send in November went out on or just before a named date (the Sanofi call, the Genentech close). 13 open rows show no close date at all, and 10 of them have sat on this page for a week or more. With no date, nothing ever makes them urgent, and these boards take seats down without warning.\n\nOne small change: give two of them a date of your own, this Sunday, November 22. Daiichi Sankyo R Innovation Initiatives (R Shiny and R Markdown on trial data) and Genmab Biostatistics, if not sent yet. [Daiichi Sankyo](https://careers.daiichisankyo.com/job/R-Innovation-Initiatives-Intern/2501-en_US) [Genmab](https://genmab.wd3.myworkdayjobs.com/Genmab_Careers_Site/job/Princeton-NJ/Biostatistics-Intern_R18257)"
         },
         {
           "id": "kz-start-this-week",
           "title": "The next two weeks",
           "tags": [],
-          "detail": "**Analysis Group:** prepare the two project stories (breast-cancer recurrence model with the R Shiny app; influenza SARIMA capstone) before the first-round call; it is *behavior based and conducted virtually*. When you have the date, write it in the note on that row. [Analysis Group FAQ](https://www.analysisgroup.com/careers/faqs/)\n\n**Tomorrow, November 19:** Genentech Product Development Data Sciences (Boston; R required) closes, and so does Genentech Digital, AI & Clinical Outcome Assessments (South San Francisco), if you want it. **Now:** Bristol Myers Squibb Statistical Programming (remote or seven sites; posted date November 25, but its sibling seat closed early).\n\n**New tonight:** Genentech Clinical Pharmacology (South San Francisco; R required, Shiny a plus; a meta-analysis of obesity trials; closes December 2). [Genentech](https://roche.wd3.myworkdayjobs.com/en-US/ROG-A2O-GENE/job/South-San-Francisco/Intern_202611-129404) Amgen Product Quality Statistician (remote; manufacturing statistics; no close date). [Amgen](https://amgen.wd1.myworkdayjobs.com/en-US/Careers/job/United-States---Remote/Grad-Intern---Product-Quality---Global-Chemistry-Manufacturing---Controls-Statistician--Summer-2027-_R-261900)\n\n**Send it early:** AstraZeneca Statistics Summer Intern (Gaithersburg; R required; trial design simulations; posted date January 14, but its Lung Cancer sibling and BMS's seats show dates move). [AstraZeneca](https://astrazeneca.eightfold.ai/careers/job/563877691872138)\n\n**No close date shown, so treat them as due now:** Daiichi Sankyo R Innovation Initiatives (Basking Ridge; R Shiny and R Markdown on trial data), Genmab Clinical & Statistical Programming and Genmab Biostatistics (Princeton), CVS Health Data Science (New York), Highmark Evaluation Analytics (remote), Moderna Biometrics (Cambridge), Boston Scientific Graduate Clinical Insights (Maple Grove), Amgen Knowledge Graph Applications (remote).\n\n**By December 1:** Highmark Clinical and Population Health (remote). **By December 11:** Sanofi Cambridge pool. **By December 18:** St. Jude Biostatistics and Data Science (Memphis).\n\n**By December 31:** Henry Ford Health Division of Biostatistics (Detroit; $18 an hour; same form as your Cancer Epidemiology application, so most of it is written). Also Manatt Health Summer Consultant, and Northwestern Medicine Information Services (Chicago) if you want a health-system data seat.\n\n**Later:** J&J Global Market Access (remote, until January 8); GEMS (New York, until January 25); Ferguson RISE (Los Angeles site, until January 31; also needs both transcripts); Jefferson Biostatistics & Bioinformatics (Philadelphia, until February 15). St. Jude, Ferguson RISE and GEMS each want reference letters."
+          "detail": "**Analysis Group:** prepare the two project stories (breast-cancer recurrence model with the R Shiny app; influenza SARIMA capstone) before the first-round call; it is *behavior based and conducted virtually*. When you have the date, write it in the note on that row. [Analysis Group FAQ](https://www.analysisgroup.com/careers/faqs/)\n\n**Today, November 19:** Genentech Digital, AI & Clinical Outcome Assessments (South San Francisco) closes, if you want it.\n\n**By November 25, two Bristol Myers Squibb seats:** Statistical Programming (remote or seven sites), and, new tonight, Data Science MS/PhD (remote; predictive models on clinical and real-world data; scikit-learn and mlr3 named). Its sibling seat came down ten days early, so treat both as due this weekend. [BMS Statistical Programming](https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Princeton---NJ---US/Data---Quantitative-Sciences-Statistical-Programming-Intern---Summer-2027_R1608542) [BMS Data Science](https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Remote---United-States---US/Data-Science-Intern--MS-PhD--Summer-2027_R1608664)\n\n**By December 1:** Highmark Clinical and Population Health (remote). **By December 2:** Genentech Clinical Pharmacology (South San Francisco; R required, Shiny a plus; a meta-analysis of obesity trials). [Genentech](https://roche.wd3.myworkdayjobs.com/en-US/ROG-A2O-GENE/job/South-San-Francisco/Intern_202611-129404)\n\n**Your own date, Sunday November 22:** Daiichi Sankyo R Innovation Initiatives and Genmab Biostatistics (see above). The other undated rows: Genmab Clinical & Statistical Programming, CVS Health Data Science, Highmark Evaluation Analytics, Moderna Biometrics, Boston Scientific Graduate Clinical Insights, Amgen Knowledge Graph, Product Quality Statistician and, new tonight, Global Patient Safety modeling (remote; models on clinical trial data; PhD preferred).\n\n**By December 11:** Sanofi Cambridge pool (Biostatistics or Medical Evidence Generation); a Swiftwater pool with a Pharmacovigilance track opened tonight with the same date. **By December 18:** St. Jude Biostatistics and Data Science (Memphis).\n\n**By December 31:** Henry Ford Health Division of Biostatistics (Detroit; same form as your Cancer Epidemiology application, so most of it is written), Manatt Health Summer Consultant, and Northwestern Medicine Information Services (Chicago) if you want a health-system data seat.\n\n**Later:** J&J Global Market Access (remote, until January 8); AstraZeneca Statistics Summer Intern (Gaithersburg, until January 14, but send it early); GEMS (New York, until January 25); Ferguson RISE (Los Angeles site, until January 31; also needs both transcripts); Jefferson Biostatistics & Bioinformatics (Philadelphia, until February 15). St. Jude, Ferguson RISE and GEMS each want reference letters."
         },
         {
           "id": "kz-start-howhiring",
           "title": "How this field hires a master's student",
           "tags": [],
-          "detail": "Big pharma opens structured summer programs between September and November (Genentech's Product Development Data Sciences wave, master's included, went up November 11 with an eight-day window) and often prefers or requires a PhD for biostatistics seats; read the qualification line before the title. Amgen runs a separate master's internship inside its statistics group (posted October 26), next to PhD-preferred wording. Moderna's biostatistics intern names master's students outright, while its epidemiology and biomarker statistics seats are PhD only. Mid-size biotechs split the same way: Genmab's Clinical & Statistical Programming intern asks for master's students, while Insmed's biostatistics intern asks for a PhD candidate. Regeneron posted its whole 2027 summer wave on October 28; its biostatistics and clinical science seats came down by November 12 with no close date ever shown. Gilead's October 16 batch listed PhD as *preferred* on most statistics reqs and still took master's students; its research AI seats (omics, chemistry, lab work) closed October 31. Contract research organizations hire master's statisticians at volume, but later and more rolling, and mostly in SAS: ICON's last US Biostatistics Intern posting (req JR101743) is gone from its board and no 2027 version is up yet. Device companies run their own calendars: Edwards' clinical track came down October 31 and its other tracks open January to April; Medtronic's master's window closed October 13. Health plans posted a wave at the end of September, mostly undergraduate, MBA or pharmacy seats; the graduate analytics seats came later, with Highmark's remote seats and CVS Health's Data Science seat posted in the second half of October. Some plans post far later: SCAN Health Plan in Long Beach posted last cycle's graduate Data Scientist Intern on May 16. [SCAN posting, last cycle](https://simplify.jobs/p/94e3dc1e-3287-40a5-8a13-a3fcb9452c79) Posted close dates move, usually earlier: BMS re-posted its Patient Safety seat on November 3 with the close cut from November 26 to November 16, then took it down by November 12. BMS posted its master's-eligible Data & Quantitative Sciences intern on November 11 with a November 27 close and took it down by November 17. J&J's IDAR Analytics & Systems seat was posted November 9 with a November 16 close and came down November 10. J&J posts batches with short windows and sometimes moves them: its Oncology Epidemiology seat was re-posted October 16 with the close pushed a week to October 30. Merck's whole 2027 Future Talent wave (biostatistics, outcomes research, epidemiology) came down October 30 to 31, before its dates. Daiichi Sankyo posted its whole 2027 summer wave on its own careers site November 5 to 9, 43 seats in Basking Ridge: its R programming seats take master's students, while its Biostatistics and Data Management seat asks for a PhD student. Some big pharma statistics groups run a separate master's track with a winter deadline: last cycle Eli Lilly listed an MS Statistics intern next to its PhD seat, due January 4, and Takeda's statistics internship took PhD or master's candidates, due February 28 (both from the American Statistical Association's internship list, which it publishes each December). [ASA list, last cycle](https://stattrak.amstat.org/2025/12/01/2026-internships/) Not every master's track waits for winter: Bayer's Statistician Intern (Pharmaceuticals Statistics US, Whippany or remote, open to master's students) was posted September 24 and was gone from Bayer's board by November 16. [Bayer posting](https://jobs.bayer.com/job/Residence-Based-Statistician-Intern-Resi/1431241433/) Research hospitals post on their own calendars and often pay less: Henry Ford's Division of Biostatistics takes graduate students at $18 an hour, applications through December 31, interviews in January. [Henry Ford form](https://redcap.hfhs.org/redcap/surveys/?s=AX83M7JKYHH7A8TJ) Research hospitals can also run a separate route: St. Jude matches graduate students to named faculty mentors, with rolling review through December. A few cancer centers run programs written for master's students: Memorial Sloan Kettering's GEMS takes only students in a master's program, though its work is genomic. [GEMS](https://www.mskcc.org/departments/epidemiology-biostatistics/educational-opportunities/gems)"
+          "detail": "Big pharma opens structured summer programs between September and November (Genentech's Product Development Data Sciences wave, master's included, went up November 11 with an eight-day window) and often prefers or requires a PhD for biostatistics seats; read the qualification line before the title. Amgen runs a separate master's internship inside its statistics group (posted October 26), next to PhD-preferred wording. Moderna's biostatistics intern names master's students outright, while its epidemiology and biomarker statistics seats are PhD only. Mid-size biotechs split the same way: Genmab's Clinical & Statistical Programming intern asks for master's students, while Insmed's biostatistics intern asks for a PhD candidate. Regeneron posted its whole 2027 summer wave on October 28; its biostatistics and clinical science seats came down by November 12 with no close date ever shown. Gilead's October 16 batch listed PhD as *preferred* on most statistics reqs and still took master's students; its research AI seats (omics, chemistry, lab work) closed October 31. Contract research organizations hire master's statisticians at volume, but later and more rolling, and mostly in SAS: ICON's last US Biostatistics Intern posting (req JR101743) is gone from its board and no 2027 version is up yet. Device companies run their own calendars: Edwards' clinical track came down October 31 and its other tracks open January to April; Medtronic's master's window closed October 13. Health plans posted a wave at the end of September, mostly undergraduate, MBA or pharmacy seats; the graduate analytics seats came later, with Highmark's remote seats and CVS Health's Data Science seat posted in the second half of October. Some plans post far later: SCAN Health Plan in Long Beach posted last cycle's graduate Data Scientist Intern on May 16. [SCAN posting, last cycle](https://simplify.jobs/p/94e3dc1e-3287-40a5-8a13-a3fcb9452c79) Posted close dates move, usually earlier: BMS re-posted its Patient Safety seat on November 3 with the close cut from November 26 to November 16, then took it down by November 12. BMS posted a remote Data Science intern for master's and PhD students on November 18 with a seven-day window (closes November 25). BMS posted its master's-eligible Data & Quantitative Sciences intern on November 11 with a November 27 close and took it down by November 17. J&J's IDAR Analytics & Systems seat was posted November 9 with a November 16 close and came down November 10. J&J posts batches with short windows and sometimes moves them: its Oncology Epidemiology seat was re-posted October 16 with the close pushed a week to October 30. Merck's whole 2027 Future Talent wave (biostatistics, outcomes research, epidemiology) came down October 30 to 31, before its dates. Daiichi Sankyo posted its whole 2027 summer wave on its own careers site November 5 to 9, 43 seats in Basking Ridge: its R programming seats take master's students, while its Biostatistics and Data Management seat asks for a PhD student. Some big pharma statistics groups run a separate master's track with a winter deadline: last cycle Eli Lilly listed an MS Statistics intern next to its PhD seat, due January 4, and Takeda's statistics internship took PhD or master's candidates, due February 28 (both from the American Statistical Association's internship list, which it publishes each December). [ASA list, last cycle](https://stattrak.amstat.org/2025/12/01/2026-internships/) Not every master's track waits for winter: Bayer's Statistician Intern (Pharmaceuticals Statistics US, Whippany or remote, open to master's students) was posted September 24 and was gone from Bayer's board by November 16. [Bayer posting](https://jobs.bayer.com/job/Residence-Based-Statistician-Intern-Resi/1431241433/) Research hospitals post on their own calendars and often pay less: Henry Ford's Division of Biostatistics takes graduate students at $18 an hour, applications through December 31, interviews in January. [Henry Ford form](https://redcap.hfhs.org/redcap/surveys/?s=AX83M7JKYHH7A8TJ) Research hospitals can also run a separate route: St. Jude matches graduate students to named faculty mentors, with rolling review through December. A few cancer centers run programs written for master's students: Memorial Sloan Kettering's GEMS takes only students in a master's program, though its work is genomic. [GEMS](https://www.mskcc.org/departments/epidemiology-biostatistics/educational-opportunities/gems)"
         }
       ]
     },
@@ -113,7 +114,7 @@
       "title": "Open now",
       "layout": "table",
       "checkable": true,
-      "note": "Rows you have already sent (ticked or added by hand on this page) are no longer listed. New tonight: Genentech Clinical Pharmacology (South San Francisco; master's, R required, a trial meta-analysis with a dashboard; closes December 2) and Amgen Product Quality Statistician (remote; master's; no close date). The other 25 rows were re-checked on their boards and are still open; no close date moved. Ranked by fit with trials, devices and health analytics, then by close date. Location does not affect the order; it shows in its own column. Genomics rows sit last.",
+      "note": "Rows you have already sent (ticked or added by hand on this page) are no longer listed; Genentech Product Development Data Sciences moved off tonight. New tonight: Bristol Myers Squibb Data Science MS/PhD (remote; clinical and real-world data models; closes November 25), Amgen Global Patient Safety modeling (remote; trial-data models; master's eligible, PhD preferred) and Sanofi's Swiftwater summer pool (Pennsylvania; Pharmacovigilance is the closest track; closes December 11). The other rows were re-checked on their boards and are still open; no close date moved. Ranked by fit with trials, devices and health analytics, then by close date. Location does not affect the order; it shows in its own column. Genomics rows sit last.",
       "items": [
         {
           "id": "kz-manatt-summer-consultant",
@@ -148,22 +149,6 @@
           "detail": "A paid summer research internship in the Division of Biostatistics, written for students *currently pursuing a graduate-level degree in statistics, biostatistics, or a closely related field*, with *proficiency in SAS or R*, so your R is enough. The work: statistical analysis plans, sample size calculations, data cleaning, analysis, visualization and reports, with a named mentor and a presentation at the end. **Dates:** applications *accepted through December 31, 2026*; interviews in January; interns chosen by February 13, 2027; 12 weeks, May to August 2027, 40 hours a week. **Pay:** $18 an hour. It is the same Public Health Sciences form you used for the Cancer Epidemiology seat on October 14 (cover letter, resume, transcripts; put Statistics and Analysis first in the priority grid). [Apply](https://redcap.hfhs.org/redcap/surveys/?s=AX83M7JKYHH7A8TJ)"
         },
         {
-          "id": "kz-genentech-pd-data-sciences",
-          "title": "Genentech: Product Development Data Sciences Intern",
-          "location": "Boston, Massachusetts",
-          "tags": [
-            {
-              "label": "Biostatistics, trials",
-              "status": "critical"
-            },
-            {
-              "label": "Closes Nov 19",
-              "status": "critical"
-            }
-          ],
-          "detail": "Product Development Data Sciences, Boston site (you sent the South San Francisco seat November 12): trial statistics in cardiovascular, renal and metabolism, real-world data analysis, R packages, plus some model and AI work on clinical data and images. Required skills name *R Programming*. Open to students *pursuing a Master's Degree* or a PhD in statistics, biostatistics, data science or related; 12 weeks full time from May or June, plus a stipend. $29 to $52 an hour. Posted November 11, closes November 19, req 202611-128802. [Apply](https://roche.wd3.myworkdayjobs.com/en-US/ROG-A2O-GENE/job/Boston/XMLNAME-2027-Summer-Intern---Product-Development-Data-Sciences_202611-128802)"
-        },
-        {
           "id": "kz-bms-stat-programming",
           "title": "Bristol Myers Squibb: Statistical Programming Intern",
           "location": "Remote (United States), or Princeton or Madison, New Jersey; Cambridge, Massachusetts; Brisbane or San Diego, California; Seattle",
@@ -184,6 +169,26 @@
           "detail": "Written for you: it gives *a master's-level student* a project on clinical trial data and statistical programming in the Data & Quantitative Sciences group. You need one of *SAS, R, or Python*, so your R and Python are enough; CDISC (SDTM, ADaM), Git and clinical trial data are preferred. You must be *continuing in the Master's degree program following completion of the internship*, which you are. Lead with your R Shiny app and GitHub repositories. $32 to $55 an hour. Posted November 13, closes November 25, req R1608542. Its sibling seat, the Data & Quantitative Sciences intern (closing November 27), was taken off the BMS board by November 17, ten days early, so do not count on this one lasting to November 25. [Apply](https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Princeton---NJ---US/Data---Quantitative-Sciences-Statistical-Programming-Intern---Summer-2027_R1608542)"
         },
         {
+          "id": "kz-bms-data-science-ms",
+          "title": "Bristol Myers Squibb: Data Science Intern (MS/PhD)",
+          "location": "Remote (United States)",
+          "tags": [
+            {
+              "label": "Health analytics, ML",
+              "status": "critical"
+            },
+            {
+              "label": "Remote",
+              "status": "good"
+            },
+            {
+              "label": "Closes Nov 25",
+              "status": "critical"
+            }
+          ],
+          "detail": "New tonight. Predictive models on *complex clinical, translational and real-world data*, June to August 2027, fully remote. Open to anyone in a quantitative program who has not graduated before August 2027; the core skills name *scikit in Python, mlr3 in r* and *longitudinal and real-world patient data*, which is your XGBoost recurrence model and R Shiny app. Omics and deep learning are listed as competencies, not requirements; lead with what you have. $36 to $45 an hour. Posted November 18, closes November 25 (a seven-day window), req R1608664. [Apply](https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Remote---United-States---US/Data-Science-Intern--MS-PhD--Summer-2027_R1608664)"
+        },
+        {
           "id": "kz-genentech-clin-pharm",
           "title": "Genentech: Clinical Pharmacology Intern",
           "location": "South San Francisco (on site)",
@@ -198,6 +203,26 @@
             }
           ],
           "detail": "New tonight. A model-based meta-analysis of *published clinical trial data in obesity*: curate trial results, model treatment effects across studies, and build *an interactive results dashboard*. Open to students *pursuing a Master's Degree* in statistics/biostatistics or data science; *Proficiency in R* is required, and *Shiny is a plus*, which is your Big Data Summer Institute app. The one gap: it also asks for *familiarity with pharmacometrics, nonlinear mixed-effects modeling*; name your mixed-models coursework if you have it. 12 weeks, $41 to $52 an hour, no relocation help. Posted November 17, closes December 2, req 202611-129404. [Apply](https://roche.wd3.myworkdayjobs.com/en-US/ROG-A2O-GENE/job/South-San-Francisco/Intern_202611-129404)"
+        },
+        {
+          "id": "kz-amgen-patient-safety-modeling",
+          "title": "Amgen: Intern, Global Patient Safety (modeling)",
+          "location": "Remote (US)",
+          "tags": [
+            {
+              "label": "Biostatistics, trials",
+              "status": "serious"
+            },
+            {
+              "label": "Remote",
+              "status": "good"
+            },
+            {
+              "label": "Close date not shown",
+              "status": "warning"
+            }
+          ],
+          "detail": "New tonight. Work with Clinical Pharmacology Modeling and Simulation to *characterize clinical trial data* with statistical, pharmacometric or machine learning models, then write it up and present it. Open to a *Master's program for a Master's internship* once your first year is done, which it will be. A PhD is preferred, and so are mixed-effects and ODE modeling and NONMEM; your R and Python count, so name any mixed-models coursework. Ranks below Genentech Clinical Pharmacology for the same pharmacometrics gap. $35.34 to $41.20 an hour. Posted November 18, no deadline (Amgen reviews on a rolling basis), req R-260517. [Apply](https://amgen.wd1.myworkdayjobs.com/en-US/Careers/job/United-States---Remote/INTERN-Global-Patient-Safety--Summer-2027-_R-260517)"
         },
         {
           "id": "kz-astrazeneca-stats-summer",
@@ -424,7 +449,7 @@
               "status": "serious"
             },
             {
-              "label": "Closes Nov 19",
+              "label": "Closes today, Nov 19",
               "status": "critical"
             }
           ],
@@ -448,6 +473,22 @@
             }
           ],
           "detail": "New tonight. A remote statistics seat in Amgen Operations, May to August 2027, *Guided by experienced statisticians* on Quality, Regulatory and Process Development questions and on automated analyses. It is a master's internship (you need one year of the master's done by May, which you will); preferred: a concentration in applied or *Non-clinical Biostatistics*, Data Science, and R, SAS, JMP or Minitab. Manufacturing data, not patients, so it ranks below the trial seats. $35.34 to $41.20 an hour. Posted November 17, no close date shown, req R-261900. [Apply](https://amgen.wd1.myworkdayjobs.com/en-US/Careers/job/United-States---Remote/Grad-Intern---Product-Quality---Global-Chemistry-Manufacturing---Controls-Statistician--Summer-2027-_R-261900)"
+        },
+        {
+          "id": "kz-sanofi-swiftwater-pool",
+          "title": "Sanofi: 2027 Summer Internships, Swiftwater (pool)",
+          "location": "Swiftwater, Pennsylvania (on site)",
+          "tags": [
+            {
+              "label": "Safety data, manufacturing",
+              "status": "warning"
+            },
+            {
+              "label": "Closes Dec 11",
+              "status": "warning"
+            }
+          ],
+          "detail": "New tonight. One application for Sanofi's vaccine manufacturing site, up to 12 weeks from June 2027. Master's students in Data Science *or related field* are eligible. The closest disciplines to your training are *Pharmacovigilance* (monitoring medicine safety worldwide) and Manufacturing & Operations Digital & Data Science; the rest are engineering and supply chain, so it ranks below the Cambridge pool. Needs permanent US work authorization. $27 to $47 an hour. Posted November 18, closes December 11, req R2871183. [Apply](https://sanofi.wd3.myworkdayjobs.com/SanofiCareers/job/Swiftwater-PA/XMLNAME-2027-Summer-Internship-Opportunities-Swiftwater-PA_R2871183)"
         },
         {
           "id": "kz-daiichi-aiml-pipelines",
@@ -866,7 +907,7 @@
         {
           "id": "kz-emp-pharma",
           "title": "Pharma",
-          "detail": "**Amgen** (Thousand Oaks, remote seats): grad Biostatistics and grad Data Scientist interns, both sent; a remote Target Safety seat is open but omics-heavy. **J&J Innovative Medicine** (Raritan, Spring House, La Jolla): Statistics & Decision Sciences and Clinical Pharmacology seats sent; remote Global Market Access summer associate open until January 8; the IDAR Analytics & Systems seat came down November 10, six days early. **Pfizer** (La Jolla): Statistics and AI/ML tracks, both sent November 6. Regeneron (Tarrytown, New York; Warren, New Jersey): its Biostatistics & Statistical Programming and Clinical Science interns came down by November 12. **Moderna** (Cambridge, Massachusetts): Oncology Biostatistics sent November 10; Biometrics intern open; its epidemiology and biomarker seats are PhD only. **AstraZeneca** (Boston, Gaithersburg): Epidemiology sent November 10; **Statistics Summer Intern** (Gaithersburg, master's students, R required) open until January 14; Lung Cancer Evidence & Strategy closed November 16. **Bristol Myers Squibb** (Princeton, remote and six other sites): Statistical Programming intern written for master's students, posted to close November 25; Data & Quantitative Sciences and Patient Safety both came down before their dates. **Sanofi** (Cambridge, Morristown): Biostatistics intern on an atopic dermatitis placebo Shiny app sent November 13; the Cambridge pool (Biostatistics, Medical Evidence Generation, Data Science; closes December 11) takes master's students; its EGDS, Clinical Statistical Modeling and Statistical Methodology interns are PhD only; a new Waltham data co-op runs six months. Alkermes (Waltham) lists no intern on November 17. **Daiichi Sankyo** (Basking Ridge, New Jersey): R Innovation Initiatives and AI/ML Automation Pipelines interns take master's students; its Biostatistics and Data Management intern is PhD only. **Gilead and Kite** (Foster City, El Segundo): the October batch closed (three sent); Kite's graduate seats post October to January. Merck (New Jersey) took its whole statistics wave down October 30 and 31. Eli Lilly (Indianapolis) ran a master's-only statistics intern last cycle, due January 4; no 2027 version on November 13. Novartis (East Hanover) lists no 2027 statistics intern on November 10. Novo Nordisk (Plainsboro) lists no US intern and Boehringer Ingelheim (Ridgefield) no statistics intern on November 11. Otsuka (Princeton), Astellas (Northbrook) and Eisai (Nutley) list no 2027 intern seat on November 12. Takeda (Cambridge) took master's statistics interns last cycle, due February 28; nothing posted yet. Merck's remaining 2027 seats (Medical Affairs, Data, AI & Genome Sciences) are PhD only. Vertex and Ipsen list no summer statistics intern. Teva (Parsippany, New Jersey; Davie, Florida) lists 16 US summer 2027 interns on November 14, all commercial, manufacturing or undergraduate; none in statistics. Organon (Jersey City), Incyte (Wilmington, Delaware) and UCB (Smyrna, Georgia) list no US intern on November 15; Incyte's eleven intern seats are all in Europe. GSK and AbbVie: nothing that fits. Bayer (Whippany, New Jersey) posted a master's-eligible Statistician Intern on September 24; it was gone by November 16. Biogen (Cambridge, Massachusetts) lists only a January to June pharmacometrics co-op on November 16. **Genentech** also posted a master's-eligible Clinical Pharmacology intern on November 17 (obesity trial meta-analysis, R and Shiny, closes December 2). AbbVie, Takeda, Alnylam and GSK list no US statistics intern on November 18."
+          "detail": "**Amgen** (Thousand Oaks, remote seats): grad Biostatistics and grad Data Scientist interns, both sent; a remote Target Safety seat is open but omics-heavy. **J&J Innovative Medicine** (Raritan, Spring House, La Jolla): Statistics & Decision Sciences and Clinical Pharmacology seats sent; remote Global Market Access summer associate open until January 8; the IDAR Analytics & Systems seat came down November 10, six days early. **Pfizer** (La Jolla): Statistics and AI/ML tracks, both sent November 6. Regeneron (Tarrytown, New York; Warren, New Jersey): its Biostatistics & Statistical Programming and Clinical Science interns came down by November 12. **Moderna** (Cambridge, Massachusetts): Oncology Biostatistics sent November 10; Biometrics intern open; its epidemiology and biomarker seats are PhD only. **AstraZeneca** (Boston, Gaithersburg): Epidemiology sent November 10; **Statistics Summer Intern** (Gaithersburg, master's students, R required) open until January 14; Lung Cancer Evidence & Strategy closed November 16. **Bristol Myers Squibb** (Princeton, remote and six other sites): Statistical Programming intern written for master's students and a remote **Data Science MS/PhD** intern, both posted to close November 25; Data & Quantitative Sciences and Patient Safety both came down before their dates. **Sanofi** (Cambridge, Morristown): Biostatistics intern on an atopic dermatitis placebo Shiny app sent November 13; a Swiftwater manufacturing-site pool (Pharmacovigilance track) opened November 18; the Cambridge pool (Biostatistics, Medical Evidence Generation, Data Science; closes December 11) takes master's students; its EGDS, Clinical Statistical Modeling and Statistical Methodology interns are PhD only; a new Waltham data co-op runs six months. Alkermes (Waltham) lists no intern on November 17. **Daiichi Sankyo** (Basking Ridge, New Jersey): R Innovation Initiatives and AI/ML Automation Pipelines interns take master's students; its Biostatistics and Data Management intern is PhD only. **Gilead and Kite** (Foster City, El Segundo): the October batch closed (three sent); Kite's graduate seats post October to January. Merck (New Jersey) took its whole statistics wave down October 30 and 31. Eli Lilly (Indianapolis) ran a master's-only statistics intern last cycle, due January 4; no 2027 version on November 13. Novartis (East Hanover) lists no 2027 statistics intern on November 10. Novo Nordisk (Plainsboro) lists no US intern and Boehringer Ingelheim (Ridgefield) no statistics intern on November 11. Otsuka (Princeton), Astellas (Northbrook) and Eisai (Nutley) list no 2027 intern seat on November 12. Takeda (Cambridge) took master's statistics interns last cycle, due February 28; nothing posted yet. Merck's remaining 2027 seats (Medical Affairs, Data, AI & Genome Sciences) are PhD only. Vertex and Ipsen list no summer statistics intern. Teva (Parsippany, New Jersey; Davie, Florida) lists 16 US summer 2027 interns on November 14, all commercial, manufacturing or undergraduate; none in statistics. Organon (Jersey City), Incyte (Wilmington, Delaware) and UCB (Smyrna, Georgia) list no US intern on November 15; Incyte's eleven intern seats are all in Europe. GSK and AbbVie: nothing that fits. Bayer (Whippany, New Jersey) posted a master's-eligible Statistician Intern on September 24; it was gone by November 16. Biogen (Cambridge, Massachusetts) lists only a January to June pharmacometrics co-op on November 16. **Genentech** also posted a master's-eligible Clinical Pharmacology intern on November 17 (obesity trial meta-analysis, R and Shiny, closes December 2). AbbVie, Takeda, Alnylam and GSK list no US statistics intern on November 18."
         },
         {
           "id": "kz-emp-biotech",
@@ -904,6 +945,11 @@
       "id": "not-a-fit",
       "title": "Checked and not a fit",
       "items": [
+        {
+          "id": "kz-nf-nov19",
+          "title": "Nov 19: BMS, Genentech, Zimmer Biomet, Syneos, Dana-Farber",
+          "detail": "Bristol Myers Squibb's new Data Science Intern (Undergrad) and Spring 2027 Early Clinical Development co-op are undergraduate or spring seats. [BMS search](https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS) Genentech's two new Translational Medicine interns (OMNI proteomics; Oncology Translational Research) *Must be pursuing a PhD*. [OMNI posting](https://roche.wd3.myworkdayjobs.com/en-US/ROG-A2O-GENE/job/South-San-Francisco/XMLNAME-2027-Summer-Intern---Translational-Medicine-OMNI_202611-129132-2) Boston Scientific's new Health Economics & Market Access intern is in Utrecht, Netherlands. [Posting](https://bostonscientific.eightfold.ai/careers/job/563602813927176) Zimmer Biomet's 2027 interns are human resources, packaging engineering, operations and a spring clinical-content seat. [Search](https://careers.zimmerbiomet.com/us/en/search-results?keywords=2027%20summer%20intern) Syneos Health lists one intern, in Singapore. [Search](https://www.syneoshealth.com/clinical-corporate-careers/jobs/search/?q=intern&location=) Dana-Farber's Quality and Patient Safety internships are *currently filled*. [Page](https://www.dana-farber.org/about/careers/quality-patient-safety-internships) Insulet's 2027 interns and co-ops are engineering, communications and supply chain; Premier and Trinity Health list no graduate analytics intern. Sanofi's other new US seats are lab, process and manufacturing co-ops. The rest of tonight's 17 new board rows are overseas, undergraduate, IT or facilities seats."
+        },
         {
           "id": "kz-nf-nov18",
           "title": "Nov 18: Boston Scientific, AstraZeneca, Sanofi, Kaiser",
@@ -1428,7 +1474,7 @@
           "id": "kz-blocked-browser",
           "title": "Read in the browser",
           "tags": [],
-          "detail": "Read on November 18 in the browser: AbbVie (21 intern rows, none in statistics), Alnylam (its careers page links a Greenhouse board; no intern), AstraZeneca's US intern list (41 seats; the Statistics Summer Intern is already listed here; the rest are PhD, undergraduate or operations), St. Jude's program page (dates unchanged) and Michigan Public Health's career fair page. Denali was read on November 17 (no intern). Xencor and Children's Hospital Los Angeles are read on Sundays (next November 22). TGen sits behind a bot check."
+          "detail": "Read on November 19 in the browser: Denali's careers and internships pages (no internship listed), Zimmer Biomet's search (no statistics intern), Syneos Health's search (one intern, Singapore) and Dana-Farber's careers pages (Quality and Patient Safety internships filled). Xencor and Children's Hospital Los Angeles are read on Sundays (next November 22). TGen sits behind a bot check."
         },
         {
           "id": "kz-blocked-unread",
