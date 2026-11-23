@@ -1,6 +1,6 @@
 # Research playbook
 
-**v54, 2026-11-22.** Rewritten every run. Hard cap 6 KB.
+**v55, 2026-11-23.** Rewritten every run. Hard cap 6 KB.
 
 ## Who this is for
 
@@ -9,38 +9,31 @@ Private sector only. Trials, devices, health analytics; genomics last. No locati
 
 ## Governing metric
 
-Rows unsent 7+ runs in Open now (`first_listed` on or before tonight minus 6): 22 of 30 on 11-22 (20 of 29 on 11-21).
-Sends last 7 days: 3; last 14: 7. Store 11-22: 27 sent, 19 waiting, 2 interviews (Kite, AG), 6 rejected (Moderna onc marked 11-21).
-Diagnosis 11-22 (new): no's recorded in 1 to 14 days (4 of 6), interviews in 35 and 52; 13 of 19 waiting are past 14 days. Change: check portal status on the Sep 29 batch.
-Do not reuse: Genentech Boston (11-15), Henry Ford live (11-16), dates-are-ceilings (11-17), nothing-recorded (11-18), self-dating (11-19; escalate once on 11-23 if neither sent, then drop), BMS batch (11-20), early-sends-convert (11-21), fast-no slow-yes (11-22).
+Rows unsent 7+ runs in Open now: 23 of 32 on 11-23 (22 of 30 on 11-22).
+Sends last 7 days: 3; last 14: 7. Store unchanged since 11-21: 27 sent, 19 waiting, 2 interviews (Kite, AG), 6 rejected.
+Diagnosis 11-23: escalation of self-dating (Daiichi R Innovation, Genmab Biostatistics unsent past her 11-22 date); offered send-one or mark-withdrawn. Now dropped: never raise these two again.
+Do not reuse: Genentech Boston (11-15), Henry Ford live (11-16), dates-are-ceilings (11-17), nothing-recorded (11-18), self-dating (11-19, escalated 11-23), BMS batch (11-20), early-sends-convert (11-21), fast-no slow-yes (11-22).
 
-## Sunday review (11-22; next 11-29)
+## What is working (last confirmed 2026-11-23)
 
-- Ranking: still right. Trials first, plans last at equal fit; Cigna HCOR placed after CVS because of its 3-year research line.
-- Underused: sequence/trajectory analysis (DESERT lab) matches Cigna's past GLP-1 trajectory project; R Shiny and Tableau match Kite's metrics dashboard and Daiichi R Innovation.
-- Biggest gap: converting Kite and AG. Tonight: prep line in `start`; diagnosis points at portal status, not more sending.
-- Produced nothing for weeks: nightly Denali/Xencor/CHLA reads (Sundays only now), TGen (dropped), national CRO boards (dry since October). Kill CRO rechecks until Jan 4 except ICON.
-- Observables that change strategy: an offer from Kite or AG (page turns to decide-and-compare); CRO US intern posts by Jan 31 (H3); ASA StatTrak 2027 list in early December.
-- `start` item 3 (how this field hires) is a wall on a phone; cut to 8 lines next Sunday.
-
-## What is working (last confirmed 2026-11-22)
-
-- `/api/apps` first every run; diff against last session's `apps.json` (copy it forward). 11-22 caught Moderna rejected.
-- `wd.py host tenant site "q"` nightly for BMS, Sanofi, Regeneron (11-22 dry). Probing a new employer's Workday with `wd.py ... "intern"` found Cigna HCOR on 11-22.
-- `live.py` on the previous `kenzie.json`: 29 of 29 live on 11-22. Workday `jobPostingInfo` gives end dates.
-- Under Git Bash, never pass a `/job/...` path as a subprocess argument; curl to a file, then `rd.py`.
-- Sweep: `run_in_background`, then a Monitor `until` loop on the output file.
+- ASA StatTrak list: the 2027 list went up **Nov 6**, not Dec 1. Read on 11-23, 17 days late: Lilly MS Statistics R-110151 (Jan 3), Kaplan Life Care Planning, AZ contact name, Takeda Feb 28 confirmed. Check `stattrak.amstat.org` front page weekly from October next cycle.
+- `/api/apps` first every run; diff against the previous session's `apps.json`.
+- `wd.py host tenant site "q"` nightly for BMS, Sanofi, Regeneron (11-23 dry). New-board probes with `wd.py ... "intern"` found Cigna (11-22).
+- `live.py` on the previous `kenzie.json`: 30 of 30 live on 11-23.
+- Git Bash: `export MSYS_NO_PATHCONV=1` before passing a `/job/...` path to `wdjob.py`; works.
+- Sweep: `run_in_background`; it prints nothing until it exits.
 
 ## What is not working
 
-- 12 undated rows sit for weeks. H26 decides on 11-23.
+- Undated rows sit for weeks and dating them did not help (H26 killed 11-23).
 - `fetch_posting_text.py` saves stubs for St. Jude and Ferguson; program text lives in `*-program.md`.
-- Sweep returned zero Regeneron rows on 11-22 while `wd.py` read 12; trust `wd.py` for Regeneron.
+- Lilly CMP Workday was "dead (500)" on 11-13 while R-110151 was already live (posted 11-09). A 500 is not "no posting": retry next night.
+- Radancy search pages (Takeda, UHG, Northwell) drop the keyword from URLs; type in the box or skip.
 
 ## Targets
 
-- Nov 23 H26. Nov 26 Sanofi Bayesian. Nov 30 BMS D&QS. ~Dec 1 StatTrak 2027 list. Dec 1 Highmark CPH. Dec 2 and 5 Genentech CP. Dec 11 Sanofi pools. Dec 18 St. Jude. Dec 31 Henry Ford biostat, Manatt, Northwestern IS. Jan 8 J&J Market Access. Jan 14 AZ Statistics. Jan 25 GEMS. Jan 31 Ferguson. Feb 15 Jefferson.
-- Watch: Kite and AG interview dates in row notes; Lilly MS Statistics, Takeda SQS, ICON US biostat intern, Kite grad, Ultragenyx, Kaiser R&E (Feb to Mar), MannKind, Penumbra (Feb), SCAN (spring).
+- Nov 26 Sanofi Bayesian. Nov 30 BMS D&QS. Dec 1 Highmark CPH. Dec 2 and 5 Genentech CP. Dec 11 Sanofi pools. Dec 18 St. Jude. Dec 31 Henry Ford biostat, Manatt, Northwestern IS, Kaplan. Jan 3 Lilly MS. Jan 8 J&J Market Access. Jan 14 AZ Statistics. Jan 25 GEMS. Jan 31 Ferguson. Feb 15 Jefferson. Feb 28 Takeda.
+- Watch: Takeda SQS req, Kite and AG interview dates, ICON US biostat intern, Kite grad, Ultragenyx, Kaiser R&E (Feb to Mar), MannKind, Penumbra (Feb), SCAN (spring), Biogen portal (Jan, PhD).
 
 ## Hypotheses
 
@@ -50,31 +43,32 @@ Do not reuse: Genentech Boston (11-15), Henry Ford live (11-16), dates-are-ceili
 - H12: small LA biotechs post Q4 to January. Kill: none by Jan 31.
 - H22: research hospitals run graduate biostat programs, fall to January deadlines. Kill: no third by Dec 1.
 - H23: a vanished Workday seat can be reposted. Kill: no second repost by Dec 15.
-- H24: mid-size Japanese/European pharma post master's R seats in November. Lundbeck, Exelixis dry 11-22. Kill: none by Nov 30.
-- H25: big-pharma master's statistics tracks post in winter. Kill: Lilly and Takeda not posted by Jan 4.
-- H26: she sends when a row has a named date. Kill: neither self-dated row ticked by 11-23.
+- H25: big-pharma master's statistics tracks post in winter. Lilly confirmed 11-09; Takeda pending. Kill: Takeda not posted by Jan 31.
 - H27: Sanofi posts single-project biostat seats with 7-day windows. Kill: no further one by Dec 11.
 - H28: replies arrive 5 to 8 weeks after sending; no's inside 2. Kill: a Sep 29 send moves to rejected, or no new outcome on any Sep/Oct send by Dec 15.
-- H29 (new): payer research institutes (Evernorth, Optum Labs, Elevance's Carelon Research) post master's RWE seats in November. Kill: no second by Dec 15.
+- H29: payer research institutes post master's RWE seats in November. Carelon, Optum dry 11-23. Kill: no second by Dec 15.
+- H30 (new): a named contact on a public list (ASA) gets a reply. Kill: she reports no use of the AZ contact by Jan 14.
+- Cut: H24 (Lundbeck, Exelixis dry; folded into H25), H26 (killed).
 
 ## Exploration queue (never empty)
 
-1. Carelon Research (Elevance) and Optum Labs: graduate research interns (H29).
-2. Abbott Diagnostics and Baxter rechecks; Mass General Brigham analytics interns.
-3. Michigan SPH alumni at Amgen, Gilead, Edwards biostatistics (named lead for H4).
-4. Recheck vanished req ids weekly (next 11-28).
-- Done 11-22: Cigna (fit found), Lundbeck, Exelixis (dry). Cytel is already in the sweep.
+1. Michigan SPH alumni at Amgen, Gilead, Edwards biostatistics (named lead for H4).
+2. Abbott Diagnostics and Baxter rechecks.
+3. Recheck vanished req ids weekly (next 11-28).
+4. Tempus, Viatris boards (keys unknown; Workday guesses 422/404 on 11-23).
+- Done 11-23: ASA 2027 list (found), Carelon/Elevance, UHG/Optum, Northwell, Geisinger, MGB (dry).
 
 ## Notes to self
 
-- Interviews lead `start`: Kite then AG, until she records a date or outcome; then the date leads.
+- Interviews lead `start` item 2: Kite then AG, until she records a date or outcome.
 - Grep the ledger (`searches` dict by id; `postings` dict by URL) before any search.
-- Board keys: Cigna `cigna.wd5` `cignacareers`; Exelixis `exelixis.wd1` `Exel`; Denali `dnli.wd1` `Corporate_Positions`; Lundbeck `lundbeck.com/us/careers/your-job/job-opportunities?search=intern` (browser); Sanofi `sanofi.wd3` `SanofiCareers`; Regeneron `regeneron.wd1` `Careers`; BMS `bristolmyerssquibb.wd5` `BMS`. Older keys: v53 in git history.
-- Use `py -3`; write files with LF. Back up data files first; load, mutate, validate, banned-word assert.
+- Board keys: Lilly `lilly.wd115` `CMP`; Elevance `elevancehealth.wd1` `ANT`; Geisinger `geisinger.wd5` `GeisingerExternal`; MGB `massgeneralbrigham.wd1` `MGBExternal`; Northwell browser `jobs.northwell.edu/job-search-results/?keyword=intern`; UHG browser `careers.unitedhealthgroup.com/search-jobs/2027%20intern/`. Older keys: v54 and v53 in git history.
+- Use `py -3`; write files with LF. Load, mutate, validate, banned-word assert.
 
 ## Proposed core changes
 
 - Standing dates in the task file are stale (Gilead/Kite Oct 16, Henry Ford CEPC Oct 16, AG Generalist passed).
-- `sweep_boards.py`: add Cigna, Exelixis, Denali, BMS, Sanofi, Regeneron (keys above) and the v53 list.
+- `sweep_boards.py`: add Lilly CMP, Cigna, Elevance, BMS, Sanofi, Regeneron, Exelixis, Denali (keys above and v54).
 - `fetch_posting_text.py`: never overwrite an existing body with a "could not fetch" stub.
 - `kenzie-done.json` is empty while the store holds 27; decide whether the hand file still matters.
+- Add the ASA StatTrak list to the standing research list in step 3 with "from October".
