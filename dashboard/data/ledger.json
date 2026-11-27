@@ -1,19 +1,8 @@
 {
   "version": 1,
-  "updated": "2026-11-26",
+  "updated": "2026-11-27",
   "_comment": "Memory across nightly runs. Read-modify-write each night. postings/people/news/searches are keyed maps; runs is an append-only list of {date, ok, pushed, notes, playbook_change}.",
   "runs": [
-    {
-      "date": "2026-10-29",
-      "ok": true,
-      "new_postings": 2,
-      "searches_run": 5,
-      "searches_dry": 3,
-      "boards_read_in_browser": 0,
-      "pushed": true,
-      "playbook_change": "v29: Regeneron wave found by Workday cxs; Alcon closed; metric updated to 18 sent / 3 in 7 days",
-      "notes": "Single run. Sweep 533 rows, 25 new, 0 fit by the sweep; Regeneron Biostatistics and Clinical Science found by exploration (cxs). /api/apps live: 18 rows plus Stryker rejected override. Alcon gone from board. Browser not used: blocked boards unchanged in the sweep."
-    },
     {
       "date": "2026-10-30",
       "ok": true,
@@ -332,6 +321,17 @@
       "pushed": true,
       "playbook_change": "v58: H31 killed (Sanofi Bayesian closed unsent); new H32 (PMx seats take MS), H33 (bundle same-skill rows); diagnosis = pharmacometrics bundle; Emmes iCIMS key; MSYS_NO_PATHCONV note",
       "notes": "Single run. /api/apps unchanged since 11-23 (Kite interview 12/4 in note, missed 11-25). Sweep 63 ok, 508 intern rows, 20 new, 0 fit. No new fit from the sweep; BMS PMx x2 also appeared in it; Vertex and Genentech digital pathology, BMS lab/undergrad rows not a fit. Liveness 29/31: Sanofi Bayesian, Highmark CPH gone unsent. New fits: Emmes 4347, BMS PMx x2. Browser: Denali, Xencor, CHLA, Emmes, Certara. National: Emmes, HCSC, IBX."
+    },
+    {
+      "date": "2026-11-27",
+      "ok": true,
+      "new_postings": 1,
+      "searches_run": 10,
+      "searches_dry": 8,
+      "boards_read_in_browser": 3,
+      "pushed": true,
+      "playbook_change": "v59: diagnosis = interview week vs Genentech closes; Denali Internships site key; Rho Workable, PharPoint Paylocity keys; H34 interview-week crowd-out",
+      "notes": "Single run. /api/apps unchanged since 11-23. Sweep 63 ok, 4 blocked, 498 intern rows, 7 new, 0 fit. New rows all overseas (Medtronic Shanghai, Abbott Colombia/Ireland/Canada, IQVIA Istanbul). Liveness 32/32. New fit: Denali RA CMC Data/Digital R-1750 (Denali intern wave on dnli.wd1 site Internships, posted 11-25). Browser: Denali, Xencor, CHLA. National: Rho, Baylor Scott & White, Ochsner (dry). Explore: PharPoint, Costello (dry)."
     }
   ],
   "postings": {
@@ -786,7 +786,7 @@
       "id": "kz-henryford-biostat",
       "title": "Henry Ford Health: Division of Biostatistics Intern (Public Health Sciences form)",
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-26",
+      "last_seen": "2026-11-27",
       "status": "open",
       "note": "same form previously carried CEPC (first_seen 2026-10-05, closed 2026-10-16, sent 10-14); on 11-16 the program list reads Division of Biostatistics / Other. No close date."
     },
@@ -1222,7 +1222,7 @@
       "status": "open",
       "note": "remote, MS/MPH eligible, closes 2027-01-08, posted 2026-09-30; missed by sweep, found by phrase pass",
       "first_seen": "2026-10-22",
-      "last_seen": "2026-11-26"
+      "last_seen": "2026-11-27"
     },
     "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Titusville-New-Jersey-United-States-of-America/RWE---Modeling-Summer-Intern_R-103932": {
       "id": "kz-nf-jnj-oct21",
@@ -1278,7 +1278,7 @@
       "status": "open",
       "note": "Maple Grove MN hybrid, urology RWE, MS biostat/epi/data science, grad Fall 2027-Spring 2030, R/Python+SQL, req 635655, no close date, term not stated",
       "first_seen": "2026-10-23",
-      "last_seen": "2026-11-26"
+      "last_seen": "2026-11-27"
     },
     "https://roche.wd3.myworkdayjobs.com/en-US/ROG-A2O-GENE/job/South-San-Francisco/XMLNAME-2027-Spring-Intern---Data-Science---Machine-Learning_202609-124657": {
       "id": "kz-nf-genentech-spring-ds",
@@ -1352,14 +1352,14 @@
       "id": "kz-jefferson-biostat",
       "title": "Jefferson: Biostatistics & Bioinformatics Intern",
       "first_seen": "2026-10-28",
-      "last_seen": "2026-11-26",
+      "last_seen": "2026-11-27",
       "status": "open"
     },
     "https://modernatx.wd1.myworkdayjobs.com/M_tx/job/Cambridge-Massachusetts/Intern--Biometrics_R19865": {
       "id": "kz-moderna-biometrics",
       "title": "Moderna: Intern, Biometrics",
       "first_seen": "2026-10-28",
-      "last_seen": "2026-11-26",
+      "last_seen": "2026-11-27",
       "status": "open"
     },
     "https://regeneron.wd1.myworkdayjobs.com/Careers/job/TARRYTOWN/XMLNAME-2027-Summer-Intern-Biostatistics---Statistical-Programming_R52558-1": {
@@ -1422,7 +1422,7 @@
       "id": "kz-amgen-target-safety",
       "title": "Amgen: Grad Intern, Target Safety Risk Weighting",
       "first_seen": "2026-11-04",
-      "last_seen": "2026-11-26",
+      "last_seen": "2026-11-27",
       "status": "apply-now",
       "note": "remote, omics-heavy, genomics tag"
     },
@@ -1470,28 +1470,28 @@
       "id": "kz-ferguson-rise-summer",
       "title": "Ferguson RISE: Summer Graduate Fellowship",
       "first_seen": "2026-11-06",
-      "last_seen": "2026-11-26",
+      "last_seen": "2026-11-27",
       "status": "open"
     },
     "https://genmab.wd3.myworkdayjobs.com/Genmab_Careers_Site/job/Princeton-NJ/Clinical---Statistical-Programming-Intern_R18173": {
       "id": "kz-genmab-csp",
       "title": "Genmab: Clinical & Statistical Programming Intern",
       "first_seen": "2026-11-06",
-      "last_seen": "2026-11-26",
+      "last_seen": "2026-11-27",
       "status": "open"
     },
     "https://genmab.wd3.myworkdayjobs.com/Genmab_Careers_Site/job/Princeton-NJ/Biostatistics-Intern_R18257": {
       "id": "kz-genmab-biostat",
       "title": "Genmab: Biostatistics Intern",
       "first_seen": "2026-11-06",
-      "last_seen": "2026-11-26",
+      "last_seen": "2026-11-27",
       "status": "open"
     },
     "https://genmab.wd3.myworkdayjobs.com/Genmab_Careers_Site/job/Princeton-NJ/Clinical-Development-Data-Science-Intern_R18165": {
       "id": "kz-genmab-cdds",
       "title": "Genmab: Clinical Development Data Science Intern",
       "first_seen": "2026-11-06",
-      "last_seen": "2026-11-26",
+      "last_seen": "2026-11-27",
       "status": "open"
     },
     "https://insmed.wd504.myworkdayjobs.com/EXTERNAL/job/NJ-Corporate-Headquarters/Summer-Intern---Biostatistics_R3881": {
@@ -1538,7 +1538,7 @@
       "id": "kz-highmark-eval-analytics",
       "title": "Highmark Health: Evaluation Analytics Graduate Intern",
       "first_seen": "2026-11-07",
-      "last_seen": "2026-11-26",
+      "last_seen": "2026-11-27",
       "status": "open",
       "note": "found through Simplify tracker; body read on employer board"
     },
@@ -1546,7 +1546,7 @@
       "id": "kz-cvs-grad-ds",
       "title": "CVS Health: Data Science Graduate Intern",
       "first_seen": "2026-11-07",
-      "last_seen": "2026-11-26",
+      "last_seen": "2026-11-27",
       "status": "open",
       "note": "found through Simplify tracker; body read on employer board"
     },
@@ -1624,7 +1624,7 @@
       "id": "kz-msk-gems",
       "title": "Memorial Sloan Kettering: GEMS Master's Program",
       "first_seen": "2026-11-10",
-      "last_seen": "2026-11-26",
+      "last_seen": "2026-11-27",
       "status": "apply-now",
       "note": "genomics; due 2027-01-25"
     },
@@ -1656,7 +1656,7 @@
       "id": "kz-sanofi-cambridge-pool",
       "title": "Sanofi: 2027 Summer Internships, Cambridge (pool)",
       "first_seen": "2026-11-10",
-      "last_seen": "2026-11-26",
+      "last_seen": "2026-11-27",
       "status": "apply-now",
       "note": "closes 2026-12-11"
     },
@@ -1680,7 +1680,7 @@
       "id": "kz-daiichi-r-innovation",
       "title": "Daiichi Sankyo: R Innovation Initiatives Intern",
       "first_seen": "2026-11-11",
-      "last_seen": "2026-11-26",
+      "last_seen": "2026-11-27",
       "status": "apply-now",
       "note": "no close date; req 2501"
     },
@@ -1688,7 +1688,7 @@
       "id": "kz-daiichi-aiml-pipelines",
       "title": "Daiichi Sankyo: AI/ML Automation Pipelines Intern",
       "first_seen": "2026-11-11",
-      "last_seen": "2026-11-26",
+      "last_seen": "2026-11-27",
       "status": "apply-now",
       "note": "no close date; req 2502"
     },
@@ -1760,7 +1760,7 @@
       "id": "kz-stjude-biostat-ds",
       "title": "St. Jude: Biostatistics and Data Science Intern",
       "first_seen": "2026-11-12",
-      "last_seen": "2026-11-26",
+      "last_seen": "2026-11-27",
       "status": "open",
       "note": "new 11-12"
     },
@@ -1936,7 +1936,7 @@
       "id": "kz-nm-is-analytics",
       "title": "Northwestern Medicine: Information Services Intern (analytics track)",
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-26",
+      "last_seen": "2026-11-27",
       "status": "open",
       "note": "closes 2026-12-31, REF91169Z, low fit (IT)"
     },
@@ -1983,7 +1983,7 @@
     "https://astrazeneca.eightfold.ai/careers/job/563877691872138": {
       "title": "AstraZeneca Statistics Summer Intern R-264440",
       "first_seen": "2026-11-17",
-      "last_seen": "2026-11-26",
+      "last_seen": "2026-11-27",
       "note": "fit; MS ok, R required; closes 2027-01-14; apply-now"
     },
     "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Waltham-MA/XMLNAME-2027-Summer-Co-op-Scientific-Data-Support-Analyst-Vaccines-Waltham-MA_R2865210": {
@@ -2104,7 +2104,7 @@
       "title": "Amgen Grad Intern - Product Quality / Global Chemistry Manufacturing & Controls Statistician (Summer 2027)",
       "note": "FIT: listed kz-amgen-cmc-statistician, no close date",
       "first_seen": "2026-11-18",
-      "last_seen": "2026-11-26"
+      "last_seen": "2026-11-27"
     },
     "https://roche.wd3.myworkdayjobs.com/en-US/ROG-A2O-GENE/job/South-San-Francisco/XMLNAME-2027-Summer-Intern---Translational-Safety--Bioinformatics-_202611-129409": {
       "title": "Genentech 2027 Summer Intern – Translational Safety (Bioinformatics)",
@@ -2122,7 +2122,7 @@
       "title": "Genentech 2027 Summer Intern - Clinical Pharmacology Department",
       "note": "FIT: listed kz-genentech-clin-pharm, closes Dec 2",
       "first_seen": "2026-11-18",
-      "last_seen": "2026-11-26"
+      "last_seen": "2026-11-27"
     },
     "https://roche.wd3.myworkdayjobs.com/en-US/ROG-A2O-GENE/job/South-San-Francisco/XMLNAME-2027-Summer-Intern---Translational-Safety--Complex-In-Vitro-Systems-_202611-129214": {
       "title": "Genentech 2027 Summer Intern - Translational Safety (Complex In Vitro Systems)",
@@ -2254,13 +2254,13 @@
       "title": "Amgen Intern Global Patient Safety (CPMS modeling)",
       "note": "listed: remote, master's eligible, PhD preferred",
       "first_seen": "2026-11-19",
-      "last_seen": "2026-11-26"
+      "last_seen": "2026-11-27"
     },
     "https://sanofi.wd3.myworkdayjobs.com/SanofiCareers/job/Swiftwater-PA/XMLNAME-2027-Summer-Internship-Opportunities-Swiftwater-PA_R2871183": {
       "title": "Sanofi 2027 Summer Internships Swiftwater PA pool",
       "note": "listed low: manufacturing site, pharmacovigilance track, closes 2026-12-11",
       "first_seen": "2026-11-19",
-      "last_seen": "2026-11-26"
+      "last_seen": "2026-11-27"
     },
     "https://roche.wd3.myworkdayjobs.com/en-US/ROG-A2O-GENE/job/South-San-Francisco/XMLNAME-2027-Summer-Intern---Translational-Medicine-OMNI_202611-129132-2": {
       "title": "Genentech Translational Medicine OMNI",
@@ -3130,7 +3130,7 @@
       "title": "Amgen Grad Intern - Clinical Science, Late Stage Oncology (Summer 2027)",
       "note": "listed 11-25 after reading body: trial data review, master's eligible, pharmacy preferred",
       "first_seen": "2026-11-19",
-      "last_seen": "2026-11-26",
+      "last_seen": "2026-11-27",
       "status": "listed"
     },
     "https://amgen.wd1.myworkdayjobs.com/en-US/Careers/job/United-States---Remote/Undergrad-Intern---R-D-Execution--Operations---Strategy--Summer-2027-_R-259964": {
@@ -4770,7 +4770,7 @@
       "status": "apply-now",
       "close": "2026-12-05",
       "first_seen": "2026-11-21",
-      "last_seen": "2026-11-26"
+      "last_seen": "2026-11-27"
     },
     "https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Princeton---NJ---US/Technology-Rotational-Development-Program-Intern-Summer-2027_R1608752": {
       "company": "Bristol Myers Squibb",
@@ -4809,7 +4809,7 @@
       "req": "26009344",
       "status": "apply-now",
       "first_seen": "2026-11-22",
-      "last_seen": "2026-11-26"
+      "last_seen": "2026-11-27"
     },
     "https://careers.medpace.com/jobs/13104": {
       "company": "Medpace",
@@ -5718,7 +5718,7 @@
       "status": "listed",
       "note": "listed 11-25: Power BI/SQL reporting, master's eligible, Cincinnati",
       "first_seen": "2026-11-25",
-      "last_seen": "2026-11-26"
+      "last_seen": "2026-11-27"
     },
     "https://syneoshealth.wd12.myworkdayjobs.com/en-US/Syneos_Health_External_Site/job/AUS-Remote/Intern_25113628": {
       "company": "Syneos Health",
@@ -5734,7 +5734,7 @@
       "status": "listed",
       "note": "remote, MS/PhD stats, SAS or R; posted 11-09",
       "first_seen": "2026-11-26",
-      "last_seen": "2026-11-26"
+      "last_seen": "2026-11-27"
     },
     "https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Princeton---NJ---US/Summer-Intern--Translational-Medicine---Clinical-Pharmacology---Pharmacometrics_R1608952": {
       "company": "BMS",
@@ -5742,7 +5742,7 @@
       "status": "listed",
       "note": "MS ok, closes 12-31",
       "first_seen": "2026-11-26",
-      "last_seen": "2026-11-26"
+      "last_seen": "2026-11-27"
     },
     "https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Princeton---NJ---US/Summer-Intern--Translational-Medicine---Clinical-Pharmacology---Pharmacometrics_R1608944": {
       "company": "BMS",
@@ -5750,7 +5750,7 @@
       "status": "listed",
       "note": "MS ok, closes 12-31",
       "first_seen": "2026-11-26",
-      "last_seen": "2026-11-26"
+      "last_seen": "2026-11-27"
     },
     "https://amgen.wd1.myworkdayjobs.com/en-US/Careers/job/United-States---Remote/Grad-Intern---Global-Medical-Affairs-Thoracic-Oncology--Summer-2027-_R-261965": {
       "company": "Amgen",
@@ -5943,6 +5943,166 @@
       "note": "not a fit (lab, undergraduate, overseas, nursing/pharmacy, PhD or ops)",
       "first_seen": "2026-11-26",
       "last_seen": "2026-11-26"
+    },
+    "https://dnli.wd1.myworkdayjobs.com/Internships/job/South-San-Francisco/Intern--Regulatory-Affairs-CMC-Data-Digital_R-1750": {
+      "company": "Denali",
+      "title": "Intern, Regulatory Affairs CMC Data/Digital R-1750",
+      "status": "listed",
+      "note": "grad degree incl stats/DS/public health; $30/hr MS; posted 11-25",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27"
+    },
+    "https://dnli.wd1.myworkdayjobs.com/Internships/job/South-San-Francisco/Intern--Global-Business-Insights---Operations_R-1755": {
+      "company": "Denali",
+      "title": "Intern, Global Business Insights & Operations R-1755",
+      "status": "not-a-fit",
+      "note": "MBA or PhD",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27"
+    },
+    "https://dnli.wd1.myworkdayjobs.com/Internships/job/South-San-Francisco/Intern--Portfolio---Program-Management-_R-1752": {
+      "company": "Denali",
+      "title": "Intern, Portfolio & Program Management R-1752",
+      "status": "not-a-fit",
+      "note": "PMO tools",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27"
+    },
+    "https://dnli.wd1.myworkdayjobs.com/Internships/job/South-San-Francisco/Intern--Early-Stage-Purification-Development_R-1742": {
+      "company": "Denali",
+      "title": "Intern, Early-Stage Purification Development",
+      "status": "not-a-fit",
+      "note": "lab",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27"
+    },
+    "https://dnli.wd1.myworkdayjobs.com/Internships/job/South-San-Francisco/Intern--Oligo-Small-Molecule-Synthesis_R-1743": {
+      "company": "Denali",
+      "title": "Intern, Oligo Small Molecule Synthesis",
+      "status": "not-a-fit",
+      "note": "lab",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27"
+    },
+    "https://dnli.wd1.myworkdayjobs.com/Internships/job/South-San-Francisco/Intern--Biology--Preclinical-Translational-Sciences--_R-1749-1": {
+      "company": "Denali",
+      "title": "Intern, Biology (Preclinical Translational Sciences)",
+      "status": "not-a-fit",
+      "note": "lab",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27"
+    },
+    "https://dnli.wd1.myworkdayjobs.com/Internships/job/South-San-Francisco/Intern--Corporate-Development_R-1754": {
+      "company": "Denali",
+      "title": "Intern, Corporate Development",
+      "status": "not-a-fit",
+      "note": "business",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27"
+    },
+    "https://research.ochsner.org/oxiher/oxiher-mph-summer-internship/": {
+      "company": "Ochsner",
+      "title": "OXIHER MPH Summer Internship",
+      "status": "not-a-fit",
+      "note": "MPH ops placements, $12/hr, page shows 2026 window",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27"
+    },
+    "https://www.ochsner.org/catalyst-internship/": {
+      "company": "Ochsner",
+      "title": "Catalyst 2027",
+      "status": "not-a-fit",
+      "note": "bachelor's only; due 2027-01-31",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27"
+    },
+    "https://www.bswhealth.com/Medical-Professionals/Education/Allied-Health/Cardiovascular-Research-Internship": {
+      "company": "Baylor Scott & White",
+      "title": "Cardiovascular Research Internship 2027",
+      "status": "not-a-fit",
+      "note": "undergrad/recent grad chart abstraction; email by 12-31",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27"
+    },
+    "https://sanofi.wd3.myworkdayjobs.com/SanofiCareers/job/Framingham-MA/XMLNAME-2027-Summer-Intern-Analytical-Development-Framingham-MA_R2866388": {
+      "company": "Sanofi",
+      "title": "2027 Summer Intern Analytical Development R2866388",
+      "status": "not-a-fit",
+      "note": "lab",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27"
+    },
+    "https://sanofi.wd3.myworkdayjobs.com/SanofiCareers/job/Cambridge-MA/XMLNAME-2027-Summer-Co-op-Global-Medical-Affairs-Alliance-Immunology--Cambridge--MA_R2865078": {
+      "company": "Sanofi",
+      "title": "2027 Summer Co-op GMA Alliance Immunology R2865078",
+      "status": "not-a-fit",
+      "note": "medical affairs co-op",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27"
+    },
+    "https://regeneron.wd1.myworkdayjobs.com/Careers/job/Dublin/Intern--Clinical-Trial-Management_R53241": {
+      "company": "Regeneron",
+      "title": "Intern, Clinical Trial Management R53241",
+      "status": "not-a-fit",
+      "note": "Dublin, overseas",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27"
+    },
+    "https://medtronic.wd1.myworkdayjobs.com/en-US/MedtronicCareers/job/Shanghai-Shanghai-China/Internship_R82947-1": {
+      "company": "Medtronic",
+      "title": "Internship",
+      "status": "not-a-fit",
+      "note": "not a fit (lab, undergraduate, overseas, nursing/pharmacy, PhD or ops)",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27"
+    },
+    "https://abbott.wd5.myworkdayjobs.com/en-US/abbottcareers/job/Colombia---Cali/INTERN_31168656": {
+      "company": "Abbott",
+      "title": "INTERN",
+      "status": "not-a-fit",
+      "note": "not a fit (lab, undergraduate, overseas, nursing/pharmacy, PhD or ops)",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27"
+    },
+    "https://abbott.wd5.myworkdayjobs.com/en-US/abbottcareers/job/Colombia---Bogota/INTERN_31168467": {
+      "company": "Abbott",
+      "title": "INTERN",
+      "status": "not-a-fit",
+      "note": "not a fit (lab, undergraduate, overseas, nursing/pharmacy, PhD or ops)",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27"
+    },
+    "https://abbott.wd5.myworkdayjobs.com/en-US/abbottcareers/job/Ireland--Cootehill--Dromore-West/Internship---Engineering_31155780": {
+      "company": "Abbott",
+      "title": "Internship - Engineering",
+      "status": "not-a-fit",
+      "note": "not a fit (lab, undergraduate, overseas, nursing/pharmacy, PhD or ops)",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27"
+    },
+    "https://abbott.wd5.myworkdayjobs.com/en-US/abbottcareers/job/Ireland--Cootehill--Dromore-West/Internship-Supply-Chain_31155783": {
+      "company": "Abbott",
+      "title": "Internship Supply Chain",
+      "status": "not-a-fit",
+      "note": "not a fit (lab, undergraduate, overseas, nursing/pharmacy, PhD or ops)",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27"
+    },
+    "https://abbott.wd5.myworkdayjobs.com/en-US/abbottcareers/job/Canada---Ontario---Remote/Field-Service-Coop-Student---Core-Lab--Mississauga-_31168551": {
+      "company": "Abbott",
+      "title": "Field Service Coop Student - Core Lab (Mississauga)",
+      "status": "not-a-fit",
+      "note": "not a fit (lab, undergraduate, overseas, nursing/pharmacy, PhD or ops)",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27"
+    },
+    "https://iqvia.wd1.myworkdayjobs.com/en-US/IQVIA/job/Istanbul-Turkey/Intern_R1535384": {
+      "company": "IQVIA",
+      "title": "Intern",
+      "status": "not-a-fit",
+      "note": "not a fit (lab, undergraduate, overseas, nursing/pharmacy, PhD or ops)",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27"
     }
   },
   "people": {
@@ -8290,12 +8450,72 @@
       "result": "no intern",
       "status": "open",
       "last_run": "2026-11-26"
+    },
+    "sweep-1127": {
+      "query": "sweep_boards.py --who Z",
+      "result": "498 intern rows, 7 new, 0 fit. New rows all overseas (Medtronic Shanghai, Abbott Colombia/Ireland/Canada, IQVIA Istanbul).",
+      "status": "open",
+      "last_run": "2026-11-27"
+    },
+    "liveness-1127": {
+      "query": "live.py on 11-26 kenzie.json",
+      "result": "32/32 live; no date moved",
+      "status": "open",
+      "last_run": "2026-11-27"
+    },
+    "api-apps-1127": {
+      "query": "GET /api/apps",
+      "result": "unchanged since 11-23: 29 sent, 22 waiting, 2 interview, 5 rejected",
+      "status": "open",
+      "last_run": "2026-11-27"
+    },
+    "wd-pharma-1127": {
+      "query": "wd.py Sanofi, BMS, Regeneron, Lilly, Gilead, Amgen, Genentech, Kite \"intern\"",
+      "result": "nothing new that fits; Sanofi Analytical Development + GMA co-op, Regeneron law + Dublin CTM",
+      "status": "open",
+      "last_run": "2026-11-27"
+    },
+    "denali-internships-1127": {
+      "query": "browser denalitherapeutics.com/careers -> dnli.wd1 site Internships",
+      "result": "FIT RA CMC Data/Digital R-1750; 6 others not fit (posted 11-25)",
+      "status": "answered",
+      "last_run": "2026-11-27"
+    },
+    "national-rho-1127": {
+      "query": "Workable API accounts/rhoworld",
+      "result": "15 jobs, no intern",
+      "status": "open",
+      "last_run": "2026-11-27"
+    },
+    "national-bsw-1127": {
+      "query": "web + bswhealth.com cardiovascular research internship",
+      "result": "undergrad/recent grad chart abstraction, Dec 31 email; not a fit",
+      "status": "open",
+      "last_run": "2026-11-27"
+    },
+    "national-ochsner-1127": {
+      "query": "web + ochsner OXIHER MPH and Catalyst pages",
+      "result": "OXIHER MPH ops $12/hr (2026 window shown); Catalyst bachelor only, Jan 31",
+      "status": "open",
+      "last_run": "2026-11-27"
+    },
+    "explore-pharpoint-costello-1127": {
+      "query": "Paylocity PharPoint board; Workable costello-medical",
+      "result": "PharPoint 4 jobs no intern (interned spring 2026); Costello no intern, US roles Boston writers only",
+      "status": "open",
+      "last_run": "2026-11-27"
+    },
+    "blocked-boards-1127": {
+      "query": "browser Denali, Xencor Dayforce, CHLA; API Kite",
+      "result": "Denali intern wave found; others no intern",
+      "status": "open",
+      "last_run": "2026-11-27"
     }
   },
   "total": {
-    "postings": 833,
+    "postings": 853,
     "people": 5,
     "news": 0,
-    "searches": 346
+    "searches": 356
   }
 }
